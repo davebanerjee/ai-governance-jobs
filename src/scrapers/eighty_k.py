@@ -25,7 +25,8 @@ class EightyKHoursScraper(BaseScraper):
             listings = self._fetch_tag(tag)
             all_listings.extend(listings)
 
-        return all_listings
+        # Apply strict policy role filter
+        return self.filter_policy_roles(all_listings)
 
     def _fetch_tag(self, tag: str) -> list[JobListing]:
         """Fetch listings for a specific tag, handling pagination."""

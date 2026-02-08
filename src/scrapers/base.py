@@ -11,8 +11,10 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 from src.config import (
+    ALWAYS_INCLUDE_KEYWORDS,
     GOVERNANCE_KEYWORDS,
     MAX_RETRIES,
+    POLICY_ROLE_KEYWORDS,
     REQUEST_DELAY,
     REQUEST_TIMEOUT,
 )
@@ -80,7 +82,7 @@ class BaseScraper(ABC):
     def filter_governance(
         self, listings: list[JobListing], ai_focused: bool = True
     ) -> list[JobListing]:
-        """Filter listings by AI governance keywords.
+        """Filter listings by AI governance keywords (legacy method).
 
         Args:
             listings: Raw listings from the source.
@@ -98,6 +100,39 @@ class BaseScraper(ABC):
 
         logger.info(
             f"[{self.name}] Keyword filter: {len(filtered)}/{len(listings)} listings matched"
+        )
+        return filtered
+
+    def filter_policy_roles(self, listings: list[JobListing]) -> list[JobListing]:
+        """Keep only policy/governance/safety roles. STRICT filter applied to ALL sources.
+
+        This filters out engineering, product, sales, HR, and other non-policy roles
+        even from AI-focused organizations like Anthropic and OpenAI.
+
+        Args:
+            listings: Raw listings from any source.
+
+        Returns:
+            Filtered list containing only policy/governance-related roles.
+        """
+        filtered = []
+        for listing in listings:
+            title_lower = listing.title.lower()
+
+            # Always include if title contains priority keywords
+            if any(kw in title_lower for kw in ALWAYS_INCLUDE_KEYWORDS):
+                filtered.append(listing)
+                continue
+
+            # Include if title contains policy/governance keywords
+            if any(kw in title_lower for kw in POLICY_ROLE_KEYWORDS):
+                filtered.append(listing)
+                continue
+
+            # Skip everything else (engineering, product, sales, etc.)
+
+        logger.info(
+            f"[{self.name}] Policy filter: {len(filtered)}/{len(listings)} roles matched"
         )
         return filtered
 

@@ -19,8 +19,8 @@ class AISafetyComScraper(BaseScraper):
     """Scraper for the AISafety.com jobs listing page.
 
     This page aggregates AI safety job listings. We scrape the HTML
-    and extract job entries. Since this is an AI-focused aggregator,
-    all listings are relevant (no keyword filtering needed).
+    and extract job entries. Policy role filter is applied to focus on
+    governance/policy roles only.
     """
 
     name = "aisafety_com"
@@ -31,7 +31,7 @@ class AISafetyComScraper(BaseScraper):
         html = response.text
         soup = BeautifulSoup(html, "html.parser")
 
-        listings = []
+        raw_listings = []
 
         # Try to find job listing elements
         # AISafety.com typically uses card-style layouts for job listings
@@ -47,10 +47,10 @@ class AISafetyComScraper(BaseScraper):
             for container in job_containers:
                 listing = self._parse_container(container)
                 if listing:
-                    listings.append(listing)
+                    raw_listings.append(listing)
 
         # Strategy 2: If no structured containers, look for links with org/title patterns
-        if not listings:
+        if not raw_listings:
             links = soup.find_all("a", href=True)
             for link in links:
                 text = link.get_text(strip=True)
@@ -74,7 +74,7 @@ class AISafetyComScraper(BaseScraper):
                     "intern", "policy", "governance",
                 ]):
                     url = href if href.startswith("http") else f"https://www.aisafety.com{href}"
-                    listings.append(
+                    raw_listings.append(
                         JobListing(
                             title=text,
                             organization="(via AISafety.com)",
@@ -83,8 +83,10 @@ class AISafetyComScraper(BaseScraper):
                         )
                     )
 
-        logger.info(f"[{self.name}] Extracted {len(listings)} listings from aisafety.com/jobs")
-        return listings
+        logger.info(f"[{self.name}] Extracted {len(raw_listings)} raw listings from aisafety.com/jobs")
+
+        # Apply strict policy role filter
+        return self.filter_policy_roles(raw_listings)
 
     def _parse_container(self, container) -> JobListing | None:
         """Parse a job container element into a JobListing."""

@@ -84,9 +84,26 @@ def test_generate_post_with_failed_sources():
         _make_listing(title="Test Policy Job"),
     ]
     post = generate_post(listings, failed_sources=["lever", "ashby"])
-    assert "Could not reach" in post
+    assert "SCRAPER ISSUES" in post
     assert "lever" in post
     assert "ashby" in post
+
+
+def test_generate_post_with_errors_at_top():
+    """Errors should appear at the TOP of the post, before listings."""
+    listings = [
+        _make_listing(title="Test Policy Job"),
+    ]
+    post = generate_post(
+        listings,
+        failed_sources=["llm"],
+        scraper_errors={"llm": "AuthenticationError: Invalid API key"}
+    )
+    # Error section should appear before the role count
+    error_pos = post.find("SCRAPER ISSUES")
+    roles_pos = post.find("new role")
+    assert error_pos < roles_pos, "Errors should appear before role count"
+    assert "AuthenticationError" in post
 
 
 def test_generate_post_single_listing():

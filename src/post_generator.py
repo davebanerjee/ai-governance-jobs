@@ -66,6 +66,8 @@ def categorize_listing(listing: JobListing) -> str:
 def generate_post(
     new_listings: list[JobListing],
     failed_sources: list[str] | None = None,
+    scraper_errors: dict[str, str] | None = None,
+    log_file: "Path | None" = None,
     author_name: str = "AI Governance Jobs Bot",
 ) -> str:
     """Generate a formatted LinkedIn post draft.
@@ -73,6 +75,8 @@ def generate_post(
     Args:
         new_listings: New listings to include in the post.
         failed_sources: Names of scrapers that failed (for transparency).
+        scraper_errors: Dict mapping source name to error message.
+        log_file: Path to the log file for this run.
         author_name: Name to credit in the post footer.
 
     Returns:
@@ -82,10 +86,11 @@ def generate_post(
     week_str = today.strftime("%B %d, %Y")
 
     if not new_listings:
-        return (
-            f"# AI Governance Job Roundup \u2014 Week of {week_str}\n\n"
-            "No new roles found this week. Check back next Monday!\n"
-        )
+        content = f"# AI Governance Job Roundup \u2014 Week of {week_str}\n\n"
+        if failed_sources:
+            content += _format_errors_section(failed_sources, scraper_errors, log_file)
+        content += "No new roles found this week. Check back next Monday!\n"
+        return content
 
     # Group by category
     categories: dict[str, list[JobListing]] = {cat: [] for cat in CATEGORY_ORDER}
@@ -100,6 +105,11 @@ def generate_post(
     # Build the post
     lines = []
     lines.append(f"\U0001f50d AI Governance Job Roundup \u2014 Week of {week_str}\n")
+
+    # ERRORS AT TOP — so they're immediately visible
+    if failed_sources:
+        lines.append(_format_errors_section(failed_sources, scraper_errors, log_file))
+
     lines.append(
         f"{len(new_listings)} new role{'s' if len(new_listings) != 1 else ''} "
         "this week in AI governance, policy, and safety:\n"
@@ -132,11 +142,38 @@ def generate_post(
     lines.append(f"Sources: 80,000 Hours, AISafety.com, + {source_count} org career pages")
     lines.append(f"Compiled automatically, curated by {author_name}")
 
-    if failed_sources:
-        lines.append(f"\n\u26a0\ufe0f Could not reach: {', '.join(failed_sources)}")
-
     lines.append("\n#AIGovernance #AIPolicy #AISafety #TechPolicy #Careers")
 
+    return "\n".join(lines)
+
+
+def _format_errors_section(
+    failed_sources: list[str],
+    scraper_errors: dict[str, str] | None = None,
+    log_file: "Path | None" = None,
+) -> str:
+    """Format the errors section for the draft.
+
+    Args:
+        failed_sources: Names of scrapers that failed.
+        scraper_errors: Dict mapping source name to error message.
+        log_file: Path to the log file for this run.
+
+    Returns:
+        Formatted markdown section for errors.
+    """
+    lines = ["\u26a0\ufe0f **SCRAPER ISSUES** \u2014 Some sources could not be reached:\n"]
+
+    for source in failed_sources:
+        error_msg = ""
+        if scraper_errors and source in scraper_errors:
+            error_msg = f": {scraper_errors[source]}"
+        lines.append(f"  \u2022 {source}{error_msg}")
+
+    if log_file:
+        lines.append(f"\n  See full details in: `{log_file}`")
+
+    lines.append("\n")
     return "\n".join(lines)
 
 

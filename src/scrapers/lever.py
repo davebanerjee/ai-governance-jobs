@@ -30,13 +30,13 @@ class LeverScraper(BaseScraper):
         for org_config in LEVER_ORGS:
             org_name = org_config["name"]
             slug = org_config["slug"]
-            ai_focused = org_config.get("ai_focused", True)
 
             try:
                 listings = self._fetch_org(org_name, slug)
-                listings = self.filter_governance(listings, ai_focused=ai_focused)
+                # Apply strict policy role filter to ALL listings
+                listings = self.filter_policy_roles(listings)
                 all_listings.extend(listings)
-                logger.info(f"[{self.name}:{slug}] Found {len(listings)} listings")
+                logger.info(f"[{self.name}:{slug}] Found {len(listings)} policy roles")
             except Exception as e:
                 logger.error(f"[{self.name}:{slug}] Failed: {e}")
 

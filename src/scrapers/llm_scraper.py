@@ -64,9 +64,10 @@ class LLMScraper(BaseScraper):
 
             try:
                 listings = self._scrape_org(org_name, careers_url)
-                listings = self.filter_governance(listings, ai_focused=ai_focused)
+                # Apply strict policy role filter to ALL listings
+                listings = self.filter_policy_roles(listings)
                 all_listings.extend(listings)
-                logger.info(f"[{self.name}:{org_name}] Found {len(listings)} listings")
+                logger.info(f"[{self.name}:{org_name}] Found {len(listings)} policy roles")
             except Exception as e:
                 logger.error(f"[{self.name}:{org_name}] Failed: {e}")
 
@@ -157,9 +158,22 @@ class LLMScraper(BaseScraper):
 
         except json.JSONDecodeError as e:
             logger.error(f"[{self.name}:{org_name}] LLM returned invalid JSON: {e}")
+            logger.debug(f"[{self.name}:{org_name}] Raw response: {response_text[:500]}")
             return []
         except Exception as e:
-            logger.error(f"[{self.name}:{org_name}] LLM extraction failed: {e}")
+            # Provide more specific error information
+            error_type = type(e).__name__
+            error_msg = str(e)
+
+            # Check for common Anthropic API errors
+            if "AuthenticationError" in error_type or "authentication" in error_msg.lower():
+                logger.error(f"[{self.name}:{org_name}] API authentication failed — check ANTHROPIC_API_KEY")
+            elif "RateLimitError" in error_type or "rate" in error_msg.lower():
+                logger.error(f"[{self.name}:{org_name}] Rate limited by Anthropic API")
+            elif "InvalidRequestError" in error_type or "invalid" in error_msg.lower():
+                logger.error(f"[{self.name}:{org_name}] Invalid API request: {error_msg}")
+            else:
+                logger.error(f"[{self.name}:{org_name}] LLM extraction failed ({error_type}): {error_msg}")
             return []
 
     def _parse_extracted(

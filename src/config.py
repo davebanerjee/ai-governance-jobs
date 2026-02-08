@@ -1,41 +1,50 @@
 """Configuration for all scraper sources, keywords, and settings."""
 
 # ---------------------------------------------------------------------------
-# Governance keyword filter
-# Applied to title + description for broad think tanks (Sections B/C).
-# AI-focused orgs (Section A) skip filtering — all their listings are relevant.
+# STRICT Policy/Governance Role Filter
+# Applied to ALL sources (including AI labs like Anthropic, OpenAI).
+# Only roles with these keywords in the title are included.
 # ---------------------------------------------------------------------------
 
-GOVERNANCE_KEYWORDS = [
-    # Core governance terms
-    "governance",
+# These keywords in a title mean ALWAYS include (highest priority)
+ALWAYS_INCLUDE_KEYWORDS = [
+    "fellow", "fellowship",  # All fellowships are relevant
+    "ai safety", "ai governance", "ai policy", "ai ethics",
+    "existential risk", "x-risk", "alignment research",
+    "responsible ai",
+]
+
+# Roles are included if title contains ANY of these keywords
+POLICY_ROLE_KEYWORDS = [
+    # Core policy/governance terms
     "policy",
-    "regulation",
+    "governance",
     "regulatory",
+    "regulation",
     "government affairs",
-    "public policy",
     "government relations",
     "legislative",
-    "compliance",
-    "standards",
-    # AI-specific
+    "public affairs",
+    "public policy",
+    # AI safety specific
     "ai safety",
     "ai ethics",
     "responsible ai",
-    "ai policy",
-    "ai risk",
-    "ai governance",
+    "alignment",
     "existential risk",
-    "artificial intelligence",
-    "machine learning",
-    "technology policy",
-    "tech policy",
-    "digital policy",
-    "frontier model",
-    "foundation model",
-    "algorithmic",
-    "autonomous systems",
+    "x-risk",
+    "catastrophic risk",
+    # Standards and compliance
+    "standards",
+    "compliance",
+    "assurance",
+    # Fellowships (always relevant)
+    "fellow",
+    "fellowship",
 ]
+
+# Legacy keyword list (kept for backwards compatibility with filter_governance)
+GOVERNANCE_KEYWORDS = POLICY_ROLE_KEYWORDS
 
 # ---------------------------------------------------------------------------
 # Tier 1 — Aggregator APIs
@@ -108,9 +117,7 @@ LLM_SCRAPE_ORGS = [
     {"name": "New America", "careers_url": "https://www.newamerica.org/careers/", "ai_focused": False},
     {"name": "Aspen Institute", "careers_url": "https://www.aspeninstitute.org/careers/", "ai_focused": False},
     {"name": "Bipartisan Policy Center", "careers_url": "https://bipartisanpolicy.org/about/careers/", "ai_focused": False},
-    {"name": "Heritage Foundation", "careers_url": "https://www.heritage.org/about-heritage/careers", "ai_focused": False},
-    {"name": "American Enterprise Institute", "careers_url": "https://www.aei.org/jobs/", "ai_focused": False},
-    {"name": "Cato Institute", "careers_url": "https://www.cato.org/employment-opportunities", "ai_focused": False},
+    # NOTE: Heritage Foundation, AEI, and Cato Institute removed (anti-AI-safety stance)
     {"name": "R Street Institute", "careers_url": "https://www.rstreet.org/jobs/", "ai_focused": False},
     {"name": "Technology Policy Institute", "careers_url": "https://techpolicyinstitute.org/about-us/careers/", "ai_focused": False},
     {"name": "Information Technology and Innovation Foundation", "careers_url": "https://itif.org/about/jobs/", "ai_focused": False},
@@ -142,7 +149,7 @@ LLM_SCRAPE_ORGS = [
 # LLM extraction settings
 # ---------------------------------------------------------------------------
 
-LLM_MODEL = "claude-haiku-4-20250514"
+LLM_MODEL = "claude-haiku-4-5"
 LLM_EXTRACTION_PROMPT = """Extract all job/position listings from this career page HTML.
 Return a JSON array where each element has:
 - "title": job title string

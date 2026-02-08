@@ -37,9 +37,11 @@ jobs:
           git diff --staged --quiet || git commit -m "Weekly scrape: $(date +%Y-%m-%d)"
           git push
 
-      - name: Upload draft as artifact
+      - name: Upload draft and logs as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: linkedin-draft-${{ github.run_id }}
-          path: data/drafts/*.md
+          name: scrape-output-${{ github.run_id }}
+          path: |
+            data/drafts/*.md
+            data/logs/*.log
           retention-days: 30

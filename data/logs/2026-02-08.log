@@ -1,0 +1,618 @@
+2026-02-08 22:46:21,932 [INFO] __main__: ============================================================
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:95
+2026-02-08 22:46:21,932 [INFO] __main__: AI Governance Job Scraper — Starting run
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:96
+2026-02-08 22:46:21,932 [INFO] __main__: Log file: /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/data/logs/2026-02-08.log
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:97
+2026-02-08 22:46:21,933 [INFO] __main__: ============================================================
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:98
+2026-02-08 22:46:21,933 [INFO] __main__: Running scraper: 80k_hours
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:108
+2026-02-08 22:46:21,933 [INFO] src.scrapers.eighty_k: [80k_hours] Fetching: AI safety & policy (offset=0)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/eighty_k.py:43
+2026-02-08 22:46:21,979 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): backend.eawork.org:443
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:1049
+2026-02-08 22:46:43,129 [DEBUG] urllib3.connectionpool: https://backend.eawork.org:443 "GET /api/jobs/?format=json&tags_area=AI+safety+%26+policy&limit=100&offset=0 HTTP/1.1" 200 None
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:544
+2026-02-08 22:46:43,873 [INFO] src.scrapers.base: [80k_hours] Policy filter: 156/804 roles matched
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:134
+2026-02-08 22:46:43,874 [INFO] src.scrapers.base: [80k_hours] Fetched 156 listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:147
+2026-02-08 22:46:43,874 [INFO] __main__: [80k_hours] Completed: 156 listings in 21.9s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:116
+2026-02-08 22:46:43,874 [INFO] __main__: Running scraper: lever
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:108
+2026-02-08 22:46:43,896 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.lever.co:443
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:1049
+2026-02-08 22:46:44,594 [DEBUG] urllib3.connectionpool: https://api.lever.co:443 "GET /v0/postings/aisafety?mode=json HTTP/1.1" 200 59925
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:544
+2026-02-08 22:46:44,909 [INFO] src.scrapers.base: [lever] Policy filter: 0/6 roles matched
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:134
+2026-02-08 22:46:44,909 [INFO] src.scrapers.lever: [lever:aisafety] Found 0 policy roles
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/lever.py:39
+2026-02-08 22:46:46,866 [DEBUG] urllib3.connectionpool: https://api.lever.co:443 "GET /v0/postings/apolloresearch?mode=json HTTP/1.1" 200 224968
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:544
+2026-02-08 22:46:47,350 [INFO] src.scrapers.base: [lever] Policy filter: 0/11 roles matched
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:134
+2026-02-08 22:46:47,350 [INFO] src.scrapers.lever: [lever:apolloresearch] Found 0 policy roles
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/lever.py:39
+2026-02-08 22:46:47,350 [INFO] src.scrapers.base: [lever] Fetched 0 listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:147
+2026-02-08 22:46:47,350 [WARNING] __main__: [lever] No listings returned after 3.5s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:122
+2026-02-08 22:46:47,351 [INFO] __main__: Running scraper: greenhouse
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:108
+2026-02-08 22:46:47,384 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): boards-api.greenhouse.io:443
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:1049
+2026-02-08 22:46:47,575 [DEBUG] urllib3.connectionpool: https://boards-api.greenhouse.io:443 "GET /v1/boards/anthropic/jobs?content=true HTTP/1.1" 200 None
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:544
+2026-02-08 22:46:47,822 [INFO] src.scrapers.base: [greenhouse] Policy filter: 18/410 roles matched
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:134
+2026-02-08 22:46:47,822 [INFO] src.scrapers.greenhouse: [greenhouse:anthropic] Found 18 policy roles
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/greenhouse.py:40
+2026-02-08 22:46:47,822 [INFO] src.scrapers.base: [greenhouse] Fetched 18 listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:147
+2026-02-08 22:46:47,823 [INFO] __main__: [greenhouse] Completed: 18 listings in 0.5s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:116
+2026-02-08 22:46:47,823 [INFO] __main__: Running scraper: ashby
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:108
+2026-02-08 22:46:47,851 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.ashbyhq.com:443
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:1049
+2026-02-08 22:46:55,365 [DEBUG] urllib3.connectionpool: https://api.ashbyhq.com:443 "GET /posting-api/job-board/openai HTTP/1.1" 200 None
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:544
+2026-02-08 22:46:55,668 [INFO] src.scrapers.base: [ashby] Policy filter: 16/530 roles matched
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:134
+2026-02-08 22:46:55,668 [INFO] src.scrapers.ashby: [ashby:openai] Found 16 policy roles
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/ashby.py:40
+2026-02-08 22:46:55,668 [INFO] src.scrapers.base: [ashby] Fetched 16 listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:147
+2026-02-08 22:46:55,669 [INFO] __main__: [ashby] Completed: 16 listings in 7.8s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:116
+2026-02-08 22:46:55,669 [INFO] __main__: Running scraper: aisafety_com
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:108
+2026-02-08 22:46:55,745 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): www.aisafety.com:443
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:1049
+2026-02-08 22:46:55,816 [DEBUG] urllib3.connectionpool: https://www.aisafety.com:443 "GET /jobs HTTP/1.1" 200 None
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:544
+2026-02-08 22:46:56,139 [INFO] src.scrapers.aisafety_com: [aisafety_com] Extracted 388 listings from aisafety.com/jobs
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/aisafety_com.py:86
+2026-02-08 22:46:56,140 [INFO] src.scrapers.base: [aisafety_com] Fetched 388 listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:147
+2026-02-08 22:46:56,140 [INFO] __main__: [aisafety_com] Completed: 388 listings in 0.5s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:116
+2026-02-08 22:46:56,140 [INFO] __main__: Running scraper: llm
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:108
+2026-02-08 22:46:56,140 [WARNING] src.scrapers.llm_scraper: [llm] ANTHROPIC_API_KEY not set — skipping LLM extraction
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/llm_scraper.py:53
+2026-02-08 22:46:56,140 [INFO] src.scrapers.base: [llm] Fetched 0 listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:147
+2026-02-08 22:46:56,140 [WARNING] __main__: [llm] No listings returned after 0.0s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:122
+2026-02-08 22:46:56,140 [INFO] __main__: Total raw listings: 578
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:135
+2026-02-08 22:46:56,304 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Senior Manager, AI Safety' at Faculty ~ 'Delivery Manager, AI Safety' at Faculty
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:56,453 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'AI Research Scientist, Applied Systems, Center for AI Standards and Innovation' at US Government, National Institute of Standards and Technology ~ 'Research Engineer / Scientist, Agent Security, Center for AI Standards and Innovation' at US Government, National Institute of Standards and Technology
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:56,531 [DEBUG] src.dedup: Fuzzy dupe (0.85): 'AI Standards Architect, Center for AI Standards and Innovation' at US Government, National Institute of Standards and Technology ~ 'Industry Partnerships Manager, Center for AI Standards and Innovation' at US Government, National Institute of Standards and Technology
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:56,598 [DEBUG] src.dedup: Fuzzy dupe (0.87): 'Manager, Technical Governance Team' at Machine Intelligence Research Institute ~ 'Technical Governance Researcher' at Machine Intelligence Research Institute
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:56,623 [DEBUG] src.dedup: Fuzzy dupe (0.99): 'Policy Lead, J-PAL Global' at Massachusetts Institute of Technology, Abdul Latif Jameel Poverty Action Lab ~ 'AI Policy Lead, J-PAL Global' at Massachusetts Institute of Technology, Abdul Latif Jameel Poverty Action Lab
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:56,703 [DEBUG] src.dedup: Fuzzy dupe (0.94): 'Research Engineer / Scientist, Alignment Science' at Anthropic ~ 'Research Engineer / Scientist, Alignment Science, London' at Anthropic
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:56,721 [DEBUG] src.dedup: Fuzzy dupe (0.92): 'Policy Manager' at University of Chicago, Development Innovation Lab ~ 'Policy Associate' at University of Chicago, Development Innovation Lab
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:56,905 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'AI Safety Fellow' at Anthropic ~ 'AI Security Fellow' at Anthropic
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:57,059 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Government Fellows' at Geneva Centre for Security Policy ~ 'Doctoral Fellows' at Geneva Centre for Security Policy
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:57,199 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'Research Fellow' at National University of Singapore, Saw Swee Hock School of Public Health ~ 'Research Associate / Research Fellow' at National University of Singapore, Saw Swee Hock School of Public Health
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:57,226 [DEBUG] src.dedup: Fuzzy dupe (0.98): 'No.10 Innovation Fellowships' at UK Government, 10 Downing Street ~ 'No10 Innovation Fellowship' at UK Government, 10 Downing Street
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:57,364 [DEBUG] src.dedup: Fuzzy dupe (0.92): 'Anthropic AI Security Fellow' at Anthropic ~ 'Anthropic AI Safety Fellow' at Anthropic
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:57,415 [DEBUG] src.dedup: Fuzzy dupe (0.95): 'Policy Communications Manager' at Anthropic ~ 'Policy Communications Manager, DC' at Anthropic
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:57,415 [DEBUG] src.dedup: Exact dupe: 'Policy Manager, Chemical Weapons and High Yield Explosives' at Anthropic (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:57,415 [DEBUG] src.dedup: Exact dupe: 'Policy Manager, Harmful Persuasion' at Anthropic (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:57,415 [DEBUG] src.dedup: Exact dupe: 'Product Policy Manager, Frontier Risk' at Anthropic (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:57,429 [DEBUG] src.dedup: Exact dupe: 'Program Manager, Responsible Scaling Policy' at Anthropic (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:57,436 [DEBUG] src.dedup: Fuzzy dupe (0.94): 'Research Engineer / Scientist, Alignment Science' at Anthropic ~ 'Research Engineer / Scientist, Alignment Science, London' at Anthropic
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:57,436 [DEBUG] src.dedup: Exact dupe: 'Research Engineer / Scientist, Alignment Science, London' at Anthropic (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:57,466 [DEBUG] src.dedup: Exact dupe: 'Technical Policy Manager, Cyber Harms' at Anthropic (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:57,476 [DEBUG] src.dedup: Exact dupe: 'Researcher, Alignment' at OpenAI (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:57,498 [DEBUG] src.dedup: Exact dupe: 'Researcher, Misalignment Research' at OpenAI (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:57,642 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Associate General Counsel, Policy (Copyright)' at OpenAI ~ 'Associate General Counsel, Policy (LATAM)' at OpenAI
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:57,657 [DEBUG] src.dedup: Exact dupe: 'Director of Talent / Recruitment Manager' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:57,996 [DEBUG] src.dedup: Exact dupe: 'Head of Operations' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:58,060 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Head of AI Assurance' at (via AISafety.com) ~ 'Head of Finance' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:58,305 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Policy Director' at (via AISafety.com) ~ 'Policy Researcher' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:58,335 [DEBUG] src.dedup: Fuzzy dupe (0.90): 'Program Associate' at (via AISafety.com) ~ 'Program Systems Associate' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:58,442 [DEBUG] src.dedup: Fuzzy dupe (0.91): 'Senior Research Scientist / Principal Research Scientist, AI Safety, Biological / Physical Sciences' at (via AISafety.com) ~ 'Senior Research Scientist / Principal Research Scientist, AI Safety, Biological / Physical Sciences' at Lila Sciences
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:58,451 [DEBUG] src.dedup: Fuzzy dupe (0.91): 'Program Manager' at (via AISafety.com) ~ 'Program Talent Manager' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:58,467 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Research Scientist I / II, AI Safety, Biological / Physical Sciences' at (via AISafety.com) ~ 'Research Scientist I / II, AI Safety, Biological / Physical Sciences' at Lila Sciences
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:58,539 [DEBUG] src.dedup: Exact dupe: 'Content and Digital Communications Lead' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:58,721 [DEBUG] src.dedup: Fuzzy dupe (0.92): 'AI Security Fellow' at (via AISafety.com) ~ 'AI Safety Fellow' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:58,735 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'Research Software Engineer' at (via AISafety.com) ~ 'Research Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:58,827 [DEBUG] src.dedup: Exact dupe: 'Executive Assistant' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:58,888 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'Operations Specialist' at (via AISafety.com) ~ 'Operations Associate' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:58,888 [DEBUG] src.dedup: Exact dupe: 'Recruiter' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:58,911 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'AI Security Researcher' at (via AISafety.com) ~ 'Policy Researcher' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:58,924 [DEBUG] src.dedup: Fuzzy dupe (0.91): 'Senior Research Engineer' at (via AISafety.com) ~ 'Research Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:58,924 [DEBUG] src.dedup: Exact dupe: 'Research Engineer' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:58,924 [DEBUG] src.dedup: Exact dupe: 'Research Scientist' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:58,924 [DEBUG] src.dedup: Exact dupe: 'Head of Operations' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:58,949 [DEBUG] src.dedup: Exact dupe: 'Recruiter' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:59,062 [DEBUG] src.dedup: Exact dupe: 'Program Director, Career Accelerator' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:46:59,078 [DEBUG] src.dedup: Fuzzy dupe (0.97): 'Senior Researcher, AI Risk Initiative' at (via AISafety.com) ~ 'Senior Researcher, MIT AI Risk Initiative' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:59,116 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'Senior Program Associate, Talent' at (via AISafety.com) ~ 'Senior Program Associate, Operations' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:59,283 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Senior Security Engineer, Detection and Response' at (via AISafety.com) ~ 'Senior Security Software Engineer, Detection and Response Platform' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:59,385 [DEBUG] src.dedup: Fuzzy dupe (0.87): 'Operations Associate / Operations Manager' at (via AISafety.com) ~ 'Operations Associate / Head of Operations' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:59,612 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'AI Node Manager' at (via AISafety.com) ~ 'Finance Manager' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:46:59,760 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'AI Engineer' at (via AISafety.com) ~ 'Research Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,070 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Data Scientist' at (via AISafety.com) ~ 'Research Scientist' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,085 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Digital Media Manager' at (via AISafety.com) ~ 'Digital Media Accelerator' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,247 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'ML Engineer, MIT AI Risk Initiative' at (via AISafety.com) ~ 'Senior Researcher, MIT AI Risk Initiative' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,328 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'Backend Engineer, Monitoring' at (via AISafety.com) ~ 'Full Stack Engineer, Monitoring' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,397 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'Researcher' at (via AISafety.com) ~ 'Policy Researcher' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,461 [DEBUG] src.dedup: Fuzzy dupe (0.87): 'Communications Generalist' at (via AISafety.com) ~ 'Communications Manager' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,618 [DEBUG] src.dedup: Exact dupe: 'Head of Operations' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:00,652 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Software Engineer, Backend' at (via AISafety.com) ~ 'Software Engineer, Sandboxing' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,689 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Expression of Interest, Pannu Lab' at (via AISafety.com) ~ 'Expression of Interest' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,699 [DEBUG] src.dedup: Fuzzy dupe (0.87): 'Head of Communications' at (via AISafety.com) ~ 'Head of Operations' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,730 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Research Internship' at (via AISafety.com) ~ 'Research Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,939 [DEBUG] src.dedup: Fuzzy dupe (0.85): 'Head of Engineering, Research' at (via AISafety.com) ~ 'Head of Engineering, Platform' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,961 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Contractor, Supervised Program for Alignment Research' at (via AISafety.com) ~ 'Contractor, Supervised Program for Alignment Research' at Kairos
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,971 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Faculty' at (via AISafety.com) ~ 'Facilitator' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:00,983 [DEBUG] src.dedup: Fuzzy dupe (0.91): 'Senior Manager, AI Safety' at (via AISafety.com) ~ 'Delivery Manager, AI Safety' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:01,007 [DEBUG] src.dedup: Fuzzy dupe (0.85): 'Senior Research Scientist' at (via AISafety.com) ~ 'Research Engineer / Research Scientist' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:01,075 [DEBUG] src.dedup: Exact dupe: 'Senior Manager, AI Safety and Security Policy' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:01,110 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Policy Communications Manager, DC' at (via AISafety.com) ~ 'Communications Manager' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:01,125 [DEBUG] src.dedup: Fuzzy dupe (0.85): 'Platform Engineer' at (via AISafety.com) ~ 'Evaluations Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:01,210 [DEBUG] src.dedup: Exact dupe: 'AI Red Teamer' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:01,246 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Operations Director' at (via AISafety.com) ~ 'Communications Director' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:01,533 [DEBUG] src.dedup: Fuzzy dupe (0.93): 'Research Manager, Interpretability' at (via AISafety.com) ~ 'Research Engineer, Interpretability' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:01,558 [DEBUG] src.dedup: Fuzzy dupe (0.90): 'Research Scientist, Interpretability' at (via AISafety.com) ~ 'Research Engineer, Interpretability' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:01,603 [DEBUG] src.dedup: Fuzzy dupe (0.90): 'Research Scientist, Agentic Safety' at (via AISafety.com) ~ 'Research Scientist, Biological Safety' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:01,677 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'Gen AI Security Researcher' at (via AISafety.com) ~ 'Cybersecurity Researcher' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:01,730 [DEBUG] src.dedup: Fuzzy dupe (0.90): 'Research Engineer, Machine Learning' at (via AISafety.com) ~ 'Research Scientist, Machine Learning' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:01,740 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Software Engineer' at (via AISafety.com) ~ 'Software Engineer, Sandboxing' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:01,821 [DEBUG] src.dedup: Fuzzy dupe (0.87): 'Nuclear Engineer' at (via AISafety.com) ~ 'Research Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:01,840 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Senior AI Security Researcher' at (via AISafety.com) ~ 'Cybersecurity Researcher' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,092 [DEBUG] src.dedup: Fuzzy dupe (0.90): 'Cyber Researcher' at (via AISafety.com) ~ 'Policy Researcher' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,104 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Technical Policy Researcher' at (via AISafety.com) ~ 'Policy Researcher' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,104 [DEBUG] src.dedup: Exact dupe: 'Research Engineer' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:02,115 [DEBUG] src.dedup: Fuzzy dupe (0.90): 'Research Manager' at (via AISafety.com) ~ 'Research Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,215 [DEBUG] src.dedup: Fuzzy dupe (0.90): 'Application Security Engineering Manager' at (via AISafety.com) ~ 'Application Security Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,303 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Exceptional Talent Application' at (via AISafety.com) ~ 'Exceptional Talent' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,366 [DEBUG] src.dedup: Fuzzy dupe (0.85): 'Operations Coordinator' at (via AISafety.com) ~ 'Operations Associate' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,384 [DEBUG] src.dedup: Fuzzy dupe (0.92): 'GenAI Security Specialist' at (via AISafety.com) ~ 'National Security Specialist' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,424 [DEBUG] src.dedup: Fuzzy dupe (0.87): 'Director of Operations' at (via AISafety.com) ~ 'Head of Operations' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,469 [DEBUG] src.dedup: Fuzzy dupe (0.91): 'Technical Product Marketer' at (via AISafety.com) ~ 'Technical Product Marketing Manager' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,524 [DEBUG] src.dedup: Fuzzy dupe (0.93): 'Senior Software Security Engineer' at (via AISafety.com) ~ 'Software Security Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,616 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'Machine Learning Researcher' at (via AISafety.com) ~ 'Machine Learning Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,626 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'IT Lead' at (via AISafety.com) ~ 'Community Lead' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,674 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'Special Projects Associate' at (via AISafety.com) ~ 'Special Projects Manager' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,715 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Senior Network Security Engineer' at (via AISafety.com) ~ 'Software Security Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,715 [DEBUG] src.dedup: Exact dupe: 'Expression of Interest' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:02,755 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Software Engineer' at (via AISafety.com) ~ 'Software Engineer, Sandboxing' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,755 [DEBUG] src.dedup: Exact dupe: 'Head of Operations' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:02,767 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Associate Fellow' at (via AISafety.com) ~ 'AI Safety Fellow' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,799 [DEBUG] src.dedup: Fuzzy dupe (0.98): 'Volunteers' at (via AISafety.com) ~ 'Volunteer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,821 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Lead Research Software Engineer' at (via AISafety.com) ~ 'Senior Software Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:02,843 [DEBUG] src.dedup: Exact dupe: 'Expression of Interest' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:02,969 [DEBUG] src.dedup: Exact dupe: 'Senior Software Engineer' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:02,989 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Senior Full-Stack Engineer' at (via AISafety.com) ~ 'Senior Software Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:03,108 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Senior ML Research Scientist' at (via AISafety.com) ~ 'Research Scientist' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:03,132 [DEBUG] src.dedup: Exact dupe: 'Research Scientist' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:03,231 [DEBUG] src.dedup: Exact dupe: 'Senior Software Engineer' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:03,231 [DEBUG] src.dedup: Exact dupe: 'Senior Software Engineer' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:03,251 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'Director, AI Safety' at (via AISafety.com) ~ 'AI Tutor, AI Safety' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:03,272 [DEBUG] src.dedup: Fuzzy dupe (0.87): 'Intern, Software Engineering' at (via AISafety.com) ~ 'Senior Software Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:03,361 [DEBUG] src.dedup: Exact dupe: 'Expression of Interest' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:03,426 [DEBUG] src.dedup: Fuzzy dupe (0.90): 'Research Engineer, Machine Learning' at (via AISafety.com) ~ 'Research Scientist, Machine Learning' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:03,448 [DEBUG] src.dedup: Fuzzy dupe (0.90): 'Full-Stack Product Engineer' at (via AISafety.com) ~ 'Full-Stack Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:03,518 [DEBUG] src.dedup: Fuzzy dupe (0.98): 'Software Engineer, Full Stack' at (via AISafety.com) ~ 'Software Engineer, Full-Stack' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:03,557 [DEBUG] src.dedup: Fuzzy dupe (0.94): 'Research Engineer / Scientist, Alignment Science, London' at (via AISafety.com) ~ 'Research Engineer / Scientist, Alignment Science' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:03,718 [DEBUG] src.dedup: Fuzzy dupe (0.87): 'Research Engineer, AI Safety' at (via AISafety.com) ~ 'Research Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:03,718 [DEBUG] src.dedup: Exact dupe: 'Volunteer' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:03,718 [DEBUG] src.dedup: Exact dupe: 'Expression of Interest' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:03,745 [DEBUG] src.dedup: Fuzzy dupe (0.85): 'Research Scientist / Engineer, Honesty' at (via AISafety.com) ~ 'Research Scientist / Engineer, Biological Models' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:03,779 [DEBUG] src.dedup: Exact dupe: 'Research Scientist' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:03,842 [DEBUG] src.dedup: Fuzzy dupe (0.90): 'AI Security Engineer' at (via AISafety.com) ~ 'Application Security Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:03,989 [DEBUG] src.dedup: Fuzzy dupe (0.85): 'Senior ML Product Manager' at (via AISafety.com) ~ 'Special Projects Manager' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,014 [DEBUG] src.dedup: Exact dupe: 'Security Project Coordinator' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:04,097 [DEBUG] src.dedup: Fuzzy dupe (0.85): 'Software Engineer, Security' at (via AISafety.com) ~ 'Software Engineer, Sandboxing' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,134 [DEBUG] src.dedup: Exact dupe: 'Machine Learning Engineer' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:04,175 [DEBUG] src.dedup: Fuzzy dupe (0.91): 'Member of Technical Staff, Evals' at (via AISafety.com) ~ 'Member of Technical Staff, AI Digest' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,175 [DEBUG] src.dedup: Exact dupe: 'Expression of Interest' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:04,223 [DEBUG] src.dedup: Exact dupe: 'Application Security Engineer' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:04,314 [DEBUG] src.dedup: Exact dupe: 'Volunteer' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:04,329 [DEBUG] src.dedup: Fuzzy dupe (0.91): 'General Expression of Interest' at (via AISafety.com) ~ 'Expression of Interest' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,404 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Volunteer Opportunities' at (via AISafety.com) ~ 'Various Opportunities' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,512 [DEBUG] src.dedup: Exact dupe: 'Research Engineer' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:04,555 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Volunteer Opportunities' at (via AISafety.com) ~ 'Various Opportunities' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,563 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'UX Intern' at (via AISafety.com) ~ 'Recruiter' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,573 [DEBUG] src.dedup: Fuzzy dupe (0.91): 'Research Intern' at (via AISafety.com) ~ 'Research Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,588 [DEBUG] src.dedup: Fuzzy dupe (0.90): 'Founder, Expression of Interest' at (via AISafety.com) ~ 'Expression of Interest' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,630 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'AI Engineer' at (via AISafety.com) ~ 'Research Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,674 [DEBUG] src.dedup: Exact dupe: 'Expression of Interest' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:04,686 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Senior ML Engineer' at (via AISafety.com) ~ 'Senior Distributed ML Engineer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,686 [DEBUG] src.dedup: Exact dupe: 'Expression of Interest' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:04,701 [DEBUG] src.dedup: Fuzzy dupe (0.98): 'Research Engineers / Research Scientists' at (via AISafety.com) ~ 'Research Engineer / Research Scientist' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,715 [DEBUG] src.dedup: Fuzzy dupe (0.90): 'Junior Research Scientists' at (via AISafety.com) ~ 'Research Scientist' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,802 [DEBUG] src.dedup: Fuzzy dupe (0.93): 'Researcher, Interpretability' at (via AISafety.com) ~ 'Research Engineer, Interpretability' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,897 [DEBUG] src.dedup: Fuzzy dupe (0.99): 'Research Fellows' at (via AISafety.com) ~ 'Research Fellow' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,908 [DEBUG] src.dedup: Fuzzy dupe (0.85): 'Grantee' at (via AISafety.com) ~ 'Volunteer' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,924 [DEBUG] src.dedup: Fuzzy dupe (0.91): 'General Expression of Interest' at (via AISafety.com) ~ 'Expression of Interest' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,945 [DEBUG] src.dedup: Exact dupe: 'General Application' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:47:04,967 [DEBUG] src.dedup: Fuzzy dupe (0.99): 'General Applications' at (via AISafety.com) ~ 'General Application' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:47:04,990 [INFO] src.dedup: Dedup: 578 → 431 (42 exact dupes, 105 fuzzy dupes)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:64
+2026-02-08 22:47:04,990 [INFO] __main__: After dedup: 431 unique listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:139
+2026-02-08 22:47:04,991 [INFO] src.store: Found 431 new listings (out of 431 total, 0 previously seen)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/store.py:66
+2026-02-08 22:47:04,995 [INFO] src.store: Saved 431 seen listings to /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/data/seen_listings.json
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/store.py:38
+2026-02-08 22:47:04,995 [INFO] __main__: New listings this run: 431
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:147
+2026-02-08 22:47:04,997 [INFO] src.post_generator: Draft saved to /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/data/drafts/2026-02-08.md
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/post_generator.py:193
+2026-02-08 22:47:04,997 [INFO] __main__: ============================================================
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:161
+2026-02-08 22:47:04,997 [INFO] __main__: Run complete in 43.1s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:162
+2026-02-08 22:47:04,997 [INFO] __main__:   Total scraped:  578
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:163
+2026-02-08 22:47:04,997 [INFO] __main__:   After dedup:    431
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:164
+2026-02-08 22:47:04,997 [INFO] __main__:   New this week:  431
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:165
+2026-02-08 22:47:04,997 [INFO] __main__:   Draft saved to: /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/data/drafts/2026-02-08.md
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:166
+2026-02-08 22:47:04,997 [INFO] __main__:   Log file:       /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/data/logs/2026-02-08.log
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:167
+2026-02-08 22:47:04,997 [WARNING] __main__:   Failed sources: lever, llm
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:169
+2026-02-08 22:47:04,997 [WARNING] __main__:     - lever: No listings returned (may be empty or failed)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:171
+2026-02-08 22:47:04,997 [WARNING] __main__:     - llm: No listings returned (may be empty or failed)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:171
+2026-02-08 22:47:04,997 [INFO] __main__: ============================================================
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:172
+2026-02-08 22:47:43,314 [INFO] __main__: ============================================================
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:95
+2026-02-08 22:47:43,314 [INFO] __main__: AI Governance Job Scraper — Starting run
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:96
+2026-02-08 22:47:43,314 [INFO] __main__: Log file: /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/data/logs/2026-02-08.log
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:97
+2026-02-08 22:47:43,314 [INFO] __main__: ============================================================
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:98
+2026-02-08 22:47:43,314 [INFO] __main__: Running scraper: 80k_hours
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:108
+2026-02-08 22:47:43,314 [INFO] src.scrapers.eighty_k: [80k_hours] Fetching: AI safety & policy (offset=0)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/eighty_k.py:43
+2026-02-08 22:47:43,325 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): backend.eawork.org:443
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:1049
+2026-02-08 22:48:03,574 [DEBUG] urllib3.connectionpool: https://backend.eawork.org:443 "GET /api/jobs/?format=json&tags_area=AI+safety+%26+policy&limit=100&offset=0 HTTP/1.1" 200 None
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:544
+2026-02-08 22:48:03,710 [INFO] src.scrapers.base: [80k_hours] Policy filter: 156/804 roles matched
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:134
+2026-02-08 22:48:03,711 [INFO] src.scrapers.base: [80k_hours] Fetched 156 listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:147
+2026-02-08 22:48:03,711 [INFO] __main__: [80k_hours] Completed: 156 listings in 20.4s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:116
+2026-02-08 22:48:03,711 [INFO] __main__: Running scraper: lever
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:108
+2026-02-08 22:48:03,737 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.lever.co:443
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:1049
+2026-02-08 22:48:04,414 [DEBUG] urllib3.connectionpool: https://api.lever.co:443 "GET /v0/postings/aisafety?mode=json HTTP/1.1" 200 59925
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:544
+2026-02-08 22:48:04,726 [INFO] src.scrapers.base: [lever] Policy filter: 0/6 roles matched
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:134
+2026-02-08 22:48:04,726 [INFO] src.scrapers.lever: [lever:aisafety] Found 0 policy roles
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/lever.py:39
+2026-02-08 22:48:06,685 [DEBUG] urllib3.connectionpool: https://api.lever.co:443 "GET /v0/postings/apolloresearch?mode=json HTTP/1.1" 200 224968
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:544
+2026-02-08 22:48:07,162 [INFO] src.scrapers.base: [lever] Policy filter: 0/11 roles matched
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:134
+2026-02-08 22:48:07,162 [INFO] src.scrapers.lever: [lever:apolloresearch] Found 0 policy roles
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/lever.py:39
+2026-02-08 22:48:07,162 [INFO] src.scrapers.base: [lever] Fetched 0 listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:147
+2026-02-08 22:48:07,163 [WARNING] __main__: [lever] No listings returned after 3.5s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:122
+2026-02-08 22:48:07,163 [INFO] __main__: Running scraper: greenhouse
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:108
+2026-02-08 22:48:07,200 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): boards-api.greenhouse.io:443
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:1049
+2026-02-08 22:48:07,396 [DEBUG] urllib3.connectionpool: https://boards-api.greenhouse.io:443 "GET /v1/boards/anthropic/jobs?content=true HTTP/1.1" 200 None
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:544
+2026-02-08 22:48:07,638 [INFO] src.scrapers.base: [greenhouse] Policy filter: 18/410 roles matched
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:134
+2026-02-08 22:48:07,639 [INFO] src.scrapers.greenhouse: [greenhouse:anthropic] Found 18 policy roles
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/greenhouse.py:40
+2026-02-08 22:48:07,639 [INFO] src.scrapers.base: [greenhouse] Fetched 18 listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:147
+2026-02-08 22:48:07,639 [INFO] __main__: [greenhouse] Completed: 18 listings in 0.5s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:116
+2026-02-08 22:48:07,639 [INFO] __main__: Running scraper: ashby
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:108
+2026-02-08 22:48:07,642 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.ashbyhq.com:443
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:1049
+2026-02-08 22:48:07,702 [DEBUG] urllib3.connectionpool: https://api.ashbyhq.com:443 "GET /posting-api/job-board/openai HTTP/1.1" 200 None
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:544
+2026-02-08 22:48:07,932 [INFO] src.scrapers.base: [ashby] Policy filter: 16/530 roles matched
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:134
+2026-02-08 22:48:07,933 [INFO] src.scrapers.ashby: [ashby:openai] Found 16 policy roles
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/ashby.py:40
+2026-02-08 22:48:07,933 [INFO] src.scrapers.base: [ashby] Fetched 16 listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:147
+2026-02-08 22:48:07,933 [INFO] __main__: [ashby] Completed: 16 listings in 0.3s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:116
+2026-02-08 22:48:07,933 [INFO] __main__: Running scraper: aisafety_com
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:108
+2026-02-08 22:48:07,937 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): www.aisafety.com:443
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:1049
+2026-02-08 22:48:08,018 [DEBUG] urllib3.connectionpool: https://www.aisafety.com:443 "GET /jobs HTTP/1.1" 200 None
+    /Users/davebanerjee/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py:544
+2026-02-08 22:48:08,333 [INFO] src.scrapers.aisafety_com: [aisafety_com] Extracted 388 raw listings from aisafety.com/jobs
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/aisafety_com.py:86
+2026-02-08 22:48:08,334 [INFO] src.scrapers.base: [aisafety_com] Policy filter: 81/388 roles matched
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:134
+2026-02-08 22:48:08,334 [INFO] src.scrapers.base: [aisafety_com] Fetched 81 listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:147
+2026-02-08 22:48:08,334 [INFO] __main__: [aisafety_com] Completed: 81 listings in 0.4s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:116
+2026-02-08 22:48:08,334 [INFO] __main__: Running scraper: llm
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:108
+2026-02-08 22:48:08,334 [WARNING] src.scrapers.llm_scraper: [llm] ANTHROPIC_API_KEY not set — skipping LLM extraction
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/llm_scraper.py:53
+2026-02-08 22:48:08,334 [INFO] src.scrapers.base: [llm] Fetched 0 listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/scrapers/base.py:147
+2026-02-08 22:48:08,334 [WARNING] __main__: [llm] No listings returned after 0.0s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:122
+2026-02-08 22:48:08,334 [INFO] __main__: Total raw listings: 271
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:135
+2026-02-08 22:48:08,503 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Senior Manager, AI Safety' at Faculty ~ 'Delivery Manager, AI Safety' at Faculty
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:08,660 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'AI Research Scientist, Applied Systems, Center for AI Standards and Innovation' at US Government, National Institute of Standards and Technology ~ 'Research Engineer / Scientist, Agent Security, Center for AI Standards and Innovation' at US Government, National Institute of Standards and Technology
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:08,738 [DEBUG] src.dedup: Fuzzy dupe (0.85): 'AI Standards Architect, Center for AI Standards and Innovation' at US Government, National Institute of Standards and Technology ~ 'Industry Partnerships Manager, Center for AI Standards and Innovation' at US Government, National Institute of Standards and Technology
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:08,806 [DEBUG] src.dedup: Fuzzy dupe (0.87): 'Manager, Technical Governance Team' at Machine Intelligence Research Institute ~ 'Technical Governance Researcher' at Machine Intelligence Research Institute
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:08,830 [DEBUG] src.dedup: Fuzzy dupe (0.99): 'Policy Lead, J-PAL Global' at Massachusetts Institute of Technology, Abdul Latif Jameel Poverty Action Lab ~ 'AI Policy Lead, J-PAL Global' at Massachusetts Institute of Technology, Abdul Latif Jameel Poverty Action Lab
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:08,913 [DEBUG] src.dedup: Fuzzy dupe (0.94): 'Research Engineer / Scientist, Alignment Science' at Anthropic ~ 'Research Engineer / Scientist, Alignment Science, London' at Anthropic
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:08,932 [DEBUG] src.dedup: Fuzzy dupe (0.92): 'Policy Manager' at University of Chicago, Development Innovation Lab ~ 'Policy Associate' at University of Chicago, Development Innovation Lab
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:09,123 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'AI Safety Fellow' at Anthropic ~ 'AI Security Fellow' at Anthropic
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:09,281 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Government Fellows' at Geneva Centre for Security Policy ~ 'Doctoral Fellows' at Geneva Centre for Security Policy
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:09,426 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'Research Fellow' at National University of Singapore, Saw Swee Hock School of Public Health ~ 'Research Associate / Research Fellow' at National University of Singapore, Saw Swee Hock School of Public Health
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:09,454 [DEBUG] src.dedup: Fuzzy dupe (0.98): 'No.10 Innovation Fellowships' at UK Government, 10 Downing Street ~ 'No10 Innovation Fellowship' at UK Government, 10 Downing Street
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:09,603 [DEBUG] src.dedup: Fuzzy dupe (0.92): 'Anthropic AI Security Fellow' at Anthropic ~ 'Anthropic AI Safety Fellow' at Anthropic
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:09,683 [DEBUG] src.dedup: Fuzzy dupe (0.95): 'Policy Communications Manager' at Anthropic ~ 'Policy Communications Manager, DC' at Anthropic
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:09,683 [DEBUG] src.dedup: Exact dupe: 'Policy Manager, Chemical Weapons and High Yield Explosives' at Anthropic (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:48:09,683 [DEBUG] src.dedup: Exact dupe: 'Policy Manager, Harmful Persuasion' at Anthropic (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:48:09,683 [DEBUG] src.dedup: Exact dupe: 'Product Policy Manager, Frontier Risk' at Anthropic (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:48:09,701 [DEBUG] src.dedup: Exact dupe: 'Program Manager, Responsible Scaling Policy' at Anthropic (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:48:09,708 [DEBUG] src.dedup: Fuzzy dupe (0.94): 'Research Engineer / Scientist, Alignment Science' at Anthropic ~ 'Research Engineer / Scientist, Alignment Science, London' at Anthropic
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:09,708 [DEBUG] src.dedup: Exact dupe: 'Research Engineer / Scientist, Alignment Science, London' at Anthropic (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:48:09,742 [DEBUG] src.dedup: Exact dupe: 'Technical Policy Manager, Cyber Harms' at Anthropic (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:48:09,751 [DEBUG] src.dedup: Exact dupe: 'Researcher, Alignment' at OpenAI (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:48:09,773 [DEBUG] src.dedup: Exact dupe: 'Researcher, Misalignment Research' at OpenAI (matches 80k_hours)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:48:09,921 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Associate General Counsel, Policy (Copyright)' at OpenAI ~ 'Associate General Counsel, Policy (LATAM)' at OpenAI
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:10,236 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Policy Director' at (via AISafety.com) ~ 'Policy Researcher' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:10,274 [DEBUG] src.dedup: Fuzzy dupe (0.91): 'Senior Research Scientist / Principal Research Scientist, AI Safety, Biological / Physical Sciences' at (via AISafety.com) ~ 'Senior Research Scientist / Principal Research Scientist, AI Safety, Biological / Physical Sciences' at Lila Sciences
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:10,278 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Research Scientist I / II, AI Safety, Biological / Physical Sciences' at (via AISafety.com) ~ 'Research Scientist I / II, AI Safety, Biological / Physical Sciences' at Lila Sciences
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:10,358 [DEBUG] src.dedup: Fuzzy dupe (0.92): 'AI Security Fellow' at (via AISafety.com) ~ 'AI Safety Fellow' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:10,761 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Contractor, Supervised Program for Alignment Research' at (via AISafety.com) ~ 'Contractor, Supervised Program for Alignment Research' at Kairos
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:10,773 [DEBUG] src.dedup: Fuzzy dupe (0.91): 'Senior Manager, AI Safety' at (via AISafety.com) ~ 'Delivery Manager, AI Safety' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:10,794 [DEBUG] src.dedup: Exact dupe: 'Senior Manager, AI Safety and Security Policy' at (via AISafety.com) (matches aisafety_com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:36
+2026-02-08 22:48:10,890 [DEBUG] src.dedup: Fuzzy dupe (0.88): 'Technical Policy Researcher' at (via AISafety.com) ~ 'Policy Researcher' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:10,950 [DEBUG] src.dedup: Fuzzy dupe (0.86): 'Associate Fellow' at (via AISafety.com) ~ 'AI Safety Fellow' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:11,021 [DEBUG] src.dedup: Fuzzy dupe (0.89): 'Director, AI Safety' at (via AISafety.com) ~ 'AI Tutor, AI Safety' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:11,068 [DEBUG] src.dedup: Fuzzy dupe (0.94): 'Research Engineer / Scientist, Alignment Science, London' at (via AISafety.com) ~ 'Research Engineer / Scientist, Alignment Science' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:11,267 [DEBUG] src.dedup: Fuzzy dupe (0.99): 'Research Fellows' at (via AISafety.com) ~ 'Research Fellow' at (via AISafety.com)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:49
+2026-02-08 22:48:11,267 [INFO] src.dedup: Dedup: 271 → 236 (9 exact dupes, 26 fuzzy dupes)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/dedup.py:64
+2026-02-08 22:48:11,267 [INFO] __main__: After dedup: 236 unique listings
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:139
+2026-02-08 22:48:11,267 [INFO] src.store: Found 236 new listings (out of 236 total, 0 previously seen)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/store.py:66
+2026-02-08 22:48:11,270 [INFO] src.store: Saved 236 seen listings to /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/data/seen_listings.json
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/store.py:38
+2026-02-08 22:48:11,270 [INFO] __main__: New listings this run: 236
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:147
+2026-02-08 22:48:11,271 [INFO] src.post_generator: Draft saved to /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/data/drafts/2026-02-08.md
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/post_generator.py:193
+2026-02-08 22:48:11,271 [INFO] __main__: ============================================================
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:161
+2026-02-08 22:48:11,271 [INFO] __main__: Run complete in 28.0s
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:162
+2026-02-08 22:48:11,271 [INFO] __main__:   Total scraped:  271
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:163
+2026-02-08 22:48:11,271 [INFO] __main__:   After dedup:    236
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:164
+2026-02-08 22:48:11,271 [INFO] __main__:   New this week:  236
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:165
+2026-02-08 22:48:11,271 [INFO] __main__:   Draft saved to: /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/data/drafts/2026-02-08.md
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:166
+2026-02-08 22:48:11,271 [INFO] __main__:   Log file:       /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/data/logs/2026-02-08.log
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:167
+2026-02-08 22:48:11,271 [WARNING] __main__:   Failed sources: lever, llm
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:169
+2026-02-08 22:48:11,271 [WARNING] __main__:     - lever: No listings returned (may be empty or failed)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:171
+2026-02-08 22:48:11,271 [WARNING] __main__:     - llm: No listings returned (may be empty or failed)
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:171
+2026-02-08 22:48:11,271 [INFO] __main__: ============================================================
+    /Users/davebanerjee/Documents/1Dave/Coding/ai-governance-jobs/src/main.py:172

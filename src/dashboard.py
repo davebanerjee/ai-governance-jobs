@@ -113,20 +113,44 @@ def review_page():
                 update_review_status(fp, "unreviewed")
             st.rerun()
 
-    # Display listings
+    # Display listings — buttons inline, details in expander
     for fp, entry in entries:
         listing_data = entry["listing"]
         title = listing_data.get("title", "Unknown")
         org = listing_data.get("organization", "Unknown")
+        location = listing_data.get("location") or ""
         status = entry["review_status"]
 
         status_icon = {"unreviewed": "\u2753", "relevant": "\u2705", "irrelevant": "\u274c"}.get(status, "")
+        loc_str = f" \u2022 {location}" if location else ""
 
-        with st.expander(f"{status_icon} **{title}** — {org}"):
-            col1, col2 = st.columns([3, 1])
+        # Row: buttons | title summary
+        btn_cols = st.columns([0.8, 0.8, 0.8, 10])
 
-            with col1:
-                location = listing_data.get("location") or "Not specified"
+        with btn_cols[0]:
+            if status != "relevant":
+                if st.button("\u2705", key=f"approve_{fp}", help="Approve"):
+                    update_review_status(fp, "relevant")
+                    st.rerun()
+            else:
+                st.write("\u2705")
+
+        with btn_cols[1]:
+            if status != "irrelevant":
+                if st.button("\u274c", key=f"reject_{fp}", help="Reject"):
+                    update_review_status(fp, "irrelevant")
+                    st.rerun()
+            else:
+                st.write("\u274c")
+
+        with btn_cols[2]:
+            if status != "unreviewed":
+                if st.button("\U0001f504", key=f"reset_{fp}", help="Reset to unreviewed"):
+                    update_review_status(fp, "unreviewed")
+                    st.rerun()
+
+        with btn_cols[3]:
+            with st.expander(f"{status_icon} **{title}** — {org}{loc_str}"):
                 work_mode = listing_data.get("work_mode") or "Unknown"
                 seniority = listing_data.get("seniority_level") or "Unknown"
                 visa = listing_data.get("visa_sponsorship")
@@ -138,7 +162,7 @@ def review_page():
                 st.markdown(f"""
 | Field | Value |
 |-------|-------|
-| **Location** | {location} |
+| **Location** | {location or 'Not specified'} |
 | **Work Mode** | {work_mode} |
 | **Seniority** | {seniority} |
 | **Visa Sponsorship** | {visa_str} |
@@ -152,20 +176,6 @@ def review_page():
                 snippet = listing_data.get("description_snippet", "")
                 if snippet:
                     st.caption(snippet)
-
-            with col2:
-                if status != "relevant":
-                    if st.button("\u2705 Approve", key=f"approve_{fp}"):
-                        update_review_status(fp, "relevant")
-                        st.rerun()
-                if status != "irrelevant":
-                    if st.button("\u274c Reject", key=f"reject_{fp}"):
-                        update_review_status(fp, "irrelevant")
-                        st.rerun()
-                if status != "unreviewed":
-                    if st.button("\U0001f504 Reset", key=f"reset_{fp}"):
-                        update_review_status(fp, "unreviewed")
-                        st.rerun()
 
 
 # ---------------------------------------------------------------------------

@@ -4,6 +4,7 @@ import json
 from unittest.mock import MagicMock, patch
 
 from src.enrichment import (
+    VALID_RELEVANCE_TAGS,
     VALID_SENIORITY_LEVELS,
     VALID_WORK_MODES,
     _enrich_single,
@@ -91,6 +92,57 @@ class TestEnrichSingle:
         result = _enrich_single(client, listing)
         client.messages.create.assert_called_once()
         assert result.work_mode == "In-Person"
+
+
+    def test_valid_relevance_response(self):
+        client = MagicMock()
+        client.messages.create.return_value = _mock_response(
+            json.dumps({
+                "work_mode": "Remote (Global)",
+                "visa_sponsorship": True,
+                "seniority_level": "Mid",
+                "relevance_tag": "AGI Safety & Governance",
+                "relevance_reason": "Focuses on reducing existential risks from advanced AI",
+            })
+        )
+        listing = _make_listing()
+        result = _enrich_single(client, listing)
+        assert result.relevance_tag == "AGI Safety & Governance"
+        assert result.relevance_reason == "Focuses on reducing existential risks from advanced AI"
+
+    def test_invalid_relevance_tag_becomes_none(self):
+        client = MagicMock()
+        client.messages.create.return_value = _mock_response(
+            json.dumps({
+                "work_mode": "Hybrid",
+                "visa_sponsorship": False,
+                "seniority_level": "Senior",
+                "relevance_tag": "Some Invalid Tag",
+                "relevance_reason": "This should be cleared",
+            })
+        )
+        listing = _make_listing()
+        result = _enrich_single(client, listing)
+        assert result.relevance_tag is None
+        assert result.relevance_reason is None
+
+    def test_relevance_reason_truncation(self):
+        client = MagicMock()
+        long_reason = "A" * 200
+        client.messages.create.return_value = _mock_response(
+            json.dumps({
+                "work_mode": "Hybrid",
+                "visa_sponsorship": None,
+                "seniority_level": "Mid",
+                "relevance_tag": "AI Ethics/Responsible AI",
+                "relevance_reason": long_reason,
+            })
+        )
+        listing = _make_listing()
+        result = _enrich_single(client, listing)
+        assert result.relevance_tag == "AI Ethics/Responsible AI"
+        assert len(result.relevance_reason) == 150
+        assert result.relevance_reason.endswith("...")
 
 
 class TestEnrichListings:

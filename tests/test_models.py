@@ -112,6 +112,23 @@ def test_backward_compat_missing_new_fields():
     assert listing.title == "Old Job"
     assert listing.description == ""
     assert listing.work_mode is None
+    assert listing.relevance_tag is None
+    assert listing.relevance_reason is None
+
+
+def test_relevance_fields_roundtrip():
+    """Relevance fields should survive serialization roundtrip."""
+    listing = JobListing(
+        title="AGI Safety Researcher",
+        organization="AI Safety Org",
+        url="https://example.com/job",
+        relevance_tag="AGI Safety & Governance",
+        relevance_reason="Focuses on AI alignment and control mechanisms",
+    )
+    d = listing.to_dict()
+    restored = JobListing.from_dict(d)
+    assert restored.relevance_tag == listing.relevance_tag
+    assert restored.relevance_reason == listing.relevance_reason
 
 
 def test_from_dict_ignores_unknown_keys():

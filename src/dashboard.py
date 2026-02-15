@@ -19,6 +19,23 @@ from src.post_generator import categorize_listing, CATEGORY_ICONS, CATEGORY_ORDE
 
 st.set_page_config(page_title="AI Governance Jobs", page_icon="\U0001f50d", layout="wide")
 
+# Relevance tag display config
+RELEVANCE_COLORS = {
+    "AGI Safety & Governance": "#10b981",
+    "AI Safety (Technical)": "#3b82f6",
+    "Biosecurity/Catastrophic Risk": "#f59e0b",
+    "AI Ethics/Responsible AI": "#8b5cf6",
+    "General Tech Policy": "#6b7280",
+}
+
+RELEVANCE_ICONS = {
+    "AGI Safety & Governance": "\U0001f3af",
+    "AI Safety (Technical)": "\U0001f52c",
+    "Biosecurity/Catastrophic Risk": "\u26a0\ufe0f",
+    "AI Ethics/Responsible AI": "\u2696\ufe0f",
+    "General Tech Policy": "\U0001f3db\ufe0f",
+}
+
 
 def main():
     st.sidebar.title("\U0001f50d AI Governance Jobs")
@@ -70,13 +87,23 @@ def review_page():
         e["listing"].get("seniority_level", "") or "Unknown"
         for _, e in entries
     })
+    all_relevance = sorted({
+        e["listing"].get("relevance_tag", "") or "Unknown"
+        for _, e in entries
+    })
 
     st.sidebar.markdown("### Filters")
+    selected_relevance = st.sidebar.multiselect("Relevance", all_relevance, default=[])
     selected_orgs = st.sidebar.multiselect("Organization", all_orgs, default=[])
     selected_work_modes = st.sidebar.multiselect("Work Mode", all_work_modes, default=[])
     selected_seniority = st.sidebar.multiselect("Seniority", all_seniority, default=[])
 
     # Apply filters
+    if selected_relevance:
+        entries = [
+            (fp, e) for fp, e in entries
+            if (e["listing"].get("relevance_tag") or "Unknown") in selected_relevance
+        ]
     if selected_orgs:
         entries = [(fp, e) for fp, e in entries if e["listing"].get("organization") in selected_orgs]
     if selected_work_modes:
@@ -113,18 +140,20 @@ def review_page():
                 update_review_status(fp, "unreviewed")
             st.rerun()
 
-    # Display listings — buttons inline, details in expander
+    # Display listings — buttons inline, relevance badge, details in expander
     for fp, entry in entries:
         listing_data = entry["listing"]
         title = listing_data.get("title", "Unknown")
         org = listing_data.get("organization", "Unknown")
         location = listing_data.get("location") or ""
         status = entry["review_status"]
+        relevance_tag = listing_data.get("relevance_tag")
+        relevance_reason = listing_data.get("relevance_reason")
 
         status_icon = {"unreviewed": "\u2753", "relevant": "\u2705", "irrelevant": "\u274c"}.get(status, "")
         loc_str = f" \u2022 {location}" if location else ""
 
-        # Row: buttons | title summary
+        # Row: buttons | title summary with relevance badge
         btn_cols = st.columns([0.8, 0.8, 0.8, 10])
 
         with btn_cols[0]:
@@ -150,7 +179,23 @@ def review_page():
                     st.rerun()
 
         with btn_cols[3]:
-            with st.expander(f"{status_icon} **{title}** — {org}{loc_str}"):
+            # Build relevance badge
+            badge_html = ""
+            if relevance_tag:
+                color = RELEVANCE_COLORS.get(relevance_tag, "#6b7280")
+                r_icon = RELEVANCE_ICONS.get(relevance_tag, "")
+                badge_html = (
+                    f' <span style="background-color: {color}; color: white; '
+                    f'padding: 2px 8px; border-radius: 4px; font-size: 0.8em;">'
+                    f'{r_icon} {relevance_tag}</span>'
+                )
+
+            st.markdown(
+                f"{status_icon} **{title}** \u2014 {org}{loc_str}{badge_html}",
+                unsafe_allow_html=True,
+            )
+
+            with st.expander("View details"):
                 work_mode = listing_data.get("work_mode") or "Unknown"
                 seniority = listing_data.get("seniority_level") or "Unknown"
                 visa = listing_data.get("visa_sponsorship")
@@ -159,9 +204,15 @@ def review_page():
                 source = listing_data.get("source", "")
                 url = listing_data.get("url", "")
 
+                # Relevance row
+                relevance_display = relevance_tag or "Unknown"
+                if relevance_reason:
+                    relevance_display += f" \u2014 {relevance_reason}"
+
                 st.markdown(f"""
 | Field | Value |
 |-------|-------|
+| **Relevance** | {relevance_display} |
 | **Location** | {location or 'Not specified'} |
 | **Work Mode** | {work_mode} |
 | **Seniority** | {seniority} |
@@ -209,7 +260,12 @@ def post_builder_page():
         e["listing"].get("work_mode", "") or "Unknown"
         for _, e in approved
     })
+    all_relevance = sorted({
+        e["listing"].get("relevance_tag", "") or "Unknown"
+        for _, e in approved
+    })
 
+    selected_relevance = st.sidebar.multiselect("Relevance", all_relevance, default=[], key="pb_rel")
     selected_orgs = st.sidebar.multiselect("Organization", all_orgs, default=[], key="pb_orgs")
     selected_seniority = st.sidebar.multiselect("Seniority", all_seniority, default=[], key="pb_sen")
     selected_work_modes = st.sidebar.multiselect("Work Mode", all_work_modes, default=[], key="pb_wm")
@@ -217,6 +273,11 @@ def post_builder_page():
 
     # Apply filters
     filtered = approved
+    if selected_relevance:
+        filtered = [
+            (fp, e) for fp, e in filtered
+            if (e["listing"].get("relevance_tag") or "Unknown") in selected_relevance
+        ]
     if selected_orgs:
         filtered = [(fp, e) for fp, e in filtered if e["listing"].get("organization") in selected_orgs]
     if selected_seniority:

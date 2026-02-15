@@ -26,6 +26,8 @@ class JobListing:
     work_mode: Optional[str] = None  # "Remote (Global)", "Remote (US)", "Remote (EU)", "Hybrid", "In-Person"
     visa_sponsorship: Optional[bool] = None
     seniority_level: Optional[str] = None  # "Entry", "Mid", "Senior", "All Levels"
+    relevance_tag: Optional[str] = None  # AGI focus category
+    relevance_reason: Optional[str] = None  # One-sentence explanation
 
     # Metadata
     date_posted: Optional[date] = None

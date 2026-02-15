@@ -62,3 +62,66 @@ def test_id_is_fingerprint():
     """The id property should return the fingerprint."""
     listing = JobListing(title="Test Job", organization="TestOrg", url="https://example.com")
     assert listing.id == listing.fingerprint
+
+
+def test_new_fields_defaults():
+    """New fields should default to None/empty."""
+    listing = JobListing(title="Test", organization="Org", url="https://example.com")
+    assert listing.description == ""
+    assert listing.work_mode is None
+    assert listing.visa_sponsorship is None
+    assert listing.seniority_level is None
+
+
+def test_new_fields_roundtrip():
+    """New fields should survive serialization roundtrip."""
+    listing = JobListing(
+        title="Policy Analyst",
+        organization="GovAI",
+        url="https://example.com/job",
+        description="Full description of the role...",
+        work_mode="Remote (Global)",
+        visa_sponsorship=True,
+        seniority_level="Mid",
+    )
+    d = listing.to_dict()
+    restored = JobListing.from_dict(d)
+    assert restored.description == listing.description
+    assert restored.work_mode == listing.work_mode
+    assert restored.visa_sponsorship == listing.visa_sponsorship
+    assert restored.seniority_level == listing.seniority_level
+
+
+def test_backward_compat_missing_new_fields():
+    """Old dicts without new fields should still deserialize."""
+    old_dict = {
+        "title": "Old Job",
+        "organization": "OldOrg",
+        "url": "https://example.com",
+        "location": None,
+        "salary_range": None,
+        "role_type": None,
+        "description_snippet": "",
+        "date_posted": None,
+        "date_closes": None,
+        "source": "test",
+        "date_scraped": "2025-01-01",
+        "tags": [],
+    }
+    listing = JobListing.from_dict(old_dict)
+    assert listing.title == "Old Job"
+    assert listing.description == ""
+    assert listing.work_mode is None
+
+
+def test_from_dict_ignores_unknown_keys():
+    """from_dict should tolerate unknown keys."""
+    d = {
+        "title": "Test",
+        "organization": "Org",
+        "url": "https://example.com",
+        "date_scraped": "2025-01-01",
+        "unknown_future_field": "value",
+    }
+    listing = JobListing.from_dict(d)
+    assert listing.title == "Test"

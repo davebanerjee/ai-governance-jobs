@@ -168,6 +168,8 @@ LLM_MAX_HTML_CHARS = 50000  # Truncate HTML beyond this to control costs
 # General settings
 # ---------------------------------------------------------------------------
 
+ENRICHMENT_DESCRIPTION_MAX_CHARS = 3000  # Max chars sent to LLM for enrichment
+
 REQUEST_TIMEOUT = 30  # seconds
 REQUEST_DELAY = 1.5  # seconds between requests to same domain
 MAX_RETRIES = 2

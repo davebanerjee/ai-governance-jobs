@@ -1,4 +1,4 @@
-"""Main orchestrator: scrape → deduplicate → generate LinkedIn draft."""
+"""Main orchestrator: scrape → dedup → find new → enrich → store → draft."""
 
 from __future__ import annotations
 
@@ -10,8 +10,9 @@ from datetime import date
 from pathlib import Path
 
 from src.dedup import deduplicate
+from src.enrichment import enrich_listings
+from src.listing_store import add_new_listings, get_stored_fingerprints
 from src.post_generator import generate_post, save_draft
-from src.scrapers.aisafety_com import AISafetyComScraper
 from src.scrapers.ashby import AshbyScraper
 from src.scrapers.eighty_k import EightyKHoursScraper
 from src.scrapers.greenhouse import GreenhouseScraper
@@ -74,16 +75,19 @@ SCRAPERS = [
     LeverScraper,
     GreenhouseScraper,
     AshbyScraper,
-    AISafetyComScraper,
     LLMScraper,
 ]
 
 
-def run(store_path: Path | None = None) -> Path:
+def run(
+    store_path: Path | None = None,
+    listings_path: Path | None = None,
+) -> Path:
     """Run the full scraping pipeline.
 
     Args:
         store_path: Optional override for the seen listings store path.
+        listings_path: Optional override for the persistent listings store path.
 
     Returns:
         Path to the generated draft file.
@@ -139,16 +143,39 @@ def run(store_path: Path | None = None) -> Path:
     logger.info(f"After dedup: {len(unique_listings)} unique listings")
 
     # Step 3: Find new listings (compare against seen store)
-    kwargs = {}
+    seen_kwargs = {}
     if store_path:
-        kwargs["store_path"] = store_path
+        seen_kwargs["store_path"] = store_path
 
-    new_listings, _ = find_new_listings(unique_listings, **kwargs)
+    new_listings, _ = find_new_listings(unique_listings, **seen_kwargs)
     logger.info(f"New listings this run: {len(new_listings)}")
 
-    # Step 4: Generate LinkedIn draft
+    # Step 4: Filter out listings already in persistent store
+    # (prevents re-surfacing listings marked irrelevant)
+    listings_kwargs = {}
+    if listings_path:
+        listings_kwargs["path"] = listings_path
+
+    stored_fps = get_stored_fingerprints(**listings_kwargs)
+    truly_new = [l for l in new_listings if l.fingerprint not in stored_fps]
+    if len(truly_new) < len(new_listings):
+        logger.info(
+            f"Filtered {len(new_listings) - len(truly_new)} already-stored listings, "
+            f"{len(truly_new)} truly new"
+        )
+
+    # Step 5: Enrich new listings via LLM
+    if truly_new:
+        truly_new = enrich_listings(truly_new)
+
+    # Step 6: Store enriched listings in persistent store
+    if truly_new:
+        added = add_new_listings(truly_new, **listings_kwargs)
+        logger.info(f"Added {added} listings to persistent store")
+
+    # Step 7: Generate LinkedIn draft (fallback — dashboard is primary now)
     draft_content = generate_post(
-        new_listings=new_listings,
+        new_listings=truly_new,
         failed_sources=failed_sources if failed_sources else None,
         scraper_errors=scraper_errors if scraper_errors else None,
         log_file=log_file,
@@ -162,7 +189,7 @@ def run(store_path: Path | None = None) -> Path:
     logger.info(f"Run complete in {run_elapsed:.1f}s")
     logger.info(f"  Total scraped:  {len(all_listings)}")
     logger.info(f"  After dedup:    {len(unique_listings)}")
-    logger.info(f"  New this week:  {len(new_listings)}")
+    logger.info(f"  New this week:  {len(truly_new)}")
     logger.info(f"  Draft saved to: {draft_path}")
     logger.info(f"  Log file:       {log_file}")
     if failed_sources:

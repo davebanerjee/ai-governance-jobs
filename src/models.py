@@ -22,6 +22,10 @@ class JobListing:
     salary_range: Optional[str] = None
     role_type: Optional[str] = None  # Full-time, Fellowship, Internship, Part-time
     description_snippet: str = ""
+    description: str = ""  # Full description text (for LLM enrichment)
+    work_mode: Optional[str] = None  # "Remote (Global)", "Remote (US)", "Remote (EU)", "Hybrid", "In-Person"
+    visa_sponsorship: Optional[bool] = None
+    seniority_level: Optional[str] = None  # "Entry", "Mid", "Senior", "All Levels"
 
     # Metadata
     date_posted: Optional[date] = None
@@ -55,8 +59,13 @@ class JobListing:
     def from_dict(cls, d: dict) -> JobListing:
         """Deserialize from dict."""
         d = d.copy()
+        # Remove computed/extra keys not in __init__
         d.pop("id", None)
+        d.pop("fingerprint", None)
         for key in ("date_posted", "date_closes", "date_scraped"):
             if d.get(key) is not None:
                 d[key] = date.fromisoformat(d[key])
+        # Tolerate unknown keys (forward compatibility)
+        valid_fields = {f.name for f in cls.__dataclass_fields__.values()}
+        d = {k: v for k, v in d.items() if k in valid_fields}
         return cls(**d)

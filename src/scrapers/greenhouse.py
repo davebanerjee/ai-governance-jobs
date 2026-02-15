@@ -107,6 +107,7 @@ class GreenhouseScraper(BaseScraper):
                 url=url,
                 location=location,
                 description_snippet=snippet,
+                description=plain or "",
                 date_posted=date_posted,
                 source=f"{self.name}:{slug}",
                 tags=tags,

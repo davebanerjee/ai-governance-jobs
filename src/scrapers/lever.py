@@ -104,6 +104,7 @@ class LeverScraper(BaseScraper):
                 location=location,
                 role_type=commitment,
                 description_snippet=snippet,
+                description=desc_plain or "",
                 date_posted=date_posted,
                 source=f"{self.name}:{slug}",
                 tags=tags,

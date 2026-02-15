@@ -86,12 +86,12 @@ class AshbyScraper(BaseScraper):
             employment_type = item.get("employmentType", None)
 
             # Description
-            description = item.get("descriptionPlain", "") or item.get("description", "")
-            if description:
+            full_description = item.get("descriptionPlain", "") or item.get("description", "")
+            if full_description:
                 import re
-                description = re.sub(r"<[^>]+>", " ", description)
-                description = re.sub(r"\s+", " ", description).strip()
-            snippet = description[:300] if description else ""
+                full_description = re.sub(r"<[^>]+>", " ", full_description)
+                full_description = re.sub(r"\s+", " ", full_description).strip()
+            snippet = full_description[:300] if full_description else ""
 
             # Department/team as tags
             tags = []
@@ -120,6 +120,7 @@ class AshbyScraper(BaseScraper):
                 location=location,
                 role_type=employment_type,
                 description_snippet=snippet,
+                description=full_description or "",
                 date_posted=date_posted,
                 source=f"{self.name}:{slug}",
                 tags=tags,

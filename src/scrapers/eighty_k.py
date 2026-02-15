@@ -131,13 +131,13 @@ class EightyKHoursScraper(BaseScraper):
             date_posted = self._parse_date(item.get("posted_at"))
             date_closes = self._parse_date(item.get("closes_at"))
 
-            # Description snippet
-            description = item.get("description_short", "") or item.get("description", "")
-            # Strip HTML tags for snippet
+            # Description
+            full_description = item.get("description_short", "") or item.get("description", "")
+            # Strip HTML tags
             import re
-            description = re.sub(r"<[^>]+>", " ", description)
-            description = re.sub(r"\s+", " ", description).strip()
-            snippet = description[:300] if description else ""
+            full_description = re.sub(r"<[^>]+>", " ", full_description)
+            full_description = re.sub(r"\s+", " ", full_description).strip()
+            snippet = full_description[:300] if full_description else ""
 
             # Collect tags (extract names from tag objects)
             tags = []
@@ -152,6 +152,7 @@ class EightyKHoursScraper(BaseScraper):
                 salary_range=salary_range,
                 role_type=role_type,
                 description_snippet=snippet,
+                description=full_description or "",
                 date_posted=date_posted,
                 date_closes=date_closes,
                 source=self.name,

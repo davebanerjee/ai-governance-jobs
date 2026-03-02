@@ -5194,5 +5194,354 @@
     "review_status": "unreviewed",
     "reviewed_at": null,
     "added_at": "2026-02-23"
+  },
+  "7eae2a75981c8c6d63d9c4bfbc836fd2": {
+    "listing": {
+      "title": "Junior Research Fellowship",
+      "organization": "ILINA Program",
+      "url": "https://www.ilinaprogram.org/jrf",
+      "location": "Remote, Africa (Remote)",
+      "salary_range": "$5,000-$5,000",
+      "role_type": "Fellowship",
+      "description_snippet": "In this fellowship, you'll conduct research on AI and catastrophic risks while developing high-impact projects. Attend weekly seminars from April to June 2026 exploring AI governance and technical safety. Dedicate 20+ hours weekly from August to November 2026 to advance your research project. Receiv",
+      "description": "In this fellowship, you'll conduct research on AI and catastrophic risks while developing high-impact projects. Attend weekly seminars from April to June 2026 exploring AI governance and technical safety. Dedicate 20+ hours weekly from August to November 2026 to advance your research project. Receive personalised mentorship as you develop and conduct your investigation. Engage with a community of researchers working on related AI risk prevention questions.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Fellowship focuses on AI catastrophic risks and AI governance research.",
+      "date_posted": "2026-02-26",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-02",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Policy"
+      ],
+      "id": "7eae2a75981c8c6d63d9c4bfbc836fd2"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-02"
+  },
+  "72196308001fe434369e6fdf9bf553f9": {
+    "listing": {
+      "title": "Research Fellow, Funding Landscape",
+      "organization": "The Good Food Institute",
+      "url": "https://job-boards.greenhouse.io/thegoodfoodinstitute80/jobs/8440570002",
+      "location": "Remote, USA (Remote)",
+      "salary_range": "$62,400-$62,400",
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll help develop systems to collect, categorize, and visualize research funding data for alternative proteins. Coordinate with scientific, research funding, and IT staff on research grant tracking databases and dashboards. Systematize identification of research areas and expand cate",
+      "description": "In this role, you'll help develop systems to collect, categorize, and visualize research funding data for alternative proteins. Coordinate with scientific, research funding, and IT staff on research grant tracking databases and dashboards. Systematize identification of research areas and expand categorization of alternative protein research funding. Support administration of existing research funding partnerships through desk research and due diligence. Identify key research funders and bilateral/multilateral opportunities that support alternative protein research.",
+      "work_mode": "Remote (US)",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": null,
+      "relevance_reason": null,
+      "date_posted": "2026-02-27",
+      "date_closes": "2026-03-26",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-02",
+      "tags": [
+        "Animal welfare",
+        "Research"
+      ],
+      "id": "72196308001fe434369e6fdf9bf553f9"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-02"
+  },
+  "7b0394e73b54dabaa47eb74a326c350e": {
+    "listing": {
+      "title": "Research Scientist, AI Safety",
+      "organization": "Beneficial AI Foundation",
+      "url": "https://docs.google.com/forms/d/1K1sSJQXK0nNmCSu_j54G0jl-XVPMTJSHtBVzSzaXEjQ/viewform?edit_requested=true",
+      "location": "Boston metro area",
+      "salary_range": "$70,000-$180,000",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll develop verified code implementations using AI tools for safe, trustworthy algorithms. Advance formal verification techniques to create alternatives to unverified neural networks. Contribute to research ensuring powerful AI systems remain under human control. Apply expertise in ",
+      "description": "In this role, you'll develop verified code implementations using AI tools for safe, trustworthy algorithms. Advance formal verification techniques to create alternatives to unverified neural networks. Contribute to research ensuring powerful AI systems remain under human control. Apply expertise in formal verification, programming, and machine learning to AGI safety challenges. Work independently within a collaborative team at the Beneficial AI Foundation.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Focuses on formal verification and safe algorithm development for AI systems.",
+      "date_posted": "2026-02-25",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-02",
+      "tags": [
+        "AI safety & policy",
+        "Research"
+      ],
+      "id": "7b0394e73b54dabaa47eb74a326c350e"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-02"
+  },
+  "0245973321de7fc46183dc7f82fa3a52": {
+    "listing": {
+      "title": "Research Internship, Fellow Bill Drexel (Summer 2026)",
+      "organization": "Hudson Institute",
+      "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/3736833",
+      "location": "Washington, DC metro area",
+      "salary_range": null,
+      "role_type": "Internship",
+      "description_snippet": "In this role, you'll support research and writing projects on US-India relations, AI competition with China, and technology in American grand strategy. Conduct background research for weekly columns and podcasts. Gather and analyse data for reports and articles. Monitor current events to keep the ex",
+      "description": "In this role, you'll support research and writing projects on US-India relations, AI competition with China, and technology in American grand strategy. Conduct background research for weekly columns and podcasts. Gather and analyse data for reports and articles. Monitor current events to keep the expert and team informed, and assist with research projects and presentations. Support the development of articles, op-eds, reports, and briefing memos.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role supports research on AI competition with China and technology in American grand strategy, addressing frontier AI governance concerns.",
+      "date_posted": "2026-02-25",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-02",
+      "tags": [
+        "Career development: Policy & government",
+        "Research",
+        "Policy"
+      ],
+      "id": "0245973321de7fc46183dc7f82fa3a52"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-02"
+  },
+  "3a3f794b216d1e8dae628e3dc059381f": {
+    "listing": {
+      "title": "AI Governance Fellow",
+      "organization": "Center for Democracy and Technology",
+      "url": "https://cdt.org/careers/#op-690357-ai-governance-fellow",
+      "location": "Washington, DC metro area",
+      "salary_range": "$80,000-$115,000",
+      "role_type": "Fellowship",
+      "description_snippet": "In this fellowship, you'll conduct research and policy work on AI governance, focusing on responsible AI system design, testing, and regulation. Lead original research on AI auditing, personalized AI systems, transparency practices, and foundation model risks. Develop AI governance best practices an",
+      "description": "In this fellowship, you'll conduct research and policy work on AI governance, focusing on responsible AI system design, testing, and regulation. Lead original research on AI auditing, personalized AI systems, transparency practices, and foundation model risks. Develop AI governance best practices and advocate for their adoption through multi-stakeholder initiatives. Advise policymakers on effective AI regulation and support civil rights organizations with technical expertise. Track frontier AI developments and translate technical research for policy audiences.",
+      "work_mode": null,
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Focuses on AI governance, regulation, auditing, foundation model risks, and frontier AI developments.",
+      "date_posted": "2026-02-24",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-02",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Policy"
+      ],
+      "id": "3a3f794b216d1e8dae628e3dc059381f"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-02"
+  },
+  "e5d71e21586e891c68c717095365852e": {
+    "listing": {
+      "title": "Associate Director, AI Policy",
+      "organization": "Information Technology and Innovation Foundation",
+      "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?fromAggregate=true&clientId=8a7883c67ce7e82c017d2a86de7b1592&id=8a78839e9c72dc61019c9b9fb7670f99&source=&lang=en",
+      "location": "Washington, DC metro area",
+      "salary_range": "$110,000-$155,000",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll lead and expand ITIF's AI policy research agenda, shaping US policy through rigorous analysis and strategic engagement. Develop and publish flagship reports, policy briefs, op-eds, and analysis for policymakers and media. Engage directly with Congress, executive branch officials",
+      "description": "In this role, you'll lead and expand ITIF's AI policy research agenda, shaping US policy through rigorous analysis and strategic engagement. Develop and publish flagship reports, policy briefs, op-eds, and analysis for policymakers and media. Engage directly with Congress, executive branch officials, and stakeholders on AI legislative and regulatory issues. Manage research projects from conception to publication, supervising staff and coordinating public events. Represent ITIF in media, public forums, and fundraising efforts to communicate research impact.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role focuses on AI policy and regulation shaping US legislative and regulatory frameworks for AI systems.",
+      "date_posted": "2026-02-27",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-02",
+      "tags": [
+        "AI safety & policy",
+        "Policy"
+      ],
+      "id": "e5d71e21586e891c68c717095365852e"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-02"
+  },
+  "1484332a6dc108d46e9ab1a9a41e3b9b": {
+    "listing": {
+      "title": "Senior ML Researcher, Foundation Models, Responsible AI",
+      "organization": "Apple",
+      "url": "https://jobs.apple.com/en-gb/details/200647859-0836/aiml-senior-ml-researcher-in-foundation-models-responsible-ai?team=MLAI",
+      "location": "San Francisco Bay Area",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll lead research on responsible AI and safety for foundation models powering Apple products. Define and deliver responsible machine learning technologies with focus on fairness and safety. Develop methods and frameworks to train and evaluate foundation models responsibly. Research ",
+      "description": "In this role, you'll lead research on responsible AI and safety for foundation models powering Apple products. Define and deliver responsible machine learning technologies with focus on fairness and safety. Develop methods and frameworks to train and evaluate foundation models responsibly. Research safety alignment methods and develop safeguards for LLM deployment in products. Collaborate with cross-functional teams to drive technical excellence and execution.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Focuses on safety alignment methods, safeguards for LLM deployment, and technical responsible AI frameworks.",
+      "date_posted": "2026-02-20",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-02",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Software engineering"
+      ],
+      "id": "1484332a6dc108d46e9ab1a9a41e3b9b"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-02"
+  },
+  "698d8830203e1dddb087f3836e456725": {
+    "listing": {
+      "title": "Associate General Counsel, Policy (Copyright)",
+      "organization": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/351b9581-2421-4160-a2f2-f1c94813fc59",
+      "location": "San Francisco",
+      "salary_range": null,
+      "role_type": "FullTime",
+      "description_snippet": "About the Team OpenAI's Legal team plays a crucial role in furthering OpenAI's mission by tackling innovative, fundamental legal issues in AI. If you're passionate about doing significant and unique work as a technology lawyer, this team is for you. The team comprises professionals from diverse fiel",
+      "description": "About the Team OpenAI's Legal team plays a crucial role in furthering OpenAI's mission by tackling innovative, fundamental legal issues in AI. If you're passionate about doing significant and unique work as a technology lawyer, this team is for you. The team comprises professionals from diverse fields, including technology, AI, privacy, IP, competition, corporate, employment, tax law, regulatory, and litigation. About the Role We\u2019re seeking an Associate General Counsel to help navigate the legislative and policy landscape as it relates to copyright and AI. We\u2019re looking for a legal self-starter, who is comfortable jumping into new laws applicable to AI and that brings deep expertise with global copyright laws. This role will work closely with our Global Affairs team and with key cross-functional stakeholders such as litigation and product counsel. This role reports to our Deputy General Counsel for Competition, Policy and Privacy. This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week. In this role, you will: - Analyze AI laws and regulations as they relate to copyright matters to understand their impact on OpenAI and the broader AI community. - Engage with regulators and policymakers on copyright matters. - Develop policy positions on pending legislation and policy trends relating to copyright. - Provide legal analysis and advice to the Global Affairs team and other internal stakeholders. - Monitor and keep the team updated on emerging legislative and regulatory developments related to AI and copyright. You might thrive in this role if you have: - 15+ years of legal experience in the area of copyright. - Strong leadership and ability to influence. - Combination of an in-house company, government/institution, or law firm experience. - Strong background in technology laws. - Experience and familiarity with AI or a demonstrated interest in AI laws and regulations. - Experience working with policy issues and supporting global affairs/policy teams - Create clear and concise writing, distilling complex concepts into simple, explainable, and persuasive ideas - Experience analyzing complex legislation and copyright cases. - Experience engaging with regulators and/or policymakers. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role focuses on copyright policy and regulation of AI systems at frontier organization.",
+      "date_posted": "2026-02-05",
+      "date_closes": null,
+      "source": "ashby:openai",
+      "date_scraped": "2026-03-02",
+      "tags": [
+        "Legal",
+        "Legal"
+      ],
+      "id": "698d8830203e1dddb087f3836e456725"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-02"
+  },
+  "372674d6a7edec6ef6d73811504e0604": {
+    "listing": {
+      "title": "Senior Manager, Revenue Risk & Compliance (FRM)",
+      "organization": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/5a4d7213-561b-4bae-bdf7-031af0cb11ce",
+      "location": "San Francisco",
+      "salary_range": null,
+      "role_type": "FullTime",
+      "description_snippet": "About the Team The Internal Controls function sits within the broader Finance Risk Management (FRM) organization and plays a key role in strengthening the integrity, scalability, and reliability of OpenAI\u2019s finance-critical operations. Our team designs and governs the Internal Controls over Financia",
+      "description": "About the Team The Internal Controls function sits within the broader Finance Risk Management (FRM) organization and plays a key role in strengthening the integrity, scalability, and reliability of OpenAI\u2019s finance-critical operations. Our team designs and governs the Internal Controls over Financial Reporting (ICFR) framework that supports accurate, transparent financial results. We focus on business-process controls across areas like Order-to-Cash, Compute, Data, Global Financial Close, Accounting Operations, Real Estate and AI infrastructure-related spend. We work closely with Product, GTM, Corporate Finance, Legal, BizOps, Strategic Finance, Accounting, Finance Platforms and Compliance to ensure processes are well-designed, well-documented, and audit-ready. FRM, as the broader function, leads OpenAI\u2019s financial risk posture\u2014spanning governance over internal controls, third-party risk, audit readiness, and financial systems oversight. Together, we provide the foundation of trust that enables OpenAI to operate at global scale. About the Role We\u2019re seeking a seasoned, strategic leader to own and scale readiness frameworks and governance that underpin OpenAI\u2019s ICFR/SOX compliance program and broader Financial Risk Management priorities. You\u2019ll be responsible for translating ambiguity into clear standards, repeatable practices, and decision frameworks that enable cross-functional teams to operate consistently with high integrity in dynamic, product-driven environments. This highly cross-functional role sits at the intersection of finance, systems, product, and operations, spanning subscription and recurring revenue models, global commerce, and complex ads monetization. You\u2019ll be a core partner in aligning stakeholders, driving remediation progress, and turning multi-team initiatives into concise leadership insights and risk-based decisions. Success in this role requires strong judgment, clear communication, and the ability to drive outcomes through influence. This role is based in San Francisco, CA or New York, NY. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. In this role, you will: - Lead financial readiness assessments for new product launches, ensuring all subscription, commerce, and ads monetization flows have built-in controls and automated reconciliation. - Define and operationalize SOX/ICFR readiness frameworks (standards, playbooks, templates, governance forums, and review cadences) that scale with business growth and complexity. - Drive large-scale transformation initiatives to modernize revenue accounting, billing systems, and cash-flow reporting. - Establish clear control expectations, metrics, and checkpoints across end-to-end revenue lifecycles. - Drive risk assessments and control rationalization (what matters most, where to automate, where to simplify), using data and business context to focus effort on highest-impact reporting risks. - Identify and mitigate financial risks within the \"Quote-to-Cash\" and \"Order-to-Revenue\" lifecycles, focusing on leakage prevention and data integrity. - Oversee control testing strategies and issue management; ensure permanent remediation through process and system improvements rather than just documentation fixes. - Drive root-cause analysis, action planning, and timely closure of deficiencies in partnership with process owners. - Partner with Engineering, Product, and Legal teams to integrate financial compliance and risk management requirements into the product development roadmap. - Build durable cross-functional relationships and governance practices that facilitate risk-based decision making without formal authority. - Elevate risk and control topics into business discussions with clarity, confidence, and executive presence. - Maintain a world-class control environment (SOX/Internal Controls) tailored to dynamic, high-growth digital monetization streams. - Act as primary liaison for internal and external audits in your domains\u2014anticipating requests, aligning expectations on PBC items, and presenting control health and risk profiles. - Own RCMs, narratives, and end-to-end process documentation quality, ensuring documentation is accurate, current, and \u201ctest-ready\u201d (including evidence expectations and system dependencies). - Partner with workstream leads and co-sourced teams to ensure outputs are consistent, high-quality, and leadership-ready. You might thrive in this role if you have: - Bachelor\u2019s or Master\u2019s degree in Accounting, Finance, Business Administration, or a related field; CPA, CA strongly preferred. - 10+ years in financial risk management, internal audit, or financial process transformation \u2014 preferably in high-growth, technology-enabled or product-driven environments with complex revenue models. - Well-rounded SaaS revenue experience covering diverse monetization models (subscription/usage-based, commerce, marketplace, Ads). - Deep understanding of how data integrity, measurement pipelines, metering systems, and revenue operations tie into control objectives, risk assessments, and reporting accuracy. - Strong preference for candidates who have built and implemented E2E Ads controls frameworks from the ground up\u2014ideally within a pre-IPO or public company context, with deep familiarity with ads infrastructure economics, measurement, billing, and monetization lifecycle risks. - Demonstrated ability to understand Ads platform workflows and translate process, system, and data requirements into effective, testable controls that address both operational and financial reporting impact.. - Experience building and running scalable control programs with governance, risk assessments, workplans, and durable artifacts. - Ability to translate technical and product workflows (especially Ads systems and revenue engines) into defensible controls, risk matrices, narratives, and audit-ready documentation. - Excellent communication and cross-functional influence, able to drive decisions across Finance, Product, Engineering, Data, and audit partners. - Comfortable operating in fast-changing, ambiguous environments where products, pricing, and cost structures evolve faster than traditional control frameworks. - Familiarity with ERP, subledger, RevRec/CPQ systems, ads measurement/billing platforms, GRC tooling (AuditBoard, Workiva) and homegrown systems/data platforms. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role establishes governance frameworks and controls for advanced AI infrastructure spend and financial risk management at frontier AI company.",
+      "date_posted": "2026-02-18",
+      "date_closes": null,
+      "source": "ashby:openai",
+      "date_scraped": "2026-03-02",
+      "tags": [
+        "Finance",
+        "Finance"
+      ],
+      "id": "372674d6a7edec6ef6d73811504e0604"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-02"
+  },
+  "c22f39670d8715fe476fa02b9b2d04fd": {
+    "listing": {
+      "title": "Head of SaaS Enablement & Governance",
+      "organization": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/8c1bce9f-079b-42dc-b8c7-87b202365d28",
+      "location": "San Francisco",
+      "salary_range": null,
+      "role_type": "FullTime",
+      "description_snippet": "About the Team SaaS Enablement & Governance (SEG) sits within IT and owns the end to end SaaS and software lifecycle across the company, with a clear mandate to deliver strong governance without creating friction for the business. The team partners closely with Security, GRC, Procurement, Finance, L",
+      "description": "About the Team SaaS Enablement & Governance (SEG) sits within IT and owns the end to end SaaS and software lifecycle across the company, with a clear mandate to deliver strong governance without creating friction for the business. The team partners closely with Security, GRC, Procurement, Finance, Legal, and Engineering to ensure software is selected, approved, provisioned, and operated with clear standards for security, compliance, cost discipline, and operational clarity. We focus on portfolio optimization and standardization. We build paved paths for approved tools and enable easy discovery and reuse so teams can onboard quickly without defaulting to net new applications. The team serves as a governance center of excellence, defining standards and controls, governing integrations end to end, embedding security and compliance gates by design, and monitoring for use case drift so tools remain correctly configured, appropriately used, and centrally administered over time. The goal is a curated, well governed SaaS ecosystem that scales with the company. About the Role We are seeking a Head of SEG to build and scale the company\u2019s SaaS operating model. You will set strategy and execution across portfolio optimization, intake and approval, onboarding, enablement, and lifecycle governance, with clear ownership from adoption through decommissioning. You will design a reuse first model that makes the right path the easiest path. This includes building clear paved paths, capability to solution mapping, and streamlined intake workflows that help teams move quickly while adhering to governance standards. At the same time, you will establish strong controls including centralized administration, SSO enforcement, integration governance, and ongoing monitoring. You will create mechanisms to support healthy use case growth and expansion, while identifying and correcting unintended use or configuration drift that introduces risk without proper oversight. This includes building scalable workflows, telemetry, and lifecycle controls that keep systems secure, compliant, and audit ready as the company grows. This role is ideal for a senior leader who combines SaaS operations depth with strong governance judgment and a bias toward enablement in fast moving environments. This role is based in our San Francisco HQ and requires in-office presence. In this role, you will: Set direction and establish strong foundations - Own the enterprise SaaS governance mandate as the company scales in size, regulatory exposure, and architectural complexity - Define the enterprise SaaS portfolio strategy to drive disciplined growth, reuse, and risk reduction - Establish clear standards for data handling, access control, and lifecycle ownership across the SaaS ecosystem Build, operate, and scale reliably - Bring operating discipline to SaaS lifecycle management, including intake, expansion, renewals, and decommissioning - Establish trusted visibility into SaaS portfolio composition, TCO, ownership, and risk posture - Ensure governance maturity aligns with audit, regulatory, and security expectations Automate for leverage and safety - Replace manual, exception driven governance with scalable, policy encoded operating mechanisms - Ensure governance standards remain enforced as adoption scales and use cases expand - Deliver executive level transparency into portfolio risk, utilization, and cost trends Enable reuse at scale - Ensure approved platforms are adopted quickly and consistently - Reduce net new tool proliferation through strong enablement and clear portfolio standards - Support controlled use case expansion without introducing unmanaged risk Partner and lead through influence - Align Security, Finance, Legal, Engineering, and Procurement around a single SaaS governance model - Navigate tradeoffs between speed, cost, and risk with sound judgment - Act as the accountable leader for enterprise SaaS governance outcomes with material financial and security impact You might thrive in this role if you - Have 10 or more years of experience leading enterprise SaaS governance, portfolio management, or software lifecycle operations at scale - Have built governance operating models that measurably improve security posture, audit readiness, and cost discipline without slowing teams down - Can influence senior cross functional partners to make high judgment tradeoffs across speed, risk, and spend without direct authority Nice to have - Experience leading enterprise SaaS governance and portfolio strategy in high growth or regulated environments - Demonstrated impact reducing SaaS spend and security exposure through portfolio leverage and renewal discipline - Experience building intake and approval systems that encode policy and increase enterprise transparency About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Governance and control mechanisms for advanced AI company's SaaS ecosystem and operational infrastructure.",
+      "date_posted": "2026-02-25",
+      "date_closes": null,
+      "source": "ashby:openai",
+      "date_scraped": "2026-03-02",
+      "tags": [
+        "IT",
+        "IT"
+      ],
+      "id": "c22f39670d8715fe476fa02b9b2d04fd"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-02"
+  },
+  "b806577126ffc2ac547da356ff21fb1a": {
+    "listing": {
+      "title": "Compliance Program Manager",
+      "organization": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/c98835d1-ef95-4b9a-99dd-ac51f466578a",
+      "location": "San Francisco",
+      "salary_range": null,
+      "role_type": "FullTime",
+      "description_snippet": "ABOUT THE TEAM At OpenAI, our Compliance team is dedicated to fostering a culture of integrity and adherence to regulatory and legal requirements. We collaborate closely with Legal, Security, People, Finance, and operational teams to ensure our compliance programs support the organization\u2019s mission ",
+      "description": "ABOUT THE TEAM At OpenAI, our Compliance team is dedicated to fostering a culture of integrity and adherence to regulatory and legal requirements. We collaborate closely with Legal, Security, People, Finance, and operational teams to ensure our compliance programs support the organization\u2019s mission while mitigating risk in a rapidly evolving AI landscape. ABOUT THE ROLE The Compliance Program Manager will play a key role in building and scaling OpenAI\u2019s compliance program\u2014translating requirements into practical processes, driving program execution, and improving how we detect, assess, and mitigate compliance risk. You\u2019ll help run the day-to-day operational backbone of the program (e.g., disclosures, training, investigations tracking, controls, and reporting) and partner cross-functionally to keep the program effective as the company grows. This role represents an exciting opportunity to innovate compliance operations using the latest AI technology. This role reports to the Chief Compliance Officer. This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. IN THIS ROLE, YOU WILL: - Build and scale compliance program operations: design and implement repeatable workflows (intake, triage, escalation, documentation, follow-up), and continuously improve them as risks and business needs evolve. - Own program execution: create project plans, define milestones, drive cross-functional action items, and ensure initiatives land on time (policy rollouts, training launches, controls implementation, tooling improvements). - Support disclosures and investigations processes: help manage intake and tracking, coordinate with stakeholders, maintain documentation, and ensure timely resolution and remediation follow-through. - Drive compliance training and communications: help develop, launch, and measure training and awareness programs that are clear, practical, and aligned to risk. - Monitor and assess compliance risk: partner with internal stakeholders to identify gaps, conduct internal assessments, recommend corrective actions, and track remediation. - Support audit and regulatory readiness: assist with responses to inquiries, audits, and examinations; maintain evidence, reporting decks, and program artifacts. - Develop metrics and reporting: build dashboards and recurring reporting for leadership (and the Audit Committee as needed) on risk areas, program health, and key initiatives. - Stay current on evolving requirements: track relevant regulatory developments and best practices; translate them into actionable program updates. FOR ALL OF THE ABOVE, WE EXPECT YOU TO LEVERAGE OUR PRODUCTS, INCLUDING CHATGPT AND AGENTIC WORKFLOWS TO REDUCE WORKLOAD, IMPROVE RESULTS, AND UPGRADE THE USER EXPERIENCE. YOU MIGHT THRIVE IN THIS ROLE IF YOU HAVE: - 5+ years of experience in compliance, risk, audit, investigations ops, or program management in a regulated and/or fast-scaling environment. - Demonstrated experience building and running programs (process design, stakeholder management, project plans, metrics, continuous improvement). - Demonstrated ability using AI to improve compliance processes, or demonstrated skill in technical innovation. - Strong execution: you can plan the work and work the plan, with good judgment about prioritization in ambiguity. - Excellent communication skills and the ability to write and speak in plain English (not \u201ccompliance speak\u201d). - Comfort partnering across teams (Legal, Security, People, Finance, Eng/Operations) and navigating competing priorities. - Strong analytical and problem-solving skills; attention to detail without losing the big picture. - Ability to independently manage multiple work streams in a fast-paced environment. - Experience in technology (and ideally AI) is a plus. NICE TO HAVE - Experience supporting Audit Committee or senior leadership reporting. - Familiarity with common compliance program elements (training, disclosures, investigations, third-party risk, policies/controls, audit readiness). - Certifications such as CCEP/CCEP-I (or similar). About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Builds compliance programs for frontier AI systems at OpenAI, addressing governance and risk mitigation.",
+      "date_posted": "2026-02-26",
+      "date_closes": null,
+      "source": "ashby:openai",
+      "date_scraped": "2026-03-02",
+      "tags": [
+        "Legal",
+        "Legal"
+      ],
+      "id": "b806577126ffc2ac547da356ff21fb1a"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-02"
+  },
+  "9f1fad92e47d2bd6a297ae9a1d435cca": {
+    "listing": {
+      "title": "Postdoctoral Research Associate in Inclusive Battery Redeployment and Policy for Global Decarbonisation",
+      "organization": "Oxford Martin School",
+      "url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=184780",
+      "location": null,
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "",
+      "description": "",
+      "work_mode": null,
+      "visa_sponsorship": null,
+      "seniority_level": null,
+      "relevance_tag": null,
+      "relevance_reason": null,
+      "date_posted": null,
+      "date_closes": null,
+      "source": "llm:oxford_martin_school",
+      "date_scraped": "2026-03-02",
+      "tags": [],
+      "id": "9f1fad92e47d2bd6a297ae9a1d435cca"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-02"
   }
 }

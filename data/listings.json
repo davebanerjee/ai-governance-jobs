@@ -5543,5 +5543,651 @@
     "review_status": "unreviewed",
     "reviewed_at": null,
     "added_at": "2026-03-02"
+  },
+  "2306ff9d44525ad0783972944be91080": {
+    "listing": {
+      "title": "Senior Manager, AI Safety",
+      "organization": "Faculty",
+      "url": "https://jobs.ashbyhq.com/faculty/b4ec2535-7bce-499b-8926-e349413e3325",
+      "location": "London, UK",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll lead delivery across an AI Safety portfolio, focusing on frontier model evaluations and strategic implementation in government services. Oversee AI safety evaluations and red teaming projects, providing thought leadership for clients. Develop proposals to grow our AI safety and ",
+      "description": "In this role, you'll lead delivery across an AI Safety portfolio, focusing on frontier model evaluations and strategic implementation in government services. Oversee AI safety evaluations and red teaming projects, providing thought leadership for clients. Develop proposals to grow our AI safety and governance work across various sectors. Advise clients on AI safety strategy and technical implementation as a trusted consultant. Build relationships with customers, data scientists, and technical partners including frontier AI labs.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Leads AI safety evaluations, red teaming, and strategic governance implementation for frontier models.",
+      "date_posted": "2022-01-05",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "AI safety & policy",
+        "Management",
+        "Strategy"
+      ],
+      "id": "2306ff9d44525ad0783972944be91080"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "3630c283cbeeeba87089e8065b97c546": {
+    "listing": {
+      "title": "Postdoctoral Fellowship, Mathematics of Computation, Herman Goldstine (2026-2027)",
+      "organization": "IBM",
+      "url": "https://careers.ibm.com/careers/JobDetail?jobId=99221&source=WEB_Search_NA",
+      "location": "Yorktown Heights, NY",
+      "salary_range": "$119,000-$204,000",
+      "role_type": "Fellowship",
+      "description_snippet": "In this fellowship, you'll conduct original research in mathematics of computation, designing and executing experiments while analyzing data. Develop and implement highly novel ideas by evaluating plans and inventing complex products or processes. Publish research findings in top-tier conferences an",
+      "description": "In this fellowship, you'll conduct original research in mathematics of computation, designing and executing experiments while analyzing data. Develop and implement highly novel ideas by evaluating plans and inventing complex products or processes. Publish research findings in top-tier conferences and journals, and present at seminars. Keep technically current with literature and progress in your specific fields of expertise. Represent IBM at professional conferences, societies, and universities to promote research innovation.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": null,
+      "relevance_reason": null,
+      "date_posted": "2026-03-06",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "Career development: Technical",
+        "Research"
+      ],
+      "id": "3630c283cbeeeba87089e8065b97c546"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "2b21239c627315be40c7b9165fe6b1ea": {
+    "listing": {
+      "title": "Policy Fellow, Broadband, Spectrum, and Space",
+      "organization": "Information Technology and Innovation Foundation",
+      "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?fromAggregate=true&clientId=8a7883c67ce7e82c017d2a86de7b1592&id=8a78839f9c9c7850019cb41b92cb3bbd&source=&lang=en",
+      "location": "Washington, DC metro area",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll conduct research on broadband, spectrum, and space policy matters. Track regulatory and legislative developments at national and state levels. Contribute to drafting policy reports, regulatory comments, and op-eds. Collect and organize research data, write literature reviews, an",
+      "description": "In this role, you'll conduct research on broadband, spectrum, and space policy matters. Track regulatory and legislative developments at national and state levels. Contribute to drafting policy reports, regulatory comments, and op-eds. Collect and organize research data, write literature reviews, and summarize policy documents. Attend policy events, Congressional hearings, and agency meetings to expand policy knowledge.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "General Tech Policy",
+      "relevance_reason": "Broadband, spectrum, and space policy are general technology policy areas without direct focus on AI safety.",
+      "date_posted": "2026-03-05",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "Space governance",
+        "Research",
+        "Policy"
+      ],
+      "id": "2b21239c627315be40c7b9165fe6b1ea"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "c79e1d67271930588e65f1fd59afe186": {
+    "listing": {
+      "title": "Schwarzman Academy Fellowship (2026-2027)",
+      "organization": "Chatham House",
+      "url": "https://careers.chathamhouse.org/jobs/7321345-schwarzman-academy-fellowship-2026-2027?utm_campaign=jobs-widget&utm_source=careers.chathamhouse.org&utm_content=jobs&utm_medium=web",
+      "location": "London, UK",
+      "salary_range": "$41,011-$41,011",
+      "role_type": "Fellowship",
+      "description_snippet": "In this fellowship, you'll conduct independent research on global policy themes and contribute to Chatham House's research and events. Collaborate with a network of experts, policymakers and practitioners globally. Participate in the Leadership Masterclass Programme to develop policy leadership skil",
+      "description": "In this fellowship, you'll conduct independent research on global policy themes and contribute to Chatham House's research and events. Collaborate with a network of experts, policymakers and practitioners globally. Participate in the Leadership Masterclass Programme to develop policy leadership skills. Conduct field work, publications and outreach related to your research focus. Deliver evidence-based solutions aligned with Chatham House's strategic priorities.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "General Tech Policy",
+      "relevance_reason": "Fellowship focuses on global policy research and evidence-based solutions without specific safety or catastrophic risk emphasis.",
+      "date_posted": "2026-03-05",
+      "date_closes": "2026-03-20",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "Career development: Policy & government",
+        "Research",
+        "Policy"
+      ],
+      "id": "c79e1d67271930588e65f1fd59afe186"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "78cc7bc66cd0eab25fc1d4777402e761": {
+    "listing": {
+      "title": "Summer Research Fellowship (2026)",
+      "organization": "University of Chicago, Existential Risk Laboratory",
+      "url": "https://xrisk.uchicago.edu/fellowship/srf-26/",
+      "location": "Chicago, IL",
+      "salary_range": "$10,000-$10,000",
+      "role_type": "Fellowship",
+      "description_snippet": "In this fellowship, you'll develop your own research agenda in AI safety or nuclear security, culminating in a substantial written product. Scope your research question, justify its importance, and identify appropriate methodologies. Work with a domain expert mentor to guide your intellectual direct",
+      "description": "In this fellowship, you'll develop your own research agenda in AI safety or nuclear security, culminating in a substantial written product. Scope your research question, justify its importance, and identify appropriate methodologies. Work with a domain expert mentor to guide your intellectual direction and research process. Participate in workshops on research methodology including forecasting and open-source intelligence. Engage with a cohort of 15\u201320 peers through collaborative sessions, peer reviews, and shared workspace.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Fellowship focuses on AI safety and nuclear security research with existential risk laboratory emphasis.",
+      "date_posted": "2026-03-06",
+      "date_closes": "2026-03-15",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "AI safety & policy",
+        "Nuclear security",
+        "Research",
+        "Policy"
+      ],
+      "id": "78cc7bc66cd0eab25fc1d4777402e761"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "d01e8adbe67aee3781fdc3a682c53ebb": {
+    "listing": {
+      "title": "Policy Manager, Chemical Weapons and High-Yield Explosives",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5140226008",
+      "location": "San Francisco Bay Area, New York, NY",
+      "salary_range": "$245,000-$285,000",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll develop evaluation methodologies and safety strategies to prevent AI misuse of chemical and explosives information. Design and implement assessments of AI model capabilities for chemical weapons, explosives, and energetic materials. Develop strategies to identify and mitigate C/",
+      "description": "In this role, you'll develop evaluation methodologies and safety strategies to prevent AI misuse of chemical and explosives information. Design and implement assessments of AI model capabilities for chemical weapons, explosives, and energetic materials. Develop strategies to identify and mitigate C/E misuse in model outputs and create threat models. Collaborate with engineers to build detection systems and establish safety benchmarks and guardrails. Monitor emerging threats and conduct rapid response to dangerous C/E queries.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Develops AI safety evaluations and detection systems for preventing misuse of chemical/explosives information.",
+      "date_posted": "2026-03-06",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Strategy"
+      ],
+      "id": "d01e8adbe67aee3781fdc3a682c53ebb"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "79ea4974ddb246d1641456c409d854d2": {
+    "listing": {
+      "title": "Fellow",
+      "organization": "ARPA-E",
+      "url": "https://arpa-e.energy.gov/career/arpa-e-fellows",
+      "location": "Washington, DC metro area",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "In this fellowship, you'll conduct independent research into technological whitespaces and contribute to ARPA-E's energy innovation mission. Identify emerging technologies and source new project ideas and teams for potential funding opportunities. Develop technical content, publish research papers, ",
+      "description": "In this fellowship, you'll conduct independent research into technological whitespaces and contribute to ARPA-E's energy innovation mission. Identify emerging technologies and source new project ideas and teams for potential funding opportunities. Develop technical content, publish research papers, and communicate findings at conferences and external meetings. Contribute to program development with Program Directors and attend kickoffs, workshops, and site visits. Engage with researchers across academia, industry, and government to guide agency strategy and lead outreach.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "General Tech Policy",
+      "relevance_reason": "ARPA-E fellowship focuses on energy innovation and emerging technologies policy development.",
+      "date_posted": "2026-03-06",
+      "date_closes": "2026-04-24",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "Career development: Technical",
+        "Research"
+      ],
+      "id": "79ea4974ddb246d1641456c409d854d2"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "656dc86522d4b675a00301e90a56bf2a": {
+    "listing": {
+      "title": "Policy Accelerator, Global Health and Development",
+      "organization": "Impactful Policy Careers",
+      "url": "https://www.impactfulpolicycareers.com/global-health-cohort?utm_source=80000_hours&utm_medium=job_board&utm_campaign=gh2026",
+      "location": "Brussels, Belgium",
+      "salary_range": null,
+      "role_type": "Other",
+      "description_snippet": "In this 1-week intensive accelerator program, you'll develop skills to influence EU global health policy and governance. Learn EU decision-making processes and how to translate evidence into policy recommendations. Build professional networks with Commission officials, global health practitioners, a",
+      "description": "In this 1-week intensive accelerator program, you'll develop skills to influence EU global health policy and governance. Learn EU decision-making processes and how to translate evidence into policy recommendations. Build professional networks with Commission officials, global health practitioners, and mission-aligned peers. Gain exposure to EU global health financing, pandemic preparedness, and development cooperation frameworks. Prepare for EU institutional career roles through tailored coaching and recruitment training.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "General Tech Policy",
+      "relevance_reason": "EU global health policy and governance with institutional career preparation focus.",
+      "date_posted": "2026-03-06",
+      "date_closes": "2026-05-03",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "Global health & development",
+        "Policy"
+      ],
+      "id": "656dc86522d4b675a00301e90a56bf2a"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "6c4ed16133162f0df2bcbd78759602f7": {
+    "listing": {
+      "title": "Research Assistant, Reasoning Models and AI Safety",
+      "organization": "University of Bonn",
+      "url": "https://mai-alignment.github.io/assets/pdf/Research_Assistant_Position_E13_Bonn.pdf",
+      "location": "Bonn, Germany",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll train reasoning models to decompose complex tasks for scalable AI safety oversight. Design and run experiments to evaluate model decomposition strategies. Write and publish research findings at high-ranking conferences. Collaborate within the mAI Alignment Lab and Data Science t",
+      "description": "In this role, you'll train reasoning models to decompose complex tasks for scalable AI safety oversight. Design and run experiments to evaluate model decomposition strategies. Write and publish research findings at high-ranking conferences. Collaborate within the mAI Alignment Lab and Data Science teams. Develop methods for delegating subtasks to well-aligned language models.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Focus on training reasoning models, decomposition strategies, and scalable AI safety oversight methods.",
+      "date_posted": "2026-03-06",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "AI safety & policy",
+        "Research"
+      ],
+      "id": "6c4ed16133162f0df2bcbd78759602f7"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "ac7032c83db94814f46db0e61c12874e": {
+    "listing": {
+      "title": "PhD Position, AI Safety",
+      "organization": "University of Stuttgart",
+      "url": "https://www.thilo-hagendorff.info/wordpress/wp-content/uploads/2026/03/AI-Safety-PhD.pdf",
+      "location": "Stuttgart, Germany",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll conduct PhD research in AI safety, empirically investigating large language models to understand novel behaviours and ensure safe AI development. Evaluate capabilities and discover deceptive behaviours in frontier AI systems and agentic settings. Investigate research questions r",
+      "description": "In this role, you'll conduct PhD research in AI safety, empirically investigating large language models to understand novel behaviours and ensure safe AI development. Evaluate capabilities and discover deceptive behaviours in frontier AI systems and agentic settings. Investigate research questions related to evaluation awareness and agent behaviour in large reasoning models. Publish your findings in leading academic journals and present work at conferences. Work within a research group dedicated to identifying safety and security vulnerabilities in AI technologies.",
+      "work_mode": null,
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Empirical investigation of LLM behaviors, deception detection, and safety evaluation in frontier AI systems.",
+      "date_posted": "2026-03-06",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Software engineering"
+      ],
+      "id": "ac7032c83db94814f46db0e61c12874e"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "1a249ed670e5019b4e78a870de48a7e3": {
+    "listing": {
+      "title": "Supervisory General Engineer, Nonproliferation and Foreign Policy Controls",
+      "organization": "US Government, Bureau of Industry and Security",
+      "url": "https://www.usajobs.gov/job/859967000",
+      "location": "Washington, DC metro area",
+      "salary_range": "$169,279-$197,200",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll supervise technical matters on export controls for commodities with weapons of mass destruction or military applications. Provide leadership in recommending and interpreting technical and policy matters for verification and compliance. Ensure compliance with export regulations i",
+      "description": "In this role, you'll supervise technical matters on export controls for commodities with weapons of mass destruction or military applications. Provide leadership in recommending and interpreting technical and policy matters for verification and compliance. Ensure compliance with export regulations including EAR and Export Control Reform Act to support national security. Represent the Bureau in export, reexport, and technology transfer discussions with international partners. Address complex technical and policy issues affecting export control compliance.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "Biosecurity/Catastrophic Risk",
+      "relevance_reason": "Role addresses WMD export controls and nonproliferation policy ensuring national security compliance.",
+      "date_posted": "2026-03-06",
+      "date_closes": "2026-03-12",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "Biosecurity & pandemic preparedness",
+        "Nuclear security",
+        "Policy",
+        "Management"
+      ],
+      "id": "1a249ed670e5019b4e78a870de48a7e3"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "ecb8fdcf941ba0e9ed785fb4e61a5121": {
+    "listing": {
+      "title": "Summer Research Fellowship (2026)",
+      "organization": "Center on Long-Term Risk",
+      "url": "https://longtermrisk.org/summer-research-fellowship/",
+      "location": "London, UK",
+      "salary_range": "$78,744-$78,744",
+      "role_type": "Fellowship",
+      "description_snippet": "In this eight-week fellowship, you'll conduct independent research on reducing long-term suffering and AI safety. Work on a research project in collaboration with experienced mentors and fellow researchers. Receive regular guidance and mentorship to develop your research skills and understanding. Co",
+      "description": "In this eight-week fellowship, you'll conduct independent research on reducing long-term suffering and AI safety. Work on a research project in collaboration with experienced mentors and fellow researchers. Receive regular guidance and mentorship to develop your research skills and understanding. Contribute to research on empirical AI safety, including LLM personas, safe Pareto improvements, or macrostrategy. Integrate with a collaborative team of intellectually curious researchers.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Focuses on long-term suffering reduction, AI safety, and macrostrategy research addressing existential risks.",
+      "date_posted": "2026-03-05",
+      "date_closes": "2026-03-22",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Software engineering"
+      ],
+      "id": "ecb8fdcf941ba0e9ed785fb4e61a5121"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "b5897d9d78c8c62b6c4b6191ae00c20a": {
+    "listing": {
+      "title": "Animal Photojournalism Fellowship",
+      "organization": "We Animals Media",
+      "url": "https://weanimalsmedia.org/learning/fellowship/",
+      "location": "Remote, Global",
+      "salary_range": "$5,166-$5,166",
+      "role_type": "Fellowship",
+      "description_snippet": "In this fellowship, you'll develop and execute a photojournalism project documenting animals used for food. Gain professional mentorship on shooting technique, story development, and industry investigation. Complete post-production work and submit all final project deliverables by September 30, 2026",
+      "description": "In this fellowship, you'll develop and execute a photojournalism project documenting animals used for food. Gain professional mentorship on shooting technique, story development, and industry investigation. Complete post-production work and submit all final project deliverables by September 30, 2026. Undertake approximately three months of fieldwork with periodic support from the founder. Receive guidance for managing difficult content and access promotion for your story.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": null,
+      "relevance_reason": null,
+      "date_posted": "2026-03-06",
+      "date_closes": "2026-03-16",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "Animal welfare",
+        "Other"
+      ],
+      "id": "b5897d9d78c8c62b6c4b6191ae00c20a"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "6e7b9faea3fcc5fbf8cb832503dc564c": {
+    "listing": {
+      "title": "Policy Lead, Clinical Trial Abundance Movement",
+      "organization": "1Day Sooner",
+      "url": "https://www.1daysooner.org/jobs/",
+      "location": "Washington, DC metro area, Remote, Global (Remote)",
+      "salary_range": "$100,000-$145,000",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll oversee 1Day Sooner's Clinical Trial Abundance policy strategy, translating goals into regulatory and legislative priorities. Execute policy strategy across FDA, HHS, NIH, OMB, and Congress. Drive engagement with FDA regulations, IRB reform, data access initiatives, and real-wor",
+      "description": "In this role, you'll oversee 1Day Sooner's Clinical Trial Abundance policy strategy, translating goals into regulatory and legislative priorities. Execute policy strategy across FDA, HHS, NIH, OMB, and Congress. Drive engagement with FDA regulations, IRB reform, data access initiatives, and real-world evidence pathways. Draft policy proposals, comment letters, legislative language, and briefing materials. Cultivate relationships with regulators, Congressional staff, agencies, and industry, representing 1Day in policy discussions.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": null,
+      "relevance_reason": null,
+      "date_posted": "2026-03-05",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "Biosecurity & pandemic preparedness",
+        "Global health & development",
+        "Policy"
+      ],
+      "id": "6e7b9faea3fcc5fbf8cb832503dc564c"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "991e640467848c2d639b70b20acd34d4": {
+    "listing": {
+      "title": "Futurekind AI Fellowship (Spring 2026)",
+      "organization": "Electric Sheep",
+      "url": "https://www.electricsheep.is/futurekind",
+      "location": "Remote, Global (Remote)",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "12-week fellowship on the rapidly developing intersection of AI and animal protection. Provides knowledge, skills, project mentorship and certifications to accelerate your impact and boost your career. Comprised of weekly facilitated discussions (1.5\u20132 hours), readings &amp; pre-session exercises (2",
+      "description": "12-week fellowship on the rapidly developing intersection of AI and animal protection. Provides knowledge, skills, project mentorship and certifications to accelerate your impact and boost your career. Comprised of weekly facilitated discussions (1.5\u20132 hours), readings &amp; pre-session exercises (2\u20133 hours per week), and optional workshops, webinars, and Q&amp;As with senior researchers and practitioners.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AI Ethics/Responsible AI",
+      "relevance_reason": "Fellowship focuses on AI and animal protection intersection, emphasizing responsible AI applications.",
+      "date_posted": "2026-02-26",
+      "date_closes": "2026-03-25",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "AI safety & policy",
+        "Animal welfare",
+        "Research",
+        "Policy",
+        "Operations"
+      ],
+      "id": "991e640467848c2d639b70b20acd34d4"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "1cef10b2302a2a9a64786cc11b2fd154": {
+    "listing": {
+      "title": "Vice President, Government Affairs, Senate Focus",
+      "organization": "The AI Policy Network",
+      "url": "https://www.linkedin.com/jobs/view/4376779967/",
+      "location": "Washington, DC metro area",
+      "salary_range": "$190,000-$260,000",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll translate AIPN's AI safety and national security policy into Senate legislation through strategic engagement and coalition building. Build and maintain relationships with Senate leadership, committee chairs, and key staff across relevant committees. Develop and execute Senate-sp",
+      "description": "In this role, you'll translate AIPN's AI safety and national security policy into Senate legislation through strategic engagement and coalition building. Build and maintain relationships with Senate leadership, committee chairs, and key staff across relevant committees. Develop and execute Senate-specific legislative strategies around AI safety, AGI preparedness, and national security. Draft bill language, amendments, testimony, and policy materials tailored to Senate audiences. Coordinate bicameral legislative strategy and identify opportunities to advance AIPN's policy priorities.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role focuses on translating AI safety and AGI preparedness policy into Senate legislation.",
+      "date_posted": "2026-03-05",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "AI safety & policy",
+        "Policy",
+        "Strategy"
+      ],
+      "id": "1cef10b2302a2a9a64786cc11b2fd154"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "651114c522eaef4b5405d6f7e7880106": {
+    "listing": {
+      "title": "AI\u00d7Animals Fellowship",
+      "organization": "Sentient Futures",
+      "url": "https://sentient-futures.notion.site/fellowships#24f71f3c4caf80698552e3e2ad80cd0b",
+      "location": "Remote, Global (Remote)",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "In this 8-week fellowship program, you'll explore AI's impact on animal welfare. Engage with topics like precision livestock farming, animal communication, and genetic engineering. Participate in weekly facilitated online discussions (1.75 hours per week). Complete readings and pre-session exercises",
+      "description": "In this 8-week fellowship program, you'll explore AI's impact on animal welfare. Engage with topics like precision livestock farming, animal communication, and genetic engineering. Participate in weekly facilitated online discussions (1.75 hours per week). Complete readings and pre-session exercises (2-3 hours weekly). Develop knowledge and connections to steer AI development towards animal-positive outcomes.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AI Ethics/Responsible AI",
+      "relevance_reason": "Focuses on AI's societal impact on animals through ethics-oriented topics like welfare and communication.",
+      "date_posted": "2026-02-09",
+      "date_closes": "2026-03-15",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "AI safety & policy",
+        "Animal welfare",
+        "Research",
+        "Outreach"
+      ],
+      "id": "651114c522eaef4b5405d6f7e7880106"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "87b55264611c1a114831da6a4e322f89": {
+    "listing": {
+      "title": "[Expression of Interest] Research Scientist / Engineer, Alignment Finetuning",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4520279008",
+      "location": "San Francisco, CA",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the role:&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;As a Research Scientist/Engineer on the Alignment Finetuning team at Anthropic, you&#39;ll lead the development and implementation of techniques aimed at training language models that are more aligned with human values: that demonstrate better moral reasoning, improved honesty, and good character. You&#39;ll work to develop novel finetuning techniques and to use these to demonstrably improve model behavior.&lt;/p&gt; &lt;p&gt;&lt;em&gt;Note: For this role, we conduct all interviews in Python. We have filled our headcount for 2025. However, we are leaving this form open as an expression of interest since we expect to be growing the team in the future, and we will review your application when we do. As such, you may not hear back on your application to this team until the new year&lt;/em&gt;&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Develop and implement novel finetuning techniques using synthetic data generation and advanced training pipelines&lt;/li&gt; &lt;li&gt;Use these to train models to have better alignment properties including honesty, character, and harmlessness&lt;/li&gt; &lt;li&gt;Create and maintain evaluation frameworks to measure alignment properties in models&lt;/li&gt; &lt;li&gt;Collaborate across teams to integrate alignment improvements into production models&lt;/li&gt; &lt;li&gt;Develop processes to help automate and scale the work of the team&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;You may be a good fit if you:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Have an MS/PhD in Computer Science, ML, or related field, or equivalent experience&lt;/li&gt; &lt;li&gt;Possess strong programming skills, especially in Python&lt;/li&gt; &lt;li&gt;Have experience with ML model training and experimentation&lt;/li&gt; &lt;li&gt;Have a track record of implementing ML research&lt;/li&gt; &lt;li&gt;Demonstrate strong analytical skills for interpreting experimental results&lt;/li&gt; &lt;li&gt;Have experience with ML metrics and evaluation frameworks&lt;/li&gt; &lt;li&gt;Excel at turning research ideas into working code&lt;/li&gt; &lt;li&gt;Can identify and resolve practical implementation challenges&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Strong candidates may also have:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Experience with language model finetuning&lt;/li&gt; &lt;li&gt;Background in AI alignment research&lt;/li&gt; &lt;li&gt;Published work in ML or alignment&lt;/li&gt; &lt;li&gt;Experience with synthetic data generation&lt;/li&gt; &lt;li&gt;Familiarity with techniques like RLHF, constitutional AI, and reward modeling&lt;/li&gt; &lt;li&gt;Track record of designing and implementing novel training approaches&lt;/li&gt; &lt;li&gt;Experience with model behavior evaluation and improvement&lt;/li&gt; &lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt; &lt;p&gt;For sales roles, the range provided is the role\u2019s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$350,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$500,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Education requirements: &lt;/strong&gt;We require at least a Bachelor&#39;s degree in a related field or equivalent experience.&lt;strong&gt;&lt;br&gt;&lt;br&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt;&amp;nbsp;for using AI in our application process&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Develops alignment finetuning techniques, evaluation frameworks, and training methods for safer AI systems.",
+      "date_posted": "2026-03-06",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "AI Research & Engineering"
+      ],
+      "id": "87b55264611c1a114831da6a4e322f89"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "e9682999d111bf9bf9e84fde22a796d0": {
+    "listing": {
+      "title": "Product Public Policy, Model Development and Research",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5141885008",
+      "location": "San Francisco, CA | New York City, NY",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;Role Overview&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;As a member of the Product Public Policy team, you&#39;ll ensure Anthropic&#39;s model development practices inform emerging AI governance frameworks and build trust with policy stakeholders. You own the policy dimensions of every major model release, translate our Responsible Scaling Policy into frameworks for transparency legislation, work closely with our Labs team on policy-informed research/product development, and lead initiatives that demonstrate our commitment to openness and responsible development.&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;In this role you will:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Translate RSP components into emerging policy frameworks&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Own policy engagement related to Claude&#39;s Constitution, translating our model values and behavioral frameworks into governance standards and demonstrating how principled AI development can inform regulation&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Drive policy strategy and positioning for major model releases, including how to position developments in light of voluntary commitments, policy pressures; external engagement and input&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Partner with research, legal, and cross functional teams to translate technical advances into policy narratives for regulators, AI Safety Institutes, and the technical policy community&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Develop frameworks showing how our technical practices (interpretability, safety evals, development methodology) tie to public policy priorities&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Represent Anthropic in standards bodies and regulatory consultations on model development and governance&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;You may be a good fit if you:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;8+ years in AI/tech policy with technical depth to engage credibly on model development and evaluation&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Strong understanding of LLM development, evaluation methodologies, and AI safety&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Track record translating technical practices into policy frameworks and regulatory strategies&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Proven cross-functional work between technical teams and policy stakeholders&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Expert stakeholder management with experience working across policy, technical, academia, and civil society&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Experience with AI governance frameworks (EU AI Act, transparency requirements, safety standards)&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt; &lt;p&gt;For sales roles, the range provided is the role\u2019s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$265,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$295,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Education requirements: &lt;/strong&gt;We require at least a Bachelor&#39;s degree in a related field or equivalent experience.&lt;strong&gt;&lt;br&gt;&lt;br&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt;&amp;nbsp;for using AI in our application process&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role focuses on translating AI safety practices into governance frameworks and regulatory strategy for advanced AI systems.",
+      "date_posted": "2026-03-06",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "AI Public Policy & Societal Impacts"
+      ],
+      "id": "e9682999d111bf9bf9e84fde22a796d0"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "9fbd0f28b1b68cc65148a550d4d63364": {
+    "listing": {
+      "title": "Senior Manager, Tax Operations, Provision, & Compliance",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5106263008",
+      "location": "Remote-Friendly (Travel Required) | San Francisco, CA",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We are looking for a Senior Manager, Tax Operations, Provision, and Compliance to join our Finance &amp;amp; Accounting team at Anthropic. In this role, you will own and manage the company\u2019s global income tax provision process and tax compliance function. Reporting to the Tax Operations, Provision, and Compliance Lead, you will build and optimize our tax infrastructure as we continue to scale rapidly, ensuring accurate and timely tax reporting while navigating the complexities of a high-growth AI company. This role will work closely with the Accounting team, external tax advisors, and cross-functional partners to ensure compliance with all applicable tax regulations and support the company\u2019s strategic financial goals. If you are looking for an opportunity to make a significant impact on the tax function of an innovative company, come join us in our mission to build cutting-edge, safe AI.&lt;/p&gt; &lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Oversee the preparation and filing of federal, state, and international income tax returns, either directly or through coordination with external advisors&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Manage tax compliance calendar and ensure timely filing of all required returns, extensions, and estimated payments&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Own and manage the quarterly and annual income tax provision process (ASC 740), including current and deferred tax calculations, effective tax rate analysis, and financial statement disclosures&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Prepare and review tax account reconciliations, including deferred tax assets and liabilities, uncertain tax positions (FIN 48/ASC 740-10), and valuation allowance analyses&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Support financial close processes related to income tax, including journal entries, flux analysis, and management reporting&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Collaborate with external auditors on income tax-related audit requests and ensure timely completion of deliverables&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Monitor and assess the impact of new tax legislation, regulations, and guidance on the company\u2019s tax position&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Partner with cross-functional teams (Legal, Finance, People) on tax implications of business transactions, equity compensation, intercompany arrangements, and international expansion&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Identify and implement process improvements and automation opportunities within the tax function&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Manage relationships with external tax advisors and service providers&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Support tax-related aspects of R&amp;amp;D tax credit studies and other tax incentive programs&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;You may be a good fit if you:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Have 10+ years of progressive income tax experience, with a mix of public accounting (Big 4 preferred) and in-house corporate tax experience (in-house tax department experience is a must)&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Hold a bachelor\u2019s degree in accounting, Finance, or related field; Hold CPA certification and/or advanced degree in taxation and accounting&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Have strong technical knowledge of ASC 740, including experience with income tax provisions for multi-state and international operations&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Demonstrate deep familiarity with federal and state corporate income tax compliance&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Are proficient in tax provision software (e.g., Corptax, OneSource, Longview) and ERP systems (e.g., NetSuite, Workday)&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Possess strong analytical and problem-solving skills with keen attention to detail&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Have excellent organizational and project management abilities, with the capacity to manage multiple priorities and deadlines&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Communicate effectively with both technical and non-technical stakeholders&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Are a self-starter comfortable operating with autonomy in a fast-paced, evolving environment&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Strong candidates may also have:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Experience in high-growth technology companies or pre-IPO environments&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;A master\u2019s degree in taxation&amp;nbsp;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Experience with international tax matters, including transfer pricing, GILTI, FDII, and Subpart F&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Demonstrate familiarity with R&amp;amp;D tax credits (Section 41) and Section 174 capitalization requirements&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Experience with equity compensation tax implications (ISOs, NSOs, RSUs)&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Be comfortable with ambiguity and building processes from the ground up&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Willingness to roll up their sleeves and get hands-on while also thinking strategically about scaling the function&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Be passionate about Anthropic\u2019s mission to build safe, transformative AI systems&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Deadline to apply: &lt;/strong&gt;None. Applications will be reviewed on a rolling basis.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt; &lt;p&gt;For sales roles, the range provided is the role\u2019s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$230,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$300,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Education requirements: &lt;/strong&gt;We require at least a Bachelor&#39;s degree in a related field or equivalent experience.&lt;strong&gt;&lt;br&gt;&lt;br&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt;&amp;nbsp;for using AI in our application process&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Tax operations at frontier AI company supporting governance infrastructure for advanced AI development.",
+      "date_posted": "2026-03-06",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-03-09",
+      "tags": [
+        "Finance"
+      ],
+      "id": "9fbd0f28b1b68cc65148a550d4d63364"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "06985fbe9984a8c793ac29b84688194f": {
+    "listing": {
+      "title": "Policy Director",
+      "organization": "Institute for AI Policy and Strategy (IAPS)",
+      "url": "https://www.iaps.ai/policy-director",
+      "location": null,
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "",
+      "description": "",
+      "work_mode": null,
+      "visa_sponsorship": null,
+      "seniority_level": null,
+      "relevance_tag": null,
+      "relevance_reason": null,
+      "date_posted": null,
+      "date_closes": null,
+      "source": "llm:institute_for_ai_policy_and_strategy_(iaps)",
+      "date_scraped": "2026-03-09",
+      "tags": [],
+      "id": "06985fbe9984a8c793ac29b84688194f"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
+  },
+  "4d5a0cbfafcaab6860abc80257ad3b59": {
+    "listing": {
+      "title": "Postdoctoral Researcher in AI & Risk (Oxford Martin AI Governance Initiative)",
+      "organization": "Oxford Martin School",
+      "url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=185217",
+      "location": null,
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "",
+      "description": "",
+      "work_mode": null,
+      "visa_sponsorship": null,
+      "seniority_level": null,
+      "relevance_tag": null,
+      "relevance_reason": null,
+      "date_posted": null,
+      "date_closes": null,
+      "source": "llm:oxford_martin_school",
+      "date_scraped": "2026-03-09",
+      "tags": [],
+      "id": "4d5a0cbfafcaab6860abc80257ad3b59"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-09"
   }
 }

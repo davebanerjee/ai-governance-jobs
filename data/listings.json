@@ -6189,5 +6189,625 @@
     "review_status": "unreviewed",
     "reviewed_at": null,
     "added_at": "2026-03-09"
+  },
+  "787abc62f631936d631ca5195bf4cf92": {
+    "listing": {
+      "title": "Research Fellow, Weather and Atmospheric Interventions",
+      "organization": "Foundation for American Innovation",
+      "url": "https://www.thefai.org/posts/job-listing-research-fellow-weather-and-atmospheric-interventions?utm_source=80000hours&utm_medium=job-board",
+      "location": "Washington, DC metro area",
+      "salary_range": "$75,000-$120,000",
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll conduct original research and produce commentary on weather and atmospheric policy. Perform non-partisan research on weather data, atmospheric interventions, and related national security issues. Foster collaboration with policymakers and stakeholders to advance discussions on w",
+      "description": "In this role, you'll conduct original research and produce commentary on weather and atmospheric policy. Perform non-partisan research on weather data, atmospheric interventions, and related national security issues. Foster collaboration with policymakers and stakeholders to advance discussions on weather infrastructure and governance. Support FAI programming and events, including panel participation, educational briefings, and speaker curation. Travel to FAI events in major U.S. innovation hubs to strengthen stakeholder engagement.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "General Tech Policy",
+      "relevance_reason": "Focus on weather/atmospheric policy and infrastructure governance rather than AI safety or catastrophic risks.",
+      "date_posted": "2026-03-09",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "Climate change",
+        "Research",
+        "Policy"
+      ],
+      "id": "787abc62f631936d631ca5195bf4cf92"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "c12cb2a42b82ad1ab816f37238857bf6": {
+    "listing": {
+      "title": "Research Leader, Emerging Biotechnology Policy",
+      "organization": "RAND Europe",
+      "url": "https://apply.workable.com/rand-europe/j/FB9CF666B3/?utm_source=80000hours&utm_medium=job-board",
+      "location": "Cambridge, UK, Brussels, Belgium, The Hague, Netherlands",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll lead RAND Europe's biotechnology policy research, developing a diverse portfolio of projects and expanding into new areas. Provide thought leadership on biotechnology policy and its intersection with emerging technologies. Mentor research teams and oversee delivery of complex, m",
+      "description": "In this role, you'll lead RAND Europe's biotechnology policy research, developing a diverse portfolio of projects and expanding into new areas. Provide thought leadership on biotechnology policy and its intersection with emerging technologies. Mentor research teams and oversee delivery of complex, mixed-methods research projects. Secure funding and lead business development, including proposal writing and building funder relationships. Lead communication strategies to maximize research impact within policy communities.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "Biosecurity/Catastrophic Risk",
+      "relevance_reason": "Leadership role developing biotechnology policy research and thought leadership on emerging biotechnology risks.",
+      "date_posted": "2026-03-13",
+      "date_closes": "2026-04-05",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "Building effective altruism",
+        "Policy",
+        "Management"
+      ],
+      "id": "c12cb2a42b82ad1ab816f37238857bf6"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "3c057808d637927eb0a4b39f7978a248": {
+    "listing": {
+      "title": "Talos Fellowship",
+      "organization": "Talos Network",
+      "url": "https://www.talosnetwork.org/talos-fellowship?utm_source=80000hours&utm_medium=job-board",
+      "location": "Brussels, Belgium, Remote, Global (Remote)",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "This fellowship aims at launching and accelerating European policy careers focused on artificial intelligence. Complete an 8-week online AI Policy Fundamentals Programme featuring expert speakers and structured readings. Write and publish a policy brief on an AI governance topic of your choice. Atte",
+      "description": "This fellowship aims at launching and accelerating European policy careers focused on artificial intelligence. Complete an 8-week online AI Policy Fundamentals Programme featuring expert speakers and structured readings. Write and publish a policy brief on an AI governance topic of your choice. Attend a 7-day policymaking summit in Brussels with workshops, Q&amp;As, and networking with policy experts. Secure a paid 4-6 month placement at a leading AI governance organisation.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Fellowship focuses on AI governance and policy careers addressing advanced AI systems regulation.",
+      "date_posted": "2026-03-11",
+      "date_closes": "2026-04-27",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "AI safety & policy",
+        "Policy"
+      ],
+      "id": "3c057808d637927eb0a4b39f7978a248"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "e321701a9690e5de828399c527d6c363": {
+    "listing": {
+      "title": "AI Safety Research Accelerator",
+      "organization": "Meridian",
+      "url": "https://www.meridiancambridge.org/research-accelerator-week?utm_source=80000hours&utm_medium=job-board",
+      "location": "Cambridge, UK",
+      "salary_range": null,
+      "role_type": "Funding",
+      "description_snippet": "Find collaborators and secure funding for your independent AI safety research during the accelerator week. Participate in workshops on grant writing, theory of change, project planning, and red teaming for proposals. Align proposals with priority areas: model organisms of misalignment, alignment aud",
+      "description": "Find collaborators and secure funding for your independent AI safety research during the accelerator week. Participate in workshops on grant writing, theory of change, project planning, and red teaming for proposals. Align proposals with priority areas: model organisms of misalignment, alignment auditing, AI control, chain-of-thought faithfulness, or generalization science. Receive travel, visa, accommodation and meal coverage during the week.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": true,
+      "seniority_level": "All Levels",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Focuses on technical AI safety research including alignment, auditing, control, and red teaming.",
+      "date_posted": "2026-03-11",
+      "date_closes": "2026-04-05",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Software engineering"
+      ],
+      "id": "e321701a9690e5de828399c527d6c363"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "135f936f971b2a9c70262d6bfd7025dd": {
+    "listing": {
+      "title": "Nigeria Fellowship",
+      "organization": "Animal Advocacy Africa",
+      "url": "https://www.animaladvocacyafrica.org/nigeriafellowship?utm_source=80000hours&utm_medium=job-board",
+      "location": "Nigeria, Africa",
+      "salary_range": "$500-$1,000",
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll join a selective programme building careers improving farmed animal welfare in Nigeria. Engage in structured learning on Nigeria's farmed animal landscape and high-impact strategic approaches. Complete project-based work with mentorship, advancing through selective progression s",
+      "description": "In this role, you'll join a selective programme building careers improving farmed animal welfare in Nigeria. Engage in structured learning on Nigeria's farmed animal landscape and high-impact strategic approaches. Complete project-based work with mentorship, advancing through selective progression stages. Pursue either Careers track (finalising impact roles and placement plans) or Incubation track (developing initiatives and proposals). Access mentorship support, in-person training in Nigeria, and seed funding opportunities for incubation projects.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": null,
+      "relevance_reason": null,
+      "date_posted": "2026-03-13",
+      "date_closes": "2026-04-15",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "Animal welfare",
+        "Strategy",
+        "Policy",
+        "Outreach"
+      ],
+      "id": "135f936f971b2a9c70262d6bfd7025dd"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "637c903eeec251b1ec378fb9a361649e": {
+    "listing": {
+      "title": "Research Fellow, Cybersecurity and AI Policy",
+      "organization": "Foundation for American Innovation",
+      "url": "https://www.thefai.org/posts/job-application-research-fellow-cybersecurity-and-ai-policy?utm_source=80000hours&utm_medium=job-board",
+      "location": "Washington, DC metro area",
+      "salary_range": "$100,000-$130,000",
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll lead original research and commentary on cybersecurity and artificial intelligence policy. Conduct independent research initiatives addressing critical infrastructure security, government AI adoption, and innovation protection. Engage policymakers, academics, and the public to i",
+      "description": "In this role, you'll lead original research and commentary on cybersecurity and artificial intelligence policy. Conduct independent research initiatives addressing critical infrastructure security, government AI adoption, and innovation protection. Engage policymakers, academics, and the public to inform discussions on AI and cybersecurity policy. Support programming including speaking on panels, teaching sessions, and curating expert speakers for FAI events. Travel periodically to major US tech hubs representing FAI at policy events.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role focuses on AI policy, critical infrastructure security, and government AI adoption governance.",
+      "date_posted": "2026-03-12",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "AI safety & policy",
+        "Policy",
+        "Information security"
+      ],
+      "id": "637c903eeec251b1ec378fb9a361649e"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "53da4fe7cdb29f1de01a023492776f00": {
+    "listing": {
+      "title": "AI and Society Fellow",
+      "organization": "Center for AI Safety",
+      "url": "https://safe.ai/fellowship?utm_source=80000hours&utm_medium=job-board",
+      "location": "San Francisco Bay Area",
+      "salary_range": "$25,000-$25,000",
+      "role_type": "Fellowship",
+      "description_snippet": "This three-month fellowship supports scholars in economics, law, international relations, and adjacent disciplines to conduct research on the societal impact of AI. Define and pursue your own research directions with autonomy while drawing on internal expertise and partner networks. Develop research",
+      "description": "This three-month fellowship supports scholars in economics, law, international relations, and adjacent disciplines to conduct research on the societal impact of AI. Define and pursue your own research directions with autonomy while drawing on internal expertise and partner networks. Develop research results refined into shareable formats such as journal articles or blog posts. Present your findings to cohort members and invited academics at a final workshop. Engage with CAIS researchers and Bay Area institutions through guest speakers and community events.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Fellowship focuses on AI's societal impact and governance across economics, law, and international relations disciplines.",
+      "date_posted": "2026-03-11",
+      "date_closes": "2026-03-24",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "AI safety & policy",
+        "Research"
+      ],
+      "id": "53da4fe7cdb29f1de01a023492776f00"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "ac4e18fcfe482271a7a900276ae1acf2": {
+    "listing": {
+      "title": "Intern, Congressional and Government Affairs (Summer 2026)",
+      "organization": "Center for Strategic and International Studies",
+      "url": "https://careers.csis.org/opportunities/1752?utm_source=80000hours&utm_medium=job-board",
+      "location": "Washington, DC metro area",
+      "salary_range": "$37,440-$41,600",
+      "role_type": "Internship",
+      "description_snippet": "In this internship, you'll support the Congressional Affairs team in strengthening relationships with Congress and promoting CSIS research to Capitol Hill. Draft and copyedit official correspondence and program mailings. Support event preparation and staffing for public and private events. Track con",
+      "description": "In this internship, you'll support the Congressional Affairs team in strengthening relationships with Congress and promoting CSIS research to Capitol Hill. Draft and copyedit official correspondence and program mailings. Support event preparation and staffing for public and private events. Track congressional actions and legislation while supporting program research and analysis. Provide administrative support including data management and project coordination.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Congressional affairs role supporting policy research on AI governance and regulation at strategic think tank.",
+      "date_posted": "2026-03-13",
+      "date_closes": "2026-04-15",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "Career development: Policy & government",
+        "Operations",
+        "Policy"
+      ],
+      "id": "ac4e18fcfe482271a7a900276ae1acf2"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "0ea5a95321bab9d87af9aee195c0a16a": {
+    "listing": {
+      "title": "Postdoctoral Researcher, AI and Risk, Oxford Martin AI Governance Initiative",
+      "organization": "Oxford University, Oxford Martin School",
+      "url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=185217&utm_source=80000hours&utm_medium=job-board",
+      "location": "Oxford, UK",
+      "salary_range": "$52,244-$77,212",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll lead research on AI risk, governance, and advanced AI systems' societal impacts. Contribute to strategic development of the Initiative's research programme. Engage with policymakers, international organisations, and stakeholders. Translate scholarly research into practical gover",
+      "description": "In this role, you'll lead research on AI risk, governance, and advanced AI systems' societal impacts. Contribute to strategic development of the Initiative's research programme. Engage with policymakers, international organisations, and stakeholders. Translate scholarly research into practical governance frameworks. Conduct high-quality academic research with policy-facing components.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Focuses on AI risk, governance, and advanced AI systems' societal impacts with policy engagement.",
+      "date_posted": "2026-03-09",
+      "date_closes": "2026-04-27",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Policy"
+      ],
+      "id": "0ea5a95321bab9d87af9aee195c0a16a"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "c990e54cf4155326241d189a2b1c85f1": {
+    "listing": {
+      "title": "US Policy Team Member (x2)",
+      "organization": "Future of Life Institute",
+      "url": "https://jobs.lever.co/futureof-life/6f92175b-b780-4f22-aa52-507c3445fa57?utm_source=80000hours&utm_medium=job-board",
+      "location": "Washington, DC metro area",
+      "salary_range": "$85,000-$195,000",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll drive the US policy agenda by engaging bipartisan policymakers and government officials to promote safe AI governance. Build networks among influential lawmakers and raise awareness of AI safety priorities and appropriate risk-mitigation policies. Develop and implement strategic",
+      "description": "In this role, you'll drive the US policy agenda by engaging bipartisan policymakers and government officials to promote safe AI governance. Build networks among influential lawmakers and raise awareness of AI safety priorities and appropriate risk-mitigation policies. Develop and implement strategic approaches for effective AI governance and policy change. Track, analyse, and respond to emerging AI and technology policy developments. Create informational materials and conduct educational briefings to explain complex AI policy issues to non-expert audiences.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "All Levels",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Directly addresses safe AI governance and risk-mitigation policies for advanced AI systems.",
+      "date_posted": "2026-03-11",
+      "date_closes": "2026-04-03",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "AI safety & policy",
+        "Policy"
+      ],
+      "id": "c990e54cf4155326241d189a2b1c85f1"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "ea345a6752f3ad8b109600375009badf": {
+    "listing": {
+      "title": "Fellowship Program Director",
+      "organization": "Principles of Intelligence",
+      "url": "https://princint.ai/now-hiring-fellowship-program-director-pd-at-principles-of-intelligence/?utm_source=80000hours&utm_medium=job-board",
+      "location": "London, UK, San Francisco Bay Area, Remote, Global (Remote)",
+      "salary_range": "$90,000-$140,000",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll lead the PIBBSS Fellowship end-to-end, setting strategy, conducting selections twice yearly, and supervising a global cohort of fellows on AI alignment research. Design and run the fellowship structure, selection process, and support systems. Supervise fellows by setting expecta",
+      "description": "In this role, you'll lead the PIBBSS Fellowship end-to-end, setting strategy, conducting selections twice yearly, and supervising a global cohort of fellows on AI alignment research. Design and run the fellowship structure, selection process, and support systems. Supervise fellows by setting expectations, tracking progress, and facilitating research. Collaborate with research leadership to maintain program quality and strategic alignment. Strengthen the PIBBSS network through relationship-building and identifying expansion opportunities.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Leading AI alignment research fellowship program with governance and strategic focus on advanced AI risks.",
+      "date_posted": "2026-03-09",
+      "date_closes": "2026-03-21",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "AI safety & policy",
+        "Strategy",
+        "Management"
+      ],
+      "id": "ea345a6752f3ad8b109600375009badf"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "85a4ab3b3c05ad06403c5248ba974ba6": {
+    "listing": {
+      "title": "Staff Applied Research and Machine Learning, Responsible AI and Safety",
+      "organization": "Apple",
+      "url": "https://jobs.apple.com/en-gb/details/200650850-0836/staff-applied-research-and-ml-responsible-ai-and-safety?team=MLAI&utm_source=80000hours&utm_medium=job-board",
+      "location": "San Francisco Bay Area",
+      "salary_range": "$212,000-$386,300",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll research and advance safety measures for generative AI models at Apple. Develop red teaming methods for LLMs and diffusion models to identify vulnerabilities. Create mitigations and safeguards to ensure secure deployment of LLMs in Apple products. Build tools, metrics, and datas",
+      "description": "In this role, you'll research and advance safety measures for generative AI models at Apple. Develop red teaming methods for LLMs and diffusion models to identify vulnerabilities. Create mitigations and safeguards to ensure secure deployment of LLMs in Apple products. Build tools, metrics, and datasets for evaluating LLM safety throughout the deployment lifecycle. Develop methods to interpret and explain language model failures for improved system transparency.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Red-teaming, safety evaluations, and technical mitigations for LLM deployment.",
+      "date_posted": "2026-03-10",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "Career development: Technical",
+        "Research",
+        "Software engineering"
+      ],
+      "id": "85a4ab3b3c05ad06403c5248ba974ba6"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "df63240021264c35dd158854be90c100": {
+    "listing": {
+      "title": "Policy Advisor, Coalitions",
+      "organization": "Encode",
+      "url": "https://docs.google.com/document/d/1R1jCGo4_oPzCUuvGd-TSO6QkLC5SnHkHFktmLj4tGIU/edit?tab=t.0&utm_source=80000hours&utm_medium=job-board",
+      "location": "Washington, DC metro area",
+      "salary_range": "$120,000-$180,000",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll build coalitions to drive AI policy priorities forward across federal and state campaigns. Identify advocacy gaps and recruit allies across disparate issue areas to strengthen legislative campaigns. Organize and support grassroots advocates, events, and state-level networks to a",
+      "description": "In this role, you'll build coalitions to drive AI policy priorities forward across federal and state campaigns. Identify advocacy gaps and recruit allies across disparate issue areas to strengthen legislative campaigns. Organize and support grassroots advocates, events, and state-level networks to advance AI regulation priorities. Analyse complex legislation and prepare briefs, talking points, and policy explainers for partners and policymakers. Manage digital infrastructure including coalition lists, email campaigns, and supporter communications.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role focuses on AI regulation policy and governance through federal/state legislative campaigns.",
+      "date_posted": "2026-03-12",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "AI safety & policy",
+        "Policy",
+        "Outreach"
+      ],
+      "id": "df63240021264c35dd158854be90c100"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "2b20db1953e8c3de82b6e95f6a6e2030": {
+    "listing": {
+      "title": "AI Policy and Technology Diplomacy Advisor",
+      "organization": "Consulate General of Switzerland in San Francisco",
+      "url": "https://www.eda.admin.ch/countries/usa/en/home/news/vacancies.html?utm_source=80000hours&utm_medium=job-board#:~:text=ch/de/studierende-,Consulate%20General%20of%20Switzerland%20in%20San%20Francisco,-The%20Consulate%C2%A0General",
+      "location": "San Francisco Bay Area",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll advance Switzerland's strategic interests in AI through policy analysis and engagement. Produce decision-oriented analysis on AI policy, governance, and implications for Swiss decision-makers. Build trusted relationships between Swiss policymakers and Silicon Valley policy actor",
+      "description": "In this role, you'll advance Switzerland's strategic interests in AI through policy analysis and engagement. Produce decision-oriented analysis on AI policy, governance, and implications for Swiss decision-makers. Build trusted relationships between Swiss policymakers and Silicon Valley policy actors, labs, and institutions. Support Switzerland's positioning in international AI governance forums and multilateral processes. Support the Tech Ambassador in strategic meetings, stakeholder engagement, and AI Summit 2027 preparations.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role focuses on AI policy, governance, and Switzerland's positioning in international AI governance forums and multilateral processes.",
+      "date_posted": "2026-03-11",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "AI safety & policy",
+        "Policy"
+      ],
+      "id": "2b20db1953e8c3de82b6e95f6a6e2030"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "30423ad6ffca3eeea445dc10be97cdf2": {
+    "listing": {
+      "title": "ODI Fellowship Scheme",
+      "organization": "Overseas Development Institute",
+      "url": "https://odi.org/en/fellowship-scheme/?utm_source=80000hours&utm_medium=job-board",
+      "location": "Remote, Global",
+      "salary_range": "$43,201-$45,852",
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll work as a public sector civil servant in low- and middle-income countries, applying economic and statistical expertise to policy challenges. Apply economic and statistical knowledge to solve complex development problems. Communicate technical findings clearly to non-specialists ",
+      "description": "In this role, you'll work as a public sector civil servant in low- and middle-income countries, applying economic and statistical expertise to policy challenges. Apply economic and statistical knowledge to solve complex development problems. Communicate technical findings clearly to non-specialists in politically sensitive environments. Manage projects independently while driving change in resource-constrained settings. Develop professional expertise through real-world policy experience over a two-year placement.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": null,
+      "relevance_reason": null,
+      "date_posted": "2026-03-10",
+      "date_closes": "2026-03-31",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "Career development: Policy & government",
+        "Policy"
+      ],
+      "id": "30423ad6ffca3eeea445dc10be97cdf2"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "23a60148f04107024dd443c39e6198b2": {
+    "listing": {
+      "title": "Research Engineer / Scientist, Alignment Science, London",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4610158008?utm_source=80000hours&utm_medium=job-board",
+      "location": "London, UK",
+      "salary_range": "$298,168-$662,595",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll conduct experimental research on AI safety to help understand and steer the behavior of powerful AI systems. Design and run machine learning experiments to test the robustness of safety techniques. Implement multi-agent reinforcement learning experiments to evaluate techniques l",
+      "description": "In this role, you'll conduct experimental research on AI safety to help understand and steer the behavior of powerful AI systems. Design and run machine learning experiments to test the robustness of safety techniques. Implement multi-agent reinforcement learning experiments to evaluate techniques like AI Debate. Build tooling to efficiently evaluate LLM-generated jailbreaks and model reasoning abilities. Contribute to research papers, blog posts, and key AI safety efforts like Anthropic's Responsible Scaling Policy.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": null,
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Focuses on experimental AI safety research, robustness testing, and alignment technique evaluation.",
+      "date_posted": "2022-01-11",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Software engineering"
+      ],
+      "id": "23a60148f04107024dd443c39e6198b2"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "5d15ebde4248a0250854028ac8691258": {
+    "listing": {
+      "title": "Product Public Policy, Health and Life Science",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5070787008",
+      "location": "San Francisco, CA; Washington, DC",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About The Role&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;As a member of the product public policy team, you will build Anthropic&#39;s healthcare and life sciences policy strategy from the ground up. This role will translate emerging regulations into product opportunities, turn our technical advantages into competitive differentiation, and shape regulatory frameworks to support our mission and enable responsible health AI development and deployment. The role will also engage deeply with our product, GTM, and other cross functional teams.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;In this role you will:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Build/maintain relationships with key US health agencies (FDA, CMS, HHS) and international counterparts&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Shape Anthropic\u2019s positions on key health policy issues impacting product (e.g., software regulation, reimbursement, explainability)&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Translate emerging health AI policies and frameworks into specific product opportunities, focusing on ethical and responsible use of AI for health&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Work closely with product teams to support responsible product development, bringing policy considerations directly into product decisions/pipeline&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Monitor global regulatory developments and drive policy consultation responses&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Work with product, go-to-market and cross functional teams to position Anthropic product choices as industry standard&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;You may be a good fit if you:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;8-12 years healthcare and/or life science regulatory policy (government and industry)&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Strong relationships with key health regulatory stakeholders (e.g., FDA, CMS, ONC)&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Track record tangibly shaping health policy/regulatory frameworks&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Experience working with health tech product teams (development, deployment)&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Excellent communicator with strong ability to translate technical AI concepts to regulators and regulatory requirements to product teams&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Ability to navigate fast-paced, hypergrowth company with autonomy and initiative&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Technical fluency in LLMs, health technology, and product development&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt; &lt;p&gt;For sales roles, the range provided is the role\u2019s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$285,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$330,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Education requirements: &lt;/strong&gt;We require at least a Bachelor&#39;s degree in a related field or equivalent experience.&lt;strong&gt;&lt;br&gt;&lt;br&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt;&amp;nbsp;for using AI in our application process&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Shapes AI governance frameworks and regulatory positions for responsible health AI development and deployment.",
+      "date_posted": "2026-03-12",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "Public Policy"
+      ],
+      "id": "5d15ebde4248a0250854028ac8691258"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "c0dd6a9ac4067e767d6ec4a0276f76b4": {
+    "listing": {
+      "title": "Head of National Security Policy - APAC",
+      "organization": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/2f04a25a-8900-4235-8c1d-25c74f6c5e55",
+      "location": "Singapore",
+      "salary_range": null,
+      "role_type": "FullTime",
+      "description_snippet": "About the Team OpenAI\u2019s mission is to ensure that general-purpose artificial intelligence benefits all of humanity. We believe that achieving our goal requires effective engagement with public policy stakeholders and the broader community impacted by AI. Accordingly, our Global Affairs team builds a",
+      "description": "About the Team OpenAI\u2019s mission is to ensure that general-purpose artificial intelligence benefits all of humanity. We believe that achieving our goal requires effective engagement with public policy stakeholders and the broader community impacted by AI. Accordingly, our Global Affairs team builds authentic, collaborative relationships with public officials and the broader AI policymaking community to inform and support our shared work in these domains. We ensure that insights from policymakers inform our work and in collaboration with our colleagues and external stakeholders, seek to shape policy so that it aligns with and supports our mission. About the Role This position reports to OpenAI\u2019s global Head of National Security Policy and will help advance OpenAI\u2019s engagement with the Asia-Pacific national security community. This is a senior IC role leading OpenAI\u2019s Asia-Pacific security and technology policy engagement in support of our regional strategy. You will be OpenAI\u2019s primary policy representative on matters related to defense, security, and AI policy across the region, positioning OpenAI as a trusted partner for national security stakeholders across allied and partner governments, regional multilateral fora, and key security institutions. KEY RESPONSIBILITIES INCLUDE: - Build and sustain senior relationships across Asia-Pacific ministries of defense/foreign affairs, intelligence, and cybersecurity, including across key partner frameworks such as ASEAN, AUKUS, and the Quad, and in relevant national capitals. - Represent OpenAI with senior officials, lawmakers, and multilateral bodies, including ASEAN-led mechanisms (ARF, ADMM-Plus), regional security dialogues, and Track 1/1.5 channels as appropriate. - Lead external engagement with regional think tanks, research institutions, industry groups, and working bodies on AI, security, and resilience, anchored around convenings such as Shangri-La Dialogue and Raisina Dialogue. - Coordinate closely with the APAC regional team, and act as a cross-functional connector across OpenAI\u2019s global policy team to align between Asia-Pacific efforts and broader national security strategy. - Track and shape policy developments affecting AI in defense, intelligence, dual-use tech, and export controls, especially those tied to Indo-Pacific security cooperation and defense innovation pathways. - Draft crisp policy products (briefs, memos, and government responses) on national security and public safety implications of advanced AI, tailored to regional priorities and cooperation mechanisms. - Advise internal teams on opportunities to strengthen regional resilience and scale beneficial uses of AI for democratic security, defense, disaster response, and critical infrastructure, aligned with priorities in ASEAN, the Pacific Islands Forum, and key partner initiatives. This role can be based in Singapore, Tokyo or Sydney and will require regular travel throughout the region and occasional trips to the United States. YOU SHOULD THRIVE IN THIS ROLE IF YOU: - Are politically astute, with a deep understanding of the Indo-Pacific security environment, including the defense and intelligence apparatus of key Asia-Pacific democracies and partners, and the regional dynamics shaping security cooperation. - Are an experienced relationship builder with an established network of senior government officials, multilateral institutions, and/or civil society stakeholders in a national security or technology policy context across the Asia-Pacific region. - Possess outstanding communication and diplomatic skills, with the ability to represent OpenAI externally and work effectively across cultures and political systems. WE'RE LOOKING FOR A BLEND OF: - 10+ years of experience in Asia-Pacific or Indo-Pacific security, including within relevant national ministries (defense, foreign affairs, intelligence, internal security), regional security organizations, or closely related multilateral and alliance contexts. Candidates with prior industry and government relations experience will have an advantage. - Demonstrated credibility with senior stakeholders across the Asia-Pacific national security ecosystem. - Regional language capability (English plus at least one major regional language) a significant plus. - Familiarity with emerging technology issues, particularly dual-use AI capabilities, including CBRN and cybersecurity. - Strong strategic instincts and the ability to deliver results in a fast-paced, evolving environment. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Shapes national security policy on advanced AI, defense applications, and dual-use technology governance across APAC region.",
+      "date_posted": "2026-03-09",
+      "date_closes": null,
+      "source": "ashby:openai",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "Global Affairs",
+        "Global Affairs"
+      ],
+      "id": "c0dd6a9ac4067e767d6ec4a0276f76b4"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "df6f866506da01b64e9d89524ac9ac62": {
+    "listing": {
+      "title": "Software Engineer - Human Alignment, Consumer Devices",
+      "organization": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/95ec6a88-fbd8-4e9c-9924-53d6c2afd51a",
+      "location": "San Francisco",
+      "salary_range": null,
+      "role_type": "FullTime",
+      "description_snippet": "About the Team The Future of Computing Research team is an applied research team within the Consumer Devices group focused on developing new methods, models, and evaluation frameworks that support our vision for the future of computing. We work at the frontier of multimodal AI, helping turn emerging",
+      "description": "About the Team The Future of Computing Research team is an applied research team within the Consumer Devices group focused on developing new methods, models, and evaluation frameworks that support our vision for the future of computing. We work at the frontier of multimodal AI, helping turn emerging model capabilities into product experiences that are useful, delightful, and worthy of long-term trust. Our work explores a new class of AI systems that can learn over time, adapt to individuals, and support people in the flow of daily life. This includes long-term memory, user modeling, and personalization systems that are aligned not just with immediate satisfaction, but with a person\u2019s broader goals, values, and well-being. We work closely across research, engineering, design, product, and safety to define what it means to build AI systems that know you over time, act at the right moment, and help in ways that are context-aware, respectful, and demonstrably beneficial. About the Role We are looking for a Software Engineer to join the Human Alignment Team within Future of Computing Research to build the infrastructure, data systems, and evaluation foundations for next-generation multimodal models. This role is focused on the systems that make rigorous product-grounded research possible. You will build the pipelines that transform messy real-world signals into usable training and evaluation substrates, the tooling that supports human feedback, and the evaluation platforms that help us measure model behavior with precision and credibility. The best candidates for this role have strong engineering fundamentals, but also strong research taste: they know that, especially in human-centered AI systems, measurement is often the core problem. This role is based in San Francisco, CA. We use a hybrid work model of four days in the office per week and offer relocation assistance to new employees. In this role, you will: - Build evaluation and data foundations for next-generation personalized and multimodal AI systems. - Partner closely with researchers to turn fuzzy behavioral questions into rigorous evals, datasets, rubrics, and scorecards. - Design and implement human-data pipelines, grader systems, and experiment infrastructure for product-grounded research. - Create evaluation frameworks for subjective, contextual, and long-horizon behaviors. - Develop reproducible pipelines for collecting, processing, joining, and analyzing multimodal signals from real-world studies and product usage. - Help define what should count as meaningful progress, and build the systems that let the team measure it with confidence. - Work across research, safety, design, and engineering to ensure that what we optimize for is both technically sound and human-centered. - Prototype quickly, iterate on measurement frameworks, and improve the team\u2019s ability to debug, compare, and trust behavioral results. - Shape the infrastructure and methodology that future OpenAI products will rely on for personalization, adaptation, and evaluation. You might thrive in this role if you: - Have strong software engineering fundamentals and experience building data, backend, ML, or evaluation systems. - Have excellent research taste and strong judgment about what is worth measuring, how to measure it, and when a metric is misleading. - Enjoy working on ambiguous, early-stage problems where the hardest part is often defining the right evaluation rather than implementing the obvious one. - Have experience with human-in-the-loop systems, annotation pipelines, experimentation platforms, or evaluation tooling. - Are rigorous about data quality, reproducibility, metric design, and empirical correctness. - Are motivated by human-centered AI and excited by the challenge of measuring behaviors that are subtle, contextual, and difficult to benchmark. - Want to help define the research infrastructure behind a new category of AI products. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Role focuses on building evaluation frameworks and measurement systems for AI alignment and human-centered AI behavior assessment.",
+      "date_posted": "2026-03-11",
+      "date_closes": null,
+      "source": "ashby:openai",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "Consumer Products",
+        "Consumer Products"
+      ],
+      "id": "df6f866506da01b64e9d89524ac9ac62"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "4325df4b09cb7ba684ccf808b25e2a5a": {
+    "listing": {
+      "title": "Research Engineer/Scientist - Human Alignment, Consumer Devices",
+      "organization": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/09253a0e-a2b8-49d1-80bb-6955ba3b08a3",
+      "location": "San Francisco",
+      "salary_range": null,
+      "role_type": "FullTime",
+      "description_snippet": "About the Team The Future of Computing Research team is an applied research team within the Consumer Devices group focused on developing new methods, models, and evaluation frameworks that support our vision for the future of computing. We work at the frontier of multimodal AI, helping turn emerging",
+      "description": "About the Team The Future of Computing Research team is an applied research team within the Consumer Devices group focused on developing new methods, models, and evaluation frameworks that support our vision for the future of computing. We work at the frontier of multimodal AI, helping turn emerging model capabilities into product experiences that are useful, delightful, and worthy of long-term trust. Our work explores a new class of AI systems that can learn over time, adapt to individuals, and support people in the flow of daily life. This includes long-term memory, user modeling, and personalization systems that are aligned not just with immediate satisfaction, but with a person\u2019s broader goals, values, and well-being. We work closely across research, engineering, design, product, and safety to define what it means to build AI systems that know you over time, act at the right moment, and help in ways that are context-aware, respectful, and demonstrably beneficial. About the Role We are looking for a Research Engineer / Scientist to join the Future of Computing Research team to work on RLHF and post-training for personalized, multimodal AI systems. This role will focus on building the learning and evaluation foundations that help models become more context-aware, adaptive, and useful over time. You will work on problems such as reward modeling, preference learning, long-horizon evaluation, and policy improvement for systems that must make high-quality behavioral decisions in realistic user settings. The work is deeply product-grounded: success is not just higher benchmark performance, but better model behavior in real-world use. The ideal candidate is excited about pushing beyond one-turn assistant behavior toward systems that improve through feedback, learn from richer signals, and are trained against meaningful notions of user value. Internally, that maps closely to the need for careful reward design, feedback loops, and evaluation frameworks that test whether interventions are actually beneficial over longer horizons. This role is based in San Francisco, CA. We use a hybrid work model of four days in the office per week and offer relocation assistance to new employees. In this role, you will: - Develop RLHF and post-training methods for multimodal models. - Build reward models and preference-learning pipelines for adaptive, personalized model behavior. - Design datasets, rubrics, and evaluation frameworks that capture user preferences, contextual appropriateness, and long-term value in realistic tasks. - Run experiments on policy improvement using explicit feedback, implicit signals, and model-based grading. - Work on long-horizon evaluation problems, where model quality depends not just on a single response but on whether behavior improves outcomes over time. - Collaborate closely with safety researchers to ensure that adaptation and personalization remain aligned, interpretable, and bounded by clear constraints. - Prototype and iterate quickly on training recipes, reward formulations, data pipelines, and evaluation suites for product-relevant behaviors. - Help define how OpenAI measures success for personalized AI systems including trust, appropriateness, and long-term user benefit. You might thrive in this role if you: - Have a strong background in machine learning research, with experience in RLHF, reward modeling, preference optimization, or post-training for large models. - Have worked on one or more of: reinforcement learning, ranking, recommender systems, personalization, memory, or human-in-the-loop evaluation. - Care about rigorous empirical work and know how to design clean experiments, reliable evals, and decision-useful metrics. - Are excited by the challenge of training models against nuanced behavioral objectives. - Have experience building datasets or eval pipelines grounded in human preferences, rubrics, or real-world product behavior. - Are comfortable working across the stack, from data generation and labeling strategy to training runs, reward functions, and analysis. - Are interested in multimodal AI and in how models can learn from richer interaction signals over time. - Want to work on product-shaping research with unusually high stakes for trust, alignment, and long-term user value. - Enjoy close collaboration with engineers, designers, and safety researchers to turn frontier research into real systems. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "RLHF, reward modeling, and alignment research for adaptive AI systems with safety collaboration.",
+      "date_posted": "2026-03-11",
+      "date_closes": null,
+      "source": "ashby:openai",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "Consumer Products",
+        "Consumer Products"
+      ],
+      "id": "4325df4b09cb7ba684ccf808b25e2a5a"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
+  },
+  "8b43c626b787606a9255544ca634e807": {
+    "listing": {
+      "title": "Indirect Tax Compliance Manager",
+      "organization": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/03451001-23e6-4347-a28a-deac00375b57",
+      "location": "San Francisco",
+      "salary_range": null,
+      "role_type": "FullTime",
+      "description_snippet": "About the Team OpenAI Finance is responsible for ensuring the organization is set up for success in pursuit of its mission. OpenAI\u2019s Tax and Trade team sits at the center of OpenAI\u2019s global growth\u2014shaping how cutting-edge AI products, partnerships, and infrastructure scale across borders while navig",
+      "description": "About the Team OpenAI Finance is responsible for ensuring the organization is set up for success in pursuit of its mission. OpenAI\u2019s Tax and Trade team sits at the center of OpenAI\u2019s global growth\u2014shaping how cutting-edge AI products, partnerships, and infrastructure scale across borders while navigating complex tax, trade, and regulatory regimes. We operate as strategic operators, not just compliance experts, embedding early in product, finance, policy, and infrastructure decisions to manage risk, unlock incentives, and enable OpenAI to grow responsibly and competitively worldwide. As OpenAI\u2019s products, monetization models, and global infrastructure expand, our tax systems must scale with the same rigor and reliability as our product architecture. The team partners deeply with Financial Engineering, Product Engineering, and Finance Systems to build a modern tax technology stack that enables accurate, real-time tax determination across OpenAI\u2019s global business. About the Role We\u2019re hiring an Indirect Tax Compliance Manager to own and continuously improve our end-to-end indirect tax compliance process. This role will be responsible for driving timely, accurate compliance, maintaining audit readiness, and building scalable processes that improve visibility, control, and efficiency across the Tax function. While the role is primarily focused on US indirect tax compliance, the scope may expand over time to support international indirect tax compliance as the team and business continue to grow. You will sit at the intersection of Tax, Accounting, Finance, and cross-functional business teams, helping ensure that tax compliance is well-controlled, well-documented, and supported by reliable data and technology. The ideal candidate brings strong US indirect tax compliance experience, a detail-oriented and process-driven mindset, and a genuine passion for leveraging technology to streamline and improve compliance operations. A strong interest in automation, analytics, and process improvement are important for success in this role. This role is based in San Francisco, CA, and we use a hybrid work model of 3 days in the office per week. In this Role, you will: - Own the end-to-end US indirect tax compliance process, including data gathering, return support, filing coordination, payments, reconciliations, and post-filing documentation. - Manage day-to-day compliance operations and partner with external service providers to ensure timely, accurate preparation and submission of US indirect tax filings. - Develop and maintain audit-ready workpapers, reconciliations, process documentation, and supporting evidence for internal and external audits. - Coordinate responses to tax authority notices, audits, and information requests, working closely with internal stakeholders and outside advisors. - Strengthen the control environment around tax compliance by designing, documenting, and improving key controls and review procedures. - Streamline the end-to-end compliance process by identifying automation opportunities, reducing manual work, and standardizing repeatable workflows. - Use tools to build dashboards, monitor compliance status, track KPIs, identify anomalies, and improve reporting visibility. - Partner cross-functionally with Accounting, Finance, Legal, and business teams to ensure indirect tax requirements are incorporated into upstream processes and downstream reporting. - Review and validate tax data from ERP, billing, and other source systems to support accurate filings and reconciliations. - Support new products, process changes, and system implementations by assessing compliance impacts and helping operationalize requirements. - Monitor changes in US indirect tax rules, filing requirements, and compliance obligations, and translate them into practical process updates. - Build scalable documentation and operational playbooks that make the compliance process easier to manage, review, and improve over time. You might thrive in this role if you have: - 6+ years of relevant experience in US indirect tax compliance, tax operations, or a related role in industry or public accounting. - Strong experience with US indirect tax compliance processes, audit support, reconciliations, and documentation, alongside a strong interest in expanding compliance capabilities to support other jurisdictions. - Experience managing or partnering with outsourced compliance providers and coordinating across multiple stakeholders. - An enthusiasm for using technology, automation, and analytics to improve tax processes. - A strong systems mindset, with experience working across spreadsheets, ERP systems, billing data, and tax-related workflows. - Proven ability to identify process gaps, improve controls, and drive operational efficiencies across the compliance lifecycle. - Strong analytical and problem-solving skills, including comfort working with large data sets and transaction-level detail. - Excellent communication and project management skills, with the ability to work effectively across Tax, Finance, Accounting and external advisors. - High attention to detail, strong organizational skills, and the ability to operate effectively in a fast-paced environment. - CPA or advanced degree in Accounting, Tax, Finance, or a related field. - Experience in a high-growth or technology-driven environment. - Experience with tax engines, ERP platforms and compliance technology tools such as Stripe, Vertex, Oracle, or similar systems. - Experience building process reporting, dashboards and workflow visibility tools. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "General Tech Policy",
+      "relevance_reason": "Tax compliance and regulatory navigation role without direct AI safety focus.",
+      "date_posted": "2026-03-11",
+      "date_closes": null,
+      "source": "ashby:openai",
+      "date_scraped": "2026-03-16",
+      "tags": [
+        "Finance",
+        "Finance"
+      ],
+      "id": "8b43c626b787606a9255544ca634e807"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-16"
   }
 }

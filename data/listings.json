@@ -7249,5 +7249,213 @@
     "review_status": "unreviewed",
     "reviewed_at": null,
     "added_at": "2026-03-23"
+  },
+  "117d34b6fb808ac7bbb036696e219736": {
+    "listing": {
+      "title": "CORDA Democracy Fellowship",
+      "organization": "Civic, Open & Resilient Democracy Action",
+      "url": "https://cordademocracy.org/fellows-guide?utm_source=80000hours&utm_medium=job-board",
+      "location": "Remote, Global (Remote)",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "In this fellowship, you'll undertake a research, building, or implementation project addressing AI and democracy. Commit 8\u201310 hours per week to your project with experienced mentor guidance. Engage meaningfully in mentorship sessions and communicate proactively about progress. Execute your project w",
+      "description": "In this fellowship, you'll undertake a research, building, or implementation project addressing AI and democracy. Commit 8\u201310 hours per week to your project with experienced mentor guidance. Engage meaningfully in mentorship sessions and communicate proactively about progress. Execute your project within the 8-week timeline, iterating rapidly based on feedback. Address focus areas including measuring democratic health, strengthening collective reasoning, improving democratic coordination, or defending institutions.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Addresses AI governance, democratic institutions protection, and collective reasoning amid AI advancement risks.",
+      "date_posted": "2026-03-26",
+      "date_closes": "2026-03-30",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-30",
+      "tags": [
+        "Safeguarding liberal democracy",
+        "Research",
+        "Policy"
+      ],
+      "id": "117d34b6fb808ac7bbb036696e219736"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-30"
+  },
+  "6b5e5856a6530f9ed0ea4e7528aa98f3": {
+    "listing": {
+      "title": "Policy Analyst",
+      "organization": "US Government, Executive Office of the President",
+      "url": "https://www.usajobs.gov/job/862805800?utm_source=80000hours&utm_medium=job-board",
+      "location": "Washington, DC metro area",
+      "salary_range": "$85,447-$197,200",
+      "role_type": "Full-time",
+      "description_snippet": "Policy Analysts within the Privacy Branch are the core source of expertise on matters pertaining to the development, implementation, and oversight of policies, principles, standards, and guidelines on information privacy across the Executive Branch. Guide agencies in meeting the privacy requirements",
+      "description": "Policy Analysts within the Privacy Branch are the core source of expertise on matters pertaining to the development, implementation, and oversight of policies, principles, standards, and guidelines on information privacy across the Executive Branch. Guide agencies in meeting the privacy requirements established in Federal law and ensure that personally identifiable information is appropriately handled across Executive Branch programs and services. Develop and present privacy policy recommendations to higher-level decision makers.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": null,
+      "relevance_tag": "General Tech Policy",
+      "relevance_reason": "Policy role focused on privacy regulations and information handling across government agencies.",
+      "date_posted": "2026-03-27",
+      "date_closes": "2026-04-10",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-30",
+      "tags": [
+        "Career development: Policy & government",
+        "Policy"
+      ],
+      "id": "6b5e5856a6530f9ed0ea4e7528aa98f3"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-30"
+  },
+  "4c01c0003b7a975400c9331981d38dec": {
+    "listing": {
+      "title": "AI Research Managers, Technical, Governance, or Technical AI Governance",
+      "organization": "ERA",
+      "url": "https://docs.google.com/document/d/1hj966uNNbW_AHUJUiXkM_K8kTFxdPkkrn4a4c68cAoQ/edit?tab=t.0&utm_source=80000hours&utm_medium=job-board#heading=h.j1mkckpis9g8",
+      "location": "Cambridge, UK",
+      "salary_range": "$82,291-$99,546",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you will work closely with the Programme Director in order to execute ERA\u2019s research programme. Support research fellows, guide them in finding and scoping their projects, and lead research efforts across ERA\u2019s focus areas of AI governance, technical AI safety, and technical AI governa",
+      "description": "In this role, you will work closely with the Programme Director in order to execute ERA\u2019s research programme. Support research fellows, guide them in finding and scoping their projects, and lead research efforts across ERA\u2019s focus areas of AI governance, technical AI safety, and technical AI governance. Review and evaluate applications to the 2026 Summer Research Fellowship programm. Match fellows with mentors, help fellows find research projects, and direct, shape, and oversee up to 8 research projects/fellows.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role directly addresses AI governance and technical AI safety through research program leadership and fellowship oversight.",
+      "date_posted": "2026-03-27",
+      "date_closes": "2026-04-06",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-30",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Management"
+      ],
+      "id": "4c01c0003b7a975400c9331981d38dec"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-30"
+  },
+  "6117770f675a3032f90c1e7ab003c135": {
+    "listing": {
+      "title": "Senior Advisor, Global Catastrophic Risk Partnerships",
+      "organization": "Coefficient Giving",
+      "url": "https://jobs.ashbyhq.com/coefficientgiving/9be56343-19a6-4deb-8a6d-0b0bdbea3e25?utm_source=80000hours&utm_medium=job-board",
+      "location": "San Francisco Bay Area",
+      "salary_range": "$295,000-$295,000",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll connect major donors with high-impact funding opportunities in AI safety and biosecurity. Identify and cultivate emerging major donors, developing strategies to move them toward substantial GCR-aligned commitments. Build peer-level relationships with major donors and tech leader",
+      "description": "In this role, you'll connect major donors with high-impact funding opportunities in AI safety and biosecurity. Identify and cultivate emerging major donors, developing strategies to move them toward substantial GCR-aligned commitments. Build peer-level relationships with major donors and tech leaders, representing the team at events and serving as a thought partner. Shape compelling cases for funding opportunities and advise donors on portfolio construction and capital allocation.",
+      "work_mode": null,
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Focuses on funding and partnerships for AI safety and biosecurity catastrophic risks.",
+      "date_posted": "2026-03-23",
+      "date_closes": "2026-04-05",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-30",
+      "tags": [
+        "Global priorities research",
+        "Outreach",
+        "Strategy"
+      ],
+      "id": "6117770f675a3032f90c1e7ab003c135"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-30"
+  },
+  "bb9a32a3b5af4c5064b3095bac9d81dd": {
+    "listing": {
+      "title": "Fellowship, Hague Code of Conduct Youth Group",
+      "organization": "Fondation pour la Recherche Strat\u00e9gique",
+      "url": "https://www.nonproliferation.eu/hcoc/hcoc-youth-group-second-edition-call-for-applications-now-open/?utm_source=80000hours&utm_medium=job-board",
+      "location": "Plok\u0161tine, Lithuania",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "This is an 18-month fellowship programme combining expert engagement with individual research on missile non-proliferation. Participate in four thematic webinars with leading researchers and diplomats discussing ballistic missile issues. Attend a three-day residential workshop in Lithuania featuring",
+      "description": "This is an 18-month fellowship programme combining expert engagement with individual research on missile non-proliferation. Participate in four thematic webinars with leading researchers and diplomats discussing ballistic missile issues. Attend a three-day residential workshop in Lithuania featuring expert briefings and simulation exercises. Conduct independent research on a technical or diplomatic theme and submit a paper for the published collection. Engage in optional virtual caf\u00e9s to maintain group cohesion and exchange perspectives on developments.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Fellowship focuses on missile non-proliferation policy and diplomatic engagement on strategic weapons control.",
+      "date_posted": "2026-03-26",
+      "date_closes": "2026-07-31",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-30",
+      "tags": [
+        "Career development: Policy & government",
+        "Research",
+        "Policy"
+      ],
+      "id": "bb9a32a3b5af4c5064b3095bac9d81dd"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-30"
+  },
+  "82282c72d75830c68a07c95a45e9eef3": {
+    "listing": {
+      "title": "Teaching Assistant, Cambridge Bootcamp for Research in Interpretability and Alignment",
+      "organization": "Cambridge Boston Alignment Initiative",
+      "url": "https://airtable.com/appekfFNw7V75LXQn/pagwQRIDaql0hufJI/form?utm_source=80000hours&utm_medium=job-board",
+      "location": "Boston metro area",
+      "salary_range": "$124,800-$124,800",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll support participants through a 3-week intensive ML bootcamp designed to teach AI safety skills. Debug code, diagnose issues, and guide participants through implementation challenges. Evaluate participant progress and provide targeted support to address individual learning needs.",
+      "description": "In this role, you'll support participants through a 3-week intensive ML bootcamp designed to teach AI safety skills. Debug code, diagnose issues, and guide participants through implementation challenges. Evaluate participant progress and provide targeted support to address individual learning needs. Present informational sessions and facilitate pair programming to strengthen technical understanding. Manage compute infrastructure, troubleshoot environment issues, and advise on AI safety career opportunities.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Teaching AI safety skills through interpretability bootcamp with hands-on technical implementation support.",
+      "date_posted": "2026-03-26",
+      "date_closes": "2026-04-05",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-30",
+      "tags": [
+        "AI safety & policy",
+        "Other"
+      ],
+      "id": "82282c72d75830c68a07c95a45e9eef3"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-30"
+  },
+  "73782cabae197f60062bfa2d11d0ecd4": {
+    "listing": {
+      "title": "Academy Fellowships (2026-27)",
+      "organization": "Chatham House",
+      "url": "https://careers.chathamhouse.org/jobs/7401384-2026-2027-chatham-house-academy-fellowships?utm_campaign=jobs-widget&utm_source=careers.chathamhouse.org&utm_content=jobs&utm_medium=web&utm_source=80000hours&utm_medium=job-board",
+      "location": "London, UK",
+      "salary_range": "$40,854-$40,854",
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll conduct independent research on global policy themes as part of a 10-month in-person fellowship. Focus your research on Chatham House's strategic priorities in international affairs. Contribute to Chatham House's research projects and policy events. Collaborate with a global net",
+      "description": "In this role, you'll conduct independent research on global policy themes as part of a 10-month in-person fellowship. Focus your research on Chatham House's strategic priorities in international affairs. Contribute to Chatham House's research projects and policy events. Collaborate with a global network of experts, policymakers and practitioners. Participate in a Leadership Masterclass Programme with seminars, media training and coaching.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "General Tech Policy",
+      "relevance_reason": "Fellowship focuses on global policy research in international affairs, not specifically on AI safety or catastrophic risks.",
+      "date_posted": "2026-03-23",
+      "date_closes": "2026-04-06",
+      "source": "80k_hours",
+      "date_scraped": "2026-03-30",
+      "tags": [
+        "Career development: Policy & government",
+        "Research",
+        "Policy"
+      ],
+      "id": "73782cabae197f60062bfa2d11d0ecd4"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-03-30"
   }
 }

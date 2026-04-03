@@ -59,6 +59,25 @@ def main():
 def review_page():
     st.title("Review Listings")
 
+    # Fix emoji button centering at intermediate viewport widths.
+    # Streamlit's default button layout loses alignment when columns are narrow
+    # but not yet collapsed, because the inner <p> grows to full width without
+    # centering its content. Forcing flex centering on the button fixes this.
+    st.markdown("""
+    <style>
+    button[data-testid="stBaseButton-secondary"] {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    button[data-testid="stBaseButton-secondary"] p {
+        margin: 0 !important;
+        line-height: 1 !important;
+        width: auto !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
     store = load_listings()
     if not store:
         st.info("No listings found. Run the scraper first: `python -m src.main`")

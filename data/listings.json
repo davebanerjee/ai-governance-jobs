@@ -23,8 +23,8 @@
       ],
       "id": "c8fcf808623700c283352f1b14ebfc92"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "b5a260b51afa2ca483ae388fcaca2eb8": {
@@ -50,8 +50,8 @@
       ],
       "id": "b5a260b51afa2ca483ae388fcaca2eb8"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "cf31d7be601ccf4f246a08e3d7afac95": {
@@ -77,8 +77,8 @@
       ],
       "id": "cf31d7be601ccf4f246a08e3d7afac95"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "876a72623c4ea1107c3e09d53fc471b7": {
@@ -104,8 +104,8 @@
       ],
       "id": "876a72623c4ea1107c3e09d53fc471b7"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "e3e5578a4c88e404fe21f7b9a138f5a1": {
@@ -132,8 +132,8 @@
       ],
       "id": "e3e5578a4c88e404fe21f7b9a138f5a1"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "80ffe7067e15709ff2fb92287095e570": {
@@ -160,8 +160,8 @@
       ],
       "id": "80ffe7067e15709ff2fb92287095e570"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "898da841c681481a066c3aa6608ad4df": {
@@ -188,8 +188,8 @@
       ],
       "id": "898da841c681481a066c3aa6608ad4df"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "a0866f91594a90b3581dccbc96cefbad": {
@@ -215,8 +215,8 @@
       ],
       "id": "a0866f91594a90b3581dccbc96cefbad"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "7b239353f4b83d16576d1a093341b53e": {
@@ -243,8 +243,8 @@
       ],
       "id": "7b239353f4b83d16576d1a093341b53e"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "02ed2c805f44647c4a544d972cc200a1": {
@@ -272,8 +272,8 @@
       ],
       "id": "02ed2c805f44647c4a544d972cc200a1"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "9b4b44c6c50d065491dd88cfdcb6c6bf": {
@@ -299,8 +299,8 @@
       ],
       "id": "9b4b44c6c50d065491dd88cfdcb6c6bf"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "415092db2e58654fdadd8bad94ce6d04": {
@@ -327,8 +327,8 @@
       ],
       "id": "415092db2e58654fdadd8bad94ce6d04"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "e701bc5d29082741a4427817eb468c69": {
@@ -354,8 +354,8 @@
       ],
       "id": "e701bc5d29082741a4427817eb468c69"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "b555bdb88f516a522a241def7e3c17d1": {
@@ -381,8 +381,8 @@
       ],
       "id": "b555bdb88f516a522a241def7e3c17d1"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "9418d51308cdfaab2b4f33dc1257ec7e": {
@@ -409,8 +409,8 @@
       ],
       "id": "9418d51308cdfaab2b4f33dc1257ec7e"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "d513f8e131fcca819a4cf469cae73deb": {
@@ -437,8 +437,8 @@
       ],
       "id": "d513f8e131fcca819a4cf469cae73deb"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "6a80865bfd7eb74a4b762c1ec38d0a7d": {
@@ -465,8 +465,8 @@
       ],
       "id": "6a80865bfd7eb74a4b762c1ec38d0a7d"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "d0eed00a870b4098e0c892b6b4c41a49": {
@@ -493,8 +493,8 @@
       ],
       "id": "d0eed00a870b4098e0c892b6b4c41a49"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "fe9869f6b15ddfde54875cab580a0fec": {
@@ -521,8 +521,8 @@
       ],
       "id": "fe9869f6b15ddfde54875cab580a0fec"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-02-15",
     "added_at": "2026-02-15"
   },
   "844744bde98aaee01f168ab745473289": {
@@ -549,8 +549,8 @@
       ],
       "id": "844744bde98aaee01f168ab745473289"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "57066539f998d5d49d09e71047c3a4e7": {
@@ -577,8 +577,8 @@
       ],
       "id": "57066539f998d5d49d09e71047c3a4e7"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "1b45bbee43f2b94664e31867bca12108": {
@@ -606,8 +606,8 @@
       ],
       "id": "1b45bbee43f2b94664e31867bca12108"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "638e3771a1420567e213637436202ba0": {
@@ -634,8 +634,8 @@
       ],
       "id": "638e3771a1420567e213637436202ba0"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "ce8fac0ae9396139a68982328df321f2": {
@@ -662,8 +662,8 @@
       ],
       "id": "ce8fac0ae9396139a68982328df321f2"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "b0f41157e034ff6efa2e6bd8041eede6": {
@@ -690,8 +690,8 @@
       ],
       "id": "b0f41157e034ff6efa2e6bd8041eede6"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "fd209a9184da7457f5db849e13dcc3e7": {
@@ -718,8 +718,8 @@
       ],
       "id": "fd209a9184da7457f5db849e13dcc3e7"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "81c1fbed1ae19d289db6c1df615f026c": {
@@ -746,8 +746,8 @@
       ],
       "id": "81c1fbed1ae19d289db6c1df615f026c"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "61bd7e5aa7e63cbd50b82ae0fd754e73": {
@@ -774,8 +774,8 @@
       ],
       "id": "61bd7e5aa7e63cbd50b82ae0fd754e73"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "652c4501c1666c9e144b47f4d8f5c794": {
@@ -801,8 +801,8 @@
       ],
       "id": "652c4501c1666c9e144b47f4d8f5c794"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "797ac3f94f24a3ced28c286d676ade6f": {
@@ -829,8 +829,8 @@
       ],
       "id": "797ac3f94f24a3ced28c286d676ade6f"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "b12865ebf2edf1bd6a5b5002df66f629": {
@@ -857,8 +857,8 @@
       ],
       "id": "b12865ebf2edf1bd6a5b5002df66f629"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "a0350dd3de4f8e66acaaa01d0635cb35": {
@@ -884,8 +884,8 @@
       ],
       "id": "a0350dd3de4f8e66acaaa01d0635cb35"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "2dbed0779fd58fcad3e04ba6350a9eed": {
@@ -909,10 +909,12 @@
         "AI safety & policy",
         "Research"
       ],
-      "id": "2dbed0779fd58fcad3e04ba6350a9eed"
+      "id": "2dbed0779fd58fcad3e04ba6350a9eed",
+      "impact_score": 7,
+      "impact_reason": "Directly addresses AI x-risk through safety evaluations of scientific AI systems and threat modeling."
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "df3cad640769ece55dc6c8d2c4d81c66": {
@@ -938,8 +940,8 @@
       ],
       "id": "df3cad640769ece55dc6c8d2c4d81c66"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "faedb16cf83d935398a0b10e4675fad9": {
@@ -964,10 +966,12 @@
         "Research",
         "Policy"
       ],
-      "id": "faedb16cf83d935398a0b10e4675fad9"
+      "id": "faedb16cf83d935398a0b10e4675fad9",
+      "impact_score": 4,
+      "impact_reason": "General national security role at respected org; potential indirect x-risk relevance through foreign policy influence."
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "7443f98f6253ee5446025c7770fd389b": {
@@ -993,8 +997,8 @@
       ],
       "id": "7443f98f6253ee5446025c7770fd389b"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "aae702896087c418e10401aa1f16bc5c": {
@@ -1021,8 +1025,8 @@
       ],
       "id": "aae702896087c418e10401aa1f16bc5c"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "ab66128a4069803a88fc558d6e20ab5b": {
@@ -1049,8 +1053,8 @@
       ],
       "id": "ab66128a4069803a88fc558d6e20ab5b"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "e211e0596d53d35223575ce6f7bc3e22": {
@@ -1076,8 +1080,8 @@
       ],
       "id": "e211e0596d53d35223575ce6f7bc3e22"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "284a87f3751b5d0cec1c1af67b9c120a": {
@@ -1104,8 +1108,8 @@
       ],
       "id": "284a87f3751b5d0cec1c1af67b9c120a"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "4435ca18b7f5faa6786869c20b0fa342": {
@@ -1132,8 +1136,8 @@
       ],
       "id": "4435ca18b7f5faa6786869c20b0fa342"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "8ca2a666b71fa8fe93ee43e90c879ace": {
@@ -1160,8 +1164,8 @@
       ],
       "id": "8ca2a666b71fa8fe93ee43e90c879ace"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "923a0a18136529ec442fe4c404ea3283": {
@@ -1189,8 +1193,8 @@
       ],
       "id": "923a0a18136529ec442fe4c404ea3283"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "a53f130f3690246512238653e8a15401": {
@@ -1215,10 +1219,12 @@
         "Policy",
         "Management"
       ],
-      "id": "a53f130f3690246512238653e8a15401"
+      "id": "a53f130f3690246512238653e8a15401",
+      "impact_score": 2,
+      "impact_reason": "Global development focus has minimal direct connection to existential or catastrophic risk reduction."
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "a5118d95db7024377925f57dfb770b47": {
@@ -1244,8 +1250,8 @@
       ],
       "id": "a5118d95db7024377925f57dfb770b47"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "71e07b20247829e2e09d969a402125de": {
@@ -1271,8 +1277,8 @@
       ],
       "id": "71e07b20247829e2e09d969a402125de"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "0f2b75d58f0054c175192e5b8eaf6697": {
@@ -1298,8 +1304,8 @@
       ],
       "id": "0f2b75d58f0054c175192e5b8eaf6697"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "623915168f92c4f9365e2954b3b0f7e2": {
@@ -1324,10 +1330,12 @@
         "Research",
         "Policy"
       ],
-      "id": "623915168f92c4f9365e2954b3b0f7e2"
+      "id": "623915168f92c4f9365e2954b3b0f7e2",
+      "impact_score": 6,
+      "impact_reason": "AI governance research with legal compliance focus; meaningful x-risk relevance but not primary mission-driven x-risk organization."
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "9ce6fece3fcef1312acd94ed3653f635": {
@@ -1353,8 +1361,8 @@
       ],
       "id": "9ce6fece3fcef1312acd94ed3653f635"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "79719194d3a9fc83c7ef606390bbfdb3": {
@@ -1381,8 +1389,8 @@
       ],
       "id": "79719194d3a9fc83c7ef606390bbfdb3"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "aa98b5318826702afd552bf3e19ef773": {
@@ -1409,8 +1417,8 @@
       ],
       "id": "aa98b5318826702afd552bf3e19ef773"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "6e83ac1c187a3ea4e1485f31eab234d2": {
@@ -1437,8 +1445,8 @@
       ],
       "id": "6e83ac1c187a3ea4e1485f31eab234d2"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "cb38f3b360ea5c11c131d80e8d62e3dd": {
@@ -1466,8 +1474,8 @@
       ],
       "id": "cb38f3b360ea5c11c131d80e8d62e3dd"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "9aa74a5a8b6c5baa0a5513a468d53d34": {
@@ -1495,8 +1503,8 @@
       ],
       "id": "9aa74a5a8b6c5baa0a5513a468d53d34"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "d2efc5c699dc6ac0aba3a99c87a438af": {
@@ -1523,8 +1531,8 @@
       ],
       "id": "d2efc5c699dc6ac0aba3a99c87a438af"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "8cfff4e0631825a85ed1d3abac91f44f": {
@@ -1550,8 +1558,8 @@
       ],
       "id": "8cfff4e0631825a85ed1d3abac91f44f"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "14594e66f270c11c7ef99584ab40349d": {
@@ -1578,8 +1586,8 @@
       ],
       "id": "14594e66f270c11c7ef99584ab40349d"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "979034f46fa748e85ca9936a8e45ada6": {
@@ -1606,8 +1614,8 @@
       ],
       "id": "979034f46fa748e85ca9936a8e45ada6"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "ae556dca6079dbf473879f3d0e0f7a07": {
@@ -1634,8 +1642,8 @@
       ],
       "id": "ae556dca6079dbf473879f3d0e0f7a07"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "6ce25f1008d1467cdf018e21cdf0920e": {
@@ -1660,10 +1668,12 @@
         "Research",
         "Policy"
       ],
-      "id": "6ce25f1008d1467cdf018e21cdf0920e"
+      "id": "6ce25f1008d1467cdf018e21cdf0920e",
+      "impact_score": 5,
+      "impact_reason": "U.S.-China relations analysis informs AI/bioweapon governance decisions with meaningful but indirect x-risk relevance."
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "f401379c667588680cf29e2af901b582": {
@@ -1689,8 +1699,8 @@
       ],
       "id": "f401379c667588680cf29e2af901b582"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "3f31cff60fef36e38b6604d7a28e6cba": {
@@ -1718,8 +1728,8 @@
       ],
       "id": "3f31cff60fef36e38b6604d7a28e6cba"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "93f01168bc2e94c86e3c9cfbcdcb8339": {
@@ -1746,8 +1756,8 @@
       ],
       "id": "93f01168bc2e94c86e3c9cfbcdcb8339"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "bf8d1ee91bd6bcbff40a718574c4103d": {
@@ -1773,8 +1783,8 @@
       ],
       "id": "bf8d1ee91bd6bcbff40a718574c4103d"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "177aac64842d89b66af5597bc5080280": {
@@ -1800,8 +1810,8 @@
       ],
       "id": "177aac64842d89b66af5597bc5080280"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "ee9694acdc0e1d22ff62f9633d9af50b": {
@@ -1828,8 +1838,8 @@
       ],
       "id": "ee9694acdc0e1d22ff62f9633d9af50b"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "3c0ba78c20707351ab257172d4e22ae2": {
@@ -1856,8 +1866,8 @@
       ],
       "id": "3c0ba78c20707351ab257172d4e22ae2"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "43dd029f63de09d6dbd4664864292dc7": {
@@ -1884,8 +1894,8 @@
       ],
       "id": "43dd029f63de09d6dbd4664864292dc7"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "1b227996b9c0f5ba24a42497b588f080": {
@@ -1912,8 +1922,8 @@
       ],
       "id": "1b227996b9c0f5ba24a42497b588f080"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "86d9ca346bd031b34e27ad0ebc62832f": {
@@ -1940,8 +1950,8 @@
       ],
       "id": "86d9ca346bd031b34e27ad0ebc62832f"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "5abd9038a9bae112d93c2f0a2684f899": {
@@ -1968,8 +1978,8 @@
       ],
       "id": "5abd9038a9bae112d93c2f0a2684f899"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "010f65267e1a22b4fe6a5a2edac41108": {
@@ -1999,8 +2009,8 @@
       ],
       "id": "010f65267e1a22b4fe6a5a2edac41108"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "e4c6325afd73ae0927d5276a3a846ef1": {
@@ -2027,8 +2037,8 @@
       ],
       "id": "e4c6325afd73ae0927d5276a3a846ef1"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "a8438acbd01bd83607b5b05d4e10db7d": {
@@ -2055,8 +2065,8 @@
       ],
       "id": "a8438acbd01bd83607b5b05d4e10db7d"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "07a90b4de61f51c3f171eafd598acd04": {
@@ -2082,8 +2092,8 @@
       ],
       "id": "07a90b4de61f51c3f171eafd598acd04"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "2d9d6c66b2b63a53ca6285f8e1dae12f": {
@@ -2110,8 +2120,8 @@
       ],
       "id": "2d9d6c66b2b63a53ca6285f8e1dae12f"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "00547e79a69e0b02ada994f1852870e1": {
@@ -2137,8 +2147,8 @@
       ],
       "id": "00547e79a69e0b02ada994f1852870e1"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "5acc5f213e439508b361e8a4a5ad0962": {
@@ -2164,8 +2174,8 @@
       ],
       "id": "5acc5f213e439508b361e8a4a5ad0962"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "61c5ed2aac96fa8f35a586b51221ef3a": {
@@ -2191,8 +2201,8 @@
       ],
       "id": "61c5ed2aac96fa8f35a586b51221ef3a"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "5ceeb272ec3422bb84a6755820c881bc": {
@@ -2219,8 +2229,8 @@
       ],
       "id": "5ceeb272ec3422bb84a6755820c881bc"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "d97e437a8ea88d08fb8584c3c8c227c3": {
@@ -2246,8 +2256,8 @@
       ],
       "id": "d97e437a8ea88d08fb8584c3c8c227c3"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "b598db48a2834ef260db101b5faef31e": {
@@ -2274,8 +2284,8 @@
       ],
       "id": "b598db48a2834ef260db101b5faef31e"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "133824949e0eb1b4de2034ef0883e1fe": {
@@ -2302,8 +2312,8 @@
       ],
       "id": "133824949e0eb1b4de2034ef0883e1fe"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "497eb7034465c41e4d95748f58c1745a": {
@@ -2327,10 +2337,12 @@
         "Career development: Technical",
         "Research"
       ],
-      "id": "497eb7034465c41e4d95748f58c1745a"
+      "id": "497eb7034465c41e4d95748f58c1745a",
+      "impact_score": 2,
+      "impact_reason": "Generic fellowship program with no x-risk focus or specialized safety orientation."
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "7990f7c154276d9e1da4edfe54cb9e5c": {
@@ -2358,8 +2370,8 @@
       ],
       "id": "7990f7c154276d9e1da4edfe54cb9e5c"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "37ad3e603dcab6348d4db2e4349712ed": {
@@ -2385,8 +2397,8 @@
       ],
       "id": "37ad3e603dcab6348d4db2e4349712ed"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "185fed6bca75406c4a7ac20fd4151b93": {
@@ -2412,8 +2424,8 @@
       ],
       "id": "185fed6bca75406c4a7ac20fd4151b93"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "f6cf739829085e19441dfc1ec274bd19": {
@@ -2440,8 +2452,8 @@
       ],
       "id": "f6cf739829085e19441dfc1ec274bd19"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "84ba6c95ddf3b0a3e8a64775d26ce473": {
@@ -2469,8 +2481,8 @@
       ],
       "id": "84ba6c95ddf3b0a3e8a64775d26ce473"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "e3b8d6cefbd3ac7546d652e8cae1a5de": {
@@ -2495,10 +2507,12 @@
         "Research",
         "Policy"
       ],
-      "id": "e3b8d6cefbd3ac7546d652e8cae1a5de"
+      "id": "e3b8d6cefbd3ac7546d652e8cae1a5de",
+      "impact_score": 5,
+      "impact_reason": "Policy research on emerging tech competition has meaningful x-risk relevance but unclear direct focus on existential risks."
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "fb7bd47dff9f8c3b104f6ebb6c040fb5": {
@@ -2524,8 +2538,8 @@
       ],
       "id": "fb7bd47dff9f8c3b104f6ebb6c040fb5"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "5896127cbb4b9f929cab1b01b74cbeb9": {
@@ -2552,8 +2566,8 @@
       ],
       "id": "5896127cbb4b9f929cab1b01b74cbeb9"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "d61f580059f0e96ebffe0b8c448605a5": {
@@ -2580,8 +2594,8 @@
       ],
       "id": "d61f580059f0e96ebffe0b8c448605a5"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "90f55d9c9acf61b0bd0cc87f7b37655f": {
@@ -2608,8 +2622,8 @@
       ],
       "id": "90f55d9c9acf61b0bd0cc87f7b37655f"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "aac19b78deddc5a773ca3446240995a7": {
@@ -2635,8 +2649,8 @@
       ],
       "id": "aac19b78deddc5a773ca3446240995a7"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "628b88816b9dcfbf4db3d96e5c28992a": {
@@ -2661,10 +2675,12 @@
         "Research",
         "Policy"
       ],
-      "id": "628b88816b9dcfbf4db3d96e5c28992a"
+      "id": "628b88816b9dcfbf4db3d96e5c28992a",
+      "impact_score": 5,
+      "impact_reason": "Foreign policy research could influence nuclear/bioweapon governance but lacks explicit x-risk focus."
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "0edc981fa29a365c5914778eea3c2899": {
@@ -2690,8 +2706,8 @@
       ],
       "id": "0edc981fa29a365c5914778eea3c2899"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "fb4eb56cab78a4aad597c68407f9eb05": {
@@ -2718,8 +2734,8 @@
       ],
       "id": "fb4eb56cab78a4aad597c68407f9eb05"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "ba53ca8cccb11a01bb1c111ac8258cc1": {
@@ -2745,8 +2761,8 @@
       ],
       "id": "ba53ca8cccb11a01bb1c111ac8258cc1"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "relevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "bc734b0e8519b67215a1eb1884f7d498": {
@@ -2772,8 +2788,8 @@
       ],
       "id": "bc734b0e8519b67215a1eb1884f7d498"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "8a40dced3dd732d3df2b79555feb3998": {
@@ -2802,8 +2818,8 @@
       ],
       "id": "8a40dced3dd732d3df2b79555feb3998"
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "3e141bbf81c1020ad04644214efcac55": {
@@ -2828,10 +2844,12 @@
         "Policy",
         "Outreach"
       ],
-      "id": "3e141bbf81c1020ad04644214efcac55"
+      "id": "3e141bbf81c1020ad04644214efcac55",
+      "impact_score": 3,
+      "impact_reason": "General government policy role with no explicit x-risk focus or organizational mission alignment."
     },
-    "review_status": "unreviewed",
-    "reviewed_at": null,
+    "review_status": "irrelevant",
+    "reviewed_at": "2026-04-03",
     "added_at": "2026-02-15"
   },
   "a86e8bff23a71cafb1256ffef7b7865e": {

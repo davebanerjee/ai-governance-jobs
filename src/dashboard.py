@@ -61,7 +61,7 @@ def main():
 
     # Save & Push button in sidebar
     st.sidebar.markdown("---")
-    if st.sidebar.button("\U0001f4e4 Save & Push to GitHub"):
+    if st.sidebar.button("\U0001f4e4 Save & Push to GitHub", help="Commits data/listings.json and pushes to GitHub, persisting your approve/reject decisions so rejected listings are never re-surfaced by the pipeline."):
         _git_push()
 
     if page == "Review Listings":

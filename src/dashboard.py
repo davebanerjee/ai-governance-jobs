@@ -428,13 +428,8 @@ def post_builder_page():
                 listings = [JobListing.from_dict(store[fp]["listing"]) for fp in active_fps]
                 with st.spinner(f"Writing roundup post for {len(listings)} listing(s)..."):
                     post_content = _generate_themed_post(listings)
-                st.text_area("Roundup Post (edit before posting)", post_content, height=400)
-                st.download_button(
-                    "\U0001f4e5 Download as Markdown",
-                    post_content,
-                    file_name=f"roundup_{date.today().isoformat()}.md",
-                    mime="text/markdown",
-                )
+                st.session_state.draft_content = post_content
+                st.session_state.draft_label = f"Roundup ({len(active_fps)} listings)"
 
         if spotlight_clicked:
             fp = selected_fps[0]
@@ -454,15 +449,79 @@ def post_builder_page():
                     listing_obj = JobListing.from_dict(listing_data)
                     post_content = _generate_spotlight_post(listing_obj)
                 if post_content:
-                    st.text_area("Spotlight Post (edit before posting)", post_content, height=500)
-                    st.download_button(
-                        "\U0001f4e5 Download as Markdown",
-                        post_content,
-                        file_name=f"spotlight_{date.today().isoformat()}.md",
-                        mime="text/markdown",
-                    )
+                    st.session_state.draft_content = post_content
+                    st.session_state.draft_label = f"Spotlight: {title} \u2014 {org}"
                 else:
                     st.error("Spotlight generation failed — is ANTHROPIC_API_KEY set?")
+
+    # ------------------------------------------------------------------
+    # Current draft — persists across checkbox/filter changes via session state
+    # ------------------------------------------------------------------
+    if st.session_state.get("draft_content"):
+        st.markdown("---")
+        label = st.session_state.get("draft_label", "Draft")
+        st.subheader(f"\U0001f4c4 {label}")
+
+        # key= means edits are written back to session_state.draft_content automatically
+        st.text_area("Edit before posting to LinkedIn", key="draft_content", height=500)
+
+        save_col, dl_col, clear_col = st.columns(3)
+        if save_col.button("\U0001f4be Save Draft", use_container_width=True):
+            path = _save_draft_to_disk(
+                st.session_state.draft_content,
+                st.session_state.get("draft_label", "draft"),
+            )
+            st.success(f"Saved to {path.name}")
+        dl_col.download_button(
+            "\U0001f4e5 Download",
+            st.session_state.draft_content,
+            file_name=f"draft_{date.today().isoformat()}.md",
+            mime="text/markdown",
+            use_container_width=True,
+        )
+        if clear_col.button("\U0001f5d1\ufe0f Clear Draft", use_container_width=True):
+            del st.session_state.draft_content
+            st.session_state.pop("draft_label", None)
+            st.rerun()
+
+    # ------------------------------------------------------------------
+    # Saved drafts browser
+    # ------------------------------------------------------------------
+    saved = _list_saved_drafts()
+    if saved:
+        st.markdown("---")
+        st.subheader("\U0001f4c2 Saved Drafts")
+        for draft_path in saved:
+            col_name, col_load, col_delete = st.columns([6, 1, 1])
+            col_name.write(draft_path.stem)
+            if col_load.button("Load", key=f"load_{draft_path.name}", use_container_width=True):
+                st.session_state.draft_content = draft_path.read_text(encoding="utf-8")
+                st.session_state.draft_label = draft_path.stem
+                st.rerun()
+            if col_delete.button("Del", key=f"del_{draft_path.name}", use_container_width=True):
+                draft_path.unlink()
+                st.rerun()
+
+
+DRAFTS_DIR = Path(__file__).parent.parent / "data" / "drafts"
+
+
+def _save_draft_to_disk(content: str, label: str) -> Path:
+    """Save draft content to data/drafts/ and return the path."""
+    from datetime import datetime
+    DRAFTS_DIR.mkdir(parents=True, exist_ok=True)
+    slug = "spotlight" if label.lower().startswith("spotlight") else "roundup"
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H%M")
+    path = DRAFTS_DIR / f"{timestamp}_{slug}.md"
+    path.write_text(content, encoding="utf-8")
+    return path
+
+
+def _list_saved_drafts() -> list[Path]:
+    """Return saved draft files sorted newest first."""
+    if not DRAFTS_DIR.exists():
+        return []
+    return sorted(DRAFTS_DIR.glob("*.md"), reverse=True)
 
 
 def _check_listing_url(url: str) -> tuple[str, str]:

@@ -28,6 +28,8 @@ class JobListing:
     seniority_level: Optional[str] = None  # "Entry", "Mid", "Senior", "All Levels"
     relevance_tag: Optional[str] = None  # AGI focus category
     relevance_reason: Optional[str] = None  # One-sentence explanation
+    impact_score: Optional[int] = None  # 1-10 x-risk impact potential
+    impact_reason: Optional[str] = None  # One-sentence explanation of score
 
     # Metadata
     date_posted: Optional[date] = None

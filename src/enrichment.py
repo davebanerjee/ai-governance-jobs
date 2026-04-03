@@ -40,6 +40,8 @@ Return a JSON object with exactly these keys:
 - "seniority_level": one of "Entry", "Mid", "Senior", "All Levels", or null if unclear
 - "relevance_tag": one of "AGI Safety & Governance", "AI Safety (Technical)", "Biosecurity/Catastrophic Risk", "AI Ethics/Responsible AI", "General Tech Policy", or null if unclear
 - "relevance_reason": a single sentence (max 20 words) explaining why this tag was chosen, or null if relevance_tag is null
+- "impact_score": integer 1-10 rating of this role's potential impact on reducing existential/catastrophic risk (see rubric below)
+- "impact_reason": a single sentence (max 20 words) explaining the impact score
 
 Rules for seniority:
 - "Entry" = internship, fellowship, junior, entry-level, 0-2 years experience
@@ -57,7 +59,32 @@ Rules for relevance classification:
 - "Biosecurity/Catastrophic Risk": Biological weapons, pandemic prevention, WMD policy, dual-use research governance, other existential risks (not AI-specific)
 - "AI Ethics/Responsible AI": Fairness, bias, accountability, transparency, algorithmic justice, AI and society (without focus on catastrophic/existential risks from advanced AI)
 - "General Tech Policy": Broader tech policy, privacy, data protection, antitrust, general innovation policy (may mention AI but not safety-focused)
-- If the role description is too vague or the focus is unclear, use null for both relevance fields"""
+- If the role description is too vague or the focus is unclear, use null for both relevance fields
+
+Impact score rubric (focus on reducing existential/catastrophic risk from AI or bioweapons):
+- 9-10: Core x-risk role at an org whose primary mission is reducing existential risk (e.g., IAPS, ARC, MIRI, Secure Bio, AISI, Anthropic alignment/policy, GovAI, FLI, CSER)
+- 7-8: Strong x-risk relevance at a frontier AI lab or major x-risk-adjacent org (OpenAI safety/policy, DeepMind safety, CSET, biosecurity-focused roles)
+- 5-6: AI governance/policy with meaningful but not primary x-risk component (congressional AI policy, Brookings AI security, major think tanks with AI safety programs)
+- 3-4: General AI ethics or tech policy with some safety relevance but no clear x-risk focus
+- 1-2: Tangential — broad tech/data policy that mentions AI without safety focus, or compliance roles"""
+
+IMPACT_SCORE_PROMPT = """Rate this job listing's potential impact on reducing existential and catastrophic risks (from AI or bioweapons). Return ONLY valid JSON, no other text.
+
+Job Title: {title}
+Organization: {organization}
+Description:
+{description}
+
+Return a JSON object with exactly these keys:
+- "impact_score": integer 1-10
+- "impact_reason": a single sentence (max 20 words) explaining the score
+
+Scoring rubric:
+- 9-10: Core x-risk role at an org whose primary mission is reducing existential risk (IAPS, ARC, MIRI, Secure Bio, AISI, Anthropic alignment/policy, GovAI, FLI, CSER, Apollo Research)
+- 7-8: Strong x-risk relevance at a frontier AI lab or major x-risk-adjacent org (OpenAI safety/policy, DeepMind safety, CSET, biosecurity-focused roles)
+- 5-6: AI governance/policy with meaningful but not primary x-risk component (congressional AI policy, major think tanks with AI safety programs)
+- 3-4: General AI ethics or tech policy with some safety relevance but no clear x-risk focus
+- 1-2: Tangential — broad tech/data policy that mentions AI without safety focus"""
 
 
 def enrich_listings(listings: list[JobListing]) -> list[JobListing]:
@@ -146,10 +173,74 @@ def _enrich_single(client, listing: JobListing) -> JobListing:
     if relevance_reason and len(relevance_reason) > 150:
         relevance_reason = relevance_reason[:147] + "..."
 
+    impact_score = data.get("impact_score")
+    if not isinstance(impact_score, int) or not (1 <= impact_score <= 10):
+        impact_score = None
+
+    impact_reason = data.get("impact_reason")
+    if impact_score is None:
+        impact_reason = None
+    elif impact_reason is not None and not isinstance(impact_reason, str):
+        impact_reason = None
+    if impact_reason and len(impact_reason) > 150:
+        impact_reason = impact_reason[:147] + "..."
+
     listing.work_mode = work_mode
     listing.visa_sponsorship = visa
     listing.seniority_level = seniority
     listing.relevance_tag = relevance_tag
     listing.relevance_reason = relevance_reason
+    listing.impact_score = impact_score
+    listing.impact_reason = impact_reason
 
     return listing
+
+
+def score_single_listing(listing: JobListing) -> tuple[int | None, str | None]:
+    """Score a single listing's x-risk impact potential via LLM.
+
+    Returns (impact_score, impact_reason), or (None, None) if scoring fails
+    or ANTHROPIC_API_KEY is not set.
+    """
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return None, None
+
+    import anthropic
+    client = anthropic.Anthropic()
+
+    text = listing.description or listing.description_snippet
+    if not text:
+        text = "(no description available)"
+    text = text[:ENRICHMENT_DESCRIPTION_MAX_CHARS]
+
+    prompt = IMPACT_SCORE_PROMPT.format(
+        title=listing.title,
+        organization=listing.organization,
+        description=text,
+    )
+
+    try:
+        message = client.messages.create(
+            model=LLM_MODEL,
+            max_tokens=128,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        response_text = message.content[0].text.strip()
+        if response_text.startswith("```"):
+            response_text = re.sub(r"^```(?:json)?\n?", "", response_text)
+            response_text = re.sub(r"\n?```$", "", response_text)
+
+        data = json.loads(response_text)
+        score = data.get("impact_score")
+        reason = data.get("impact_reason")
+
+        if not isinstance(score, int) or not (1 <= score <= 10):
+            return None, None
+        if reason and len(reason) > 150:
+            reason = reason[:147] + "..."
+
+        return score, reason if isinstance(reason, str) else None
+    except Exception as e:
+        logger.warning(f"Impact scoring failed for {listing.title}: {e}")
+        return None, None

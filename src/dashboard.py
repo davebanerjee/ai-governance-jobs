@@ -10,6 +10,7 @@ from pathlib import Path
 import requests
 import streamlit as st
 
+from src.enrichment import score_single_listing
 from src.listing_store import (
     DEFAULT_LISTINGS_PATH,
     load_listings,
@@ -37,6 +38,21 @@ RELEVANCE_ICONS = {
     "AI Ethics/Responsible AI": "\u2696\ufe0f",
     "General Tech Policy": "\U0001f3db\ufe0f",
 }
+
+
+def _impact_badge_html(score: int) -> str:
+    """Return an HTML badge for the given impact score."""
+    if score >= 8:
+        color, label = "#dc2626", f"Impact {score}/10"   # red
+    elif score >= 5:
+        color, label = "#d97706", f"Impact {score}/10"   # amber
+    else:
+        color, label = "#6b7280", f"Impact {score}/10"   # gray
+    return (
+        f'<span style="background-color: {color}; color: white; '
+        f'padding: 2px 8px; border-radius: 4px; font-size: 0.8em; '
+        f'font-weight: 600;">{label}</span>'
+    )
 
 
 def main():
@@ -208,16 +224,20 @@ def review_page():
                     st.rerun()
 
         with btn_cols[3]:
-            # Build relevance badge
+            # Build badges: relevance tag + impact score
             badge_html = ""
             if relevance_tag:
                 color = RELEVANCE_COLORS.get(relevance_tag, "#6b7280")
                 r_icon = RELEVANCE_ICONS.get(relevance_tag, "")
-                badge_html = (
+                badge_html += (
                     f' <span style="background-color: {color}; color: white; '
                     f'padding: 2px 8px; border-radius: 4px; font-size: 0.8em;">'
                     f'{r_icon} {relevance_tag}</span>'
                 )
+
+            impact_score = listing_data.get("impact_score")
+            if impact_score is not None:
+                badge_html += f" {_impact_badge_html(impact_score)}"
 
             st.markdown(
                 f"{status_icon} **{title}** \u2014 {org}{loc_str}{badge_html}",
@@ -238,9 +258,19 @@ def review_page():
                 if relevance_reason:
                     relevance_display += f" \u2014 {relevance_reason}"
 
+                # Impact score row
+                impact_reason = listing_data.get("impact_reason")
+                if impact_score is not None:
+                    impact_display = f"{impact_score}/10"
+                    if impact_reason:
+                        impact_display += f" \u2014 {impact_reason}"
+                else:
+                    impact_display = "Not scored"
+
                 st.markdown(f"""
 | Field | Value |
 |-------|-------|
+| **Impact Score** | {impact_display} |
 | **Relevance** | {relevance_display} |
 | **Location** | {location or 'Not specified'} |
 | **Work Mode** | {work_mode} |
@@ -252,6 +282,21 @@ def review_page():
 """)
                 if url:
                     st.markdown(f"[\U0001f517 View Job Posting]({url})")
+
+                # On-demand scoring for listings that haven't been scored yet
+                if impact_score is None:
+                    if st.button("\u26a1 Score impact", key=f"score_{fp}"):
+                        with st.spinner("Scoring..."):
+                            listing_obj = JobListing.from_dict(listing_data)
+                            score, reason = score_single_listing(listing_obj)
+                        if score is not None:
+                            store = load_listings()
+                            store[fp]["listing"]["impact_score"] = score
+                            store[fp]["listing"]["impact_reason"] = reason
+                            save_listings(store)
+                            st.rerun()
+                        else:
+                            st.warning("Scoring failed — is ANTHROPIC_API_KEY set?")
 
                 snippet = listing_data.get("description_snippet", "")
                 if snippet:

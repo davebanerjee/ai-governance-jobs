@@ -428,7 +428,8 @@ def post_builder_page():
                 listings = [JobListing.from_dict(store[fp]["listing"]) for fp in active_fps]
                 with st.spinner(f"Writing roundup post for {len(listings)} listing(s)..."):
                     post_content = _generate_themed_post(listings)
-                st.session_state.draft_content = post_content
+                # draft_editor not yet rendered — safe to set directly
+                st.session_state.draft_editor = post_content
                 st.session_state.draft_label = f"Roundup ({len(active_fps)} listings)"
 
         if spotlight_clicked:
@@ -449,7 +450,8 @@ def post_builder_page():
                     listing_obj = JobListing.from_dict(listing_data)
                     post_content = _generate_spotlight_post(listing_obj)
                 if post_content:
-                    st.session_state.draft_content = post_content
+                    # draft_editor not yet rendered — safe to set directly
+                    st.session_state.draft_editor = post_content
                     st.session_state.draft_label = f"Spotlight: {title} \u2014 {org}"
                 else:
                     st.error("Spotlight generation failed — is ANTHROPIC_API_KEY set?")
@@ -457,30 +459,37 @@ def post_builder_page():
     # ------------------------------------------------------------------
     # Current draft — persists across checkbox/filter changes via session state
     # ------------------------------------------------------------------
-    if st.session_state.get("draft_content"):
+
+    # _pending_load is set by the Load button (which renders after the text
+    # area, so it can't write draft_editor directly). Apply it here, before
+    # the widget is rendered, so the new content is picked up cleanly.
+    if "_pending_load" in st.session_state:
+        st.session_state.draft_editor = st.session_state.pop("_pending_load")
+        st.session_state.draft_label = st.session_state.pop("_pending_label", "Draft")
+
+    if st.session_state.get("draft_editor"):
         st.markdown("---")
         label = st.session_state.get("draft_label", "Draft")
         st.subheader(f"\U0001f4c4 {label}")
 
-        # key= means edits are written back to session_state.draft_content automatically
-        st.text_area("Edit before posting to LinkedIn", key="draft_content", height=500)
+        st.text_area("Edit before posting to LinkedIn", key="draft_editor", height=500)
 
         save_col, dl_col, clear_col = st.columns(3)
         if save_col.button("\U0001f4be Save Draft", use_container_width=True):
             path = _save_draft_to_disk(
-                st.session_state.draft_content,
+                st.session_state.draft_editor,
                 st.session_state.get("draft_label", "draft"),
             )
             st.success(f"Saved to {path.name}")
         dl_col.download_button(
             "\U0001f4e5 Download",
-            st.session_state.draft_content,
+            st.session_state.draft_editor,
             file_name=f"draft_{date.today().isoformat()}.md",
             mime="text/markdown",
             use_container_width=True,
         )
         if clear_col.button("\U0001f5d1\ufe0f Clear Draft", use_container_width=True):
-            del st.session_state.draft_content
+            del st.session_state.draft_editor
             st.session_state.pop("draft_label", None)
             st.rerun()
 
@@ -495,8 +504,10 @@ def post_builder_page():
             col_name, col_load, col_delete = st.columns([6, 1, 1])
             col_name.write(draft_path.stem)
             if col_load.button("Load", key=f"load_{draft_path.name}", use_container_width=True):
-                st.session_state.draft_content = draft_path.read_text(encoding="utf-8")
-                st.session_state.draft_label = draft_path.stem
+                # Can't set draft_editor here — widget already rendered above.
+                # Use _pending_load flag; it will be applied on the next run.
+                st.session_state._pending_load = draft_path.read_text(encoding="utf-8")
+                st.session_state._pending_label = draft_path.stem
                 st.rerun()
             if col_delete.button("Del", key=f"del_{draft_path.name}", use_container_width=True):
                 draft_path.unlink()

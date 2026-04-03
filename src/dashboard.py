@@ -123,12 +123,12 @@ def review_page():
     if entries and status_filter == "unreviewed":
         col1, col2 = st.columns(2)
         with col1:
-            if st.button("\u2705 Approve All Visible"):
+            if st.button("\u2705 Approve All Visible", use_container_width=True):
                 for fp, _ in entries:
                     update_review_status(fp, "relevant")
                 st.rerun()
         with col2:
-            if st.button("\u274c Reject All Visible"):
+            if st.button("\u274c Reject All Visible", use_container_width=True):
                 for fp, _ in entries:
                     update_review_status(fp, "irrelevant")
                 st.rerun()
@@ -158,7 +158,7 @@ def review_page():
 
         with btn_cols[0]:
             if status != "relevant":
-                if st.button("\u2705", key=f"approve_{fp}", help="Approve"):
+                if st.button("\u2705", key=f"approve_{fp}", help="Approve", use_container_width=True):
                     update_review_status(fp, "relevant")
                     st.rerun()
             else:
@@ -166,7 +166,7 @@ def review_page():
 
         with btn_cols[1]:
             if status != "irrelevant":
-                if st.button("\u274c", key=f"reject_{fp}", help="Reject"):
+                if st.button("\u274c", key=f"reject_{fp}", help="Reject", use_container_width=True):
                     update_review_status(fp, "irrelevant")
                     st.rerun()
             else:
@@ -174,7 +174,7 @@ def review_page():
 
         with btn_cols[2]:
             if status != "unreviewed":
-                if st.button("\U0001f504", key=f"reset_{fp}", help="Reset to unreviewed"):
+                if st.button("\U0001f504", key=f"reset_{fp}", help="Reset to unreviewed", use_container_width=True):
                     update_review_status(fp, "unreviewed")
                     st.rerun()
 

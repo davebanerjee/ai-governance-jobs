@@ -582,6 +582,7 @@ Description:
 {description}
 ---
 Rules:
+- Never use "we", "our", "us", or "I" — the post is written by a third party sharing the opportunity, not by the hiring org. Refer to the organization by name (e.g. "GovAI is hiring" or "Applications are open for...")
 - Omit any emoji fact line if the information is not present in the listing
 - Do not invent specific details (salary figures, dates, benefits) not in the description
 - Keep the ▶︎ headers exactly as shown

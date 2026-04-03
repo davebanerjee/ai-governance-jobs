@@ -50,6 +50,8 @@ After scraping, new listings are sent to Claude Haiku to extract:
 - `work_mode`: Remote (Global/US/EU), Hybrid, In-Person
 - `visa_sponsorship`: True/False/None
 - `seniority_level`: Entry, Mid, Senior, All Levels
+- `relevance_tag`: AGI safety focus category (e.g., "AGI Safety", "Ethics", "General Policy")
+- `relevance_reason`: One-sentence explanation of why the role is relevant
 
 Uses description text (full from ATS scrapers, snippet fallback for LLM-scraped). Skips if `ANTHROPIC_API_KEY` not set.
 
@@ -57,15 +59,18 @@ Uses description text (full from ATS scrapers, snippet fallback for LLM-scraped)
 
 1. Run all scrapers sequentially, collecting `JobListing` objects
 2. `dedup.py` — exact fingerprint match + fuzzy matching (SequenceMatcher, threshold 0.85)
-3. `store.py` — compare against `data/seen_listings.json` to find new listings; entries expire after 4 weeks
-4. Filter out listings already in `data/listings.json` (prevents re-surfacing rejected listings)
+3. `store.py` — compare against `seen_listings.json` (ephemeral, 4-week expiry) to identify new listings
+4. Filter out fingerprints already in `listings.json` (permanent store — prevents re-surfacing rejected listings)
 5. `enrichment.py` — LLM enrichment of new listings
 6. `listing_store.py` — persist enriched listings with review metadata
 7. `post_generator.py` — generate fallback LinkedIn draft saved to `data/drafts/`
 
-### Persistent Listing Store (`src/listing_store.py`)
+### Two Persistent Stores
 
-`data/listings.json` — keyed by fingerprint, stores full listing data + review metadata (`unreviewed`, `relevant`, `irrelevant`). Listings already in the store are never re-added (even if scraped again).
+- **`data/seen_listings.json`** (`src/store.py`) — ephemeral "have we seen this before" tracker. Entries expire after 4 weeks. Used only to detect which listings are *new* each run.
+- **`data/listings.json`** (`src/listing_store.py`) — permanent review store, keyed by fingerprint. Stores full listing data + review metadata (`unreviewed`, `relevant`, `irrelevant`). Listings already in this store are **never re-added**, so rejecting a listing permanently suppresses it.
+
+Run logs are written to `data/logs/<YYYY-MM-DD>.log` (DEBUG level; console shows INFO only).
 
 ### Streamlit Dashboard (`src/dashboard.py`)
 
@@ -75,7 +80,7 @@ Two views:
 
 ### Key Data Model
 
-`JobListing` (`src/models.py`) — fingerprint is MD5 of `org|title` (lowercased). Fields include `description` (full text), `work_mode`, `visa_sponsorship`, `seniority_level`.
+`JobListing` (`src/models.py`) — fingerprint is MD5 of `org|title` (lowercased). Fields include `description` (full text), `work_mode`, `visa_sponsorship`, `seniority_level`, `relevance_tag`, `relevance_reason`. The `from_dict` method tolerates unknown keys (forward-compatible deserialization).
 
 ## Adding a New Organization
 

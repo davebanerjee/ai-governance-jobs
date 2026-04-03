@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 import subprocess
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from pathlib import Path
 
+import requests
 import streamlit as st
 
 from src.listing_store import (
@@ -341,23 +343,100 @@ def post_builder_page():
     st.write(f"**{len(selected_fps)}** selected")
 
     if selected_fps and st.button("\U0001f4dd Generate LinkedIn Post"):
-        # Convert selected entries to JobListing objects
-        listings = []
+        # Check all selected URLs in parallel before generating
+        with st.spinner(f"Verifying {len(selected_fps)} listing(s) are still open..."):
+            url_results = _check_listings_open(selected_fps, store)
+
+        # Show per-listing check results
+        closed_fps = []
         for fp in selected_fps:
-            entry = store[fp]
-            listing = JobListing.from_dict(entry["listing"])
-            listings.append(listing)
+            status_val, reason = url_results[fp]
+            title = store[fp]["listing"].get("title", "?")
+            org = store[fp]["listing"].get("organization", "?")
+            icon = "\u2705" if status_val == "open" else "\u274c" if status_val == "closed" else "\u2753"
+            st.write(f"{icon} **{title}** — {org}: *{reason}*")
+            if status_val == "closed":
+                closed_fps.append(fp)
 
-        post_content = _generate_themed_post(listings)
-        st.text_area("Generated Post", post_content, height=400)
+        active_fps = [fp for fp in selected_fps if fp not in closed_fps]
 
-        # Download button
-        st.download_button(
-            "\U0001f4e5 Download as Markdown",
-            post_content,
-            file_name=f"linkedin_post_{date.today().isoformat()}.md",
-            mime="text/markdown",
+        if not active_fps:
+            st.error("All selected listings appear to be closed. No post generated.")
+        else:
+            if closed_fps:
+                st.warning(
+                    f"{len(closed_fps)} listing(s) appear closed and were excluded. "
+                    f"Generating post with {len(active_fps)} active listing(s)."
+                )
+
+            listings = [JobListing.from_dict(store[fp]["listing"]) for fp in active_fps]
+            post_content = _generate_themed_post(listings)
+            st.text_area("Generated Post", post_content, height=400)
+
+            st.download_button(
+                "\U0001f4e5 Download as Markdown",
+                post_content,
+                file_name=f"linkedin_post_{date.today().isoformat()}.md",
+                mime="text/markdown",
+            )
+
+
+def _check_listing_url(url: str) -> tuple[str, str]:
+    """Check whether a job listing URL is still active.
+
+    Returns (status, reason) where status is 'open', 'closed', or 'unknown'.
+    """
+    if not url:
+        return "unknown", "No URL"
+    try:
+        resp = requests.get(
+            url, timeout=8, allow_redirects=True,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; job-checker/1.0)"},
         )
+        if resp.status_code == 404:
+            return "closed", "404 — page not found"
+        if resp.status_code >= 400:
+            return "unknown", f"HTTP {resp.status_code}"
+
+        text = resp.text.lower()
+        closed_phrases = [
+            "this job is no longer available",
+            "this position has been filled",
+            "no longer accepting applications",
+            "this role is no longer available",
+            "position has been closed",
+            "posting is no longer active",
+            "job has been filled",
+            "position is filled",
+            "this opening is no longer available",
+            "this position is no longer open",
+        ]
+        for phrase in closed_phrases:
+            if phrase in text:
+                return "closed", "Page indicates position is filled"
+
+        return "open", "Listing appears active"
+    except requests.exceptions.ConnectionError:
+        return "unknown", "Could not connect"
+    except requests.exceptions.Timeout:
+        return "unknown", "Request timed out"
+    except Exception as e:
+        return "unknown", str(e)[:80]
+
+
+def _check_listings_open(fps: list[str], store: dict) -> dict[str, tuple[str, str]]:
+    """Check multiple listing URLs in parallel. Returns {fp: (status, reason)}."""
+    def check_one(fp):
+        url = store[fp]["listing"].get("url", "")
+        return fp, _check_listing_url(url)
+
+    results = {}
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = {executor.submit(check_one, fp): fp for fp in fps}
+        for future in as_completed(futures):
+            fp, result = future.result()
+            results[fp] = result
+    return results
 
 
 def _generate_themed_post(listings: list[JobListing]) -> str:

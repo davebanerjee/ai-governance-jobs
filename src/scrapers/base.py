@@ -12,6 +12,7 @@ from urllib3.util.retry import Retry
 
 from src.config import (
     ALWAYS_INCLUDE_KEYWORDS,
+    EXCLUDE_TITLE_KEYWORDS,
     GOVERNANCE_KEYWORDS,
     MAX_RETRIES,
     POLICY_ROLE_KEYWORDS,
@@ -118,6 +119,11 @@ class BaseScraper(ABC):
         filtered = []
         for listing in listings:
             title_lower = listing.title.lower()
+
+            # Exclude if title matches any blocklist keyword (overrides include lists)
+            if any(kw in title_lower for kw in EXCLUDE_TITLE_KEYWORDS):
+                logger.debug(f"[{self.name}] Excluded (blocklist): {listing.title}")
+                continue
 
             # Always include if title contains priority keywords
             if any(kw in title_lower for kw in ALWAYS_INCLUDE_KEYWORDS):

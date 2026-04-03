@@ -6,6 +6,27 @@
 # Only roles with these keywords in the title are included.
 # ---------------------------------------------------------------------------
 
+# Roles are excluded if their title contains ANY of these keywords.
+# Checked before the include lists — catches false positives from broad
+# think tanks (food policy, animal welfare, agriculture, etc.).
+EXCLUDE_TITLE_KEYWORDS = [
+    "animal welfare",
+    "animal rights",
+    "food policy",
+    "food system",
+    "food safety",
+    "agriculture",
+    "agricultural",
+    "nutrition",
+    "wildlife",
+    "veterinary",
+    "livestock",
+    "fisheries",
+    "farming",
+    "rural development",
+    "housing policy",
+]
+
 # These keywords in a title mean ALWAYS include (highest priority)
 ALWAYS_INCLUDE_KEYWORDS = [
     "fellow", "fellowship",  # All fellowships are relevant

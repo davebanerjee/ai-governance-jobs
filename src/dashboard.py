@@ -19,7 +19,6 @@ from src.listing_store import (
     update_review_status,
 )
 from src.models import JobListing
-from src.post_generator import categorize_listing, CATEGORY_ICONS, CATEGORY_ORDER
 
 st.set_page_config(page_title="AI Governance Jobs", page_icon="\U0001f50d", layout="wide")
 
@@ -427,8 +426,9 @@ def post_builder_page():
                         f"Generating post with {len(active_fps)} active listing(s)."
                     )
                 listings = [JobListing.from_dict(store[fp]["listing"]) for fp in active_fps]
-                post_content = _generate_themed_post(listings)
-                st.text_area("Roundup Post", post_content, height=400)
+                with st.spinner(f"Writing roundup post for {len(listings)} listing(s)..."):
+                    post_content = _generate_themed_post(listings)
+                st.text_area("Roundup Post (edit before posting)", post_content, height=400)
                 st.download_button(
                     "\U0001f4e5 Download as Markdown",
                     post_content,
@@ -599,54 +599,81 @@ Rules:
         return None
 
 
+def _format_listing_bullet(listing: JobListing) -> str:
+    """Format a single listing as a bullet line for the roundup post."""
+    header = f"{listing.title} \u2014 {listing.organization}"
+    if listing.location:
+        header += f" ({listing.location})"
+
+    details = []
+    if listing.work_mode:
+        details.append(listing.work_mode)
+    if listing.seniority_level:
+        details.append(listing.seniority_level)
+    if listing.salary_range:
+        details.append(listing.salary_range)
+    if listing.visa_sponsorship is True:
+        details.append("Visa \u2713")
+    elif listing.visa_sponsorship is False:
+        details.append("Visa \u2717")
+    if listing.date_closes:
+        details.append(f"Closes {listing.date_closes.strftime('%b %-d')}")
+
+    line = "\u2022 " + header
+    if details:
+        line += " | " + " | ".join(details)
+    line += f"\n  {listing.url}"
+    return line
+
+
 def _generate_themed_post(listings: list[JobListing]) -> str:
-    """Generate a LinkedIn post from selected listings."""
-    today = date.today()
-    week_str = today.strftime("%B %d, %Y")
+    """Generate a LinkedIn roundup post using Claude, falling back to plain template."""
+    bullets = "\n\n".join(_format_listing_bullet(l) for l in listings)
 
-    # Group by category
-    categories: dict[str, list[JobListing]] = {cat: [] for cat in CATEGORY_ORDER}
-    for listing in listings:
-        cat = categorize_listing(listing)
-        categories[cat].append(listing)
-
-    for cat in categories:
-        categories[cat].sort(key=lambda x: x.organization.lower())
-
-    lines = []
-    lines.append(f"\U0001f50d AI Governance Job Roundup \u2014 Week of {week_str}\n")
-    lines.append(
-        f"{len(listings)} curated role{'s' if len(listings) != 1 else ''} "
-        "in AI governance, policy, and safety:\n"
+    fallback = (
+        "\U0001f50d AI Governance Job Roundup\n\n"
+        f"{len(listings)} curated role{'s' if len(listings) != 1 else ''}:\n\n"
+        f"{bullets}\n\n"
+        "#AIGovernance #AIPolicy #AISafety #TechPolicy #Careers"
     )
 
-    for cat in CATEGORY_ORDER:
-        cat_listings = categories[cat]
-        if not cat_listings:
-            continue
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return fallback
 
-        icon = CATEGORY_ICONS[cat]
-        lines.append(f"{icon} {cat.upper()}")
+    import anthropic
 
-        for listing in cat_listings:
-            loc = f" ({listing.location})" if listing.location else ""
-            salary = f" | {listing.salary_range}" if listing.salary_range else ""
-            closing = ""
-            if listing.date_closes:
-                closing = f" | Closes {listing.date_closes.strftime('%b %d')}"
+    prompt = f"""Write a LinkedIn roundup post for these AI governance/policy job listings.
 
-            lines.append(f"\u2022 {listing.title} \u2014 {listing.organization}{loc}{salary}{closing}")
-            lines.append(f"  {listing.url}")
+Your tasks:
+1. Write 1–2 sentences of engaging intro prose that captures the theme of this specific batch (e.g. a wave of biosecurity roles, technical alignment positions, policy fellowships, or a mix — infer from the listings below)
+2. Follow immediately with a concise summary line (e.g. "8 curated roles spanning biosecurity and AI governance" — use the actual count and reflect the actual subfield mix)
+3. Then reproduce the job listing bullets exactly as provided — preserve all fields, formatting, and URLs
 
-        lines.append("")
+Output format:
+🔍 AI Governance Job Roundup
 
-    lines.append("---")
+[1–2 sentences of intro prose]
+[Summary line]
 
-    source_count = len(set(l.source for l in listings))
-    lines.append(f"Sources: 80,000 Hours + {source_count} org career pages")
-    lines.append("\n#AIGovernance #AIPolicy #AISafety #TechPolicy #Careers")
+[job listing bullets]
 
-    return "\n".join(lines)
+#AIGovernance #AIPolicy #AISafety #TechPolicy #Careers
+
+---
+Job listings ({len(listings)} total):
+{bullets}"""
+
+    try:
+        client = anthropic.Anthropic()
+        message = client.messages.create(
+            model="claude-haiku-4-5",
+            max_tokens=1500,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return message.content[0].text.strip()
+    except Exception:
+        return fallback
 
 
 # ---------------------------------------------------------------------------

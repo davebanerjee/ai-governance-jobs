@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 import subprocess
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
@@ -387,43 +388,81 @@ def post_builder_page():
 
     st.write(f"**{len(selected_fps)}** selected")
 
-    if selected_fps and st.button("\U0001f4dd Generate LinkedIn Post"):
-        # Check all selected URLs in parallel before generating
-        with st.spinner(f"Verifying {len(selected_fps)} listing(s) are still open..."):
-            url_results = _check_listings_open(selected_fps, store)
+    if selected_fps:
+        btn_col1, btn_col2 = st.columns(2)
+        roundup_clicked = btn_col1.button(
+            "\U0001f4dd Generate Roundup Post",
+            disabled=len(selected_fps) == 0,
+            use_container_width=True,
+        )
+        spotlight_clicked = btn_col2.button(
+            "\u2728 Generate Spotlight Post",
+            disabled=len(selected_fps) != 1,
+            help="Select exactly one listing to generate a spotlight post",
+            use_container_width=True,
+        )
 
-        # Show per-listing check results
-        closed_fps = []
-        for fp in selected_fps:
-            status_val, reason = url_results[fp]
-            title = store[fp]["listing"].get("title", "?")
-            org = store[fp]["listing"].get("organization", "?")
-            icon = "\u2705" if status_val == "open" else "\u274c" if status_val == "closed" else "\u2753"
-            st.write(f"{icon} **{title}** — {org}: *{reason}*")
-            if status_val == "closed":
-                closed_fps.append(fp)
+        if roundup_clicked:
+            with st.spinner(f"Verifying {len(selected_fps)} listing(s) are still open..."):
+                url_results = _check_listings_open(selected_fps, store)
 
-        active_fps = [fp for fp in selected_fps if fp not in closed_fps]
+            closed_fps = []
+            for fp in selected_fps:
+                status_val, reason = url_results[fp]
+                title = store[fp]["listing"].get("title", "?")
+                org = store[fp]["listing"].get("organization", "?")
+                icon = "\u2705" if status_val == "open" else "\u274c" if status_val == "closed" else "\u2753"
+                st.write(f"{icon} **{title}** — {org}: *{reason}*")
+                if status_val == "closed":
+                    closed_fps.append(fp)
 
-        if not active_fps:
-            st.error("All selected listings appear to be closed. No post generated.")
-        else:
-            if closed_fps:
-                st.warning(
-                    f"{len(closed_fps)} listing(s) appear closed and were excluded. "
-                    f"Generating post with {len(active_fps)} active listing(s)."
+            active_fps = [fp for fp in selected_fps if fp not in closed_fps]
+
+            if not active_fps:
+                st.error("All selected listings appear to be closed. No post generated.")
+            else:
+                if closed_fps:
+                    st.warning(
+                        f"{len(closed_fps)} listing(s) appear closed and were excluded. "
+                        f"Generating post with {len(active_fps)} active listing(s)."
+                    )
+                listings = [JobListing.from_dict(store[fp]["listing"]) for fp in active_fps]
+                post_content = _generate_themed_post(listings)
+                st.text_area("Roundup Post", post_content, height=400)
+                st.download_button(
+                    "\U0001f4e5 Download as Markdown",
+                    post_content,
+                    file_name=f"roundup_{date.today().isoformat()}.md",
+                    mime="text/markdown",
                 )
 
-            listings = [JobListing.from_dict(store[fp]["listing"]) for fp in active_fps]
-            post_content = _generate_themed_post(listings)
-            st.text_area("Generated Post", post_content, height=400)
+        if spotlight_clicked:
+            fp = selected_fps[0]
+            listing_data = store[fp]["listing"]
+            title = listing_data.get("title", "?")
+            org = listing_data.get("organization", "?")
 
-            st.download_button(
-                "\U0001f4e5 Download as Markdown",
-                post_content,
-                file_name=f"linkedin_post_{date.today().isoformat()}.md",
-                mime="text/markdown",
-            )
+            with st.spinner(f"Verifying listing is still open..."):
+                status_val, reason = _check_listing_url(listing_data.get("url", ""))
+
+            if status_val == "closed":
+                st.error(f"This listing appears to be closed ({reason}). Spotlight not generated.")
+            else:
+                if status_val == "unknown":
+                    st.warning(f"Could not verify listing status ({reason}) — generating anyway.")
+                with st.spinner(f"Writing spotlight for {title} — {org}..."):
+                    listing_obj = JobListing.from_dict(listing_data)
+                    post_content = _generate_spotlight_post(listing_obj)
+                if post_content:
+                    st.text_area("Spotlight Post (edit before posting)", post_content, height=500)
+                    st.download_button(
+                        "\U0001f4e5 Download as Markdown",
+                        post_content,
+                        file_name=f"spotlight_{date.today().isoformat()}.md",
+                        mime="text/markdown",
+                    )
+                else:
+                    st.error("Spotlight generation failed — is ANTHROPIC_API_KEY set?")
 
 
 def _check_listing_url(url: str) -> tuple[str, str]:
@@ -482,6 +521,82 @@ def _check_listings_open(fps: list[str], store: dict) -> dict[str, tuple[str, st
             fp, result = future.result()
             results[fp] = result
     return results
+
+
+def _generate_spotlight_post(listing: JobListing) -> str | None:
+    """Generate a LinkedIn spotlight post for a single listing using Claude.
+
+    Follows the Jonas Freund format:
+      opening hook
+      emoji fact block (dates, location, salary, deadline, link)
+      ▶︎ About the role
+      ▶︎ About the org
+      ▶︎ Should you apply?
+      hashtags
+    """
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return None
+
+    import anthropic
+
+    description = listing.description or listing.description_snippet or "(no description available)"
+    description = description[:3000]
+
+    salary = listing.salary_range or "Not specified"
+    location = listing.location or "Not specified"
+    role_type = listing.role_type or "Role"
+    deadline = listing.date_closes.strftime("%B %-d, %Y") if listing.date_closes else None
+
+    prompt = f"""Write a LinkedIn spotlight post for the job listing below. Follow this format exactly:
+
+[One punchy opening sentence introducing the opportunity. End with: "Feel free to share or tag someone who might be a great fit."]
+
+[Emoji fact block — include only lines where the info is actually known:]
+📅 When? [dates/duration if known]
+📍 Where? [location]
+💵 Salary: [amount + any benefits if known]
+⚠️ Deadline: [deadline if known]
+🔗 Learn more: [URL]
+
+▶︎ About the {role_type}
+[2–4 sentences: what the person will do, what makes this role interesting or impactful]
+
+▶︎ About {listing.organization}
+[2–3 sentences: org mission, why it matters for AI safety/governance/biosecurity]
+
+▶︎ Should you apply?
+[2–3 sentences: encourage anyone motivated to reduce catastrophic or existential risks from AI or bioweapons to apply; keep it general and welcoming]
+
+#AIGovernance #AIPolicy #AISafety #TechPolicy #Careers
+
+---
+Listing details:
+Title: {listing.title}
+Organization: {listing.organization}
+Location: {location}
+Salary: {salary}
+{"Deadline: " + deadline if deadline else ""}
+URL: {listing.url}
+Description:
+{description}
+---
+Rules:
+- Omit any emoji fact line if the information is not present in the listing
+- Do not invent specific details (salary figures, dates, benefits) not in the description
+- Keep the ▶︎ headers exactly as shown
+- The tone should be warm, clear, and professional — not hype-y"""
+
+    try:
+        client = anthropic.Anthropic()
+        message = client.messages.create(
+            model="claude-haiku-4-5",
+            max_tokens=1024,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return message.content[0].text.strip()
+    except Exception:
+        return None
 
 
 def _generate_themed_post(listings: list[JobListing]) -> str:

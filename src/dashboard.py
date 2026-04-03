@@ -60,20 +60,28 @@ def review_page():
     st.title("Review Listings")
 
     # Fix emoji button centering at intermediate viewport widths.
-    # Streamlit's default button layout loses alignment when columns are narrow
-    # but not yet collapsed, because the inner <p> grows to full width without
-    # centering its content. Forcing flex centering on the button fixes this.
+    # The data-testid is on the wrapper div, not the <button> element itself.
+    # use_container_width stretches the button but Streamlit defaults to
+    # left-aligned text inside, so we target the wrapper and force centering.
     st.markdown("""
     <style>
-    button[data-testid="stBaseButton-secondary"] {
+    [data-testid="stButton"] > button {
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
+        width: 100% !important;
     }
-    button[data-testid="stBaseButton-secondary"] p {
+    [data-testid="stButton"] > button > div {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: auto !important;
+    }
+    [data-testid="stButton"] > button p {
         margin: 0 !important;
         line-height: 1 !important;
         width: auto !important;
+        text-align: center !important;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -177,7 +185,7 @@ def review_page():
 
         with btn_cols[0]:
             if status != "relevant":
-                if st.button("\u2705", key=f"approve_{fp}", help="Approve", use_container_width=True):
+                if st.button("\u2705", key=f"approve_{fp}", help="Approve"):
                     update_review_status(fp, "relevant")
                     st.rerun()
             else:
@@ -185,7 +193,7 @@ def review_page():
 
         with btn_cols[1]:
             if status != "irrelevant":
-                if st.button("\u274c", key=f"reject_{fp}", help="Reject", use_container_width=True):
+                if st.button("\u274c", key=f"reject_{fp}", help="Reject"):
                     update_review_status(fp, "irrelevant")
                     st.rerun()
             else:
@@ -193,7 +201,7 @@ def review_page():
 
         with btn_cols[2]:
             if status != "unreviewed":
-                if st.button("\U0001f504", key=f"reset_{fp}", help="Reset to unreviewed", use_container_width=True):
+                if st.button("\U0001f504", key=f"reset_{fp}", help="Reset to unreviewed"):
                     update_review_status(fp, "unreviewed")
                     st.rerun()
 

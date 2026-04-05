@@ -453,6 +453,9 @@ def post_builder_page():
                     # draft_editor not yet rendered — safe to set directly
                     st.session_state.draft_editor = post_content
                     st.session_state.draft_label = f"Spotlight: {title} \u2014 {org}"
+                    st.session_state._spotlight_listing = listing_obj
+                    st.session_state.pop("generated_image_bytes", None)
+                    st.session_state.pop("image_prompt", None)
                 else:
                     st.error("Spotlight generation failed — is ANTHROPIC_API_KEY set?")
 
@@ -491,7 +494,55 @@ def post_builder_page():
         if clear_col.button("\U0001f5d1\ufe0f Clear Draft", use_container_width=True):
             del st.session_state.draft_editor
             st.session_state.pop("draft_label", None)
+            for key in ("generated_image_bytes", "image_prompt", "_spotlight_listing"):
+                st.session_state.pop(key, None)
             st.rerun()
+
+    # ------------------------------------------------------------------
+    # Image generation (spotlight posts only)
+    # ------------------------------------------------------------------
+    is_spotlight = st.session_state.get("draft_label", "").startswith("Spotlight")
+    spotlight_listing = st.session_state.get("_spotlight_listing")
+
+    if is_spotlight and spotlight_listing is not None and st.session_state.get("draft_editor"):
+        st.markdown("---")
+        st.subheader("\U0001f5bc\ufe0f Generate Spotlight Image")
+
+        if not os.environ.get("GOOGLE_API_KEY"):
+            st.info("Set GOOGLE_API_KEY to enable image generation.")
+        else:
+            from src.image_generator import build_image_prompt, generate_spotlight_image, save_image_to_disk as save_image
+
+            if "image_prompt" not in st.session_state:
+                st.session_state.image_prompt = build_image_prompt(spotlight_listing)
+
+            st.text_area("Image prompt (edit before generating)", key="image_prompt", height=220)
+
+            gen_col, _ = st.columns([1, 3])
+            if gen_col.button("\u2728 Generate Image", use_container_width=True):
+                with st.spinner("Generating image via Gemini\u2026"):
+                    img_bytes = generate_spotlight_image(st.session_state.image_prompt)
+                if img_bytes:
+                    st.session_state.generated_image_bytes = img_bytes
+                else:
+                    st.error("Image generation failed \u2014 check GOOGLE_API_KEY and model availability.")
+
+            if st.session_state.get("generated_image_bytes"):
+                st.image(st.session_state.generated_image_bytes, caption="Generated spotlight image")
+                s_col, dl_col, clr_col = st.columns(3)
+                if s_col.button("\U0001f4be Save Image", use_container_width=True):
+                    p = save_image(st.session_state.generated_image_bytes)
+                    st.success(f"Saved to {p.name}")
+                dl_col.download_button(
+                    "\U0001f4e5 Download Image",
+                    data=st.session_state.generated_image_bytes,
+                    file_name=f"spotlight_{date.today().isoformat()}.png",
+                    mime="image/png",
+                    use_container_width=True,
+                )
+                if clr_col.button("\U0001f5d1\ufe0f Clear Image", use_container_width=True):
+                    st.session_state.pop("generated_image_bytes", None)
+                    st.rerun()
 
     # ------------------------------------------------------------------
     # Saved drafts browser

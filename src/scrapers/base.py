@@ -104,14 +104,18 @@ class BaseScraper(ABC):
         )
         return filtered
 
-    def filter_policy_roles(self, listings: list[JobListing]) -> list[JobListing]:
-        """Keep only policy/governance/safety roles. STRICT filter applied to ALL sources.
+    def filter_policy_roles(
+        self, listings: list[JobListing], ai_focused: bool = False
+    ) -> list[JobListing]:
+        """Keep only policy/governance/safety roles.
 
-        This filters out engineering, product, sales, HR, and other non-policy roles
-        even from AI-focused organizations like Anthropic and OpenAI.
+        For ai_focused=True orgs (e.g. CAIS, Apollo), all listings pass through
+        after the blocklist check — no policy keyword requirement.
+        For all other orgs, strict keyword filter applies.
 
         Args:
             listings: Raw listings from any source.
+            ai_focused: If True, skip policy keyword requirement (blocklist still applies).
 
         Returns:
             Filtered list containing only policy/governance-related roles.
@@ -125,6 +129,11 @@ class BaseScraper(ABC):
                 logger.debug(f"[{self.name}] Excluded (blocklist): {listing.title}")
                 continue
 
+            # For AI-focused orgs, include everything not blocklisted
+            if ai_focused:
+                filtered.append(listing)
+                continue
+
             # Always include if title contains priority keywords
             if any(kw in title_lower for kw in ALWAYS_INCLUDE_KEYWORDS):
                 filtered.append(listing)
@@ -136,6 +145,9 @@ class BaseScraper(ABC):
                 continue
 
             # Skip everything else (engineering, product, sales, etc.)
+            logger.debug(
+                f"[{self.name}] Filtered (no policy keywords): {listing.title} @ {listing.organization}"
+            )
 
         logger.info(
             f"[{self.name}] Policy filter: {len(filtered)}/{len(listings)} roles matched"

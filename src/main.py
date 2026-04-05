@@ -3,6 +3,9 @@
 from __future__ import annotations
 
 import logging
+
+from dotenv import load_dotenv
+load_dotenv()
 import sys
 import time
 import traceback
@@ -141,6 +144,15 @@ def run(
     # Step 2: Deduplicate
     unique_listings = deduplicate(all_listings)
     logger.info(f"After dedup: {len(unique_listings)} unique listings")
+
+    # Step 2b: Drop listings with no description text (empty shells from failed LLM extraction)
+    non_empty = [l for l in unique_listings if l.description or l.description_snippet]
+    if len(non_empty) < len(unique_listings):
+        logger.info(
+            f"Filtered {len(unique_listings) - len(non_empty)} empty listings "
+            f"(no description or snippet), {len(non_empty)} remaining"
+        )
+    unique_listings = non_empty
 
     # Step 3: Find new listings (compare against seen store)
     seen_kwargs = {}

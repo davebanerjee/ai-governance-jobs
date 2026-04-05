@@ -8,6 +8,7 @@ import os
 import re
 from urllib.parse import urljoin
 
+import requests
 from bs4 import BeautifulSoup
 
 from src.config import (
@@ -56,6 +57,9 @@ class LLMScraper(BaseScraper):
             return []
 
         all_listings = []
+        orgs_with_roles = 0
+        orgs_empty = 0
+        http_errors: dict[int, int] = {}  # status_code -> count
 
         for org_config in LLM_SCRAPE_ORGS:
             org_name = org_config["name"]
@@ -64,12 +68,30 @@ class LLMScraper(BaseScraper):
 
             try:
                 listings = self._scrape_org(org_name, careers_url)
-                # Apply strict policy role filter to ALL listings
-                listings = self.filter_policy_roles(listings)
+                listings = self.filter_policy_roles(listings, ai_focused=ai_focused)
                 all_listings.extend(listings)
-                logger.info(f"[{self.name}:{org_name}] Found {len(listings)} policy roles")
+                if listings:
+                    orgs_with_roles += 1
+                    logger.info(f"[{self.name}:{org_name}] Found {len(listings)} policy roles")
+                else:
+                    orgs_empty += 1
+                    logger.debug(f"[{self.name}:{org_name}] 0 policy roles")
+            except requests.HTTPError as e:
+                status = e.response.status_code if e.response is not None else 0
+                http_errors[status] = http_errors.get(status, 0) + 1
+                logger.warning(
+                    f"[{self.name}:{org_name}] HTTP {status}: {careers_url}"
+                )
             except Exception as e:
                 logger.error(f"[{self.name}:{org_name}] Failed: {e}")
+
+        total_orgs = len(LLM_SCRAPE_ORGS)
+        error_summary = ", ".join(f"{count}×{code}" for code, count in sorted(http_errors.items()))
+        error_str = f", {sum(http_errors.values())} HTTP errors ({error_summary})" if http_errors else ""
+        logger.info(
+            f"[{self.name}] {total_orgs} orgs: {orgs_with_roles} returned roles, "
+            f"{orgs_empty} returned 0{error_str}"
+        )
 
         return all_listings
 

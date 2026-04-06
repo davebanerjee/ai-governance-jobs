@@ -1,33 +1,993 @@
 {
-  "last_run": "2026-03-30",
+  "last_run": "2026-04-06",
   "seen": {
+    "fb4eb56cab78a4aad597c68407f9eb05": {
+      "title": "Scientist / Senior Scientist, AI Safety",
+      "org": "Lila Sciences",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "4c01c0003b7a975400c9331981d38dec": {
+      "title": "AI Research Managers, Technical, Governance, or Technical AI Governance",
+      "org": "ERA",
+      "first_seen": "2026-03-30",
+      "last_seen": "2026-04-06"
+    },
+    "1cef10b2302a2a9a64786cc11b2fd154": {
+      "title": "Vice President, Government Affairs, Senate Focus",
+      "org": "The AI Policy Network",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-04-06"
+    },
+    "c656327fbbc51f269d6f93ff33acfce7": {
+      "title": "AI Policy Resident, Center on AI, Security, and Technology",
+      "org": "RAND Corporation",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "bb9a32a3b5af4c5064b3095bac9d81dd": {
+      "title": "Fellowship, Hague Code of Conduct Youth Group",
+      "org": "Fondation pour la Recherche Strat\u00e9gique",
+      "first_seen": "2026-03-30",
+      "last_seen": "2026-04-06"
+    },
+    "3c057808d637927eb0a4b39f7978a248": {
+      "title": "Talos Fellowship",
+      "org": "Talos Network",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-04-06"
+    },
+    "c8fcf808623700c283352f1b14ebfc92": {
+      "title": "Expressions of Interest, Policy and Engineering",
+      "org": "AI Verification and Evaluation Research Institute",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "c990e54cf4155326241d189a2b1c85f1": {
+      "title": "US Policy Team Member (x2)",
+      "org": "Future of Life Institute",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-04-06"
+    },
+    "b9d966c8b3e832052101d9f41e2e8f10": {
+      "title": "Various Fellowships",
+      "org": "Yale University, Yale Law School",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "8bf7735c04e2770f494c9774722e7434": {
+      "title": "AIxBio Research Fellowship",
+      "org": "ERA",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "e9ca22f93eda15e9bad15da902c96069": {
+      "title": "AI Security Fellow",
+      "org": "Anthropic",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-04-06"
+    },
+    "652c4501c1666c9e144b47f4d8f5c794": {
+      "title": "Delivery Manager, AI Safety",
+      "org": "Faculty",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "3c0ba78c20707351ab257172d4e22ae2": {
+      "title": "Research Associate, Law and Governance, Biosecurity and Global Health",
+      "org": "National University of Singapore, Asia Centre for Health Security",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "81110feae986ea62d9b0e920856deefb": {
+      "title": "Research Fellow, Multi-Disciplinary Research and Development",
+      "org": "Sandia National Laboratories",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-04-06"
+    },
+    "c43018d622e15c43dea13ac578a3bb56": {
+      "title": "Fellowship (2026)",
+      "org": "Anima International",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "0d9d22ef49e17928750a289a1ffcee1c": {
+      "title": "Intern, Nuclear Policy Research",
+      "org": "Arms Control Association",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "a87a800c0d0296b877bd20eb84d8f830": {
+      "title": "Summer Research Fellowship, AI Safety (Summer 2026)",
+      "org": "Cambridge Boston Alignment Initiative",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "d97e437a8ea88d08fb8584c3c8c227c3": {
+      "title": "Model Policy Manager, Chemical and Biological Risk",
+      "org": "OpenAI",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "a7d0762c7dbc7189a0486526a60c1903": {
+      "title": "Research Manager, AI Safety",
+      "org": "Cambridge Boston Alignment Initiative",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "35e2720f6b3034df0453b266a5d59e0b": {
+      "title": "Fellowship Operations Associate",
+      "org": "Cambridge Boston Alignment Initiative",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "90f55d9c9acf61b0bd0cc87f7b37655f": {
+      "title": "Intern, US Policy (Summer 2026)",
+      "org": "Future of Privacy Forum",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "2deac5c1db969d42bd2442f4a3bc6d0c": {
+      "title": "Various Fellowships",
+      "org": "George Mason University, Mercatus Center",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "73dff0989ea423c0e1c97400ab8a125d": {
+      "title": "Director, Government Affairs",
+      "org": "The AI Policy Network",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-04-06"
+    },
+    "94134beb6b843c1212ebd468b9586ac2": {
+      "title": "William Randolph Hearst Fellow",
+      "org": "Aspen Institute",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "73782cabae197f60062bfa2d11d0ecd4": {
+      "title": "Academy Fellowships (2026-27)",
+      "org": "Chatham House",
+      "first_seen": "2026-03-30",
+      "last_seen": "2026-04-06"
+    },
+    "637c903eeec251b1ec378fb9a361649e": {
+      "title": "Research Fellow, Cybersecurity and AI Policy",
+      "org": "Foundation for American Innovation",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-04-06"
+    },
+    "d513f8e131fcca819a4cf469cae73deb": {
+      "title": "Various Opportunities, DLI Fellowships and Programs",
+      "org": "Cornell University, Digital Life Initiative",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "43dd029f63de09d6dbd4664864292dc7": {
+      "title": "Fellow in Residence, AI Institute",
+      "org": "Schmidt Sciences",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "2b20db1953e8c3de82b6e95f6a6e2030": {
+      "title": "AI Policy and Technology Diplomacy Advisor",
+      "org": "Consulate General of Switzerland in San Francisco",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-04-06"
+    },
+    "415092db2e58654fdadd8bad94ce6d04": {
+      "title": "Technical Program Manager, AI Alignment",
+      "org": "AE Studio",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "623915168f92c4f9365e2954b3b0f7e2": {
+      "title": "Researcher, Governance of AI Lab",
+      "org": "Hebrew University of Jerusalem, School of Computer Science and Engineering",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "bac4e0cce1ef4dd20d9264dd8471d39f": {
+      "title": "Researcher, Alignment",
+      "org": "OpenAI",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "1123ba366d146797db7b09bfcdbae823": {
+      "title": "Research Program Associate, AI Safety",
+      "org": "Cambridge Boston Alignment Initiative",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "35ee9655493710b23e551a669e681f18": {
+      "title": "Manager, Technical Governance Team",
+      "org": "Machine Intelligence Research Institute",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-04-06"
+    },
+    "d58dbb15c8ef53158ce50bbaf7317af8": {
+      "title": "Pre-Doctoral Fellows Program",
+      "org": "Yale University, Tobin Center for Economic Policy",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "9aa74a5a8b6c5baa0a5513a468d53d34": {
+      "title": "Clerk, Transparency and Regulatory Affairs Program (Summer 2026)",
+      "org": "Animal Legal Defense Fund",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "177aac64842d89b66af5597bc5080280": {
+      "title": "Doctoral Fellows",
+      "org": "Geneva Centre for Security Policy",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "b80652f3f732132d8b559525c3c6ad6a": {
+      "title": "Technical Director, AI Safety",
+      "org": "Faculty",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-04-06"
+    },
+    "e3e5578a4c88e404fe21f7b9a138f5a1": {
+      "title": "Biosecurity Fellow (2025)",
+      "org": "Rosetta Commons",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "fec61fc43c7ac9121f88b2ce89bf8a02": {
+      "title": "Fellowship, Mid-Career Biodefense Bootcamp (2026)",
+      "org": "Council on Strategic Risks",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-04-06"
+    },
+    "8a97c0f6fe7a9fc85fb46e44e8945dc1": {
+      "title": "PhD Student, Assistantship, AI Safety, Generative AI, and Agentic AI Systems",
+      "org": "University of Connecticut, Reducing Information Ecosystem Threats Lab",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "0edc981fa29a365c5914778eea3c2899": {
+      "title": "Legal and Compliance Manager",
+      "org": "Apollo Research",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "df3cad640769ece55dc6c8d2c4d81c66": {
+      "title": "Request for Proposals, AI Safety Grant",
+      "org": "Foresight Institute",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "6048c6307ebd439aea9ce7e85d9bac7f": {
+      "title": "Governance Researcher, Frontier AI Risk Management",
+      "org": "SaferAI",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "8cfff4e0631825a85ed1d3abac91f44f": {
+      "title": "Engineer, Large Model Safety Alignment",
+      "org": "Shanghai Artificial Intelligence Laboratory",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "5abd9038a9bae112d93c2f0a2684f899": {
+      "title": "AI Red Teamer, Frontier AI Safety",
+      "org": "July AI",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "797ac3f94f24a3ced28c286d676ade6f": {
+      "title": "Director, Regional Public Policy",
+      "org": "Semilla Nueva",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "7b0394e73b54dabaa47eb74a326c350e": {
+      "title": "Research Scientist, AI Safety",
+      "org": "Beneficial AI Foundation",
+      "first_seen": "2026-03-02",
+      "last_seen": "2026-04-06"
+    },
+    "86d9ca346bd031b34e27ad0ebc62832f": {
+      "title": "Technical Policy Researcher",
+      "org": "Irregular",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "80c5fb3b2d97dce2b64b07e4f70b1d33": {
+      "title": "Introduction to Effective Altruism Fellowship",
+      "org": "Effective Altruism Australia",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-04-06"
+    },
+    "e701bc5d29082741a4427817eb468c69": {
+      "title": "Governance and Policy Fellow",
+      "org": "Transluce",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "81c1fbed1ae19d289db6c1df615f026c": {
+      "title": "AI Policy Lead, J-PAL Global",
+      "org": "Massachusetts Institute of Technology, Abdul Latif Jameel Poverty Action Lab",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "ac4e18fcfe482271a7a900276ae1acf2": {
+      "title": "Intern, Congressional and Government Affairs (Summer 2026)",
+      "org": "Center for Strategic and International Studies",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-04-06"
+    },
+    "10083124aa82a8ce624ad916e2673f5c": {
+      "title": "Intern, Global Health Policy Center (Summer 2026)",
+      "org": "Center for Strategic and International Studies",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-04-06"
+    },
+    "4a21f0599f9618d3616ab8d11c123866": {
+      "title": "Fellow / Associate Fellow, Economics Program and Scholl Chair in International Business",
+      "org": "Center for Strategic and International Studies",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-04-06"
+    },
+    "b555bdb88f516a522a241def7e3c17d1": {
+      "title": "Artificial Intelligence Safety Standards Expert",
+      "org": "Shanghai Artificial Intelligence Laboratory",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "0ea5a95321bab9d87af9aee195c0a16a": {
+      "title": "Postdoctoral Researcher, AI and Risk, Oxford Martin AI Governance Initiative",
+      "org": "Oxford University, Oxford Martin School",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-04-06"
+    },
+    "57066539f998d5d49d09e71047c3a4e7": {
+      "title": "Various Fellowships",
+      "org": "US Government, Centers for Disease Control and Prevention",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "7072486dd7eab0309a8836a5c9ce7d62": {
+      "title": "Senior Analyst / Counsel, AI Governance",
+      "org": "Future of Privacy Forum",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-04-06"
+    },
+    "b12865ebf2edf1bd6a5b5002df66f629": {
+      "title": "Senior Research Scientist / Principal Research Scientist, AI Safety, Biological / Physical Sciences",
+      "org": "Lila Sciences",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "df63240021264c35dd158854be90c100": {
+      "title": "Policy Advisor, Coalitions",
+      "org": "Encode",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-04-06"
+    },
+    "135f936f971b2a9c70262d6bfd7025dd": {
+      "title": "Nigeria Fellowship",
+      "org": "Animal Advocacy Africa",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-04-06"
+    },
+    "6e7b9faea3fcc5fbf8cb832503dc564c": {
+      "title": "Policy Lead, Clinical Trial Abundance Movement",
+      "org": "1Day Sooner",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-04-06"
+    },
+    "ecf1454fc2d62c6615e1d542f64ec064": {
+      "title": "Research Engineer / Research Scientist, Red Team, Alignment",
+      "org": "UK Government, AI Security Institute",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-04-06"
+    },
+    "cf31d7be601ccf4f246a08e3d7afac95": {
+      "title": "Fellowship, Young Leaders in Foreign and Security Policy",
+      "org": "Geneva Centre for Security Policy",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "7443f98f6253ee5446025c7770fd389b": {
+      "title": "Intern, Responsible AI",
+      "org": "ALLAI",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "85a4ab3b3c05ad06403c5248ba974ba6": {
+      "title": "Staff Applied Research and Machine Learning, Responsible AI and Safety",
+      "org": "Apple",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-04-06"
+    },
+    "b0f41157e034ff6efa2e6bd8041eede6": {
+      "title": "Rydell-Frisa Disarmament Education Fellowship",
+      "org": "Arms Control Association",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "787abc62f631936d631ca5195bf4cf92": {
+      "title": "Research Fellow, Weather and Atmospheric Interventions",
+      "org": "Foundation for American Innovation",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-04-06"
+    },
+    "898da841c681481a066c3aa6608ad4df": {
+      "title": "Head of Research and Development, AI Safety",
+      "org": "Faculty",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "1f4397d57136ed4693f3e64948aa82c1": {
+      "title": "Post-Doctoral Fellowship Scheme",
+      "org": "Society for Applied Philosophy",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-04-06"
+    },
+    "185fed6bca75406c4a7ac20fd4151b93": {
+      "title": "List of Short-Term Policy Programs",
+      "org": "Horizon Institute for Public Service",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "b598db48a2834ef260db101b5faef31e": {
+      "title": "Fellows, Center on AI, Security, and Technology",
+      "org": "RAND Corporation",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "d01e8adbe67aee3781fdc3a682c53ebb": {
+      "title": "Policy Manager, Chemical Weapons and High-Yield Explosives",
+      "org": "Anthropic",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-04-06"
+    },
+    "8a40dced3dd732d3df2b79555feb3998": {
+      "title": "Moral Ambition Fellowship",
+      "org": "The School for Moral Ambition",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "79ea4974ddb246d1641456c409d854d2": {
+      "title": "Fellow",
+      "org": "ARPA-E",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-04-06"
+    },
+    "80ffe7067e15709ff2fb92287095e570": {
+      "title": "Fellowship, Science, Technology and Policy Program, Office of Policy",
+      "org": "US Government, Department of Energy",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "ba53ca8cccb11a01bb1c111ac8258cc1": {
+      "title": "Researcher, Misalignment Research",
+      "org": "OpenAI",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "3d33eacb07ff1a7d390c6dc3ba3e8528": {
+      "title": "Global Fellow, The Polymath Initiative",
+      "org": "Geneva Centre for Security Policy",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "8ca2a666b71fa8fe93ee43e90c879ace": {
+      "title": "Foresight Fellowship (2027)",
+      "org": "Foresight Institute",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "38c70e33290982fcb67e90a58928b78e": {
+      "title": "Research Lead, AI Security Policy",
+      "org": "RAND Corporation",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "a0350dd3de4f8e66acaaa01d0635cb35": {
+      "title": "Postdoc, Mechanism Design for Robust AI Alignment",
+      "org": "King's College London, Department of Informatics",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "656dc86522d4b675a00301e90a56bf2a": {
+      "title": "Policy Accelerator, Global Health and Development",
+      "org": "Impactful Policy Careers",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-04-06"
+    },
+    "ae556dca6079dbf473879f3d0e0f7a07": {
+      "title": "Strategy Fellow",
+      "org": "Forecasting Research Institute",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "6c4ed16133162f0df2bcbd78759602f7": {
+      "title": "Research Assistant, Reasoning Models and AI Safety",
+      "org": "University of Bonn",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-04-06"
+    },
+    "e4c6325afd73ae0927d5276a3a846ef1": {
+      "title": "Policy Analyst / Director",
+      "org": "Encode",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "37ad3e603dcab6348d4db2e4349712ed": {
+      "title": "Policy Associate",
+      "org": "SaferAI",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "ac7032c83db94814f46db0e61c12874e": {
+      "title": "PhD Position, AI Safety",
+      "org": "University of Stuttgart",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-04-06"
+    },
+    "a8438acbd01bd83607b5b05d4e10db7d": {
+      "title": "Innovation Fellowship",
+      "org": "US Government, Defense Advanced Research Projects Agency",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "3f6c0e05a703a539ad67eb2ea02da4b6": {
+      "title": "Research Engineer, Novel AI Platforms for Multiscale Alignment",
+      "org": "Center for AI Risk Management and Alignment",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "e5d71e21586e891c68c717095365852e": {
+      "title": "Associate Director, AI Policy",
+      "org": "Information Technology and Innovation Foundation",
+      "first_seen": "2026-03-02",
+      "last_seen": "2026-04-06"
+    },
+    "b5a260b51afa2ca483ae388fcaca2eb8": {
+      "title": "Field Research Fellowship",
+      "org": "Taimaka",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "0245973321de7fc46183dc7f82fa3a52": {
+      "title": "Research Internship, Fellow Bill Drexel (Summer 2026)",
+      "org": "Hudson Institute",
+      "first_seen": "2026-03-02",
+      "last_seen": "2026-04-06"
+    },
+    "07a90b4de61f51c3f171eafd598acd04": {
+      "title": "Policy Officer, Artificial Intelligence",
+      "org": "European Union, European Commission",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "ffd6a47325039b573dedabd13076598b": {
+      "title": "Carnegie Ethics Fellowship",
+      "org": "Carnegie Council for Ethics in International Affairs",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-04-06"
+    },
+    "1484332a6dc108d46e9ab1a9a41e3b9b": {
+      "title": "Senior ML Researcher, Foundation Models, Responsible AI",
+      "org": "Apple",
+      "first_seen": "2026-03-02",
+      "last_seen": "2026-04-06"
+    },
+    "fe9869f6b15ddfde54875cab580a0fec": {
+      "title": "List of Top US Policy Master's Programmes",
+      "org": "Various US Universities",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "23a60148f04107024dd443c39e6198b2": {
+      "title": "Research Engineer / Scientist, Alignment Science, London",
+      "org": "Anthropic",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-04-06"
+    },
+    "94d8c19fe43555e21f2e93b96f32aabb": {
+      "title": "Fellowship, Leadership Academy (Summer 2026)",
+      "org": "New Roots Institute",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "faedb16cf83d935398a0b10e4675fad9": {
+      "title": "Scowcroft-Nye Fellowship",
+      "org": "Aspen Institute",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "14594e66f270c11c7ef99584ab40349d": {
+      "title": "Head of AI Assurance",
+      "org": "Faculty",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "08044e717876104bf1d7457f6e508aec": {
+      "title": "List of US Policy Fellowships",
+      "org": "Various Fellowship Providers",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "2dbed0779fd58fcad3e04ba6350a9eed": {
+      "title": "Research Scientist I / II, AI Safety, Biological / Physical Sciences",
+      "org": "Lila Sciences",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "3f31cff60fef36e38b6604d7a28e6cba": {
+      "title": "Funding, Programs and Events on Global Catastrophic Risk, Effective Altruism, and Other Topics",
+      "org": "Coefficient Giving",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "923a0a18136529ec442fe4c404ea3283": {
+      "title": "Technical Policy Manager, Cyber Harms",
+      "org": "Anthropic",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "50a529238ea4b24df54eac7a829f1187": {
+      "title": "Policy Fellowships Programme",
+      "org": "Cambridge University, Centre for Science and Policy",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "d378669be237ebaa6bbfb7eaf77aae33": {
+      "title": "Research Associate / Research Fellow",
+      "org": "National University of Singapore, Saw Swee Hock School of Public Health",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "2f811ddc9f44c3cf3ba4e46a371903fe": {
+      "title": "Postdoctoral Fellow",
+      "org": "Fred Hutchinson Cancer Research Center, Bedford Lab",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "6d958c7aa43a60b053792ab2e2e7b010": {
+      "title": "Research Fellow, Infectious Disease Modelling",
+      "org": "National University of Singapore, Asia Centre for Health Security",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "a93620814ea4fbbe9fdfcb021fad6eb4": {
+      "title": "Expression of Interest, Founder of AI Safety Group",
+      "org": "European Network For AI Safety",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "ffc89eccef8a3aa3d04fdb3887d674a0": {
+      "title": "No10 Innovation Fellowship",
+      "org": "UK Government, 10 Downing Street",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "dcaab92f091564239da66c42083382da": {
+      "title": "Technical AI Safety Upskilling Resources",
+      "org": "80,000 Hours",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "124f58d00b3c3cf85bf75da8fb293e37": {
+      "title": "Various Fellowships",
+      "org": "Aspen Institute",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "02223af265b8b22e62f685fa311e3c4c": {
+      "title": "Associate Fellow",
+      "org": "Center for a New American Security",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "12297e90e91e3060a657c56088af738e": {
+      "title": "Visiting Fellow, Jeane Kirkpatrick Program",
+      "org": "American Enterprise Institute",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "af604b09b3e328d4ef2972dc46191797": {
+      "title": "Research Fellow",
+      "org": "University of California, Center for Human-Compatible Artificial Intelligence",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "0055faab6a502d9858411e03e5401391": {
+      "title": "List of Potential PhD Supervisors, AI Alignment / Safety",
+      "org": "Various Potential PhD Supervisors",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "f2bcd754fd14b79ab83a9160cc649ff7": {
+      "title": "List of Recurring Fellowships Relevant to Top Problems",
+      "org": "Various Fellowship Providers",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "42723d991f8f644ab996014be7250ef0": {
+      "title": "Policy Researcher",
+      "org": "AI Futures Project",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "bc6e57ee513eb52d43b08c5cf66e5278": {
+      "title": "Research Scientist, AI Safety, ML Focus",
+      "org": "LawZero",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "604d881f884712fdca617552e4861053": {
+      "title": "Data Scientist, Alignment",
+      "org": "AE Studio",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "1632106da4bd7b41365621c8b3c50579": {
+      "title": "Fellows",
+      "org": "fp21",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "14ad19436d083ce903a3757c61701d46": {
+      "title": "Chief of Staff (Public Engagement)",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "4c5392be7c71145783b4c21d23099b55": {
+      "title": "Communications Lead (Research)",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "4a5ed23fad480f5acd499009be2edabf": {
+      "title": "Director of Development",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "4f18b83affce7821029d36ccd30ab1dc": {
+      "title": "Expression of Interest",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "54c49b0791cb89edb508385ba9608452": {
+      "title": "Head of Social",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "6b54ad28a3e3080c45e9b2a01449529d": {
+      "title": "Narrative Strategist",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "cf8aaf91793b22c1ed94658c6b0eaef8": {
+      "title": "Operations Associate",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "d4877fefda8ffb87c0acfef3f25c95c6": {
+      "title": "Principal, Special Projects",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "defffe524681a16d1fa2196492e55758": {
+      "title": "Program Manager",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "d8f33175f8603c88270bb648d254ee33": {
+      "title": "Research Engineer",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "9f65d8170575449e6230b1cbe8853afb": {
+      "title": "Research Engineer Intern (Fall 2026)",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "73d99826002a4573d8e182cf5ceea7bc": {
+      "title": "Senior Research Scientist",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "d5f83b2d0e7b768e385d800b529e58e8": {
+      "title": "Special Projects Associate",
+      "org": "Center for AI Safety",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "dfecacd7435ffe18f992b40b1e61d0a9": {
+      "title": "Applied Researcher (Product)",
+      "org": "Apollo Research",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "a831c9ac4f3a3165720190f3fbfc938f": {
+      "title": "Backend Engineer (Product)",
+      "org": "Apollo Research",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "8603162652ddd9235ebabd171b5080e3": {
+      "title": "Backend Software Engineer (Research team)",
+      "org": "Apollo Research",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "aa52ad9e7a84532e2fee8dc6caa18c47": {
+      "title": "Expression of Interest",
+      "org": "Apollo Research",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "ce7556345698694d9578f1084cb21216": {
+      "title": "Finance Associate (Part-time)",
+      "org": "Apollo Research",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "96ab2f1c395a1815f32a94040176620b": {
+      "title": "Head of Legal",
+      "org": "Apollo Research",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "c130ec7e521ac799e4c124ee3fd66881": {
+      "title": "Research Scientist/Engineer (Evaluations)",
+      "org": "Apollo Research",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "41b3977c356762d62c536b4526388856": {
+      "title": "Research Scientist/Engineer (Science of Scheming)",
+      "org": "Apollo Research",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "da53ff70a65a0972b2d312898f7c6244": {
+      "title": "Senior Security Engineer",
+      "org": "Apollo Research",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "f093b3133fee93c33e8cf448b06f019e": {
+      "title": "US/NatSec Specialist",
+      "org": "Apollo Research",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "794fd54d59fb9725f58b6b1f9788bd7d": {
+      "title": "Anthropic AI Safety Fellow",
+      "org": "Anthropic",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "ad967fbb0c3b98ed94ba9b69e8685b4f": {
+      "title": "Internal Communications Manager, Policy",
+      "org": "Anthropic",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "de1b14b161958c7b2c9f2a4924e61d82": {
+      "title": "Policy Design Manager, Age-Appropriate Design",
+      "org": "Anthropic",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-04-06"
+    },
+    "484c451f5bc0b448abedf575e2259da6": {
+      "title": "Policy Programs & Partnerships, Global Impact",
+      "org": "Anthropic",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "d1d7e8ca734b1e9e5073ed30e72c5ba7": {
+      "title": "Security Risk & Compliance, HIPAA",
+      "org": "Anthropic",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-04-06"
+    },
+    "283fe7cba5596da9b4282d725fc18a4c": {
+      "title": "Strategy & Operations, Public Policy & Public Benefit",
+      "org": "Anthropic",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
+    "74dcf257b171a6990496b70ccf225766": {
+      "title": "Trade Compliance Counsel",
+      "org": "Anthropic",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "3c17f8d0504c88d192f14085a3a2daf3": {
+      "title": "Software Engineer, AI Safety",
+      "org": "OpenAI",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "aae41f9952d7a08fad4eea8dd3b53234": {
+      "title": "Software Engineer - Privacy & Compliance",
+      "org": "OpenAI",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "fdf999bb18fd1589a4751ee5cc33faa7": {
+      "title": "Facilities Standards & Strategy, Program Manager",
+      "org": "OpenAI",
+      "first_seen": "2026-02-15",
+      "last_seen": "2026-04-06"
+    },
+    "9547a6b9cb21c31d4b94707b3f2ade02": {
+      "title": "Program Manager, Product Policy",
+      "org": "OpenAI",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-04-06"
+    },
+    "372674d6a7edec6ef6d73811504e0604": {
+      "title": "Senior Manager, Revenue Risk & Compliance (FRM)",
+      "org": "OpenAI",
+      "first_seen": "2026-03-02",
+      "last_seen": "2026-04-06"
+    },
+    "c22f39670d8715fe476fa02b9b2d04fd": {
+      "title": "Head of SaaS Enablement & Governance",
+      "org": "OpenAI",
+      "first_seen": "2026-03-02",
+      "last_seen": "2026-04-06"
+    },
+    "b806577126ffc2ac547da356ff21fb1a": {
+      "title": "Compliance Program Manager",
+      "org": "OpenAI",
+      "first_seen": "2026-03-02",
+      "last_seen": "2026-04-06"
+    },
+    "4325df4b09cb7ba684ccf808b25e2a5a": {
+      "title": "Research Engineer/Scientist - Human Alignment, Consumer Devices",
+      "org": "OpenAI",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-04-06"
+    },
+    "68bedb8a7586736cfbb31f3235ce02c0": {
+      "title": "Senior Manager, People Compliance",
+      "org": "OpenAI",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-04-06"
+    },
+    "36a444d95d6a2039f3def5ea875f0e40": {
+      "title": "Program Manager, Alignment",
+      "org": "OpenAI",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-04-06"
+    },
+    "21dc3a029a1162291c5d950770ed58ab": {
+      "title": "Security Engineer, Host Assurance",
+      "org": "OpenAI",
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06"
+    },
     "117d34b6fb808ac7bbb036696e219736": {
       "title": "CORDA Democracy Fellowship",
       "org": "Civic, Open & Resilient Democracy Action",
       "first_seen": "2026-03-30",
       "last_seen": "2026-03-30"
     },
-    "8a97c0f6fe7a9fc85fb46e44e8945dc1": {
-      "title": "PhD Student, Assistantship, AI Safety, Generative AI, and Agentic AI Systems",
-      "org": "University of Connecticut, Reducing Information Ecosystem Threats Lab",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
     "6b5e5856a6530f9ed0ea4e7528aa98f3": {
       "title": "Policy Analyst",
       "org": "US Government, Executive Office of the President",
-      "first_seen": "2026-03-30",
-      "last_seen": "2026-03-30"
-    },
-    "b9d966c8b3e832052101d9f41e2e8f10": {
-      "title": "Various Fellowships",
-      "org": "Yale University, Yale Law School",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "4c01c0003b7a975400c9331981d38dec": {
-      "title": "AI Research Managers, Technical, Governance, or Technical AI Governance",
-      "org": "ERA",
       "first_seen": "2026-03-30",
       "last_seen": "2026-03-30"
     },
@@ -37,34 +997,10 @@
       "first_seen": "2026-03-30",
       "last_seen": "2026-03-30"
     },
-    "bb9a32a3b5af4c5064b3095bac9d81dd": {
-      "title": "Fellowship, Hague Code of Conduct Youth Group",
-      "org": "Fondation pour la Recherche Strat\u00e9gique",
-      "first_seen": "2026-03-30",
-      "last_seen": "2026-03-30"
-    },
-    "c8fcf808623700c283352f1b14ebfc92": {
-      "title": "Expressions of Interest, Policy and Engineering",
-      "org": "AI Verification and Evaluation Research Institute",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "3c057808d637927eb0a4b39f7978a248": {
-      "title": "Talos Fellowship",
-      "org": "Talos Network",
-      "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
     "e321701a9690e5de828399c527d6c363": {
       "title": "AI Safety Research Accelerator",
       "org": "Meridian",
       "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
-    "d58dbb15c8ef53158ce50bbaf7317af8": {
-      "title": "Pre-Doctoral Fellows Program",
-      "org": "Yale University, Tobin Center for Economic Policy",
-      "first_seen": "2026-02-15",
       "last_seen": "2026-03-30"
     },
     "bc734b0e8519b67215a1eb1884f7d498": {
@@ -73,76 +1009,10 @@
       "first_seen": "2026-02-15",
       "last_seen": "2026-03-30"
     },
-    "1cef10b2302a2a9a64786cc11b2fd154": {
-      "title": "Vice President, Government Affairs, Senate Focus",
-      "org": "The AI Policy Network",
-      "first_seen": "2026-03-09",
-      "last_seen": "2026-03-30"
-    },
     "82282c72d75830c68a07c95a45e9eef3": {
       "title": "Teaching Assistant, Cambridge Bootcamp for Research in Interpretability and Alignment",
       "org": "Cambridge Boston Alignment Initiative",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-03-30"
-    },
-    "797ac3f94f24a3ced28c286d676ade6f": {
-      "title": "Director, Regional Public Policy",
-      "org": "Semilla Nueva",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "73782cabae197f60062bfa2d11d0ecd4": {
-      "title": "Academy Fellowships (2026-27)",
-      "org": "Chatham House",
-      "first_seen": "2026-03-30",
-      "last_seen": "2026-03-30"
-    },
-    "81110feae986ea62d9b0e920856deefb": {
-      "title": "Research Fellow, Multi-Disciplinary Research and Development",
-      "org": "Sandia National Laboratories",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-30"
-    },
-    "2deac5c1db969d42bd2442f4a3bc6d0c": {
-      "title": "Various Fellowships",
-      "org": "George Mason University, Mercatus Center",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "623915168f92c4f9365e2954b3b0f7e2": {
-      "title": "Researcher, Governance of AI Lab",
-      "org": "Hebrew University of Jerusalem, School of Computer Science and Engineering",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "637c903eeec251b1ec378fb9a361649e": {
-      "title": "Research Fellow, Cybersecurity and AI Policy",
-      "org": "Foundation for American Innovation",
-      "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
-    "bac4e0cce1ef4dd20d9264dd8471d39f": {
-      "title": "Researcher, Alignment",
-      "org": "OpenAI",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "2b20db1953e8c3de82b6e95f6a6e2030": {
-      "title": "AI Policy and Technology Diplomacy Advisor",
-      "org": "Consulate General of Switzerland in San Francisco",
-      "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
-    "d513f8e131fcca819a4cf469cae73deb": {
-      "title": "Various Opportunities, DLI Fellowships and Programs",
-      "org": "Cornell University, Digital Life Initiative",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "0edc981fa29a365c5914778eea3c2899": {
-      "title": "Legal and Compliance Manager",
-      "org": "Apollo Research",
-      "first_seen": "2026-02-15",
       "last_seen": "2026-03-30"
     },
     "b26605189532b2694e4f137cee24df5b": {
@@ -151,112 +1021,10 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-30"
     },
-    "652c4501c1666c9e144b47f4d8f5c794": {
-      "title": "Delivery Manager, AI Safety",
-      "org": "Faculty",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "81c1fbed1ae19d289db6c1df615f026c": {
-      "title": "AI Policy Lead, J-PAL Global",
-      "org": "Massachusetts Institute of Technology, Abdul Latif Jameel Poverty Action Lab",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "9aa74a5a8b6c5baa0a5513a468d53d34": {
-      "title": "Clerk, Transparency and Regulatory Affairs Program (Summer 2026)",
-      "org": "Animal Legal Defense Fund",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "177aac64842d89b66af5597bc5080280": {
-      "title": "Doctoral Fellows",
-      "org": "Geneva Centre for Security Policy",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "b80652f3f732132d8b559525c3c6ad6a": {
-      "title": "Technical Director, AI Safety",
-      "org": "Faculty",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-30"
-    },
-    "fec61fc43c7ac9121f88b2ce89bf8a02": {
-      "title": "Fellowship, Mid-Career Biodefense Bootcamp (2026)",
-      "org": "Council on Strategic Risks",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-30"
-    },
-    "e3e5578a4c88e404fe21f7b9a138f5a1": {
-      "title": "Biosecurity Fellow (2025)",
-      "org": "Rosetta Commons",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "80c5fb3b2d97dce2b64b07e4f70b1d33": {
-      "title": "Introduction to Effective Altruism Fellowship",
-      "org": "Effective Altruism Australia",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-30"
-    },
-    "df3cad640769ece55dc6c8d2c4d81c66": {
-      "title": "Request for Proposals, AI Safety Grant",
-      "org": "Foresight Institute",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "73dff0989ea423c0e1c97400ab8a125d": {
-      "title": "Director, Government Affairs",
-      "org": "The AI Policy Network",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-30"
-    },
-    "c990e54cf4155326241d189a2b1c85f1": {
-      "title": "US Policy Team Member (x2)",
-      "org": "Future of Life Institute",
-      "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
-    "e9ca22f93eda15e9bad15da902c96069": {
-      "title": "AI Security Fellow",
-      "org": "Anthropic",
-      "first_seen": "2026-02-23",
-      "last_seen": "2026-03-30"
-    },
-    "5abd9038a9bae112d93c2f0a2684f899": {
-      "title": "AI Red Teamer, Frontier AI Safety",
-      "org": "July AI",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "8cfff4e0631825a85ed1d3abac91f44f": {
-      "title": "Engineer, Large Model Safety Alignment",
-      "org": "Shanghai Artificial Intelligence Laboratory",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
     "6d27bfa4fbe9f2eb0f6354d3b539347a": {
       "title": "Technical Policy Officer, International Pandemic Preparedness Secretariat",
       "org": "Wellcome Trust",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-30"
-    },
-    "90f55d9c9acf61b0bd0cc87f7b37655f": {
-      "title": "Intern, US Policy (Summer 2026)",
-      "org": "Future of Privacy Forum",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "7b0394e73b54dabaa47eb74a326c350e": {
-      "title": "Research Scientist, AI Safety",
-      "org": "Beneficial AI Foundation",
-      "first_seen": "2026-03-02",
-      "last_seen": "2026-03-30"
-    },
-    "86d9ca346bd031b34e27ad0ebc62832f": {
-      "title": "Technical Policy Researcher",
-      "org": "Irregular",
-      "first_seen": "2026-02-15",
       "last_seen": "2026-03-30"
     },
     "991e640467848c2d639b70b20acd34d4": {
@@ -265,63 +1033,15 @@
       "first_seen": "2026-03-09",
       "last_seen": "2026-03-30"
     },
-    "3c0ba78c20707351ab257172d4e22ae2": {
-      "title": "Research Associate, Law and Governance, Biosecurity and Global Health",
-      "org": "National University of Singapore, Asia Centre for Health Security",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
     "d61f580059f0e96ebffe0b8c448605a5": {
       "title": "Research Fellow, Technical Governance Team",
       "org": "Machine Intelligence Research Institute",
       "first_seen": "2026-02-15",
       "last_seen": "2026-03-30"
     },
-    "e701bc5d29082741a4427817eb468c69": {
-      "title": "Governance and Policy Fellow",
-      "org": "Transluce",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "ac4e18fcfe482271a7a900276ae1acf2": {
-      "title": "Intern, Congressional and Government Affairs (Summer 2026)",
-      "org": "Center for Strategic and International Studies",
-      "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
     "d0eed00a870b4098e0c892b6b4c41a49": {
       "title": "Geopolitics Analyst, Policy",
       "org": "Anthropic",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "10083124aa82a8ce624ad916e2673f5c": {
-      "title": "Intern, Global Health Policy Center (Summer 2026)",
-      "org": "Center for Strategic and International Studies",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-30"
-    },
-    "4a21f0599f9618d3616ab8d11c123866": {
-      "title": "Fellow / Associate Fellow, Economics Program and Scholl Chair in International Business",
-      "org": "Center for Strategic and International Studies",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-30"
-    },
-    "0ea5a95321bab9d87af9aee195c0a16a": {
-      "title": "Postdoctoral Researcher, AI and Risk, Oxford Martin AI Governance Initiative",
-      "org": "Oxford University, Oxford Martin School",
-      "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
-    "b555bdb88f516a522a241def7e3c17d1": {
-      "title": "Artificial Intelligence Safety Standards Expert",
-      "org": "Shanghai Artificial Intelligence Laboratory",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "57066539f998d5d49d09e71047c3a4e7": {
-      "title": "Various Fellowships",
-      "org": "US Government, Centers for Disease Control and Prevention",
       "first_seen": "2026-02-15",
       "last_seen": "2026-03-30"
     },
@@ -331,57 +1051,15 @@
       "first_seen": "2026-03-16",
       "last_seen": "2026-03-30"
     },
-    "7072486dd7eab0309a8836a5c9ce7d62": {
-      "title": "Senior Analyst / Counsel, AI Governance",
-      "org": "Future of Privacy Forum",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-30"
-    },
-    "b12865ebf2edf1bd6a5b5002df66f629": {
-      "title": "Senior Research Scientist / Principal Research Scientist, AI Safety, Biological / Physical Sciences",
-      "org": "Lila Sciences",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "df63240021264c35dd158854be90c100": {
-      "title": "Policy Advisor, Coalitions",
-      "org": "Encode",
-      "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
     "5462b682d1eaad4fc3c6694548e12ea2": {
       "title": "Senior Program Analyst, Space Law and Regulation",
       "org": "Secure World Foundation",
       "first_seen": "2026-02-15",
       "last_seen": "2026-03-30"
     },
-    "6e7b9faea3fcc5fbf8cb832503dc564c": {
-      "title": "Policy Lead, Clinical Trial Abundance Movement",
-      "org": "1Day Sooner",
-      "first_seen": "2026-03-09",
-      "last_seen": "2026-03-30"
-    },
-    "135f936f971b2a9c70262d6bfd7025dd": {
-      "title": "Nigeria Fellowship",
-      "org": "Animal Advocacy Africa",
-      "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
-    "ecf1454fc2d62c6615e1d542f64ec064": {
-      "title": "Research Engineer / Research Scientist, Red Team, Alignment",
-      "org": "UK Government, AI Security Institute",
-      "first_seen": "2026-02-23",
-      "last_seen": "2026-03-30"
-    },
     "ee9694acdc0e1d22ff62f9633d9af50b": {
       "title": "Public Security Policy Researcher",
       "org": "Center for AI Risk Management and Alignment",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "cf31d7be601ccf4f246a08e3d7afac95": {
-      "title": "Fellowship, Young Leaders in Foreign and Security Policy",
-      "org": "Geneva Centre for Security Policy",
       "first_seen": "2026-02-15",
       "last_seen": "2026-03-30"
     },
@@ -391,33 +1069,9 @@
       "first_seen": "2026-02-15",
       "last_seen": "2026-03-30"
     },
-    "7443f98f6253ee5446025c7770fd389b": {
-      "title": "Intern, Responsible AI",
-      "org": "ALLAI",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
     "ab66128a4069803a88fc558d6e20ab5b": {
       "title": "Technical Governance Researcher",
       "org": "Machine Intelligence Research Institute",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "85a4ab3b3c05ad06403c5248ba974ba6": {
-      "title": "Staff Applied Research and Machine Learning, Responsible AI and Safety",
-      "org": "Apple",
-      "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
-    "b0f41157e034ff6efa2e6bd8041eede6": {
-      "title": "Rydell-Frisa Disarmament Education Fellowship",
-      "org": "Arms Control Association",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "43dd029f63de09d6dbd4664864292dc7": {
-      "title": "Fellow in Residence, AI Institute",
-      "org": "Schmidt Sciences",
       "first_seen": "2026-02-15",
       "last_seen": "2026-03-30"
     },
@@ -427,153 +1081,9 @@
       "first_seen": "2026-03-16",
       "last_seen": "2026-03-30"
     },
-    "898da841c681481a066c3aa6608ad4df": {
-      "title": "Head of Research and Development, AI Safety",
-      "org": "Faculty",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "1f4397d57136ed4693f3e64948aa82c1": {
-      "title": "Post-Doctoral Fellowship Scheme",
-      "org": "Society for Applied Philosophy",
-      "first_seen": "2026-02-23",
-      "last_seen": "2026-03-30"
-    },
-    "fb4eb56cab78a4aad597c68407f9eb05": {
-      "title": "Scientist / Senior Scientist, AI Safety",
-      "org": "Lila Sciences",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "787abc62f631936d631ca5195bf4cf92": {
-      "title": "Research Fellow, Weather and Atmospheric Interventions",
-      "org": "Foundation for American Innovation",
-      "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
-    "185fed6bca75406c4a7ac20fd4151b93": {
-      "title": "List of Short-Term Policy Programs",
-      "org": "Horizon Institute for Public Service",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "b598db48a2834ef260db101b5faef31e": {
-      "title": "Fellows, Center on AI, Security, and Technology",
-      "org": "RAND Corporation",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "d01e8adbe67aee3781fdc3a682c53ebb": {
-      "title": "Policy Manager, Chemical Weapons and High-Yield Explosives",
-      "org": "Anthropic",
-      "first_seen": "2026-03-09",
-      "last_seen": "2026-03-30"
-    },
-    "8a40dced3dd732d3df2b79555feb3998": {
-      "title": "Moral Ambition Fellowship",
-      "org": "The School for Moral Ambition",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "80ffe7067e15709ff2fb92287095e570": {
-      "title": "Fellowship, Science, Technology and Policy Program, Office of Policy",
-      "org": "US Government, Department of Energy",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "79ea4974ddb246d1641456c409d854d2": {
-      "title": "Fellow",
-      "org": "ARPA-E",
-      "first_seen": "2026-03-09",
-      "last_seen": "2026-03-30"
-    },
-    "ba53ca8cccb11a01bb1c111ac8258cc1": {
-      "title": "Researcher, Misalignment Research",
-      "org": "OpenAI",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "3d33eacb07ff1a7d390c6dc3ba3e8528": {
-      "title": "Global Fellow, The Polymath Initiative",
-      "org": "Geneva Centre for Security Policy",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "8ca2a666b71fa8fe93ee43e90c879ace": {
-      "title": "Foresight Fellowship (2027)",
-      "org": "Foresight Institute",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "415092db2e58654fdadd8bad94ce6d04": {
-      "title": "Technical Program Manager, AI Alignment",
-      "org": "AE Studio",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "a0350dd3de4f8e66acaaa01d0635cb35": {
-      "title": "Postdoc, Mechanism Design for Robust AI Alignment",
-      "org": "King's College London, Department of Informatics",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "38c70e33290982fcb67e90a58928b78e": {
-      "title": "Research Lead, AI Security Policy",
-      "org": "RAND Corporation",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "656dc86522d4b675a00301e90a56bf2a": {
-      "title": "Policy Accelerator, Global Health and Development",
-      "org": "Impactful Policy Careers",
-      "first_seen": "2026-03-09",
-      "last_seen": "2026-03-30"
-    },
-    "ae556dca6079dbf473879f3d0e0f7a07": {
-      "title": "Strategy Fellow",
-      "org": "Forecasting Research Institute",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
     "a5118d95db7024377925f57dfb770b47": {
       "title": "Fellowships, Scientists in Biosecurity",
       "org": "International Centre for Genetic Engineering and Biotechnology",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "e4c6325afd73ae0927d5276a3a846ef1": {
-      "title": "Policy Analyst / Director",
-      "org": "Encode",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "6c4ed16133162f0df2bcbd78759602f7": {
-      "title": "Research Assistant, Reasoning Models and AI Safety",
-      "org": "University of Bonn",
-      "first_seen": "2026-03-09",
-      "last_seen": "2026-03-30"
-    },
-    "ac7032c83db94814f46db0e61c12874e": {
-      "title": "PhD Position, AI Safety",
-      "org": "University of Stuttgart",
-      "first_seen": "2026-03-09",
-      "last_seen": "2026-03-30"
-    },
-    "37ad3e603dcab6348d4db2e4349712ed": {
-      "title": "Policy Associate",
-      "org": "SaferAI",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "a8438acbd01bd83607b5b05d4e10db7d": {
-      "title": "Innovation Fellowship",
-      "org": "US Government, Defense Advanced Research Projects Agency",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "3f6c0e05a703a539ad67eb2ea02da4b6": {
-      "title": "Research Engineer, Novel AI Platforms for Multiscale Alignment",
-      "org": "Center for AI Risk Management and Alignment",
       "first_seen": "2026-02-15",
       "last_seen": "2026-03-30"
     },
@@ -583,256 +1093,10 @@
       "first_seen": "2026-02-15",
       "last_seen": "2026-03-30"
     },
-    "e5d71e21586e891c68c717095365852e": {
-      "title": "Associate Director, AI Policy",
-      "org": "Information Technology and Innovation Foundation",
-      "first_seen": "2026-03-02",
-      "last_seen": "2026-03-30"
-    },
-    "b5a260b51afa2ca483ae388fcaca2eb8": {
-      "title": "Field Research Fellowship",
-      "org": "Taimaka",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "0245973321de7fc46183dc7f82fa3a52": {
-      "title": "Research Internship, Fellow Bill Drexel (Summer 2026)",
-      "org": "Hudson Institute",
-      "first_seen": "2026-03-02",
-      "last_seen": "2026-03-30"
-    },
-    "07a90b4de61f51c3f171eafd598acd04": {
-      "title": "Policy Officer, Artificial Intelligence",
-      "org": "European Union, European Commission",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "ffd6a47325039b573dedabd13076598b": {
-      "title": "Carnegie Ethics Fellowship",
-      "org": "Carnegie Council for Ethics in International Affairs",
-      "first_seen": "2026-02-23",
-      "last_seen": "2026-03-30"
-    },
-    "1484332a6dc108d46e9ab1a9a41e3b9b": {
-      "title": "Senior ML Researcher, Foundation Models, Responsible AI",
-      "org": "Apple",
-      "first_seen": "2026-03-02",
-      "last_seen": "2026-03-30"
-    },
-    "fe9869f6b15ddfde54875cab580a0fec": {
-      "title": "List of Top US Policy Master's Programmes",
-      "org": "Various US Universities",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "23a60148f04107024dd443c39e6198b2": {
-      "title": "Research Engineer / Scientist, Alignment Science, London",
-      "org": "Anthropic",
-      "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
-    "94d8c19fe43555e21f2e93b96f32aabb": {
-      "title": "Fellowship, Leadership Academy (Summer 2026)",
-      "org": "New Roots Institute",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "faedb16cf83d935398a0b10e4675fad9": {
-      "title": "Scowcroft-Nye Fellowship",
-      "org": "Aspen Institute",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "14594e66f270c11c7ef99584ab40349d": {
-      "title": "Head of AI Assurance",
-      "org": "Faculty",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "08044e717876104bf1d7457f6e508aec": {
-      "title": "List of US Policy Fellowships",
-      "org": "Various Fellowship Providers",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "2dbed0779fd58fcad3e04ba6350a9eed": {
-      "title": "Research Scientist I / II, AI Safety, Biological / Physical Sciences",
-      "org": "Lila Sciences",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
     "1b45bbee43f2b94664e31867bca12108": {
       "title": "Clerk, Legislative Affairs Program (Summer 2026)",
       "org": "Animal Legal Defense Fund",
       "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "3f31cff60fef36e38b6604d7a28e6cba": {
-      "title": "Funding, Programs and Events on Global Catastrophic Risk, Effective Altruism, and Other Topics",
-      "org": "Coefficient Giving",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "d97e437a8ea88d08fb8584c3c8c227c3": {
-      "title": "Model Policy Manager, Chemical and Biological Risk",
-      "org": "OpenAI",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "923a0a18136529ec442fe4c404ea3283": {
-      "title": "Technical Policy Manager, Cyber Harms",
-      "org": "Anthropic",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "50a529238ea4b24df54eac7a829f1187": {
-      "title": "Policy Fellowships Programme",
-      "org": "Cambridge University, Centre for Science and Policy",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "d378669be237ebaa6bbfb7eaf77aae33": {
-      "title": "Research Associate / Research Fellow",
-      "org": "National University of Singapore, Saw Swee Hock School of Public Health",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "2f811ddc9f44c3cf3ba4e46a371903fe": {
-      "title": "Postdoctoral Fellow",
-      "org": "Fred Hutchinson Cancer Research Center, Bedford Lab",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "6d958c7aa43a60b053792ab2e2e7b010": {
-      "title": "Research Fellow, Infectious Disease Modelling",
-      "org": "National University of Singapore, Asia Centre for Health Security",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "a93620814ea4fbbe9fdfcb021fad6eb4": {
-      "title": "Expression of Interest, Founder of AI Safety Group",
-      "org": "European Network For AI Safety",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "ffc89eccef8a3aa3d04fdb3887d674a0": {
-      "title": "No10 Innovation Fellowship",
-      "org": "UK Government, 10 Downing Street",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "dcaab92f091564239da66c42083382da": {
-      "title": "Technical AI Safety Upskilling Resources",
-      "org": "80,000 Hours",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "124f58d00b3c3cf85bf75da8fb293e37": {
-      "title": "Various Fellowships",
-      "org": "Aspen Institute",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "02223af265b8b22e62f685fa311e3c4c": {
-      "title": "Associate Fellow",
-      "org": "Center for a New American Security",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "12297e90e91e3060a657c56088af738e": {
-      "title": "Visiting Fellow, Jeane Kirkpatrick Program",
-      "org": "American Enterprise Institute",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "af604b09b3e328d4ef2972dc46191797": {
-      "title": "Research Fellow",
-      "org": "University of California, Center for Human-Compatible Artificial Intelligence",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "0055faab6a502d9858411e03e5401391": {
-      "title": "List of Potential PhD Supervisors, AI Alignment / Safety",
-      "org": "Various Potential PhD Supervisors",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "f2bcd754fd14b79ab83a9160cc649ff7": {
-      "title": "List of Recurring Fellowships Relevant to Top Problems",
-      "org": "Various Fellowship Providers",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "42723d991f8f644ab996014be7250ef0": {
-      "title": "Policy Researcher",
-      "org": "AI Futures Project",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "bc6e57ee513eb52d43b08c5cf66e5278": {
-      "title": "Research Scientist, AI Safety, ML Focus",
-      "org": "LawZero",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "604d881f884712fdca617552e4861053": {
-      "title": "Data Scientist, Alignment",
-      "org": "AE Studio",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "1632106da4bd7b41365621c8b3c50579": {
-      "title": "Fellows",
-      "org": "fp21",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "794fd54d59fb9725f58b6b1f9788bd7d": {
-      "title": "Anthropic AI Safety Fellow",
-      "org": "Anthropic",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "de1b14b161958c7b2c9f2a4924e61d82": {
-      "title": "Policy Design Manager, Age-Appropriate Design",
-      "org": "Anthropic",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-30"
-    },
-    "d1d7e8ca734b1e9e5073ed30e72c5ba7": {
-      "title": "Security Risk & Compliance, HIPAA",
-      "org": "Anthropic",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-30"
-    },
-    "74dcf257b171a6990496b70ccf225766": {
-      "title": "Trade Compliance Counsel",
-      "org": "Anthropic",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "3c17f8d0504c88d192f14085a3a2daf3": {
-      "title": "Software Engineer, AI Safety",
-      "org": "OpenAI",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "aae41f9952d7a08fad4eea8dd3b53234": {
-      "title": "Software Engineer - Privacy & Compliance",
-      "org": "OpenAI",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "fdf999bb18fd1589a4751ee5cc33faa7": {
-      "title": "Facilities Standards & Strategy, Program Manager",
-      "org": "OpenAI",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-30"
-    },
-    "9547a6b9cb21c31d4b94707b3f2ade02": {
-      "title": "Program Manager, Product Policy",
-      "org": "OpenAI",
-      "first_seen": "2026-02-23",
       "last_seen": "2026-03-30"
     },
     "6dd615182ecd301ff0b4040cce1cd0b6": {
@@ -841,46 +1105,10 @@
       "first_seen": "2026-02-23",
       "last_seen": "2026-03-30"
     },
-    "372674d6a7edec6ef6d73811504e0604": {
-      "title": "Senior Manager, Revenue Risk & Compliance (FRM)",
-      "org": "OpenAI",
-      "first_seen": "2026-03-02",
-      "last_seen": "2026-03-30"
-    },
-    "c22f39670d8715fe476fa02b9b2d04fd": {
-      "title": "Head of SaaS Enablement & Governance",
-      "org": "OpenAI",
-      "first_seen": "2026-03-02",
-      "last_seen": "2026-03-30"
-    },
-    "b806577126ffc2ac547da356ff21fb1a": {
-      "title": "Compliance Program Manager",
-      "org": "OpenAI",
-      "first_seen": "2026-03-02",
-      "last_seen": "2026-03-30"
-    },
     "df6f866506da01b64e9d89524ac9ac62": {
       "title": "Software Engineer - Human Alignment, Consumer Devices",
       "org": "OpenAI",
       "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
-    "4325df4b09cb7ba684ccf808b25e2a5a": {
-      "title": "Research Engineer/Scientist - Human Alignment, Consumer Devices",
-      "org": "OpenAI",
-      "first_seen": "2026-03-16",
-      "last_seen": "2026-03-30"
-    },
-    "68bedb8a7586736cfbb31f3235ce02c0": {
-      "title": "Senior Manager, People Compliance",
-      "org": "OpenAI",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-30"
-    },
-    "36a444d95d6a2039f3def5ea875f0e40": {
-      "title": "Program Manager, Alignment",
-      "org": "OpenAI",
-      "first_seen": "2026-03-23",
       "last_seen": "2026-03-30"
     },
     "06985fbe9984a8c793ac29b84688194f": {
@@ -1063,12 +1291,6 @@
       "first_seen": "2026-02-15",
       "last_seen": "2026-03-16"
     },
-    "0d9d22ef49e17928750a289a1ffcee1c": {
-      "title": "Intern, Nuclear Policy Research",
-      "org": "Arms Control Association",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-16"
-    },
     "bc8fd79dfa66598e73e9c4a8a8be2163": {
       "title": "Research Scientist / Engineer, Alignment Finetuning",
       "org": "Anthropic",
@@ -1132,12 +1354,6 @@
     "d194866cef9e95853214f39406594525": {
       "title": "Programme Co-Lead, Policy Leaders Programme",
       "org": "Talos Network",
-      "first_seen": "2026-02-23",
-      "last_seen": "2026-03-09"
-    },
-    "35ee9655493710b23e551a669e681f18": {
-      "title": "Manager, Technical Governance Team",
-      "org": "Machine Intelligence Research Institute",
       "first_seen": "2026-02-23",
       "last_seen": "2026-03-09"
     },
@@ -1218,132 +1434,6 @@
       "org": "Oxford Martin School",
       "first_seen": "2026-03-09",
       "last_seen": "2026-03-09"
-    },
-    "7eae2a75981c8c6d63d9c4bfbc836fd2": {
-      "title": "Junior Research Fellowship",
-      "org": "ILINA Program",
-      "first_seen": "2026-03-02",
-      "last_seen": "2026-03-02"
-    },
-    "97ebfec25fd54997543c2c1afd138253": {
-      "title": "Summer Internship, Governance Program",
-      "org": "Bipartisan Policy Center",
-      "first_seen": "2026-02-23",
-      "last_seen": "2026-03-02"
-    },
-    "d2efc5c699dc6ac0aba3a99c87a438af": {
-      "title": "Facilitator, AI\u00d7Animals Fellowship",
-      "org": "Sentient Futures",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "979034f46fa748e85ca9936a8e45ada6": {
-      "title": "AI Ethics and Safety Policy Researcher",
-      "org": "Google DeepMind",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "9e112647f57b6707884c258e38ecff32": {
-      "title": "Summer Internship, Government Relations",
-      "org": "Bipartisan Policy Center",
-      "first_seen": "2026-02-23",
-      "last_seen": "2026-03-02"
-    },
-    "fd209a9184da7457f5db849e13dcc3e7": {
-      "title": "Summer Undergraduate Fellow, Nonproliferation",
-      "org": "Middlebury College, Middlebury Institute of International Studies at Monterey",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "3e141bbf81c1020ad04644214efcac55": {
-      "title": "Intern, Public Policy and Stakeholder Engagement (Summer 2026)",
-      "org": "Partnership for Public Service",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "a5e495e39cd8ddeb7558bc85355c434b": {
-      "title": "Senior Technical Program Manager, AI Safety",
-      "org": "Google DeepMind",
-      "first_seen": "2026-02-23",
-      "last_seen": "2026-03-02"
-    },
-    "133824949e0eb1b4de2034ef0883e1fe": {
-      "title": "AI Evaluations Scientist, Biological AI Models, Center for AI Standards and Innovation",
-      "org": "US Government, National Institute of Standards and Technology",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "0f2b75d58f0054c175192e5b8eaf6697": {
-      "title": "Product Policy Manager, Frontier Risk",
-      "org": "Anthropic",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "aae702896087c418e10401aa1f16bc5c": {
-      "title": "Program Director, Fellowship",
-      "org": "Tarbell Center for AI Journalism",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "f401379c667588680cf29e2af901b582": {
-      "title": "Fellowship, Data Science",
-      "org": "Faculty",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "61bd7e5aa7e63cbd50b82ae0fd754e73": {
-      "title": "Policy Researcher, AI Systems, Markets and Governance Programme",
-      "org": "Interface",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "5acc5f213e439508b361e8a4a5ad0962": {
-      "title": "Policy Manager, Harmful Persuasion",
-      "org": "Anthropic",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "831aa9e2f957d0de537a15d7a166acdd": {
-      "title": "Fellowship, Political Studies (Summer 2026)",
-      "org": "Hudson Institute",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "9baad8171e0481371b428397cfdafed2": {
-      "title": "Research Assistant, Foreign and Defense Policy, Defense Strategy and Great-Power Competition",
-      "org": "American Enterprise Institute",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "172f5f42d5f3188f06884149a192dbb6": {
-      "title": "AI Tutor, AI Safety",
-      "org": "xAI",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "b68ccaaae0e70cb99f2188f465f055e6": {
-      "title": "[Expression of Interest] Research Scientist/Engineer, Alignment Finetuning",
-      "org": "Anthropic",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "c43ec1fa6f94643c710adcaf43b5559f": {
-      "title": "Policy Campaign Manager",
-      "org": "Anthropic",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "bb5115479fc6227bd950774314622965": {
-      "title": "Senior Manager, Tax Operations, Provision, and Compliance",
-      "org": "Anthropic",
-      "first_seen": "2026-02-15",
-      "last_seen": "2026-03-02"
-    },
-    "698d8830203e1dddb087f3836e456725": {
-      "title": "Associate General Counsel, Policy (Copyright)",
-      "org": "OpenAI",
-      "first_seen": "2026-03-02",
-      "last_seen": "2026-03-02"
     }
   }
 }

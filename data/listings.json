@@ -11860,5 +11860,499 @@
     "review_status": "unreviewed",
     "reviewed_at": null,
     "added_at": "2026-05-18"
+  },
+  "ecca1dc5252365e63ab519e200051a50": {
+    "listing": {
+      "title": "Mathematical Scientist, AI Safety Research",
+      "organization": "LawZero",
+      "url": "https://job-boards.greenhouse.io/lawzero/jobs/4224703009?utm_source=80000hours&utm_medium=job-board",
+      "location": "Montreal, Canada",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll develop theoretical frameworks and safety mechanisms for safe AGI systems, working with Yoshua Bengio and other researchers. Explore novel AI architectures and prove probabilistic safety guarantees under finite data and compute constraints. Analyse and contribute to LawZero's th",
+      "description": "In this role, you'll develop theoretical frameworks and safety mechanisms for safe AGI systems, working with Yoshua Bengio and other researchers. Explore novel AI architectures and prove probabilistic safety guarantees under finite data and compute constraints. Analyse and contribute to LawZero's theoretical research through papers and scientific dissemination. Research current AI safety and machine learning advances to deeply understand frontier model risks. Guide experimental priorities to efficiently answer critical safety questions without limiting capability.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Develops theoretical safety frameworks and mechanisms for safe AGI systems addressing existential risks.",
+      "impact_score": 8,
+      "impact_reason": "Core AGI safety research at organization founded by prominent AI safety advocate Yoshua Bengio.",
+      "date_posted": "2026-05-25",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "AI safety & policy",
+        "Research"
+      ],
+      "id": "ecca1dc5252365e63ab519e200051a50"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "1612317e0422b3edb0a3046003d46ef8": {
+    "listing": {
+      "title": "AI Policy Leaders Programme",
+      "organization": "Talos Network",
+      "url": "https://www.talosnetwork.org/policy-leaders-programme?utm_source=80000hours&utm_medium=job-board",
+      "location": "Brussels, Belgium",
+      "salary_range": "$69,869-$69,869",
+      "role_type": "Full-time",
+      "description_snippet": "In this programme, you'll transition into AI governance while building your European policy networks and strategic influence. Complete a 10-week Virtual AI Policy Bootcamp with self-directed work, structured teaching, and Q&amp;As with senior figures. Attend an intensive week-long Policymaking Summi",
+      "description": "In this programme, you'll transition into AI governance while building your European policy networks and strategic influence. Complete a 10-week Virtual AI Policy Bootcamp with self-directed work, structured teaching, and Q&amp;As with senior figures. Attend an intensive week-long Policymaking Summit in Brussels with workshops and closed-door sessions with EU leaders. Undertake a 12-month paid placement at an AI-focused organisation (EUR 5,000/month, adjusted for location). Receive intensive mentoring to develop strategic clarity and a concrete career plan.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Programme focuses on AI governance and policy with intensive EU regulatory engagement on frontier AI.",
+      "impact_score": 6,
+      "impact_reason": "Develops next-generation AI governance leaders with direct EU policymaking exposure, meaningful but not primary x-risk focus.",
+      "date_posted": "2026-05-19",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "AI safety & policy",
+        "Policy"
+      ],
+      "id": "1612317e0422b3edb0a3046003d46ef8"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "c8bc9e207f1098f3aae6c8597b3545e4": {
+    "listing": {
+      "title": "Fellowship Manager",
+      "organization": "Safe AI Germany",
+      "url": "https://docs.google.com/document/d/1btRs4l_iBH34MbQ3LDy3LncrjPN9OWFQamkXRNbFmrI/edit?tab=t.0&utm_source=80000hours&utm_medium=job-board#heading=h.xegpabdmdlpv",
+      "location": "Berlin, Germany",
+      "salary_range": "$58,224-$81,514",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll lead the design and execution of SAIGE's inaugural residential fellowship in Berlin for emerging European AI safety researchers. Design a complete fellowship programme including structure, selection criteria, and alumni follow-up. Manage the application portal, selection process",
+      "description": "In this role, you'll lead the design and execution of SAIGE's inaugural residential fellowship in Berlin for emerging European AI safety researchers. Design a complete fellowship programme including structure, selection criteria, and alumni follow-up. Manage the application portal, selection process, and onboarding of the first cohort. Own operational responsibilities including WE-AID communications, compute sourcing, and visa coordination. Coordinate co-working spaces with Foresight Institute and support fundraising.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": true,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Building AI safety research capacity and governance infrastructure for emerging European researchers.",
+      "impact_score": 7,
+      "impact_reason": "Developing talent pipeline for AI safety research and establishing governance/coordination mechanisms for frontier AI risks.",
+      "date_posted": "2026-05-25",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "AI safety & policy",
+        "Operations"
+      ],
+      "id": "c8bc9e207f1098f3aae6c8597b3545e4"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "3c4c37513da313bf67c188b87dcbdd90": {
+    "listing": {
+      "title": "Deputy Director, Policy, Brussels",
+      "organization": "Arq Foundation",
+      "url": "https://www.arq.foundation/careers/deputy-director-policy-brussels?utm_source=80000hours&utm_medium=job-board",
+      "location": "Brussels, Belgium",
+      "salary_range": "$104,804-$116,448",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll gather political intelligence and develop engagement strategies to ensure Arq's research reaches key audiences. Build networks across Brussels, synthesising intelligence into actionable insights for leadership and research teams. Represent Arq at events and conversations, connec",
+      "description": "In this role, you'll gather political intelligence and develop engagement strategies to ensure Arq's research reaches key audiences. Build networks across Brussels, synthesising intelligence into actionable insights for leadership and research teams. Represent Arq at events and conversations, connecting stakeholders to experts and securing engagement opportunities. Contribute to research outputs and coordinate engagement strategies with researchers. Deputise for the Director, manage stakeholder relationships, and plan Arq's Brussels events.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Policy role at x-risk research org focused on AI governance and stakeholder engagement.",
+      "impact_score": 7,
+      "impact_reason": "Senior policy position at x-risk org, building networks and translating research into governance impact.",
+      "date_posted": "2026-05-25",
+      "date_closes": "2026-06-01",
+      "source": "80k_hours",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "AI safety & policy",
+        "Policy",
+        "Outreach"
+      ],
+      "id": "3c4c37513da313bf67c188b87dcbdd90"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "eed71085f211b274f0d879a9c77aa62d": {
+    "listing": {
+      "title": "Presidential Fellow",
+      "organization": "Howard Hughes Medical Institute",
+      "url": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/details/Presidential-Fellow_R-4295-1?q=fellow&utm_source=80000hours&utm_medium=job-board",
+      "location": "Chevy Chase, MD",
+      "salary_range": "$150,000-$200,000",
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll lead cross-functional strategic projects from concept to completion, reporting directly to the President and senior leadership. Own initiatives spanning science programs, AI, finance, communications, HR, technology, science education, and film. Manage AI agents and LLM-based wor",
+      "description": "In this role, you'll lead cross-functional strategic projects from concept to completion, reporting directly to the President and senior leadership. Own initiatives spanning science programs, AI, finance, communications, HR, technology, science education, and film. Manage AI agents and LLM-based workflows to accelerate high-priority projects across the Institute. Handle sensitive and confidential matters with discretion and sound judgment. Dedicate 10% of your time to self-directed projects approved by leadership.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Fellowship role managing AI workflows and strategic initiatives at major research institution with potential governance implications.",
+      "impact_score": 5,
+      "impact_reason": "HHMI has broad influence but this role's actual x-risk focus is unclear; potential impact depends on specific AI projects assigned.",
+      "date_posted": "2026-05-20",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "Career development: Technical",
+        "Strategy"
+      ],
+      "id": "eed71085f211b274f0d879a9c77aa62d"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "fc92964a59cf09b5aea46778a51c14cf": {
+    "listing": {
+      "title": "Senior Policy and Research Manager",
+      "organization": "Malaria No More",
+      "url": "https://malarianomore.org.uk/sites/default/files/job_description_senior_policy_and_research_manager_1__2026_05_20_11_58_28_am.pdf?utm_source=80000hours&utm_medium=job-board",
+      "location": "London, UK",
+      "salary_range": "$68,831-$76,929",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll lead the development and commissioning of research and policy projects to build advocacy arguments for ending malaria globally and in the UK. Generate evidence and insights through analysis of existing data and primary quantitative and qualitative research to drive advocacy camp",
+      "description": "In this role, you'll lead the development and commissioning of research and policy projects to build advocacy arguments for ending malaria globally and in the UK. Generate evidence and insights through analysis of existing data and primary quantitative and qualitative research to drive advocacy campaigns and media coverage. Write compelling reports, briefings and inquiry submissions for politicians and policymakers, and support the development of campaign communications. Work closely with the media team to develop content for news coverage supporting malaria advocacy goals.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": null,
+      "relevance_reason": null,
+      "impact_score": 1,
+      "impact_reason": "Malaria advocacy focuses on global health, not existential or catastrophic risk reduction.",
+      "date_posted": "2026-05-22",
+      "date_closes": "2026-06-05",
+      "source": "80k_hours",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "Global health & development",
+        "Research",
+        "Policy"
+      ],
+      "id": "fc92964a59cf09b5aea46778a51c14cf"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "329f731ff98124425fc9ef5866e99856": {
+    "listing": {
+      "title": "Senior / Principal Policy Specialist",
+      "organization": "The Good Food Institute",
+      "url": "https://gfi.org/resource/policy-specialist-senior-to-principal-level/?utm_source=80000hours&utm_medium=job-board",
+      "location": "Remote, Korea (Remote)",
+      "salary_range": "$59,440-$94,444",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll lead GFI Korea's policy work with the Korean government to advance alternative proteins through advocacy and regulatory engagement. Develop and implement policy strategies for alternative proteins at national and provincial levels. Build relationships with senior politicians, of",
+      "description": "In this role, you'll lead GFI Korea's policy work with the Korean government to advance alternative proteins through advocacy and regulatory engagement. Develop and implement policy strategies for alternative proteins at national and provincial levels. Build relationships with senior politicians, officials, and stakeholders across government institutions. Represent GFI Korea's positions through written submissions, presentations, and direct government engagement.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "General Tech Policy",
+      "relevance_reason": "Policy role focused on alternative proteins regulation, not AI or existential risk governance.",
+      "impact_score": 1,
+      "impact_reason": "Alternative protein policy has no direct connection to reducing existential or catastrophic risks.",
+      "date_posted": "2026-05-20",
+      "date_closes": "2026-06-21",
+      "source": "80k_hours",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "Animal welfare",
+        "Policy"
+      ],
+      "id": "329f731ff98124425fc9ef5866e99856"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "2a8a6079d3f3782bb0aef59c742f7377": {
+    "listing": {
+      "title": "Team Member, Model Policy",
+      "organization": "OpenAI",
+      "url": "https://openai.com/careers/model-policy-san-francisco/?utm_source=80000hours&utm_medium=job-board",
+      "location": "San Francisco Bay Area",
+      "salary_range": "$207,000-$295,000",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll define how AI models should behave in high-risk contexts, translating safety concerns into behavioral specifications. Design and maintain model policies across safety domains including dual-use, agentic, and emerging risk areas. Partner with research, engineering, and product te",
+      "description": "In this role, you'll define how AI models should behave in high-risk contexts, translating safety concerns into behavioral specifications. Design and maintain model policies across safety domains including dual-use, agentic, and emerging risk areas. Partner with research, engineering, and product teams to operationalize policies into scalable model behavior. Use red-teaming results and deployment data to identify emerging risks and improve policy quality. Design human data campaigns to measure and improve policy adherence.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Defines AI model behavior policies addressing dual-use, agentic, and emerging risks at frontier AI org.",
+      "impact_score": 8,
+      "impact_reason": "Operationalizes safety policies at OpenAI to reduce catastrophic risks from advanced AI systems.",
+      "date_posted": "2026-05-19",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "AI safety & policy",
+        "Strategy"
+      ],
+      "id": "2a8a6079d3f3782bb0aef59c742f7377"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "ce1ebb3da3cf823372e8febdc8e26a61": {
+    "listing": {
+      "title": "Policy Affairs Program Specialist",
+      "organization": "Hum\u00e1nny Pokrok",
+      "url": "https://humannypokrok.sk/programova-specialistka/?utm_source=80000hours&utm_medium=job-board",
+      "location": "Remote, Global, Bratislava, Slovakia (Remote)",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll build relationships with public institutions and political parties while conducting policy analysis to advance animal protection legislation. Develop and deliver materials for meetings with key stakeholders and monitor legislative developments. Create expert analyses, reports, a",
+      "description": "In this role, you'll build relationships with public institutions and political parties while conducting policy analysis to advance animal protection legislation. Develop and deliver materials for meetings with key stakeholders and monitor legislative developments. Create expert analyses, reports, and policy documents that inform strategic advocacy initiatives. Implement program activities and projects across assigned thematic areas, collaborating with partner organisations. Participate actively in campaign activities and grassroots engagement to support systemic change.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": null,
+      "relevance_reason": null,
+      "impact_score": 1,
+      "impact_reason": "Role focuses on animal protection legislation with no connection to AI or catastrophic risk reduction.",
+      "date_posted": "2026-05-20",
+      "date_closes": "2026-07-08",
+      "source": "80k_hours",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "Animal welfare",
+        "Policy",
+        "Outreach"
+      ],
+      "id": "ce1ebb3da3cf823372e8febdc8e26a61"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "dfcea22ec61cc5848f8bf936cb1f1293": {
+    "listing": {
+      "title": "Frontier Biodefense Fellowship",
+      "organization": "Pivotal Research",
+      "url": "https://www.pivotal-research.org/fbf?utm_source=80000hours&utm_medium=job-board",
+      "location": "London, UK",
+      "salary_range": "$8,098-$10,797",
+      "role_type": "Fellowship",
+      "description_snippet": "In this fellowship, you'll spend 9 weeks in London working on high-impact biodefense projects with expert mentorship. Conduct research on frontier biodefense areas including PPE, biohardening, detection, and adjacent biosecurity topics. Produce research outputs such as papers, policy reports, blog s",
+      "description": "In this fellowship, you'll spend 9 weeks in London working on high-impact biodefense projects with expert mentorship. Conduct research on frontier biodefense areas including PPE, biohardening, detection, and adjacent biosecurity topics. Produce research outputs such as papers, policy reports, blog series, and open-source tools. Participate in weekly 1-on-1 mentorship sessions and collaborative workshops with domain experts. Work with Pivotal's management team to scope projects, navigate challenges, and plan your career development.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "Biosecurity/Catastrophic Risk",
+      "relevance_reason": "Fellowship focuses on biodefense research including PPE, detection, and biosecurity topics.",
+      "impact_score": 7,
+      "impact_reason": "Biodefense research directly addresses catastrophic biological risk mitigation at expert-mentored fellowship level.",
+      "date_posted": "2026-05-19",
+      "date_closes": "2026-06-02",
+      "source": "80k_hours",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "Biosecurity & pandemic preparedness",
+        "Research",
+        "Policy"
+      ],
+      "id": "dfcea22ec61cc5848f8bf936cb1f1293"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "85f19354c891dc25fbc0329c2dca7c19": {
+    "listing": {
+      "title": "Expression of Interest (Operations)",
+      "organization": "Apollo Research",
+      "url": "https://jobs.lever.co/apolloresearch/b5c51d6a-f31e-4d5d-87a4-674e7cc878e1",
+      "location": "London",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "Apollo Research is an AI safety organisation that works on the detection of scheming (e.g. building evaluations), the science of scheming (e.g. model organisms), and scheming mitigations (e.g. anti-scheming, and control). We closely work with multiple frontier AI companies. \u00a0At Apollo, we aim for a",
+      "description": "Apollo Research is an AI safety organisation that works on the detection of scheming (e.g. building evaluations), the science of scheming (e.g. model organisms), and scheming mitigations (e.g. anti-scheming, and control). We closely work with multiple frontier AI companies. \u00a0At Apollo, we aim for a culture that emphasizes truth-seeking, being goal-oriented, giving and receiving constructive feedback, and being friendly and helpful. If you\u2019re interested in more details about what it\u2019s like working at Apollo, you can find more information\u00a0here.\nWe're a team of ~35 in London, starting a new office in San Francisco and we're growing fast.\u00a0\nWhat this role covers\nAs we grow, I'm building out the People Ops function and looking for someone to join me likely starting Q3 2026.\nThis is a generalist role with a focus on People Ops and will touch a variety of things: hiring, onboarding, HR systems and overall process improvement. There's also a ambitious AI enablement thread where we think hard about how to use tools well. You'll be expected to use AI to move faster and reduce manual overhead.\u00a0\nThis role is also relationship-heavy and requires genuine care about candidates and when hired, their experience at work. You'll be supporting a technical workforce of researchers and engineers.\u00a0\nWho I'm looking for\n2+ years of experience in HR, recruiting, operations, or adjacent work or someone earlier in their career who has run something significant for example, a student society or large events. You'd need a track record of having to figure things out without a playbook. You'd need to be comfortable operating in a face-paced environment with autonomy and high judgment, without perfect information. You are comfortable using AI tools and use them to draft, summarise, research, and automate.\u00a0\nLondon-based strongly preferred.\u00a0\nWhat's on offer\nThe intent is for the right person to move into a Senior Associate scope and take on more complex, cross-jurisdictional projects over time. You'd be working directly with me and the rest of the Ops team consisting of (COO, Senior Finance Manager, Operation Generalist) across everything.\u00a0\u00a0\nThis role offers market competitive salary, equity, and competitive benefits.\nHow to register interest\nIf this sounds like you or someone you know please send a CV and complete the application form.\u00a0 I'm building a shortlist to invite to apply once the full JD is ready.\n",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Apollo Research directly addresses AI scheming detection and mitigation, core existential risk concerns.",
+      "impact_score": 7,
+      "impact_reason": "Operations role at dedicated x-risk org supports frontier AI safety research on scheming and control.",
+      "date_posted": "2026-05-22",
+      "date_closes": null,
+      "source": "lever:apolloresearch",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "Operations Team"
+      ],
+      "id": "85f19354c891dc25fbc0329c2dca7c19"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "4efca83a4717c458006baec62ea11ef6": {
+    "listing": {
+      "title": "Software Engineer (Infrastructure)",
+      "organization": "Apollo Research",
+      "url": "https://jobs.lever.co/apolloresearch/28c2a9e5-d018-4cc0-a191-56bc384009e8",
+      "location": "United States",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "Applications deadline: We are conducting interviews actively and aim to fill this role as soon as we find someone suitable.\nTHE OPPORTUNITY\nApollo Research's mission is to reduce the risks from scheming frontier AI systems. We work with and are trusted by every frontier AI lab. We testtheirmodels be",
+      "description": "Applications deadline: We are conducting interviews actively and aim to fill this role as soon as we find someone suitable.\nTHE OPPORTUNITY\nApollo Research's mission is to reduce the risks from scheming frontier AI systems. We work with and are trusted by every frontier AI lab. We testtheirmodels before deployment and collaborate with them on scheming mitigations.\nWe're looking for a Software Engineer to build the platform that the rest of Apollo runs on. This platform determines how quickly we can take on new research and scale our operations, whilst keeping our most valuable assets secure.\u00a0\nApollo is fast-growing and fast-moving and this role is critical to enabling that growth and strengthening the trust of our partners, which is essential to our mission.\n",
+      "work_mode": "Remote (US)",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Infrastructure engineering supporting AI safety evaluations and scheming mitigations at frontier AI labs.",
+      "impact_score": 8,
+      "impact_reason": "Core infrastructure role enabling Apollo's red-teaming and AI control work across all frontier labs.",
+      "date_posted": "2026-05-22",
+      "date_closes": null,
+      "source": "lever:apolloresearch",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "Evals Team"
+      ],
+      "id": "4efca83a4717c458006baec62ea11ef6"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "eec02fad175402baac9604d9400ad022": {
+    "listing": {
+      "title": "Anthropic Fellows Program, AI Security",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5030244008",
+      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;https://bit.ly/afpsafety&quot;&gt;&lt;strong&gt;Apply using this link&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;. &lt;/strong&gt;We are accepting applications on a rolling basis for the next cohort of Anthropic Fellows, which is expected to start in late September. In some circumstances, we can accommodate fellows starting outside the usual cohort timelines \u2014 please note in your application if the September start date doesn&#39;t work for you.&lt;/p&gt; &lt;p&gt;This page is specific to one of the Anthropic Fellows Workstreams, see also the main&amp;nbsp;&lt;strong&gt;&lt;a href=&quot;https://job-boards.greenhouse.io/anthropic/jobs/5023394008&quot;&gt;Anthropic Fellows posting&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt; &lt;h1&gt;&lt;strong&gt;Anthropic Fellows Program overview&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;The Anthropic Fellows Program is designed to foster AI research and engineering talent. We provide funding and mentorship to promising technical talent - regardless of previous experience.&lt;/p&gt; &lt;p&gt;Fellows will primarily use external infrastructure (e.g. open-source models, public APIs) to work on an empirical project aligned with our research priorities, with the goal of producing a &lt;strong&gt;public output&lt;/strong&gt; (e.g. a paper submission). In one of our earlier cohorts, over 80% of fellows produced papers.&lt;/p&gt; &lt;p&gt;We run multiple cohorts of Fellows each year and review applications on a rolling basis. This application is for cohorts starting in July 2026 and beyond.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;What to expect&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;4 months of full-time research&amp;nbsp;&lt;/li&gt; &lt;li&gt;Direct mentorship from Anthropic researchers&amp;nbsp;&lt;/li&gt; &lt;li&gt;Access to a shared workspace (in either Berkeley, California or London, UK)&lt;/li&gt; &lt;li&gt;Connection to the broader AI safety and security research community&lt;/li&gt; &lt;li&gt;Weekly stipend of 3,850 USD / 2,310 GBP / 4,300 CAD + benefits (these vary by country)&lt;/li&gt; &lt;li&gt;Funding for compute (~$15k/month) and other research expenses&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Interview process&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;The interview process will include an initial application &amp;amp; reference check, technical assessments &amp;amp; interviews, and a research discussion.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;The expected base stipend for this role is 3,850 USD / 2,310 GBP / 4,300 CAD per week, with an expectation of 40 hours per week for 4 months (with possible extension).&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Fellows workstreams&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Due to the success of the &lt;a href=&quot;https://alignment.anthropic.com/2024/anthropic-fellows-program/&quot;&gt;Anthropic Fellows for AI Safety Research&lt;/a&gt; program, we are now expanding it across teams at Anthropic. We expect there to be significant overlap in the types of skills and responsibilities across the roles and will by default consider candidates for all the workstreams.&lt;/p&gt; &lt;p&gt;Some of the workstreams may include unique assessment steps; we therefore ask you for workstream preferences in the&lt;a href=&quot;https://bit.ly/afpsafety&quot;&gt; application&lt;/a&gt;. You can see an overview of the current workstreams below:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;AI Safety Fellows&lt;/li&gt; &lt;li&gt;AI Security Fellows&lt;/li&gt; &lt;li&gt;ML Systems &amp;amp; Performance Fellows&lt;/li&gt; &lt;li&gt;Reinforcement Learning Fellows&lt;/li&gt; &lt;li&gt;Economics &amp;amp; Societal Impacts Fellows&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;This page is specific to one of the Anthropic Fellows Workstreams, see also the main&amp;nbsp;&lt;strong&gt;&lt;a href=&quot;https://job-boards.greenhouse.io/anthropic/jobs/5023394008&quot;&gt;Anthropic Fellows posting&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Across the workstreams, you may be a good fit if you:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Are motivated by making sure AI is safe and beneficial for society as a whole&lt;/li&gt; &lt;li&gt;Are excited to transition into empirical AI research and would be interested in a full-time role at Anthropic&lt;/li&gt; &lt;li&gt;Have a strong technical background in computer science, mathematics, or physics&lt;/li&gt; &lt;li&gt;Thrive in fast-paced, collaborative environments&lt;/li&gt; &lt;li&gt;Can implement ideas quickly and communicate clearly&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Strong candidates may also have:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Strong background in a discipline relevant to a specific Fellows workstream (e.g. economics, social sciences, or cybersecurity)&lt;/li&gt; &lt;li&gt;Experience in areas of research or engineering related to their workstream&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Candidates must be:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Fluent in Python programming&lt;/li&gt; &lt;li&gt;Available to work full-time on the Fellows program&lt;/li&gt; &lt;/ul&gt; &lt;h1&gt;&lt;strong&gt;AI Security Fellows&lt;/strong&gt;&lt;/h1&gt; &lt;h2&gt;&lt;strong&gt;Mentors, research areas, &amp;amp; past projects&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Fellows will undergo a project selection &amp;amp; mentor matching process. Potential mentors include:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Nicholas Carlini&lt;/li&gt; &lt;li&gt;Keri Warr&lt;/li&gt; &lt;li&gt;Evyatar Ben Asher&lt;/li&gt; &lt;li&gt;Keane Lucas&lt;/li&gt; &lt;li&gt;Newton Cheng&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;On our &lt;a href=&quot;https://alignment.anthropic.com/&quot;&gt;Alignment Science&lt;/a&gt; and &lt;a href=&quot;https://red.anthropic.com/&quot;&gt;Frontier Red Team&lt;/a&gt; blogs, you can read about some past Fellows projects, including:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://red.anthropic.com/2025/smart-contracts/&quot;&gt;AI agents find $4.6M in blockchain smart contract exploits:&lt;/a&gt; Winnie Xiao and Cole Killian, mentored by Nicholas Carlini and Alwin Peng&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://alignment.anthropic.com/2025/strengthening-red-teams/&quot;&gt;Strengthening Red Teams: A Modular Scaffold for Control Evaluations:&lt;/a&gt; Chloe Loughridge et al., mentored by Jon Kutasov and Joe Benton&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Unique candidate criteria&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;You might be a particularly great fit for this workstream if you:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Are motivated by reducing catastrophic risks from advanced AI systems&lt;/li&gt; &lt;li&gt;Have contributed to open-source projects in LLM- or security-adjacent repositories&lt;/li&gt; &lt;li&gt;Have demonstrated success in bringing clarity and ownership to ambiguous technical problems&lt;/li&gt; &lt;li&gt;Have experience with pentesting, vulnerability research, or other offensive security work&lt;/li&gt; &lt;li&gt;Have a demonstrated willingness to do the &quot;dirty work&quot; that produces high-quality outputs&lt;/li&gt; &lt;li&gt;Have reported CVEs or been awarded bug bounties&lt;/li&gt; &lt;li&gt;Have experience with empirical ML research projects&lt;/li&gt; &lt;li&gt;Have experience with deep learning frameworks and experiment management&lt;/li&gt; &lt;/ul&gt; &lt;h1&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;Logistics Requirements: &lt;/strong&gt;To participate in the Fellows program, you must have work authorization in the US, UK, or Canada and be located in that country during the program.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Workspace Locations:&lt;/strong&gt; We have designated shared workspaces in London and Berkeley where fellows will work from and mentors will visit. &lt;strong&gt;We are also open to remote fellows in the UK, US, or Canada&lt;/strong&gt;. We will ask you about your availability to work from Berkeley or London (full- or part-time) during the program.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Visa Sponsorship: &lt;/strong&gt;We are &lt;strong&gt;not&lt;/strong&gt; currently able to sponsor visas for fellows. To participate in the Fellows program, you need to have or independently obtain full-time work authorization in the UK, the US, or Canada.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Program Duration: &lt;/strong&gt;The program runs for 4 months, full-time. If you can&#39;t commit to the full duration, please still apply and note your constraints in the application. We review these requests on a case-by-case basis.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Please note:&lt;/strong&gt; We do not guarantee that we will make any full-time offers to fellows. However, strong performance during the program may indicate that a Fellow would be a good fit for full-time roles at Anthropic. In previous cohorts, 25-50% of fellows received a full-time offer, and we\u2019ve supported many more to go on to do great work on AI safety and security at other organizations.&lt;/p&gt; &lt;p&gt;Applications and interviews are managed by &lt;a class=&quot;underline underline underline-offset-2 decoration-1 decoration-current/40 hover:decoration-current focus:decoration-current&quot; href=&quot;https://www.constellation.org/&quot; target=&quot;_blank&quot;&gt;Constellation&lt;/a&gt;, our recruiting partner. Clicking &quot;Apply here&quot; will take you to their portal, and updates will come from a Constellation address. Constellation also runs the Berkeley workspace and provides program support for fellows working on AI safety and security; fellows on capabilities-focused projects are supported directly by Anthropic. All applicants currently use the same application portal but we are working to separate applications for safety/security and capabilities focused projects in future rounds.&lt;/p&gt; &lt;h1&gt;&lt;a href=&quot;https://bit.ly/afpsafety&quot;&gt;&lt;strong&gt;Apply here&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt; &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;The below are Anthropic&#39;s policies for full time roles. These do &lt;strong&gt;NOT&lt;/strong&gt; apply to the Fellows Program.&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor\u2019s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "AI security research fellowship focused on technical safety and empirical research aligned with Anthropic's safety priorities.",
+      "impact_score": 9,
+      "impact_reason": "Core technical AI safety role at Anthropic, a leading organization directly addressing existential AI risks through alignment research.",
+      "date_posted": "2026-05-20",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "AI Research & Engineering"
+      ],
+      "id": "eec02fad175402baac9604d9400ad022"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "b2a7fd6d94e741566eb48b06705722b4": {
+    "listing": {
+      "title": "Anthropic Fellows Program, ML Systems & Performance",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183051008",
+      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;https://bit.ly/afpsafety&quot;&gt;&lt;strong&gt;Apply using this link&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;. &lt;/strong&gt;We are accepting applications on a rolling basis for the next cohort of Anthropic Fellows, which is expected to start in late September. In some circumstances, we can accommodate fellows starting outside the usual cohort timelines \u2014 please note in your application if the September start date doesn&#39;t work for you.&lt;/p&gt; &lt;p&gt;This page is specific to one of the Anthropic Fellows Workstreams, see also the main&amp;nbsp;&lt;strong&gt;&lt;a href=&quot;https://job-boards.greenhouse.io/anthropic/jobs/5023394008&quot;&gt;Anthropic Fellows posting&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt; &lt;h1&gt;&lt;strong&gt;Anthropic Fellows Program overview&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;The Anthropic Fellows Program is designed to foster AI research and engineering talent. We provide funding and mentorship to promising technical talent - regardless of previous experience.&lt;/p&gt; &lt;p&gt;Fellows will primarily use external infrastructure (e.g. open-source models, public APIs) to work on an empirical project aligned with our research priorities, with the goal of producing a &lt;strong&gt;public output&lt;/strong&gt; (e.g. a paper submission). In one of our earlier cohorts, over 80% of fellows produced papers.&lt;/p&gt; &lt;p&gt;We run multiple cohorts of Fellows each year and review applications on a rolling basis. This application is for cohorts starting in July 2026 and beyond.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;What to expect&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;4 months of full-time research&amp;nbsp;&lt;/li&gt; &lt;li&gt;Direct mentorship from Anthropic researchers&amp;nbsp;&lt;/li&gt; &lt;li&gt;Access to a shared workspace (in either Berkeley, California or London, UK)&lt;/li&gt; &lt;li&gt;Connection to the broader AI safety and security research community&lt;/li&gt; &lt;li&gt;Weekly stipend of 3,850 USD / 2,310 GBP / 4,300 CAD + benefits (these vary by country)&lt;/li&gt; &lt;li&gt;Funding for compute (~$15k/month) and other research expenses&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Interview process&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;The interview process will include an initial application &amp;amp; reference check, technical assessments &amp;amp; interviews, and a research discussion.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;The expected base stipend for this role is 3,850 USD / 2,310 GBP / 4,300 CAD per week, with an expectation of 40 hours per week for 4 months (with possible extension).&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Fellows workstreams&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Due to the success of the &lt;a href=&quot;https://alignment.anthropic.com/2024/anthropic-fellows-program/&quot;&gt;Anthropic Fellows for AI Safety Research&lt;/a&gt; program, we are now expanding it across teams at Anthropic. We expect there to be significant overlap in the types of skills and responsibilities across the roles and will by default consider candidates for all the workstreams.&lt;/p&gt; &lt;p&gt;Some of the workstreams may include unique assessment steps; we therefore ask you for workstream preferences in the&lt;a href=&quot;https://bit.ly/afpsafety&quot;&gt; application&lt;/a&gt;. You can see an overview of the current workstreams below:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;AI Safety Fellows&lt;/li&gt; &lt;li&gt;AI Security Fellows&lt;/li&gt; &lt;li&gt;ML Systems &amp;amp; Performance Fellows&lt;/li&gt; &lt;li&gt;Reinforcement Learning Fellows&lt;/li&gt; &lt;li&gt;Economics &amp;amp; Societal Impacts Fellows&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;This page is specific to one of the Anthropic Fellows Workstreams, see also the main&amp;nbsp;&lt;strong&gt;&lt;a href=&quot;https://job-boards.greenhouse.io/anthropic/jobs/5023394008&quot;&gt;Anthropic Fellows posting&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Across the workstreams, you may be a good fit if you:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Are motivated by making sure AI is safe and beneficial for society as a whole&lt;/li&gt; &lt;li&gt;Are excited to transition into empirical AI research and would be interested in a full-time role at Anthropic&lt;/li&gt; &lt;li&gt;Have a strong technical background in computer science, mathematics, or physics&lt;/li&gt; &lt;li&gt;Thrive in fast-paced, collaborative environments&lt;/li&gt; &lt;li&gt;Can implement ideas quickly and communicate clearly&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Strong candidates may also have:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Strong background in a discipline relevant to a specific Fellows workstream (e.g. economics, social sciences, or cybersecurity)&lt;/li&gt; &lt;li&gt;Experience in areas of research or engineering related to their workstream&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Candidates must be:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Fluent in Python programming&lt;/li&gt; &lt;li&gt;Available to work full-time on the Fellows program&lt;/li&gt; &lt;/ul&gt; &lt;h1&gt;&lt;strong&gt;ML Systems &amp;amp; Performance Fellows&lt;/strong&gt;&lt;/h1&gt; &lt;h2&gt;&lt;strong&gt;Mentors, research areas, &amp;amp; past projects&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Fellows will undergo a project selection &amp;amp; mentor matching process. Potential mentors include:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Alwin Peng&lt;/li&gt; &lt;li&gt;Zygi Straznickas&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;em&gt;Note: You may research mentors&#39; prior work, but all applications must go through the official form, not the mentors.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;For a past example of an engineering-heavy project, see:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://red.anthropic.com/2025/smart-contracts/&quot;&gt;AI agents find $4.6M in blockchain smart contract exploits&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Projects in this workstream may include:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Building a CPU simulator for accelerator workloads&lt;/li&gt; &lt;li&gt;Adding backends for different accelerators on an open source project&lt;/li&gt; &lt;li&gt;Building on demand infrastructure for other infrastructure heavy fellows projects&amp;nbsp;&lt;/li&gt; &lt;li&gt;Building complex synthetic data or environment pipelines&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Unique candidate criteria&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;You might be a particularly great fit for this workstream if you:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Have strong software engineering skills with experience building complex ML systems&lt;/li&gt; &lt;li&gt;Can balance research exploration with engineering rigor and operational reliability&lt;/li&gt; &lt;li&gt;Enjoy collaborating across research and engineering disciplines&lt;/li&gt; &lt;li&gt;Are comfortable working with large-scale distributed systems and high-performance computing (e.g. in trading)&lt;/li&gt; &lt;li&gt;Have experience with training, fine-tuning, or evaluating large language models&lt;/li&gt; &lt;li&gt;Are adept at analyzing and debugging model training processes&lt;/li&gt; &lt;/ul&gt; &lt;h1&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;Logistics Requirements: &lt;/strong&gt;To participate in the Fellows program, you must have work authorization in the US, UK, or Canada and be located in that country during the program.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Workspace Locations:&lt;/strong&gt; We have designated shared workspaces in London and Berkeley where fellows will work from and mentors will visit. &lt;strong&gt;We are also open to remote fellows in the UK, US, or Canada&lt;/strong&gt;. We will ask you about your availability to work from Berkeley or London (full- or part-time) during the program.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Visa Sponsorship: &lt;/strong&gt;We are &lt;strong&gt;not&lt;/strong&gt; currently able to sponsor visas for fellows. To participate in the Fellows program, you need to have or independently obtain full-time work authorization in the UK, the US, or Canada.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Program Duration: &lt;/strong&gt;The program runs for 4 months, full-time. If you can&#39;t commit to the full duration, please still apply and note your constraints in the application. We review these requests on a case-by-case basis.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Please note:&lt;/strong&gt; We do not guarantee that we will make any full-time offers to fellows. However, strong performance during the program may indicate that a Fellow would be a good fit for full-time roles at Anthropic. In previous cohorts, 25-50% of fellows received a full-time offer, and we\u2019ve supported many more to go on to do great work on AI safety and security at other organizations.&lt;/p&gt; &lt;p&gt;Applications and interviews are managed by &lt;a class=&quot;underline underline underline-offset-2 decoration-1 decoration-current/40 hover:decoration-current focus:decoration-current&quot; href=&quot;https://www.constellation.org/&quot; target=&quot;_blank&quot;&gt;Constellation&lt;/a&gt;, our recruiting partner. Clicking &quot;Apply here&quot; will take you to their portal, and updates will come from a Constellation address. Constellation also runs the Berkeley workspace and provides program support for fellows working on AI safety and security; fellows on capabilities-focused projects are supported directly by Anthropic. All applicants currently use the same application portal but we are working to separate applications for safety/security and capabilities focused projects in future rounds.&lt;/p&gt; &lt;h1&gt;&lt;a href=&quot;https://bit.ly/afpsafety&quot;&gt;&lt;strong&gt;Apply here&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt; &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;The below are Anthropic&#39;s policies for full time roles. These do &lt;strong&gt;NOT&lt;/strong&gt; apply to the Fellows Program.&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor\u2019s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Fellowship focused on empirical AI research aligned with Anthropic's safety priorities and interpretability mission.",
+      "impact_score": 9,
+      "impact_reason": "Direct mentorship and research contribution at Anthropic, a core x-risk organization addressing AI alignment and interpretability.",
+      "date_posted": "2026-05-20",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "AI Research & Engineering"
+      ],
+      "id": "b2a7fd6d94e741566eb48b06705722b4"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "32a86889730f5d841376f85cfe19385c": {
+    "listing": {
+      "title": "Anthropic Fellows Program, Reinforcement Learning",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008",
+      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;https://bit.ly/afpsafety&quot;&gt;&lt;strong&gt;Apply using this link&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;. &lt;/strong&gt;We are accepting applications on a rolling basis for the next cohort of Anthropic Fellows, which is expected to start in late September. In some circumstances, we can accommodate fellows starting outside the usual cohort timelines \u2014 please note in your application if the September start date doesn&#39;t work for you.&lt;/p&gt; &lt;p&gt;This page is specific to one of the Anthropic Fellows Workstreams, see also the main&amp;nbsp;&lt;strong&gt;&lt;a href=&quot;https://job-boards.greenhouse.io/anthropic/jobs/5023394008&quot;&gt;Anthropic Fellows posting&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt; &lt;h1&gt;&lt;strong&gt;Anthropic Fellows Program overview&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;The Anthropic Fellows Program is designed to foster AI research and engineering talent. We provide funding and mentorship to promising technical talent - regardless of previous experience.&lt;/p&gt; &lt;p&gt;Fellows will primarily use external infrastructure (e.g. open-source models, public APIs) to work on an empirical project aligned with our research priorities, with the goal of producing a &lt;strong&gt;public output&lt;/strong&gt; (e.g. a paper submission). In one of our earlier cohorts, over 80% of fellows produced papers.&lt;/p&gt; &lt;p&gt;We run multiple cohorts of Fellows each year and review applications on a rolling basis. This application is for cohorts starting in July 2026 and beyond.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;What to expect&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;4 months of full-time research&amp;nbsp;&lt;/li&gt; &lt;li&gt;Direct mentorship from Anthropic researchers&amp;nbsp;&lt;/li&gt; &lt;li&gt;Access to a shared workspace (in either Berkeley, California or London, UK)&lt;/li&gt; &lt;li&gt;Connection to the broader AI safety and security research community&lt;/li&gt; &lt;li&gt;Weekly stipend of 3,850 USD / 2,310 GBP / 4,300 CAD + benefits (these vary by country)&lt;/li&gt; &lt;li&gt;Funding for compute (~$15k/month) and other research expenses&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Interview process&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;The interview process will include an initial application &amp;amp; reference check, technical assessments &amp;amp; interviews, and a research discussion.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;The expected base stipend for this role is 3,850 USD / 2,310 GBP / 4,300 CAD per week, with an expectation of 40 hours per week for 4 months (with possible extension).&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Fellows workstreams&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Due to the success of the &lt;a href=&quot;https://alignment.anthropic.com/2024/anthropic-fellows-program/&quot;&gt;Anthropic Fellows for AI Safety Research&lt;/a&gt; program, we are now expanding it across teams at Anthropic. We expect there to be significant overlap in the types of skills and responsibilities across the roles and will by default consider candidates for all the workstreams.&lt;/p&gt; &lt;p&gt;Some of the workstreams may include unique assessment steps; we therefore ask you for workstream preferences in the&lt;a href=&quot;https://bit.ly/afpsafety&quot;&gt; application&lt;/a&gt;. You can see an overview of the current workstreams below:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;AI Safety Fellows&lt;/li&gt; &lt;li&gt;AI Security Fellows&lt;/li&gt; &lt;li&gt;ML Systems &amp;amp; Performance Fellows&lt;/li&gt; &lt;li&gt;Reinforcement Learning Fellows&lt;/li&gt; &lt;li&gt;Economics &amp;amp; Societal Impacts Fellows&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;This page is specific to one of the Anthropic Fellows Workstreams, see also the main&amp;nbsp;&lt;strong&gt;&lt;a href=&quot;https://job-boards.greenhouse.io/anthropic/jobs/5023394008&quot;&gt;Anthropic Fellows posting&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Across the workstreams, you may be a good fit if you:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Are motivated by making sure AI is safe and beneficial for society as a whole&lt;/li&gt; &lt;li&gt;Are excited to transition into empirical AI research and would be interested in a full-time role at Anthropic&lt;/li&gt; &lt;li&gt;Have a strong technical background in computer science, mathematics, or physics&lt;/li&gt; &lt;li&gt;Thrive in fast-paced, collaborative environments&lt;/li&gt; &lt;li&gt;Can implement ideas quickly and communicate clearly&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Strong candidates may also have:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Strong background in a discipline relevant to a specific Fellows workstream (e.g. economics, social sciences, or cybersecurity)&lt;/li&gt; &lt;li&gt;Experience in areas of research or engineering related to their workstream&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Candidates must be:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Fluent in Python programming&lt;/li&gt; &lt;li&gt;Available to work full-time on the Fellows program&lt;/li&gt; &lt;/ul&gt; &lt;h1&gt;&lt;strong&gt;Reinforcement Learning Fellows&lt;/strong&gt;&lt;/h1&gt; &lt;h2&gt;&lt;strong&gt;Mentors, research areas, &amp;amp; past projects&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Fellows will undergo a project selection &amp;amp; mentor matching process. Potential research areas and mentors include:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Ruhua Jiang&lt;/li&gt; &lt;li&gt;Kaidi Cao&lt;/li&gt; &lt;li&gt;Sunny Duan&lt;/li&gt; &lt;li&gt;David Brandfonbrener&lt;/li&gt; &lt;li&gt;Colt Steele&lt;/li&gt; &lt;li&gt;Dino Distefano&lt;/li&gt; &lt;li&gt;Will Williams&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Projects in this workstream may include:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Building model-based tools to better understand AI training data and improve training data quality&lt;/li&gt; &lt;li&gt;A research project to better understand generalization&lt;/li&gt; &lt;li&gt;Creating RL environments to improve Claude models at capabilities that are within your domain of expertise&lt;/li&gt; &lt;li&gt;Building RL environments for safety-related tasks&lt;/li&gt; &lt;li&gt;Conducting research and implementing solutions in areas such as RL algorithms&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Unique candidate criteria&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;You might be a particularly great fit for this workstream if you:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Have strong software engineering skills with experience building complex ML systems&lt;/li&gt; &lt;li&gt;Can balance research exploration with engineering rigor and operational reliability&lt;/li&gt; &lt;li&gt;Enjoy collaborating across research and engineering disciplines&lt;/li&gt; &lt;li&gt;Are comfortable working with large-scale distributed systems and high-performance computing&lt;/li&gt; &lt;li&gt;Have experience with training, fine-tuning, or evaluating large language models&lt;/li&gt; &lt;li&gt;Are adept at analyzing and debugging model training processes&lt;/li&gt; &lt;/ul&gt; &lt;h1&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;Logistics Requirements: &lt;/strong&gt;To participate in the Fellows program, you must have work authorization in the US, UK, or Canada and be located in that country during the program.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Workspace Locations:&lt;/strong&gt; We have designated shared workspaces in London and Berkeley where fellows will work from and mentors will visit. &lt;strong&gt;We are also open to remote fellows in the UK, US, or Canada&lt;/strong&gt;. We will ask you about your availability to work from Berkeley or London (full- or part-time) during the program.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Visa Sponsorship: &lt;/strong&gt;We are &lt;strong&gt;not&lt;/strong&gt; currently able to sponsor visas for fellows. To participate in the Fellows program, you need to have or independently obtain full-time work authorization in the UK, the US, or Canada.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Program Duration: &lt;/strong&gt;The program runs for 4 months, full-time. If you can&#39;t commit to the full duration, please still apply and note your constraints in the application. We review these requests on a case-by-case basis.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Please note:&lt;/strong&gt; We do not guarantee that we will make any full-time offers to fellows. However, strong performance during the program may indicate that a Fellow would be a good fit for full-time roles at Anthropic. In previous cohorts, 25-50% of fellows received a full-time offer, and we\u2019ve supported many more to go on to do great work on AI safety and security at other organizations.&lt;/p&gt; &lt;p&gt;Applications and interviews are managed by &lt;a class=&quot;underline underline underline-offset-2 decoration-1 decoration-current/40 hover:decoration-current focus:decoration-current&quot; href=&quot;https://www.constellation.org/&quot; target=&quot;_blank&quot;&gt;Constellation&lt;/a&gt;, our recruiting partner. Clicking &quot;Apply here&quot; will take you to their portal, and updates will come from a Constellation address. Constellation also runs the Berkeley workspace and provides program support for fellows working on AI safety and security; fellows on capabilities-focused projects are supported directly by Anthropic. All applicants currently use the same application portal but we are working to separate applications for safety/security and capabilities focused projects in future rounds.&lt;/p&gt; &lt;h1&gt;&lt;a href=&quot;https://bit.ly/afpsafety&quot;&gt;&lt;strong&gt;Apply here&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt; &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;The below are Anthropic&#39;s policies for full time roles. These do &lt;strong&gt;NOT&lt;/strong&gt; apply to the Fellows Program.&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor\u2019s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Fellowship focused on reinforcement learning research aligned with Anthropic's AI safety priorities.",
+      "impact_score": 9,
+      "impact_reason": "Core x-risk role at Anthropic, a leading org dedicated to safe, interpretable, steerable AI systems.",
+      "date_posted": "2026-05-20",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "AI Research & Engineering"
+      ],
+      "id": "32a86889730f5d841376f85cfe19385c"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
+  },
+  "c14a8b741dd32ecd4e91aa68fc25761f": {
+    "listing": {
+      "title": "Anthropic Fellows Program - The Anthropic Institute Fellows (Economics & Policy)",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183053008",
+      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;https://bit.ly/afpsafety&quot;&gt;&lt;strong&gt;Apply using this link&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;. &lt;/strong&gt;We are accepting applications on a rolling basis for the next cohort of Anthropic Fellows, which is expected to start in late September. In some circumstances, we can accommodate fellows starting outside the usual cohort timelines \u2014 please note in your application if the September start date doesn&#39;t work for you.&lt;/p&gt; &lt;p&gt;This page is specific to one of the Anthropic Fellows Workstreams; see also the main&amp;nbsp;&lt;strong&gt;&lt;a href=&quot;https://job-boards.greenhouse.io/anthropic/jobs/5023394008&quot;&gt;Anthropic Fellows posting&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt; &lt;h1&gt;&lt;strong&gt;Anthropic Fellows Program overview&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;The Anthropic Fellows Program is designed to foster AI research and engineering talent. We provide funding and mentorship to promising technical talent - regardless of previous experience.&lt;/p&gt; &lt;p&gt;Fellows will primarily use external infrastructure (e.g. open-source models, public APIs) to work on an empirical project aligned with our research priorities, with the goal of producing a &lt;strong&gt;public output&lt;/strong&gt; (e.g. a paper submission). In one of our earlier cohorts, over 80% of fellows produced papers.&lt;/p&gt; &lt;p&gt;We run multiple cohorts of Fellows each year and review applications on a rolling basis. This application is for cohorts starting in July 2026 and beyond.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;What to expect&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;4 months of full-time research&amp;nbsp;&lt;/li&gt; &lt;li&gt;Direct mentorship from Anthropic researchers&amp;nbsp;&lt;/li&gt; &lt;li&gt;Access to a shared workspace (in either Berkeley, California or London, UK)&lt;/li&gt; &lt;li&gt;Connection to the broader AI safety and security research community&lt;/li&gt; &lt;li&gt;Weekly stipend of 3,850 USD / 2,310 GBP / 4,300 CAD + benefits (these vary by country)&lt;/li&gt; &lt;li&gt;Funding for compute (~$15k/month) and other research expenses&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Interview process&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;The interview process will include an initial application &amp;amp; reference check, technical assessments &amp;amp; interviews, and a research discussion.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;The expected base stipend for this role is 3,850 USD / 2,310 GBP / 4,300 CAD per week, with an expectation of 40 hours per week for 4 months (with possible extension).&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Fellows workstreams&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Due to the success of the &lt;a href=&quot;https://alignment.anthropic.com/2024/anthropic-fellows-program/&quot;&gt;Anthropic Fellows for AI Safety Research&lt;/a&gt; program, we are now expanding it across teams at Anthropic. We expect there to be significant overlap in the types of skills and responsibilities across the roles and will by default consider candidates for all the workstreams.&lt;/p&gt; &lt;p&gt;Some of the workstreams may include unique assessment steps; we therefore ask you for workstream preferences in the&lt;a href=&quot;https://bit.ly/afpsafety&quot;&gt; application&lt;/a&gt;. You can see an overview of the current workstreams below:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;AI Safety Fellows&lt;/li&gt; &lt;li&gt;AI Security Fellows&lt;/li&gt; &lt;li&gt;ML Systems &amp;amp; Performance Fellows&lt;/li&gt; &lt;li&gt;Reinforcement Learning Fellows&lt;/li&gt; &lt;li&gt;Economics &amp;amp; Societal Impacts Fellows&lt;/li&gt; &lt;/ol&gt; &lt;h2&gt;&lt;strong&gt;Across the workstreams, you may be a good fit if you:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Are motivated by making sure AI is safe and beneficial for society as a whole&lt;/li&gt; &lt;li&gt;Are excited to transition into empirical AI research and would be interested in a full-time role at Anthropic&lt;/li&gt; &lt;li&gt;Have a strong technical background in computer science, mathematics, or physics&lt;/li&gt; &lt;li&gt;Thrive in fast-paced, collaborative environments&lt;/li&gt; &lt;li&gt;Can implement ideas quickly and communicate clearly&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Strong candidates may also have:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Strong background in a discipline relevant to a specific Fellows workstream (e.g. economics, social sciences, or cybersecurity)&lt;/li&gt; &lt;li&gt;Experience in areas of research or engineering related to their workstream&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Candidates must be:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Fluent in Python programming&lt;/li&gt; &lt;li&gt;Available to work full-time on the Fellows program&lt;/li&gt; &lt;/ul&gt; &lt;h1&gt;The Anthropic Institute Fellows (Economics &amp;amp; Policy)&lt;/h1&gt; &lt;h2&gt;&lt;strong&gt;Mentors, research areas, &amp;amp; past projects&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Fellows will undergo a project selection &amp;amp; mentor matching process. Potential research areas and mentors include:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://www.anthropic.com/economic-futures&quot;&gt;Economics&lt;/a&gt; &lt;ul&gt; &lt;li&gt;Maxim Massenkoff&lt;/li&gt; &lt;li&gt;Peter McCrory&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://www.anthropic.com/news/the-anthropic-institute&quot;&gt;Policy, Security, and Society&lt;/a&gt;&lt;br&gt; &lt;ul&gt; &lt;li&gt;Jack Clark&lt;/li&gt; &lt;li&gt;Marina Favaro&lt;/li&gt; &lt;li&gt;Jim Baker&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Projects in this workstream may include:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Designing and conducting empirical research on AI&#39;s economic effects, drawing on external data sources&lt;/li&gt; &lt;li&gt;Developing new methodological approaches for studying AI&#39;s impact on labor markets, the future of work, and society&lt;/li&gt; &lt;li&gt;Analysing the offense\u2013defense balance for AI-enabled cyber and bio capabilities as models scale&lt;/li&gt; &lt;li&gt;Measuring the extent to which model performance increases with custom harnesses?&lt;/li&gt; &lt;li&gt;Identifying market driven mechanisms that could improve societal resilience to anticipated threats from AI systems?&lt;/li&gt; &lt;li&gt;Identifying which metrics relating to AI R&amp;amp;D could service as early warning signals for recursive self-improvement&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;For past project examples, see:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://www.anthropic.com/research/AI-assistance-coding-skills&quot;&gt;How AI Impacts Skill Formation&lt;/a&gt;: Judy Shen and Alex Tamkin&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2510.07686&quot;&gt;Stress-Testing Model Specs Reveals Character Differences among Language Models&lt;/a&gt;: Jifan Zhang, Henry Sleight, Andi Peng, John Schulman, and Esin Durmus&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Unique candidate criteria&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;You might be a particularly great fit for this workstream if you:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Have an interest in economics or policy research; prior experience in this area is a plus but not required&lt;/li&gt; &lt;li&gt;Are adaptable and collaborative, able to take direction and contribute to team priorities rather than needing to pursue a predetermined research agenda&lt;/li&gt; &lt;li&gt;Are skilled at writing up and communicating your results, even when they&#39;re null or unexpected&lt;/li&gt; &lt;li&gt;Are passionate about translating research insights into actionable recommendations for improving AI systems and informing policy&lt;/li&gt; &lt;/ul&gt; &lt;h1&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;Logistics Requirements: &lt;/strong&gt;To participate in the Fellows program, you must have work authorization in the US, UK, or Canada and be located in that country during the program.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Workspace Locations:&lt;/strong&gt; We have designated shared workspaces in London and Berkeley where fellows will work from and mentors will visit. &lt;strong&gt;We are also open to remote fellows in the UK, US, or Canada&lt;/strong&gt;. We will ask you about your availability to work from Berkeley or London (full- or part-time) during the program.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Visa Sponsorship: &lt;/strong&gt;We are &lt;strong&gt;not&lt;/strong&gt; currently able to sponsor visas for fellows. To participate in the Fellows program, you need to have or independently obtain full-time work authorization in the UK, the US, or Canada.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Program Duration: &lt;/strong&gt;The program runs for 4 months, full-time. If you can&#39;t commit to the full duration, please still apply and note your constraints in the application. We review these requests on a case-by-case basis.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Please note:&lt;/strong&gt; We do not guarantee that we will make any full-time offers to fellows. However, strong performance during the program may indicate that a Fellow would be a good fit for full-time roles at Anthropic. In previous cohorts, 25-50% of fellows received a full-time offer, and we\u2019ve supported many more to go on to do great work on AI safety and security at other organizations.&lt;/p&gt; &lt;p&gt;Applications and interviews are managed by &lt;a class=&quot;underline underline underline-offset-2 decoration-1 decoration-current/40 hover:decoration-current focus:decoration-current&quot; href=&quot;https://www.constellation.org/&quot; target=&quot;_blank&quot;&gt;Constellation&lt;/a&gt;, our recruiting partner. Clicking &quot;Apply here&quot; will take you to their portal, and updates will come from a Constellation address. Constellation also runs the Berkeley workspace and provides program support for fellows working on AI safety and security; fellows on capabilities-focused projects are supported directly by Anthropic. All applicants currently use the same application portal but we are working to separate applications for safety/security and capabilities focused projects in future rounds.&lt;/p&gt; &lt;h1&gt;&lt;a href=&quot;https://bit.ly/afpsafety&quot;&gt;&lt;strong&gt;Apply here&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt; &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;The below are Anthropic&#39;s policies for full time roles. These do &lt;strong&gt;NOT&lt;/strong&gt; apply to the Fellows Program.&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor\u2019s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Fellowship focuses on AI safety research aligned with Anthropic's mission of creating reliable, interpretable, steerable AI systems.",
+      "impact_score": 9,
+      "impact_reason": "Core x-risk research role at Anthropic, a leading AI safety organization addressing alignment and AI governance.",
+      "date_posted": "2026-05-20",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-05-25",
+      "tags": [
+        "AI Research & Engineering"
+      ],
+      "id": "c14a8b741dd32ecd4e91aa68fc25761f"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-05-25"
   }
 }

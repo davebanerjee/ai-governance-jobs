@@ -14805,5 +14805,349 @@
     "review_status": "unreviewed",
     "reviewed_at": null,
     "added_at": "2026-06-22"
+  },
+  "fd7b05d62a734db8e885707146af5b6a": {
+    "listing": {
+      "title": "Research Fellowship",
+      "organization": "Heron AI Security",
+      "url": "https://www.heronsec.ai/researchfellowship?utm_source=80000hours&utm_medium=job-board",
+      "location": "London, UK, San Francisco Bay Area, Remote, Global, Tel Aviv, Israel (Remote)",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "In this fellowship, you'll conduct research on securing transformative AI systems alongside frontier AI experts. Work on collaborative projects developing defences against emerging AI security threats. Produce publishable papers, prototypes, or technical reports advancing AI security research. Parti",
+      "description": "In this fellowship, you'll conduct research on securing transformative AI systems alongside frontier AI experts. Work on collaborative projects developing defences against emerging AI security threats. Produce publishable papers, prototypes, or technical reports advancing AI security research. Participate in biweekly expert-led sessions and milestone reviews to guide project progress. Leverage compute resources and mentorship support to accelerate your AI security contributions.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Develops defenses against AI security threats through collaborative research and technical contributions.",
+      "impact_score": 7,
+      "impact_reason": "Technical AI safety research at specialized org addressing emerging threats to advanced AI systems.",
+      "date_posted": "2026-06-26",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-06-29",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Information security"
+      ],
+      "id": "fd7b05d62a734db8e885707146af5b6a"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-06-29"
+  },
+  "a3acdbb23b82796b317338f2304ae439": {
+    "listing": {
+      "title": "AGI Governance Fellowship",
+      "organization": "Johns Hopkins University, School of Government and Policy",
+      "url": "https://sogp.jh.edu/agi-governance-fellowship/?utm_source=80000hours&utm_medium=job-board",
+      "location": "Washington, DC metro area",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "This is a three-week intensive AGI governance fellowship at Johns Hopkins University. Engage in faculty lectures, seminars, collaborative work, and guest speaker sessions on frontier AI governance. Complete substantial pre-reading and maintain a full-time commitment throughout the demanding program.",
+      "description": "This is a three-week intensive AGI governance fellowship at Johns Hopkins University. Engage in faculty lectures, seminars, collaborative work, and guest speaker sessions on frontier AI governance. Complete substantial pre-reading and maintain a full-time commitment throughout the demanding program. Contribute to group projects advancing AGI governance, such as prototype civic agents and model legislation. Network with early-career researchers and practitioners from government, tech, academia, and civil society.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Intensive fellowship on frontier AGI governance, regulation, and policy addressing advanced AI risks.",
+      "impact_score": 6,
+      "impact_reason": "Strong governance training at major institution but limited direct impact as a fellowship versus operational role.",
+      "date_posted": "2026-06-24",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-06-29",
+      "tags": [
+        "AI safety & policy",
+        "Policy"
+      ],
+      "id": "a3acdbb23b82796b317338f2304ae439"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-06-29"
+  },
+  "91bfe7f137788307b938078c797fc76f": {
+    "listing": {
+      "title": "Biotechnology Regulatory Fellowship",
+      "organization": "US Government, National Academies of Sciences, Engineering, and Medicine",
+      "url": "https://biotechfellows.nationalacademies.org/?utm_source=80000hours&utm_medium=job-board",
+      "location": "Washington, DC metro area",
+      "salary_range": "$70,000-$70,000",
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll identify novel regulatory frameworks and develop evidence-based solutions for emerging biotechnology products. Participate in expert seminars and conduct horizon-scanning to identify biotech products needing regulatory pathways. Collaborate with a paired fellow of complementary ",
+      "description": "In this role, you'll identify novel regulatory frameworks and develop evidence-based solutions for emerging biotechnology products. Participate in expert seminars and conduct horizon-scanning to identify biotech products needing regulatory pathways. Collaborate with a paired fellow of complementary expertise on multidisciplinary capstone research projects. Work with mentors from USDA, EPA, and FDA to shape and refine project approaches. Present final capstone project results to agency staff and the Biotechnology Regulatory Fellowship Advisory Committee. Our take on this role: We are excited for work in particular on regulation of biotechnology products that increase the risk of catastrophic pandemics .",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "Biosecurity/Catastrophic Risk",
+      "relevance_reason": "Focuses on regulatory frameworks for biotechnology products that increase pandemic catastrophic risk.",
+      "impact_score": 6,
+      "impact_reason": "Biosecurity policy work at prestigious institution with explicit pandemic risk focus, but not core x-risk organization.",
+      "date_posted": "2026-06-24",
+      "date_closes": "2026-08-31",
+      "source": "80k_hours",
+      "date_scraped": "2026-06-29",
+      "tags": [
+        "Biosecurity & pandemic preparedness",
+        "Policy"
+      ],
+      "id": "91bfe7f137788307b938078c797fc76f"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-06-29"
+  },
+  "d07ed41bedd1c7ec58542a649ba34aef": {
+    "listing": {
+      "title": "Winter Fellowship, Research Track, UK (2027)",
+      "organization": "GovAI",
+      "url": "https://www.governance.ai/post/winter-fellowship-2027-research-track?utm_source=80000hours&utm_medium=job-board",
+      "location": "London, UK",
+      "salary_range": "$15,875-$15,875",
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll conduct independent research on an AI governance topic of your choice under expert mentorship. Explore the AI governance landscape and develop a research proposal with guidance from your supervisor. Produce research outputs such as reports, white papers, journal articles, or op-",
+      "description": "In this role, you'll conduct independent research on an AI governance topic of your choice under expert mentorship. Explore the AI governance landscape and develop a research proposal with guidance from your supervisor. Produce research outputs such as reports, white papers, journal articles, or op-eds for policymakers. Participate in expert Q&amp;As, weekly seminars, and workshops to deepen your AI governance knowledge. Build professional connections with researchers and practitioners through work sessions and networking events.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Independent AI governance research with expert mentorship at organization focused on catastrophic AI risks.",
+      "impact_score": 9,
+      "impact_reason": "Core x-risk role at GovAI, whose primary mission is reducing existential risk from advanced AI systems.",
+      "date_posted": "2026-06-16",
+      "date_closes": "2026-07-12",
+      "source": "80k_hours",
+      "date_scraped": "2026-06-29",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Policy"
+      ],
+      "id": "d07ed41bedd1c7ec58542a649ba34aef"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-06-29"
+  },
+  "e3d0d6107f7e976d9fcabf57c38c20b5": {
+    "listing": {
+      "title": "Compliance and Operations Manager",
+      "organization": "Principles of Intelligence",
+      "url": "https://princint.ai/now-hiring-compliance-operations-manager-at-principles-of-intelligence/?utm_source=80000hours&utm_medium=job-board",
+      "location": "Remote, Global, Belgrade, Serbia (Remote)",
+      "salary_range": "$55,000-$75,000",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll oversee contracts, agreements, and regulatory compliance across the organization and its fiscal sponsees. Develop and maintain tracking systems for active contracts, monitoring key dates, deliverables, and payments. Oversee employee onboarding and offboarding, managing employmen",
+      "description": "In this role, you'll oversee contracts, agreements, and regulatory compliance across the organization and its fiscal sponsees. Develop and maintain tracking systems for active contracts, monitoring key dates, deliverables, and payments. Oversee employee onboarding and offboarding, managing employment status in PEO/EOR platforms. Monitor fiscal sponsee activities for alignment with donor policies, grant terms, and US and UK legal requirements. Ensure all organizational contracts and expenditures comply with relevant policies, regulations, and GDPR requirements.",
+      "work_mode": "Remote (Global)",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Compliance oversight of frontier AI org ensures governance structures and regulatory alignment for AGI safety work.",
+      "impact_score": 6,
+      "impact_reason": "Critical operational support for x-risk-focused org but indirect impact; enabler rather than core researcher.",
+      "date_posted": "2026-06-29",
+      "date_closes": "2026-07-26",
+      "source": "80k_hours",
+      "date_scraped": "2026-06-29",
+      "tags": [
+        "AI safety & policy",
+        "Operations",
+        "Legal"
+      ],
+      "id": "e3d0d6107f7e976d9fcabf57c38c20b5"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-06-29"
+  },
+  "25c29acd5bcf3c63db9e0ae91b0ea90b": {
+    "listing": {
+      "title": "Fellowship Manager",
+      "organization": "SASH",
+      "url": "https://docs.google.com/document/d/1BIV1vGRUs3xn8CfL6M5f4mFKsIB4sVdRpzgTRjAwiZA/edit?tab=t.0&utm_source=80000hours&utm_medium=job-board",
+      "location": "Singapore, Singapore",
+      "salary_range": "$90,000-$120,000",
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll design and deliver the East-West AI Safety Fellowship, connecting researchers and government partners across Asia. Lead recruitment for 10-15 fellows and 5-6 mentors, building cohort culture and an active alumni network. Support government partnerships and relationships with uni",
+      "description": "In this role, you'll design and deliver the East-West AI Safety Fellowship, connecting researchers and government partners across Asia. Lead recruitment for 10-15 fellows and 5-6 mentors, building cohort culture and an active alumni network. Support government partnerships and relationships with universities, research institutes, and AI labs in the region. Develop operational infrastructure, track metrics, and produce impact reports for stakeholders. Contribute to public communications including reports and policy briefs.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Focuses on AI safety governance through East-West coordination and government partnerships on AI policy.",
+      "impact_score": 7,
+      "impact_reason": "Builds institutional capacity for AI governance across Asia, supporting frontier AI safety and policy coordination.",
+      "date_posted": "2026-06-05",
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-06-29",
+      "tags": [
+        "AI safety & policy",
+        "Operations"
+      ],
+      "id": "25c29acd5bcf3c63db9e0ae91b0ea90b"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-06-29"
+  },
+  "ed9483070a2c2c4e2504f01d726764f1": {
+    "listing": {
+      "title": "Program Assistant, Nuclear Policy Program",
+      "organization": "Carnegie Endowment for International Peace",
+      "url": "https://carnegieendowment.applicantpro.com/jobs/4129694?utm_source=80000hours&utm_medium=job-board",
+      "location": "Washington, DC metro area",
+      "salary_range": "$50,000-$52,000",
+      "role_type": "Full-time",
+      "description_snippet": "Carnegie's Nuclear Policy Program works on international security by diagnosing acute nuclear risks, informing debates on solutions, and engaging international actors to effect change. In this role, you'll support nuclear policy scholars with administrative tasks and grant management. Coordinate mee",
+      "description": "Carnegie's Nuclear Policy Program works on international security by diagnosing acute nuclear risks, informing debates on solutions, and engaging international actors to effect change. In this role, you'll support nuclear policy scholars with administrative tasks and grant management. Coordinate meetings, events, and travel arrangements for program staff and stakeholders. Prepare expense reports, grant reports, and review monthly grant spending. Manage databases, web postings, and organize the 2027 International Nuclear Policy Conference.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "Biosecurity/Catastrophic Risk",
+      "relevance_reason": "Nuclear policy directly addresses catastrophic risk from weapons of mass destruction.",
+      "impact_score": 4,
+      "impact_reason": "Administrative role supporting nuclear policy work, but indirect impact on catastrophic risk reduction.",
+      "date_posted": "2026-06-29",
+      "date_closes": "2026-07-03",
+      "source": "80k_hours",
+      "date_scraped": "2026-06-29",
+      "tags": [
+        "Nuclear security",
+        "Policy",
+        "Operations"
+      ],
+      "id": "ed9483070a2c2c4e2504f01d726764f1"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-06-29"
+  },
+  "63c70f4c8f2800f1d440b797b71591b8": {
+    "listing": {
+      "title": "Singapore AI Safety Fellowship",
+      "organization": "SASH",
+      "url": "https://www.aisafety.sg/programs/singapore-ai-safety-fellowship?utm_source=80000hours&utm_medium=job-board",
+      "location": "Singapore, Singapore",
+      "salary_range": "$46,389-$46,389",
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll conduct independent technical AI safety research in Singapore, mentored by leading researchers to advance international collaboration. Investigate pressing challenges in making frontier AI systems safe, secure, and trustworthy. Build cross-regional research networks and relation",
+      "description": "In this role, you'll conduct independent technical AI safety research in Singapore, mentored by leading researchers to advance international collaboration. Investigate pressing challenges in making frontier AI systems safe, secure, and trustworthy. Build cross-regional research networks and relationships for sustained AI safety cooperation. Translate technical research into practical frameworks and policy recommendations. Publish your findings while developing your career with dedicated research support.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Fellowship focused on frontier AI safety, security, trustworthiness, and policy frameworks.",
+      "impact_score": 8,
+      "impact_reason": "Dedicated AI safety research fellowship with mentorship and policy translation at specialized organization.",
+      "date_posted": "2026-06-26",
+      "date_closes": "2026-07-10",
+      "source": "80k_hours",
+      "date_scraped": "2026-06-29",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Policy"
+      ],
+      "id": "63c70f4c8f2800f1d440b797b71591b8"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-06-29"
+  },
+  "8578b1f925d1ef5b3b416b8f1796e697": {
+    "listing": {
+      "title": "Compute & Infrastructure Counsel, Security & Compliance",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5205894008",
+      "location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt; &lt;p style=&quot;text-align: justify;&quot;&gt;Anthropic\u2019s model weights and training infrastructure are among the highest-value targets in the technology sector, facing nation-state, supply-chain interdiction, and insider threats that conventional enterprise security programs were not built to address. As Commercial Counsel, Infrastructure Security for Compute and Infrastructure at Anthropic, you\u2019ll be the day-to-day legal partner to the Chief Security Officer\u2019s infrastructure-security and the Governance, Risk and Compliance teams. You will own the contractual and regulatory layer of physical and facility security, hardware and supply-chain security, network security, vendor personnel and insider-risk flow-downs, and security regulatory and assurance.&lt;/p&gt; &lt;p&gt;You\u2019ll work in close partnership with Anthropic teammates in Frontier, Product, Litigation, Employment, and Commercial Legal, in addition to specialized outside counsel. You will serve as the primary legal owner ensuring security requirements are in the contract before signature and that external work product aligns with Anthropic\u2019s security posture and commercial objectives.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Draft and negotiate security design-basis and site-hardening specifications in build-to-suit, lease, and colo agreements (perimeter, access control, CCTV, intrusion detection); guard-force statements of work, post orders, and KPI regimes; visitor, contractor, and badging policy; and security clauses in shared-campus and multi-tenant arrangements&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Own provenance, anti-tamper, and chain-of-custody warranties in silicon, ODM, and OEM paper; trusted-supplier and country-of-origin restrictions; NDAA \u00a7889/\u00a75949 and CHIPS-Act guardrail flow-downs; BIS/EAR advanced-computing and semiconductor export-control flow-downs and end-use/end-user certifications; firmware integrity, secure-boot, and golden-image escrow terms; secure logistics; counterfeit-part and grey-market controls; and secure decommissioning and certified media-destruction terms&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Draft security schedules in carrier and fiber agreements (encryption-in-transit, route integrity, lawful-intercept handling), and security obligations in peering agreements&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Set background-screening, training, and badge-revocation requirements for vendor and contractor personnel with site or hardware access, and flow Anthropic personnel-security standards into guard-force, security-integrator, and EPC vendor MSAs&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Support CFIUS and outbound-investment screening on infrastructure vendors and sites, provide NIST/ISO/SOC 2 physical-control evidence for customer and auditor assurance in partnership with security teams; and support security representations in customer contracts that reference physical infrastructure with Commercial Legal&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Work closely with specialized outside counsel, ensuring their work product aligns with Anthropic\u2019s security and commercial objectives&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Build the function: develop and maintain the security-schedule library, design-basis templates, advise on vendor security questionnaire templates, and negotiation playbooks; train Procurement, Datacenter, and Network teams to apply them at scale&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Serve as direct counsel to the CSO\u2019s infrastructure-security organization, coordinating with Product Legal and Litigation on incident response, threat intelligence, law-enforcement and intelligence-community engagement, insider-threat governance, and model-weight security policy under Anthropic\u2019s Responsible Scaling Policy&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Escalate novel structures or terms that create downstream risk for Anthropic\u2019s security posture or operational flexibility; ensure security requirements accommodate AI-specific threats including hardware tamper, supply-chain interdiction, and high-value-target facility risk&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Monitor and assess the evolving regulatory landscape affecting security and data protection, identifying higher-risk obligations for the business and partnering with security to operationalize them through policies, controls, and compliance programs&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Advise on risk assessments, risk acceptance decisions, and reporting to leadership and the board; and review remediation commitments arising from assessments, customer audits and regulator inquiries.&amp;nbsp;&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Minimum qualifications&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;JD and active membership in at least one U.S. state bar&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Fluency in security design-basis specifications, guard-force and access-control contracting, and how security schedules interact with build-to-suit, colo, procurement, and carrier agreements&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Experience with NDAA \u00a7889/\u00a75949, CHIPS-Act guardrails, CFIUS/outbound-investment screening, and trusted-supplier or country-of-origin programs&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Comfort with NIST, ISO 27001, and SOC 2 physical-control frameworks and the evidence and attestation process that supports customer and auditor assurance&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Ability to coordinate effectively with multiple internal legal teams, and specialized outside counsel while maintaining strategic direction&amp;nbsp;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Strong judgment about when contractual security terms create downstream risk for Anthropic\u2019s security posture, audit position, or operational flexibility&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Effective collaboration skills for working with the CSO\u2019s organization, procurement, datacenter, and network teams&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Communication skills that translate security and supply-chain-integrity concepts into clear risk assessments for business stakeholders&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Genuine interest in infrastructure security and appreciation for why physical, hardware, and network security is mission-critical for frontier AI&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Preferred qualifications&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;At least 10-12 years of relevant legal experience with meaningful exposure to physical and facility security contracting, hardware and supply-chain security, network security schedules, or security regulatory and assurance work for critical infrastructure&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;In-house experience at cloud service providers, hyperscalers, defense and aerospace primes, telecom carriers, utilities, semiconductor companies, or datacenter operators supporting physical-security, supply-chain-security, or security-assurance programs; or U.S. government experience at DoD, DHS/CISA, BIS, or CFIUS staff&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Experience at large technology companies with first-party datacenter or hardware programs supporting security contracting from the buy side&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Law firm experience at practices with national-security, supply-chain, or critical-infrastructure specialization, particularly those who have worked on NDAA \u00a7889, CFIUS, or trusted-supplier matters&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Prior involvement in transactions requiring sophisticated understanding of secure logistics, chain-of-custody, firmware integrity, and certified media destruction&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Familiarity with CCTV/biometrics privacy regimes, executive-protection contracting, and the contractual layer of insider-risk programs&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Ability to obtain and maintain a U.S. security clearance&amp;nbsp;&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Role-specific policy: &lt;/strong&gt;For this role, we expect staff to be able to work from our San Francisco, Seattle, Washington D.C., or New York office at least 3 days a week, though we encourage you to apply even if you might need some flexibility for an interim period of time.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt; &lt;p&gt;For sales roles, the range provided is the role\u2019s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$265,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$335,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor\u2019s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Protects frontier AI lab's critical infrastructure and model weights from nation-state and insider threats.",
+      "impact_score": 8,
+      "impact_reason": "Secures physical/supply-chain infrastructure for advanced AI systems at leading frontier AI lab, reducing catastrophic risk vectors.",
+      "date_posted": "2026-06-22",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-06-29",
+      "tags": [
+        "Legal"
+      ],
+      "id": "8578b1f925d1ef5b3b416b8f1796e697"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-06-29"
+  },
+  "81dd78f331f1fe247e9bfaff5104f515": {
+    "listing": {
+      "title": "Legal Program Manager, Contracts and Governance",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5274119008",
+      "location": "San Francisco, CA",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is seeking an experienced Legal Program Manager to join our Commercial Legal team, focused on contracts and governance. This role is central to Anthropic\u2019s compliance efforts on the commercial side: you will embed deeply in our sell-side contracting processes, partner across functions, and help build the controls, workflows, and governance infrastructure that revenue-generating activities require as the company matures.&lt;/p&gt; &lt;p&gt;You will sit at the intersection of Legal, Finance, Revenue Operations, Sales, Partnerships, Engineering, and Accounting \u2014 ensuring that commercial contracting practices meet our governance and compliance standards, with particular emphasis on revenue recognition workstreams. This is a high-visibility role where you will be expected to operate as a player-coach: managing and improving contracting processes yourself while building scalable systems, templates, and playbooks as the function grows.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Key responsibilities&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Partner with Commercial Legal to continuously improve the end-to-end commercial contracting lifecycle for sell-side agreements (SaaS/API subscriptions, enterprise licenses, partnership and channel agreements, statements of work, and order forms), ensuring alignment with revenue recognition requirements under ASC 606&lt;/li&gt; &lt;li&gt;Partner with Finance and Accounting to ensure commercial contract terms and structures support accurate revenue recognition, including proper identification of performance obligations, variable consideration, contract modifications, and multi-element arrangements&lt;/li&gt; &lt;li&gt;Develop and maintain contract management workflows, templates, approval matrices, and playbooks that embed governance and compliance requirements directly into the contracting process&lt;/li&gt; &lt;li&gt;Build and operate contract governance controls tied to compliance requirements, including contract review procedures, delegation of authority frameworks, and exception-tracking mechanisms&lt;/li&gt; &lt;li&gt;Maintain disclosure-support processes for commercial contracts, including tracking of material agreements, contract-related risks, and commitments that feed SEC reporting and audit requirements&lt;/li&gt; &lt;li&gt;Partner with Revenue Operations, Sales, and Engineering to design and enforce contract execution standards \u2014 including signature authority, amendment protocols, and proper documentation practices \u2014 that support SOX compliance and internal controls over financial reporting&lt;/li&gt; &lt;li&gt;Collaborate with cross-functional stakeholders (Sales, Partnerships, Finance, FP&amp;amp;A, Accounting, Engineering, and external auditors) to ensure commercial commitments are properly captured, classified, and reported&lt;/li&gt; &lt;li&gt;Deploy LLM and AI tooling to scale contracting throughput, surface governance exceptions, and reduce manual handling&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Minimum qualifications&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;At least 8\u201310 years of experience in legal program management, legal operations, contracts management, or commercial legal support, preferably in a technology or SaaS environment&lt;/li&gt; &lt;li&gt;Deep, practical knowledge of sell-side commercial contracting processes, including SaaS, subscription, and enterprise licensing agreements&lt;/li&gt; &lt;li&gt;Strong ability to read, interpret, and analyze commercial contracts, with a thorough understanding of legal requirements, key contractual provisions, risk allocation, and compliance obligations (past experience negotiating and drafting contracts is a significant plus)&lt;/li&gt; &lt;li&gt;Working familiarity with revenue recognition principles (ASC 606) and how contract terms and deal structures impact revenue treatment&lt;/li&gt; &lt;li&gt;Experience building or significantly improving contracting workflows, templates, approval processes, or contract lifecycle management systems&lt;/li&gt; &lt;li&gt;Demonstrated ability to partner cross-functionally with Sales, Finance, Accounting, Engineering, and other business teams to align contracting practices with corporate requirements&lt;/li&gt; &lt;li&gt;Strong project management skills with the ability to manage multiple workstreams, drive accountability, and deliver results in a fast-paced, scaling environment&lt;/li&gt; &lt;li&gt;Excellent written and verbal communication skills, with the ability to translate complex legal and financial concepts into clear, actionable guidance for non-legal stakeholders&lt;/li&gt; &lt;li&gt;Sound judgment and the ability to identify and escalate contract risks, governance gaps, and compliance issues proactively&lt;/li&gt; &lt;li&gt;Comfort using AI and LLM tools to streamline and scale routine contracting work&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Preferred qualifications&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Prior experience working in a public company environment, with firsthand knowledge of the governance, compliance, and reporting cadences that public company operations require&lt;/li&gt; &lt;li&gt;Experience at a high-growth technology company that has undergone (or is preparing for) a company transition&lt;/li&gt; &lt;li&gt;Deep cross-functional experience partnering with Accounting, Engineering, and other technical and operational teams \u2014 not just Sales and Finance \u2014 to drive contracting and governance initiatives&lt;/li&gt; &lt;li&gt;Familiarity with SOX compliance requirements, particularly internal controls over financial reporting as they relate to the revenue cycle and commercial contracting&lt;/li&gt; &lt;li&gt;Hands-on experience with Ironclad as a contract lifecycle management platform; experience with other CLM tools (Icertis, DocuSign CLM, Salesforce, or similar) also valued&lt;/li&gt; &lt;li&gt;Experience with vendor and supplier contracting processes, bringing a well-rounded understanding of both sides of the commercial contracting lifecycle&lt;/li&gt; &lt;li&gt;Background in building delegation of authority frameworks or contract governance programs from the ground up&lt;/li&gt; &lt;li&gt;Professional certifications such as PMP or CPCM (Certified Professional Contracts Manager)&lt;/li&gt; &lt;li&gt;Experience managing or administering equity-related commercial agreements, strategic partnerships, or complex multi-party commercial arrangements&lt;/li&gt; &lt;li&gt;Interest in AI policy, AI safety, and the legal and governance questions emerging at the frontier of the field&lt;/li&gt; &lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt; &lt;p&gt;For sales roles, the range provided is the role\u2019s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$220,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$285,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor\u2019s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role directly supports governance and compliance infrastructure for frontier AI company's commercial operations and risk management.",
+      "impact_score": 6,
+      "impact_reason": "Governance/compliance role at x-risk-focused organization with meaningful but indirect impact on reducing catastrophic AI risks.",
+      "date_posted": "2026-06-23",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-06-29",
+      "tags": [
+        "Legal"
+      ],
+      "id": "81dd78f331f1fe247e9bfaff5104f515"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-06-29"
+  },
+  "349915fb2daa6d41c81ba00d6867fbb4": {
+    "listing": {
+      "title": "Product Policy, Biosecurity Policy Manager",
+      "organization": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/8b1f58e8-2922-4d55-bce6-04d7b4c5ec21",
+      "location": "San Francisco",
+      "salary_range": null,
+      "role_type": "FullTime",
+      "description_snippet": "About the Team The Product Policy team develops, implements, enforces, and communicates the policies that govern use of OpenAI\u2019s services, including ChatGPT, Codex, GPTs, and the OpenAI API. This biosecurity-focused role will help define how OpenAI enables legitimate life sciences, biomedical, and p",
+      "description": "About the Team The Product Policy team develops, implements, enforces, and communicates the policies that govern use of OpenAI\u2019s services, including ChatGPT, Codex, GPTs, and the OpenAI API. This biosecurity-focused role will help define how OpenAI enables legitimate life sciences, biomedical, and public health work while reducing the risk that our products are misused to create biological harm. This role sits at the intersection of AI capability, life sciences practice, biosecurity, biosafety, and abuse prevention: helping researchers, institutions, and other legitimate users benefit from OpenAI\u2019s tools while setting clear boundaries against activity that could enable catastrophic biological misuse or other harmful bio-related outcomes. About the Role As a Product Policy Manager specializing in Biosecurity, you will combine deep biological, biosecurity, and policy judgment to guide how OpenAI evaluates, launches, and governs capabilities relevant to biology and the life sciences. You will work closely with product, engineering, research, safety, security, legal, operations, global affairs, and go-to-market teams to translate complex biological risk into practical product policy, implementation standards, access criteria, enforcement guidance, and launch decisions. The role requires understanding both sides of the bio equation: how legitimate researchers, clinicians, public health practitioners, and life sciences organizations use AI to advance beneficial work, and how malicious or irresponsible actors may attempt to misuse AI systems to lower barriers to harmful biological activity. Strong candidates may bring depth in one or more relevant domains, such as biosecurity, biosafety, synthetic biology, molecular biology, computational biology, bioinformatics, public health, biodefense, biological risk management, sequence screening, lab automation, institutional research governance, or life sciences R&D \u2014 along with the ability to reason across adjacent areas. You do not need to have held a formal policy title, but you should have experience turning complex technical or scientific risk into durable rules, standards, processes, or decisions, and very strong communication skills. As OpenAI continues to grow its capabilities in biology and the life sciences, this role will help align diverse teams and stakeholders while operating in a fast-moving, ambiguous environment. In this role, you will: - Provide biosecurity and life sciences policy advice to technical and product teams based on an understanding of model capabilities, biological R&D workflows, abuse pathways, and the practical needs of legitimate scientific users. - Evaluate bio-relevant product launches and model capabilities, including how they may support beneficial biological research, public health, clinical education, drug discovery, biosecurity, and other life sciences use cases, as well as how they could be misused by malicious or irresponsible actors. - Translate biological misuse risk into clear product requirements, launch guidance, enforcement standards, user-facing policy, internal implementation guidance, and reviewer SOPs. - Help define scalable policy frameworks for dual-use biological capabilities, including where to draw boundaries between broadly beneficial biological assistance, higher-risk dual-use support, and activity that should be restricted or disallowed. - Develop operationalizable standards, enforcement protocols, and escalation paths for bio misuse scenarios, including suspicious high-risk dual-use trajectories, account- or organization-level misuse patterns, and ambiguous cases requiring expert judgment. - Partner with Preparedness, Safety Systems, Integrity, User Operations, I2, research, legal, communications, global affairs, and product teams to make principled, timely decisions about biological risk in high-ambiguity situations. - Help design and refine trusted access frameworks for higher-capability biological systems, including actor vetting, institutional legitimacy, governance expectations, deployment suitability, access scoping, re-verification, and escalation obligations. - Support the development of threat models, misuse trajectories, taxonomy updates, account-level review workflows, and measurement approaches that distinguish legitimate scientific activity from concerning misuse over time. - Use production signals, evals, red-team findings, user feedback, and operational data to improve policy quality, measure safeguard effectiveness, and identify emerging risks. - Help OpenAI engage credibly with life sciences organizations, biosecurity experts, public health institutions, and other external stakeholders on best practices for safe AI adoption in biology. - Develop a partnership-informed biosecurity approach by working with external experts, public health institutions, life sciences organizations, and other trusted partners to identify emerging risks, strengthen safe adoption practices, and support broader societal resilience against biological misuse. You might thrive in this role if you: - Have 7+ years of experience, or equivalent depth, in one or more of the following areas: biosecurity, biosafety, life sciences R&D, synthetic biology, molecular biology, computational biology, public health, biodefense, or biological risk management, as well as product policy, trust and safety, abuse investigations, or a closely related field. - Bring strong technical fluency in one or more biological or biosecurity domains, such as synthetic biology, molecular biology, genomics, bioinformatics, protein engineering, lab automation, pathogen surveillance, sequence screening, institutional biosafety, biological threat assessment, or life sciences research governance. - Understand the modern biological risk landscape, including how legitimate biological research is conducted, how institutions govern sensitive work, and where AI systems may create both meaningful scientific value and misuse risk. - Can evaluate dual-use biological capabilities with nuance, distinguishing between legitimate scientific work, lower-risk educational or analytical assistance, ambiguous high-friction cases, irresponsible activity, and harmful misuse. - Think in terms of actor, environment, and trajectory \u2014 not just prompt content \u2014 when assessing risk, including who the user is, what institution they belong to, what governance they operate under, and what pattern of behavior is emerging over time. - Are comfortable turning ambiguous scientific and security questions into practical policy frameworks, access criteria, taxonomies, review rubrics, launch recommendations, and operational guidance. - Communicate clearly with product managers, engineers, researchers, executives, safety experts, security practitioners, life sciences customers, and policy stakeholders. - Use data, expert judgment, operational signals, and user feedback to improve policy quality and evaluate whether safeguards are working in practice. - Are energized by building new frameworks in an emerging area where the right answer may require balancing scientific progress, product usability, institutional trust, and high-consequence safety risk. - Care deeply about enabling beneficial biology and life sciences work while preventing catastrophic misuse and unnecessary biological risk. - Have experience building cross-sector partnerships or strategies that connect technical policy, public health, biosecurity, and institutional governance in service of broader societal resilience. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "Biosecurity/Catastrophic Risk",
+      "relevance_reason": "Directly addresses preventing catastrophic biological harm through AI policy governance and dual-use research oversight.",
+      "impact_score": 7,
+      "impact_reason": "High-impact biosecurity policy role at frontier AI lab managing risks from dual-use biology capabilities and misuse prevention.",
+      "date_posted": "2026-06-02",
+      "date_closes": null,
+      "source": "ashby:openai",
+      "date_scraped": "2026-06-29",
+      "tags": [
+        "Product Policy",
+        "Product Policy"
+      ],
+      "id": "349915fb2daa6d41c81ba00d6867fbb4"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-06-29"
   }
 }

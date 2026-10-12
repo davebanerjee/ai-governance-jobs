@@ -29120,5 +29120,472 @@
     "review_status": "unreviewed",
     "reviewed_at": null,
     "added_at": "2026-10-05"
+  },
+  "ec81888f20011c4241c7d773e8fb1498": {
+    "listing": {
+      "title": "Research Fellow, AI Interpretability",
+      "organization": "",
+      "url": "https://job-boards.greenhouse.io/goodfire/jobs/4499053008?utm_source=80000hours&utm_medium=job-board",
+      "location": "San Francisco Bay Area",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "In this fellowship, you will execute a research project in AI interpretability. Execute an assigned interpretability research project according to established methodology. Produce a co-authored research blog post by program completion. Implement feedback from mentors while maintaining independent ex",
+      "description": "In this fellowship, you will execute a research project in AI interpretability. Execute an assigned interpretability research project according to established methodology. Produce a co-authored research blog post by program completion. Implement feedback from mentors while maintaining independent execution capability. Commit approximately 20 hours per week.",
+      "work_mode": null,
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Dedicated research fellowship focused on AI interpretability, a core technical AI safety research area.",
+      "impact_score": 7,
+      "impact_reason": "Technical interpretability research directly supports AI alignment efforts at specialized x-risk research organizations.",
+      "date_posted": null,
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "AI safety & policy",
+        "Research"
+      ],
+      "id": "ec81888f20011c4241c7d773e8fb1498"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "484f78cd914c4258bb5d42546d74c19a": {
+    "listing": {
+      "title": "Visiting Research Fellow, Global Health and Development",
+      "organization": "",
+      "url": "https://drive.google.com/file/d/1B1YR9yVXS0HV_hgLJJTSuUhthZwlW9Ex/view?usp=sharing&utm_source=80000hours&utm_medium=job-board",
+      "location": "London, UK",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll evaluate which charity ideas are strong enough to recommend to the Charity Entrepreneurship Incubation Program. Work on the same research questions as Research Managers \u2013 evaluating interventions and designing research projects. Take on substantive research tasks with dedicated ",
+      "description": "In this role, you'll evaluate which charity ideas are strong enough to recommend to the Charity Entrepreneurship Incubation Program. Work on the same research questions as Research Managers \u2013 evaluating interventions and designing research projects. Take on substantive research tasks with dedicated feedback and support from senior staff researchers. Apply prioritization judgment and quantitative analysis to decision-focused research. Build applied research skills through AIM's research curriculum and structured learning programme.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "Biosecurity/Catastrophic Risk",
+      "relevance_reason": "Charity Entrepreneurship focuses on high-impact cause areas including biosecurity and pandemic prevention.",
+      "impact_score": 5,
+      "impact_reason": "Research role at x-risk-adjacent organization with potential biosecurity focus, but primary mission unclear.",
+      "date_posted": null,
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "Global health & development",
+        "Research"
+      ],
+      "id": "484f78cd914c4258bb5d42546d74c19a"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "995f4f844b05fe35c41a71600ab91224": {
+    "listing": {
+      "title": "Litigation Program Fellow (2027-2029)",
+      "organization": "",
+      "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4537097?utm_source=80000hours&utm_medium=job-board",
+      "location": "Remote, USA",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll manage assigned cases and litigation matters under attorney supervision, developing strategic impact litigation skills in animal protection law. Conduct legal research and develop novel legal theories and strategies for new cases. Manage law clerks and pro bono counsel on litiga",
+      "description": "In this role, you'll manage assigned cases and litigation matters under attorney supervision, developing strategic impact litigation skills in animal protection law. Conduct legal research and develop novel legal theories and strategies for new cases. Manage law clerks and pro bono counsel on litigation matters. Draft, edit, and submit amicus curiae briefs on behalf of the Animal Legal Defense Fund. Coordinate with other programs and provide expertise on litigation strategy and case development.",
+      "work_mode": "Remote (US)",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": null,
+      "relevance_reason": null,
+      "impact_score": 1,
+      "impact_reason": "Animal protection litigation has minimal connection to existential or catastrophic risk reduction.",
+      "date_posted": null,
+      "date_closes": "2026-10-25",
+      "source": "80k_hours",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "Animal welfare",
+        "Legal"
+      ],
+      "id": "995f4f844b05fe35c41a71600ab91224"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "43efb91ff6fb9a022aa8a3104ccf6347": {
+    "listing": {
+      "title": "AI Governance Grantmaker / Senior AI Governance Grantmaker",
+      "organization": "",
+      "url": "https://effectiveinstitutionsproject.org/open_position/senior-ai-governance-grantmaker/?utm_source=80000hours&utm_medium=job-board",
+      "location": "London, UK, Washington, DC metro area, San Francisco Bay Area",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll manage grants to advance AI governance and reduce catastrophic risk through strategic grantmaking. Evaluate grant requests and create cost-effective recommendations for donors. Build networks of experts and grantees while identifying neglected areas for proactive support. Design",
+      "description": "In this role, you'll manage grants to advance AI governance and reduce catastrophic risk through strategic grantmaking. Evaluate grant requests and create cost-effective recommendations for donors. Build networks of experts and grantees while identifying neglected areas for proactive support. Design new projects using seed funding, founder searches, and requests for proposals. Communicate your theory of impact to donor advisees through clear written analysis.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role focuses on AI governance grantmaking and reducing catastrophic AI risks through strategic funding.",
+      "impact_score": 8,
+      "impact_reason": "Grantmaking role at frontier of AI governance directly addressing catastrophic risk mitigation and expert network building.",
+      "date_posted": null,
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "AI safety & policy",
+        "Policy",
+        "Strategy"
+      ],
+      "id": "43efb91ff6fb9a022aa8a3104ccf6347"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "a586b8d6eb53d65cbe3550654b06684f": {
+    "listing": {
+      "title": "Science Policy Fellow, Congress",
+      "organization": "",
+      "url": "https://www.aip.org/aip/awards/congressional-science-policy-fellowships?utm_source=80000hours&utm_medium=job-board",
+      "location": "Washington, DC metro area",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "This is a one-year fellowship focused on legislative and policy processes in which you'll provide analytical expertise and scientific advice to Congress. Attend a two-week orientation in Washington with fellow Science and Technology Policy Fellows. Interview with Congressional and committee offices ",
+      "description": "This is a one-year fellowship focused on legislative and policy processes in which you'll provide analytical expertise and scientific advice to Congress. Attend a two-week orientation in Washington with fellow Science and Technology Policy Fellows. Interview with Congressional and committee offices to identify and secure your placement. Work full-time at your assigned Congressional office supporting policy development and decision-making. Apply your scientific expertise to address societal problems through evidence-based policy recommendations.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Congressional fellowship providing scientific policy advice on legislation affecting advanced AI governance and regulation.",
+      "impact_score": 6,
+      "impact_reason": "Policy role with meaningful x-risk relevance through congressional influence on AI governance, but limited specificity on AI focus.",
+      "date_posted": null,
+      "date_closes": "2026-12-01",
+      "source": "80k_hours",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "Career development: Policy & government",
+        "Policy"
+      ],
+      "id": "a586b8d6eb53d65cbe3550654b06684f"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "50fcebcce48b47efef63f93038a5d77b": {
+    "listing": {
+      "title": "Senior AI/Biosecurity Governance Lead",
+      "organization": "",
+      "url": "https://cepi.my.salesforce-sites.com/careers/xcdrecruit__PositionDetails?id=a43P300000IqATxIAN&utm_source=80000hours&utm_medium=job-board",
+      "location": "London, UK, Washington, DC metro area, Oslo, Norway",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you will provide dedicated senior expertise at the intersection of AI, biotechnology, and governance, translating CEPI's Biosecurity Policy commitments into sustained institutional practice. Lead the development, piloting, and rollout of CEPI's framework for identifying, protecting, an",
+      "description": "In this role, you will provide dedicated senior expertise at the intersection of AI, biotechnology, and governance, translating CEPI's Biosecurity Policy commitments into sustained institutional practice. Lead the development, piloting, and rollout of CEPI's framework for identifying, protecting, and responsibly enabling access to biosecurity-sensitive data. Convene and chair an international expert group to define identification criteria for biosecurity-sensitive data. Develop training modules on biosecurity-sensitive data and AI/biosecurity risk identification and mitigation.",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "Biosecurity/Catastrophic Risk",
+      "relevance_reason": "Focuses on biosecurity governance and dual-use research protection in AI/biotech intersection.",
+      "impact_score": 7,
+      "impact_reason": "Senior biosecurity policy role addressing dual-use AI risks and institutional governance frameworks.",
+      "date_posted": null,
+      "date_closes": "2026-10-15",
+      "source": "80k_hours",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "AI safety & policy",
+        "Biosecurity & pandemic preparedness",
+        "Strategy"
+      ],
+      "id": "50fcebcce48b47efef63f93038a5d77b"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "d85c49a388e00b2f299a8d4ac31d3d4a": {
+    "listing": {
+      "title": "Fellow in Residence",
+      "organization": "",
+      "url": "https://jobs.lever.co/schmidt-entities/6bef9879-f540-475e-ad26-5254fa4e1ad7?utm_source=80000hours&utm_medium=job-board",
+      "location": "New York, NY",
+      "salary_range": null,
+      "role_type": "Fellowship",
+      "description_snippet": "In this role, you'll conduct independent research while supporting the AI Institute's grantmaking efforts over a 12-18 month fellowship. Assess research proposals across multiple AI domains including safety and interpretability. Match external research proposals to expert reviewers to facilitate inf",
+      "description": "In this role, you'll conduct independent research while supporting the AI Institute's grantmaking efforts over a 12-18 month fellowship. Assess research proposals across multiple AI domains including safety and interpretability. Match external research proposals to expert reviewers to facilitate informed grantmaking decisions. Organise workshops and community-building events within your area of AI expertise. Represent Schmidt Sciences at conferences and grantee gatherings while developing strategic arguments for AI research funding priorities.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role involves assessing AI safety research proposals and funding priorities for frontier AI risks.",
+      "impact_score": 6,
+      "impact_reason": "Grantmaking role supporting AI safety research has meaningful impact but lacks direct technical work.",
+      "date_posted": null,
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Strategy"
+      ],
+      "id": "d85c49a388e00b2f299a8d4ac31d3d4a"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "5912200a029f14969f35e2952404a32a": {
+    "listing": {
+      "title": "Research Engineer, AI Safety Audit and Red Teaming",
+      "organization": "",
+      "url": "https://www.simula.no/careers/job-openings/research-engineer-ai-safety-revisjon-og-red-teaming-2-rig-stilling?utm_source=80000hours&utm_medium=job-board",
+      "location": "Oslo, Norway",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll develop and maintain SimpleAudit, an open-source AI audit framework, enhancing functionality, architecture, and model support. Design and create audit scenarios and test packages in Norwegian contexts, covering security, healthcare, and agent systems. Conduct security evaluation",
+      "description": "In this role, you'll develop and maintain SimpleAudit, an open-source AI audit framework, enhancing functionality, architecture, and model support. Design and create audit scenarios and test packages in Norwegian contexts, covering security, healthcare, and agent systems. Conduct security evaluations of language models and AI systems for CAISS projects and partner organisations. Support the open-source community through documentation, issue management, and partner implementation guidance. Contribute to research, publications, and infrastructure management.",
+      "work_mode": "In-Person",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Red-teaming and security evaluations of AI systems are core technical AI safety work.",
+      "impact_score": 7,
+      "impact_reason": "Developing audit frameworks and conducting security evaluations directly supports identifying and mitigating AI risks.",
+      "date_posted": null,
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "AI safety & policy",
+        "Software engineering",
+        "Information security"
+      ],
+      "id": "5912200a029f14969f35e2952404a32a"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "400a855b82705342f851d10881bdb805": {
+    "listing": {
+      "title": "Senior Research Scientist / Principal Research Scientist, AI Safety, Biological / Physical Sciences",
+      "organization": "",
+      "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4423500009?utm_source=80000hours&utm_medium=job-board",
+      "location": "London, UK, San Francisco Bay Area",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll lead Lila's AI safety strategy for biological and physical sciences risks from scientific superintelligence. Set research direction and build safety approaches tailored to Lila's goals and deployment strategies. Design capability evaluations to test for scientific risks from cut",
+      "description": "In this role, you'll lead Lila's AI safety strategy for biological and physical sciences risks from scientific superintelligence. Set research direction and build safety approaches tailored to Lila's goals and deployment strategies. Design capability evaluations to test for scientific risks from cutting-edge models integrated with automated physical labs. Coordinate threat modeling exercises with scientific experts, monitoring emerging technologies and use-cases. Evaluate risks from Lila's capabilities and contribute to external communications on safety efforts.",
+      "work_mode": null,
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Leads AI safety research for biological/physical science risks, designs capability evaluations, and coordinates threat modeling.",
+      "impact_score": 8,
+      "impact_reason": "Senior safety role at frontier AI lab addressing superintelligence risks through evaluations and threat modeling.",
+      "date_posted": null,
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "AI safety & policy",
+        "Research",
+        "Strategy"
+      ],
+      "id": "400a855b82705342f851d10881bdb805"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "82b47adbc6e2408795eb3303cc20b530": {
+    "listing": {
+      "title": "Research Intern, AI Safety",
+      "organization": "",
+      "url": "https://apply.workable.com/mila-2/j/1E81635604/?utm_source=80000hours&utm_medium=job-board",
+      "location": "Montreal, Canada",
+      "salary_range": null,
+      "role_type": "Internship",
+      "description_snippet": "In this role, you'll design and implement AI safety guardrails including dynamic benchmarking, red teaming, and harm detection. Collaborate with researchers and the compute cluster team to efficiently utilise computing infrastructure. Document and write scientific manuscripts on the Mila Safety Stud",
+      "description": "In this role, you'll design and implement AI safety guardrails including dynamic benchmarking, red teaming, and harm detection. Collaborate with researchers and the compute cluster team to efficiently utilise computing infrastructure. Document and write scientific manuscripts on the Mila Safety Studio's work with publication potential. Work with product managers to understand experiment design requirements and select appropriate AI technologies. Identify applied research opportunities from prototypes and optimise model training and inference processes.",
+      "work_mode": null,
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AI Safety (Technical)",
+      "relevance_reason": "Red teaming, harm detection, and AI safety guardrails are core technical alignment research activities.",
+      "impact_score": 8,
+      "impact_reason": "Direct technical AI safety work at Mila, a leading AI safety research organization with significant x-risk focus.",
+      "date_posted": null,
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "AI safety & policy",
+        "Research"
+      ],
+      "id": "82b47adbc6e2408795eb3303cc20b530"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "5d87a27ee74adc978a050ff718b4bbc2": {
+    "listing": {
+      "title": "Senior Manager, AI Safety",
+      "organization": "",
+      "url": "https://jobs.ashbyhq.com/faculty/c1060619-89c7-4cc1-ba5f-79f916f692d1?utm_source=80000hours&utm_medium=job-board",
+      "location": "London, UK",
+      "salary_range": null,
+      "role_type": "Full-time",
+      "description_snippet": "In this role, you'll lead delivery across an AI Safety portfolio, focusing on frontier model evaluations and strategic implementation in government services. Oversee AI safety evaluations and red teaming projects, providing thought leadership for clients. Develop proposals to grow our AI safety and ",
+      "description": "In this role, you'll lead delivery across an AI Safety portfolio, focusing on frontier model evaluations and strategic implementation in government services. Oversee AI safety evaluations and red teaming projects, providing thought leadership for clients. Develop proposals to grow our AI safety and governance work across various sectors. Advise clients on AI safety strategy and technical implementation as a trusted consultant. Build relationships with customers, data scientists, and technical partners including frontier AI labs.",
+      "work_mode": null,
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Frontier model evaluations, AI safety strategy, and government AI governance directly address existential risk from advanced AI systems.",
+      "impact_score": 6,
+      "impact_reason": "Government AI safety advisory with meaningful x-risk component, but unclear if org's primary mission is existential risk reduction.",
+      "date_posted": null,
+      "date_closes": null,
+      "source": "80k_hours",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "AI safety & policy",
+        "Management",
+        "Strategy"
+      ],
+      "id": "5d87a27ee74adc978a050ff718b4bbc2"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "63262287948ede39b370947fb68e665e": {
+    "listing": {
+      "title": "Conceptual Reasoning Fellow",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5447080008",
+      "location": "Remote-Friendly, United States; San Francisco, CA",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h1&gt;Program Overview&lt;/h1&gt; &lt;p&gt;Many of the questions that will shape our future have no single checkable answer. Reasoning well about them, whether in law, policy, philosophy, economics, cognitive science, or AI safety itself, takes the kind of judgment experts spend years building. We believe frontier AI, developed safely, can become a real partner on these questions, but getting there means working closely with the people who know these fields best.&lt;/p&gt; &lt;p&gt;This fellowship brings researchers and experts from &lt;strong&gt;philosophy, cognitive science, economics, policy, and law &lt;/strong&gt;into Anthropic for four months to work alongside our research teams. Fellows pair deep domain expertise with our frontier models and internal tooling to evaluate, improve, and apply Claude&#39;s capabilities in their field.&lt;/p&gt; &lt;h3&gt;&lt;strong&gt;What to Expect:&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;A concrete, scoped project matched to your background, with mentorship from Anthropic researchers.&lt;/li&gt; &lt;li&gt;Access to frontier Claude models and internal evaluation tooling.&lt;/li&gt; &lt;li&gt;A cohort of incoming Fellows to collaborate with and a connection to Anthropic&#39;s broader research community.&lt;/li&gt; &lt;/ul&gt; &lt;h3&gt;&lt;strong&gt;Compensation:&amp;nbsp;&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;$100,000\u2013$167,000 USD for the four-month fellowship (equivalent to $300,000\u2013$500,000 USD annualized), and other benefits.&lt;/p&gt; &lt;h1&gt;Key responsibilities&lt;/h1&gt; &lt;ul&gt; &lt;li&gt;Identifying key open problems in your field, assessing approaches to solving them, and using Claude to make progress on them.&lt;/li&gt; &lt;li&gt;Identifying grand societal challenges which the expertise of your field is crucial for addressing, and assessing Claude\u2019s strengths and weaknesses in tackling them.&lt;/li&gt; &lt;li&gt;Designing evaluations and RL environments that test models in your field systematically, turning your expertise into working tests of how well Claude reasons in your field.&lt;/li&gt; &lt;li&gt;Team up with other Fellows in your field to build environments that push Claude on the hardest, most judgment-heavy problems your discipline has to offer.&lt;/li&gt; &lt;/ul&gt; &lt;h1&gt;Minimum qualifications&lt;/h1&gt; &lt;ul&gt; &lt;li&gt;Are excited about the potential for AI to reason well about hard questions in their field where expert judgment matters.&lt;/li&gt; &lt;li&gt;Hands-on experience using Claude and Claude Code in your day-to-day workflow.&lt;/li&gt; &lt;li&gt;Hold (or are completing) a PhD in philosophy, cognitive science, economics, policy or law, or have equivalent research experience.&lt;/li&gt; &lt;li&gt;Are comfortable working in a fast-paced, high-agency atmosphere for a few months and delivering concrete results.&lt;/li&gt; &lt;li&gt;Existing authorization to work in the United States for the duration of the program.&lt;/li&gt; &lt;/ul&gt; &lt;h1&gt;Preferred qualifications&lt;/h1&gt; &lt;ul&gt; &lt;li&gt;Experience designing evaluations, benchmarks, datasets, or expert rubrics.&lt;/li&gt; &lt;li&gt;Demonstrated expertise in your field, shown through research, scholarship, or expert-level analytical writing.&lt;/li&gt; &lt;/ul&gt; &lt;h1&gt;Representative projects&lt;/h1&gt; &lt;ul&gt; &lt;li&gt;A philosopher building hard cases that require normative judgment in ethics or formal epistemology.&lt;/li&gt; &lt;li&gt;A cognitive scientist designing experimental-design and model-comparison tasks.&lt;/li&gt; &lt;li&gt;An economist writing modelling and identification problems with ground truth.&lt;/li&gt; &lt;li&gt;A policy scholar drafting regulatory and cost-benefit analysis tasks with expert rubrics.&lt;/li&gt; &lt;li&gt;A legal scholar building AI-policy-relevant law datasets.&lt;/li&gt; &lt;/ul&gt; &lt;h1&gt;Logistics - Fellows&lt;/h1&gt; &lt;ul&gt; &lt;li&gt;The program runs from &lt;strong&gt;January 12th to May 8th 2027&lt;/strong&gt;, and is full-time for the duration; some fellowships may be considered for an extension.&amp;nbsp;&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Applications are open until October 28, 2026&lt;/strong&gt;, and we plan to make offers by November 20th. Later stages will typically include a take-home exercise and conversations with our research team and potential mentors about your research interests and possible project directions.&lt;/li&gt; &lt;li&gt;We ask that all Fellows attend a one-week in-person orientation in San Francisco.&lt;/li&gt; &lt;li&gt;The default location is in San Francisco. We will consider remote engagements within the United States in certain circumstances.&lt;/li&gt; &lt;li&gt;We are &lt;strong&gt;not&lt;/strong&gt; currently able to sponsor visas for fellows. To participate in the Fellows program, you need to have or independently obtain full-time work authorization in the United States.&lt;/li&gt; &lt;li&gt;This is a fixed-term contract position. Fellows are engaged through an employer of record, rather than employed directly by Anthropic.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;The below are Anthropic&#39;s policies for full time roles. These do NOT apply to the Fellows Program.&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor\u2019s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "Remote (US)",
+      "visa_sponsorship": null,
+      "seniority_level": "Entry",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Develops evaluations and RL environments testing Claude's reasoning on expert judgment problems across policy, philosophy, and law.",
+      "impact_score": 9,
+      "impact_reason": "Core x-risk work at Anthropic directly improving frontier AI capabilities and safety through systematic evaluation and reasoning development.",
+      "date_posted": "2026-10-09",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "AI Research & Engineering"
+      ],
+      "id": "63262287948ede39b370947fb68e665e"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "25e23b7e2a596c3c26dfd2c8cb9aef98": {
+    "listing": {
+      "title": "Policy Communications Manager, Responsible Scaling, Security, and Governance",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5445316008",
+      "location": "San Francisco, CA | New York City, NY",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the role&lt;/h2&gt; &lt;p&gt;We&#39;re seeking an experienced Policy Communications Manager to help drive external communications for our security, governance, and responsible scaling programs, and associated work. This role offers the opportunity to help shape how Anthropic communicates about our approach to developing secure AI systems and products, our work to uphold and iterate on our Responsible Scaling Policy framework, and the unique corporate structure that keeps the company accountable to its mission, including our Long-Term Benefit Trust (LTBT) and our status as a public benefit corporation.&lt;/p&gt; &lt;p&gt;You&#39;ll partner closely with our security, product, legal, governance, and Responsible Scaling Policy (RSP) teams to communicate Anthropic&#39;s approach to building safe and secure AI models as the technology becomes increasingly capable across critical domains like cybersecurity. You&#39;ll also help lead communications about how Anthropic is governed: the role of the LTBT&#39;s independent trustees in overseeing the company and electing members of our board, the obligations that come with our public benefit corporation charter, and why we believe this structure matters as AI systems grow more powerful. As governments establish regulatory frameworks for frontier AI, you&#39;ll help articulate how Anthropic approaches its transparency obligations and public reporting commitments, translating evolving requirements into clear, credible external communications. This will include balancing proactive storytelling about product security updates and launches with thoughtful handling of reactive matters as they arise. We&#39;re charting new terrain communicating about fast-moving frontier model capabilities and threat surfaces, and about institutional structures few other companies have built. You&#39;ll bring strong communications fundamentals to the role but recognize that traditional approaches may not map cleanly to the novel issues we&#39;re tackling.&lt;/p&gt; &lt;p&gt;The ideal candidate is an experienced issues handler with strong executive management skills, attention to detail, and the judgment to navigate sensitive topics with care. You should be able to move quickly under pressure and tight deadlines, write crisply, and distill complex security, governance, and technical topics for a broad audience while maintaining accuracy. This is a unique opportunity to help define how one of the world&#39;s leading AI safety companies communicates about the security and governance challenges that will shape the future of the technology.&lt;/p&gt; &lt;h2&gt;Key responsibilities&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Develop and execute communications strategies for Anthropic&#39;s approach to AI security, governance, and responsible scaling&lt;/li&gt; &lt;li&gt;Drive external communications about Anthropic&#39;s corporate governance, including the Long-Term Benefit Trust and our public benefit corporation status, explaining how these structures provide independent oversight and accountability to our mission&lt;/li&gt; &lt;li&gt;Serve as a trusted communications partner to security, product, legal, governance, and RSP leaders on sensitive, fast-moving matters&lt;/li&gt; &lt;li&gt;Develop proactive communications around emerging regulatory frameworks and transparency obligations, including public reporting commitments, disclosure requirements, and Anthropic&#39;s engagement with oversight bodies&lt;/li&gt; &lt;li&gt;Manage reactive inbound media requests on complex security and governance topics&lt;/li&gt; &lt;li&gt;Build and maintain relationships with journalists and influencers covering security, corporate governance, and technology policy&lt;/li&gt; &lt;li&gt;Prepare executives for media interviews, speaking engagements, and public appearances, developing thought leadership opportunities that position Anthropic&#39;s leaders as credible voices on AI security, governance, and responsible development&lt;/li&gt; &lt;li&gt;Write blog posts, statements, talking points, and other communications materials that explain our security, governance, and responsible scaling work clearly and accessibly, maintaining accuracy&lt;/li&gt; &lt;li&gt;Support reactive communications efforts with speed, accuracy, and sound judgment&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;Minimum qualifications&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Experience in policy communications, including managing communications around complex security or governance topics&lt;/li&gt; &lt;li&gt;Excellent written and verbal communication skills, with the ability to distill complex technical topics accurately for broad audiences&lt;/li&gt; &lt;li&gt;Experience in issues management and developing reactive communications under pressure and tight timelines&lt;/li&gt; &lt;li&gt;Strong executive management skills and a proven ability to work seamlessly across technical and non-technical teams&lt;/li&gt; &lt;li&gt;A track record of building media relationships&lt;/li&gt; &lt;li&gt;A results-oriented, high-agency working style, with a bias toward flexibility and impact&lt;/li&gt; &lt;li&gt;Comfort operating in new terrain, where the technology is evolving quickly and the right communications approach may not yet exist&lt;/li&gt; &lt;li&gt;A deep commitment to ensuring that transformative AI systems are developed safely&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;Preferred qualifications&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;8+ years of experience in policy communications, ideally at a high-growth technology company&lt;/li&gt; &lt;li&gt;Experience communicating about corporate governance, regulatory affairs, or oversight structures, and comfort explaining novel institutional arrangements to broad audiences&lt;/li&gt; &lt;li&gt;Existing relationships with security, governance, and tech policy reporters and influencers&lt;/li&gt; &lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt; &lt;p&gt;For sales roles, the range provided is the role\u2019s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$265,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$295,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor\u2019s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role focuses on communicating Anthropic's responsible scaling policy, AI security governance, and institutional structures designed to ensure safe ...",
+      "impact_score": 8,
+      "impact_reason": "Senior communications role at leading AI safety org shaping public discourse on frontier AI governance and existential risk mitigation strategies.",
+      "date_posted": "2026-10-06",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "Communications"
+      ],
+      "id": "25e23b7e2a596c3c26dfd2c8cb9aef98"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "e7d143a929efe53582d0f41d5c5e3950": {
+    "listing": {
+      "title": "Security Risk & Compliance, Agent Security",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5443871008",
+      "location": "San Francisco, CA | New York City, NY",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the team&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic&#39;s Security Governance, Risk, and Compliance (GRC) team is the connective tissue that holds the company accountable to its security commitments. We translate regulatory, customer, and voluntary obligations into controls that teams act on, and give leadership a bird&#39;s-eye view of how well we&#39;re meeting them. We&#39;re building toward a fundamentally different kind of GRC: one that directs Claude, with the right humans in the loop, to challenge and evidence the performance of controls continuously rather than through periodic audits.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Serve as the security policy partner for AI agent governance, authoring the policies and standards for how agents are built, deployed, operated&lt;/li&gt; &lt;li&gt;Define review and approval criteria when an agent may interact with sensitive or regulated data, and which actions require human approval as it relates to compliance frameworks&lt;/li&gt; &lt;li&gt;Serve as the GRC reviewer within existing engineering approval workflows&lt;/li&gt; &lt;li&gt;Define data governance requirements for agents, including least-privilege access, access reviews, and handling of regulated and sensitive data&lt;/li&gt; &lt;li&gt;Monitor agent behavior over time and adapt governance requirements in partnership with cross-functional security, research and engineering teams&lt;/li&gt; &lt;li&gt;Map agent security and data controls to AI governance frameworks (e.g., ISO 27001, ISO 42001, EU AI Act), strengthening Anthropic&#39;s certification efforts ensuring agent security is auditable&lt;/li&gt; &lt;li&gt;Assess and document agent-related security and compliance risks, driving them to resolution with engineering owners&lt;/li&gt; &lt;li&gt;Own the policy for agent-related risk acceptances and exceptions, including approval authority, duration and re-review&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;You may be a good fit if you:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Have 8+ years in security governance, risk, and compliance, including ownership of security policies and control standards at a technology company&lt;/li&gt; &lt;li&gt;Have owned or meaningfully supported efforts to compartmentalize sensitive data, PII, or intellectual property, and understand how identity and access mechanisms implement or undermine protection boundaries&lt;/li&gt; &lt;li&gt;Think about non-human identities as a distinct risk and control category, and can design least-privilege access and accountability controls for systems acting on a person&#39;s behalf&lt;/li&gt; &lt;li&gt;Can reason from a threat model to a control and explain the tradeoff to both an engineer and an auditor&lt;/li&gt; &lt;li&gt;Have defined risk-based review or approval criteria within engineering workflows and kept them effective under high change velocity&lt;/li&gt; &lt;li&gt;Deliver clear, precise written work for both technical and non-technical audiences&lt;/li&gt; &lt;li&gt;Thrive in ambiguous environments with no settled industry playbook, where you&#39;re expected to propose the standard rather than wait for one&lt;/li&gt; &lt;li&gt;Are energized by being the security and risk authority who educates and influences outcomes rather than only advises&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Strong candidates may also:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Understand the security properties of LLM agents, whether from an AI, developer-platform, or agent-tooling company, or through comparable experience&lt;/li&gt; &lt;li&gt;Bring familiarity with AI governance frameworks alongside traditional security frameworks&lt;/li&gt; &lt;li&gt;Have adapted controls from regulated or highly sensitive environments to an open, high-trust engineering culture&lt;/li&gt; &lt;li&gt;Possess relevant certifications (CISSP, CISM, CRISC, CISA, CCSP, ISO 27001 or ISO 42001 Lead Implementer/Auditor)&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Candidates need not have:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Done everything on this list before. Very few people have governed AI agents at scale \u2014 we care more about how you reason about access, accountability, and blast radius than about a prior title.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Deadline to apply: None. Applications will be received on a rolling basis.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt; &lt;p&gt;For sales roles, the range provided is the role\u2019s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$255,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$345,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor\u2019s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Senior",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Directly governs AI agent deployment, control mechanisms, and compliance frameworks for frontier AI systems.",
+      "impact_score": 8,
+      "impact_reason": "Core governance role at Anthropic establishing safety controls and oversight mechanisms for AI agents at scale.",
+      "date_posted": "2026-10-05",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "Security"
+      ],
+      "id": "e7d143a929efe53582d0f41d5c5e3950"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
+  },
+  "0302c56cff940f6848dde768ca5500a4": {
+    "listing": {
+      "title": "US Public Sector Compliance, Security GRC",
+      "organization": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5443900008",
+      "location": "San Francisco, CA | New York City, NY",
+      "salary_range": null,
+      "role_type": null,
+      "description_snippet": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quick",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic\u2019s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the team&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic&#39;s Security Governance, Risk, and Compliance (GRC) team is the connective tissue that holds the company accountable to its security commitments. We translate regulatory, customer, and voluntary obligations into controls that teams act on, and give leadership a bird&#39;s-eye view of how well we&#39;re meeting them. We&#39;re building toward a fundamentally different kind of GRC: one that directs Claude, with the right humans in the loop, to challenge and evidence the performance of controls continuously rather than through periodic audits.&lt;/p&gt; &lt;p&gt;Within Security GRC, Compliance and Audit Programs (CAP) runs the integrated audit across our frameworks and maintains the Common Control Framework the program hangs off. This role sits in Compliance &amp;amp; Audit Programs and works one regime family, US public sector, from requirements through authorization and ongoing compliance, working alongside the public sector engineering pods rather than downstream of them.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;You&#39;ll help drive the compliance programs that keep Anthropic&#39;s US government authorizations current: federal civilian (FedRAMP, including FedRAMP 20x for Claude Enterprise), Department of War (DoD impact levels, CMMC, NIST SP 800-171), and state and local (StateRAMP, TX-RAMP and agency requirements). You&#39;ll own the recurring cycles those authorizations run on (continuous monitoring, POA&amp;amp;M, annual assessments, significant changes), help build new authorizations as we add them, and keep every frontier model&#39;s authorizations current.&lt;/p&gt; &lt;p&gt;You&#39;ll turn government requirements into specific, testable requirements that engineering teams build against, review the evidence that comes back, and say so when a launch is not ready for a government boundary. You&#39;ll map US government requirements onto our Common Control Framework so the public sector view and the integrated audit view of the same control stay one framework. Building with Claude is a normal part of the job: mapping, evidence collection and reporting, with you deciding where human judgment stays in the loop.&lt;/p&gt; &lt;p&gt;This is an individual contributor role, working closely with a peer on US public sector compliance, for someone who works well independently, writes clearly, and gets satisfaction from a government authorization that holds up as the product changes underneath it.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Key responsibilities&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Run the recurring compliance cycles for our US government authorizations (continuous monitoring, POA&amp;amp;M, annual assessments, SSP updates, significant changes and incident notifications), starting with C4G on Palantir FedStart and the NIST SP 800-171 assessment with Schellman&lt;/li&gt; &lt;li&gt;Co-own FedRAMP 20x work for Claude Enterprise, and help build new authorizations (first-party FedRAMP High, DoW impact levels, StateRAMP and TX-RAMP) with requirements and evidence work&lt;/li&gt; &lt;li&gt;Support model authorizations in GovCloud and Vertex for every model launch, as the GRC member of the Inference and model delivery pod&lt;/li&gt; &lt;li&gt;Translate government obligations into partner team requirements, for example vulnerability SLAs in our internal vulnerability reporting platform, and review the evidence&lt;/li&gt; &lt;li&gt;Answer public sector customer and deal questions (what a boundary allows, CUI, IRS Publication 1075, CJIS, ITAR), and handle questionnaires and RFIs until they move to Customer Trust&lt;/li&gt; &lt;li&gt;Map US government requirements onto the Common Control Framework with the Controls Assurance Lead and keep one source of truth for status&lt;/li&gt; &lt;li&gt;Build with Claude: automate mapping, evidence collection and reporting, and verify machine-drafted language before it becomes the record&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Minimum qualifications&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Several years in security compliance or IT audit with hands-on US government compliance for a cloud service (FedRAMP, DoD impact levels, CMMC or NIST SP 800-171, or StateRAMP), including the ongoing compliance cycle after authorization&lt;/li&gt; &lt;li&gt;Working command of the NIST SP 800-53 Moderate baseline and the mechanics of authorization: boundary definition, control implementation statements, assessment, continuous monitoring, POA&amp;amp;M and significant change&lt;/li&gt; &lt;li&gt;Experience writing requirements for engineering teams from a control baseline and reviewing the evidence that came back&lt;/li&gt; &lt;li&gt;Working knowledge of how a GovCloud or Vertex style government region differs from commercial, and what changes when a model, feature or region is added to an authorized boundary&lt;/li&gt; &lt;li&gt;Enough technical fluency to read a runbook, configuration or pipeline definition and judge whether it enforces the written control&lt;/li&gt; &lt;li&gt;Clear writing, because implementation statements and status reports are what assessors, engineers and leadership work from&lt;/li&gt; &lt;li&gt;Ability to get partner teams to prioritize and close compliance work without authority over them&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Preferred qualifications&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Have taken a service through FedRAMP High or DoD IL4 or IL5, or supported a service on classified networks&lt;/li&gt; &lt;li&gt;Have worked on a FedRAMP 20x pilot or built machine-readable evidence or reporting for an assessor&lt;/li&gt; &lt;li&gt;Have applied LLMs to compliance work such as control mapping, evidence testing or continuous evidence collection&lt;/li&gt; &lt;li&gt;Hold or are eligible for a US security clearance&lt;/li&gt; &lt;li&gt;Experience with state and local requirements such as StateRAMP, TX-RAMP, IRS Publication 1075 or CJIS&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;You don&#39;t need to&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Have done everything on this list or worked every regime. The scarce combination is running a government authorization on its recurring cycle plus the judgment to tell whether a control actually works&lt;/li&gt; &lt;li&gt;Write production code. The bar is fluency sufficient to read, query and challenge&lt;/li&gt; &lt;li&gt;Hold every certification. CISSP, CISA, CGRC or similar are welcome and not required&lt;/li&gt; &lt;li&gt;Have prior AI industry experience&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Deadline to apply: None. Applications will be received on a rolling basis.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt; &lt;p&gt;For sales roles, the range provided is the role\u2019s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$255,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$270,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor\u2019s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links\u2014visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact \u2014 advancing our long-term goals of steerable, trustworthy AI \u2014 rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "work_mode": "Hybrid",
+      "visa_sponsorship": null,
+      "seniority_level": "Mid",
+      "relevance_tag": "AGI Safety & Governance",
+      "relevance_reason": "Role ensures frontier AI models comply with US government security/safety requirements and authorizations.",
+      "impact_score": 8,
+      "impact_reason": "Direct governance of frontier AI systems' compliance with government safety/security frameworks reduces catastrophic misuse risks.",
+      "date_posted": "2026-10-05",
+      "date_closes": null,
+      "source": "greenhouse:anthropic",
+      "date_scraped": "2026-10-12",
+      "tags": [
+        "Security"
+      ],
+      "id": "0302c56cff940f6848dde768ca5500a4"
+    },
+    "review_status": "unreviewed",
+    "reviewed_at": null,
+    "added_at": "2026-10-12"
   }
 }
